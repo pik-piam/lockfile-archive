@@ -21,9 +21,11 @@ callr::r(function(packages) {
   renv::restore(lockfile = "../eager.renv.lock", clean = TRUE)
 }, list(packages), wd = "eager_renv", spinner = FALSE, show = TRUE)
 
-gert::git_add(c("conservative.renv.lock", "eager.renv.lock"))
 today <- format(Sys.time(), "%Y-%m-%d")
-gert::git_commit(today)
+addedFiles <- gert::git_add(c("conservative.renv.lock", "eager.renv.lock"))
+if (nrow(addedFiles) > 0) {
+  gert::git_commit(today)
+  gert::git_push()
+}
 gert::git_tag_create(today, "")
-gert::git_push()
 gert::git_tag_push(today)
