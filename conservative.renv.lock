@@ -3247,13 +3247,13 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.142.0",
+      "Version": "0.143.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d06a4531853182ebf7e7ae2bf5f0648c558a2814",
-      "Hash": "2f14516eee0f6a12997a156ce8d8cbf4",
+      "RemoteSha": "e48a8eff78e5dc6277eb92cd744b86e995106656",
+      "Hash": "97d4f728fd9be2faa9488dd15b755103",
       "Requirements": [
         "Hmisc",
         "R.utils",
