@@ -2765,13 +2765,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.152.2",
+      "Version": "1.152.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d51267741617a8a25f46904b82edebb47b0faa4d",
-      "Hash": "3df7d1e203daa93dceebf6e13e5e9ce2",
+      "RemoteSha": "de5f0978397dd0148b3f442616ce645dded78854",
+      "Hash": "0f88386a6ab814c71471243d6a068228",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -3027,13 +3027,13 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.21.1",
+      "Version": "1.21.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4d253656b610056c9ff48a63c3434b2043139249",
-      "Hash": "2066e719b76dc96891c9f33d469d2e63",
+      "RemoteSha": "bca46955dcccd50bd343e3d5e75ac3e3dbfc4c5a",
+      "Hash": "d29d4bb3da4352e6e5a530f67bf9ce13",
       "Requirements": [
         "GDPuc",
         "R.utils",
@@ -3185,13 +3185,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.39.4",
+      "Version": "0.39.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fd16ace41f4345b5d566c6ff80e3bd593c213e86",
-      "Hash": "fbb298781529403ff936f7e3121eb2bf",
+      "RemoteSha": "65f480ac5d50d41110042d54b9125063c137cc66",
+      "Hash": "d2584db01a8896387e11e3bcd5e015d2",
       "Requirements": [
         "SPEI",
         "countrycode",
@@ -3206,6 +3206,7 @@
         "raster",
         "readxl",
         "reshape2",
+        "rgdal",
         "stringr",
         "terra",
         "withr"
@@ -4505,6 +4506,22 @@
       "Hash": "ae34cd56890607370665bee5bd17812f",
       "Requirements": [
         "lazyeval"
+      ]
+    },
+    "rgdal": {
+      "Package": "rgdal",
+      "Version": "1.5-31",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rgdal",
+      "RemoteRef": "rgdal",
+      "RemoteRepos": "https://cran.rstudio.com",
+      "RemotePkgPlatform": "source",
+      "RemoteSha": "1.5-31",
+      "Hash": "3ea75f292fceaa9ba09a88a70f8d1085",
+      "Requirements": [
+        "sp"
       ]
     },
     "rjson": {
