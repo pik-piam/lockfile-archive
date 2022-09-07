@@ -1578,10 +1578,10 @@
     },
     "gert": {
       "Package": "gert",
-      "Version": "1.7.1",
+      "Version": "1.8.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "92d17e7b0639cad43d44e75199d4aa64",
+      "Hash": "4bdd6588a3cbde071c7de6d07b66f1d3",
       "Requirements": [
         "askpass",
         "credentials",
@@ -2517,13 +2517,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.152.4",
+      "Version": "1.152.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "de5f0978397dd0148b3f442616ce645dded78854",
-      "Hash": "0f88386a6ab814c71471243d6a068228",
+      "RemoteSha": "c58cb6ff97d63f690fc92067421f0a71e72118b0",
+      "Hash": "2268fcecb7f9cfcac8f864f9bdb5fc24",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -3059,13 +3059,13 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.39.0",
+      "Version": "2.39.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1133616e5460dc5a3410672fb50dbffca70b1039",
-      "Hash": "751ccf35bd4fb756d7f6a755ca817409",
+      "RemoteSha": "e9584bfd23c556601ceb80fe340e1f0512dc5cfd",
+      "Hash": "bb254528673635a83b4cb785be6113f2",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -3153,15 +3153,16 @@
     },
     "mstools": {
       "Package": "mstools",
-      "Version": "0.2.4",
+      "Version": "0.3.0",
       "Source": "Repository",
-      "Repository": "pik",
-      "Hash": "1a3e468cbad1367252768cdb568a06af",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mstools",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "6caf7a25ebc38b811d071c78ef36b6b10a994c9e",
+      "Hash": "1701058c3898ea89fee7e7af04eaa4e0",
       "Requirements": [
-        "luscale",
         "madrat",
-        "magclass",
-        "spam"
+        "magclass"
       ]
     },
     "munsell": {
