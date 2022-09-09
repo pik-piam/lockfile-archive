@@ -791,13 +791,11 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "3.3.0",
+      "Version": "3.4.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "23abf173c2b783dcc43379ab9bba00ee",
-      "Requirements": [
-        "glue"
-      ]
+      "Hash": "78003c09d258968a4d28107e779edb10",
+      "Requirements": []
     },
     "clipr": {
       "Package": "clipr",
@@ -1037,10 +1035,10 @@
     },
     "desc": {
       "Package": "desc",
-      "Version": "1.4.1",
+      "Version": "1.4.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "eebd27ee58fcc58714eedb7aa07d8ad1",
+      "Hash": "6b9602c7ebbe87101a9c8edb6e8b6d21",
       "Requirements": [
         "R6",
         "cli",
@@ -1475,10 +1473,10 @@
     },
     "gargle": {
       "Package": "gargle",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9d234e6a87a6f8181792de6dc4a00e39",
+      "Hash": "cca71329ad88e21267f09255d3f008c2",
       "Requirements": [
         "cli",
         "fs",
@@ -1648,10 +1646,10 @@
     },
     "gh": {
       "Package": "gh",
-      "Version": "1.3.0",
+      "Version": "1.3.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "38c2580abbda249bd6afeec00d14f531",
+      "Hash": "b6a12054ee13dce0f6696c019c10e539",
       "Requirements": [
         "cli",
         "gitcreds",
@@ -1662,10 +1660,10 @@
     },
     "gitcreds": {
       "Package": "gitcreds",
-      "Version": "0.1.1",
+      "Version": "0.1.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "f3aefccc1cc50de6338146b62f115de8",
+      "Hash": "ab08ac61f3e1be454ae21911eb8bc2fe",
       "Requirements": []
     },
     "glasso": {
@@ -1947,10 +1945,10 @@
     },
     "httpuv": {
       "Package": "httpuv",
-      "Version": "1.6.5",
+      "Version": "1.6.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "97fe71f0a4a1c9890e6c2128afa04bc0",
+      "Hash": "fd090e236ae2dc0f0cdf33a9ec83afb6",
       "Requirements": [
         "R6",
         "Rcpp",
@@ -2439,13 +2437,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.16.2",
+      "Version": "0.16.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "205329336a25ac1ee461370e710788ad32a3779a",
-      "Hash": "bf8d109845e09f6bd0cb502e984fb7c1",
+      "RemoteSha": "b90cb8e3162eaaaf2d2acf33d689138779945ebb",
+      "Hash": "117fe1f0f70ef4694fd19bd043313407",
       "Requirements": [
         "RColorBrewer",
         "cartogram",
@@ -2517,13 +2515,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.152.8",
+      "Version": "1.153.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c58cb6ff97d63f690fc92067421f0a71e72118b0",
-      "Hash": "2268fcecb7f9cfcac8f864f9bdb5fc24",
+      "RemoteSha": "4c5ea0f617affda8fac3c541e0d8bf30c8f69dd2",
+      "Hash": "b47cd9850076b195d8d333650dcc61d8",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -2746,13 +2744,13 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.21.4",
+      "Version": "1.21.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a1f5bc393c6e2f67d8c1d4315e5d29ec642a8d29",
-      "Hash": "f5c467ebfb436fb1163c9ba2a0e173f7",
+      "RemoteSha": "378b050c8b54ef6089f174c19bd9755daebfe931",
+      "Hash": "d555affa8f2517618c4dc42cf7c0ce90",
       "Requirements": [
         "GDPuc",
         "R.utils",
@@ -2906,13 +2904,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.39.6",
+      "Version": "0.39.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1a903edb07fe666a6004b169596a3087cc2de7f1",
-      "Hash": "c848a676d389ebd061c4d6b6f27f48b2",
+      "RemoteSha": "a4d37df1050d9c1b15dd069383f1c6cc5deb4f89",
+      "Hash": "c22b026d1502d71bd0c44c7be423a0ed",
       "Requirements": [
         "SPEI",
         "countrycode",
@@ -2935,13 +2933,13 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.28.7",
+      "Version": "1.28.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c2d8e7f65098ced396f03df2fdd6e7dff4cfbac8",
-      "Hash": "255af03946591bd782d0a54f862a4f22",
+      "RemoteSha": "ef786ddf448e5816dfac62be5dc899de0f78954f",
+      "Hash": "069e0e7d133757262c5bad9e9280a73a",
       "Requirements": [
         "class",
         "digest",
@@ -3059,13 +3057,13 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.39.1",
+      "Version": "2.40.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e9584bfd23c556601ceb80fe340e1f0512dc5cfd",
-      "Hash": "bb254528673635a83b4cb785be6113f2",
+      "RemoteSha": "102a2b82b8fdc812ec06390a57dbe564981083f2",
+      "Hash": "9ef6c71b0b9aff4297b74b480244217f",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -3134,13 +3132,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.2.29",
+      "Version": "1.2.31",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5e680524ec088f1851e4207be91d101f1896d93c",
-      "Hash": "fee2f0d4fe0a337642528f074fc11926",
+      "RemoteSha": "d873f4638721eccfd8f0be2cec7af2f662b7f1bc",
+      "Hash": "065168faa7ed4e7ed5d8b142541a5c8d",
       "Requirements": [
         "madrat",
         "magclass",
@@ -4760,10 +4758,10 @@
     },
     "tidyr": {
       "Package": "tidyr",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d8b95b7fee945d7da6888cf7eb71a49c",
+      "Hash": "cdb403db0de33ccd1b6f53b83736efa8",
       "Requirements": [
         "cpp11",
         "dplyr",
@@ -5138,10 +5136,10 @@
     },
     "zip": {
       "Package": "zip",
-      "Version": "2.2.0",
+      "Version": "2.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c7eef2996ac270a18c2715c997a727c5",
+      "Hash": "a7e91189fa51d9029a30eba3831ce53f",
       "Requirements": []
     },
     "zoo": {
