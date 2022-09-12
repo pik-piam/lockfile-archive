@@ -184,10 +184,10 @@
     },
     "MatrixModels": {
       "Package": "MatrixModels",
-      "Version": "0.5-0",
+      "Version": "0.5-1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "366a8838782928e398b8762c932a42a3",
+      "Hash": "963ab8fbaf980a5b081ed40419081439",
       "Requirements": [
         "Matrix"
       ]
@@ -3131,13 +3131,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.2.31",
+      "Version": "1.2.32",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d873f4638721eccfd8f0be2cec7af2f662b7f1bc",
-      "Hash": "065168faa7ed4e7ed5d8b142541a5c8d",
+      "RemoteSha": "f38ba148e527e147ea59d0f99cd7df06b23b3b5c",
+      "Hash": "abfd423eba882e6442fefdcdd23a509e",
       "Requirements": [
         "madrat",
         "magclass",
