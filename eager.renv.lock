@@ -51,10 +51,10 @@
     },
     "DT": {
       "Package": "DT",
-      "Version": "0.24",
+      "Version": "0.25",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c814c35b0bc58613b4632c8acaf80b04",
+      "Hash": "d35337fd4278be35c50d7eeeec439f68",
       "Requirements": [
         "crosstalk",
         "htmltools",
@@ -2722,13 +2722,13 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.8.4",
+      "Version": "0.9.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "http://github.com/pik-piam/modelstats.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "645bfc3029b5ce375c99ad938b156cb0fb72359e",
-      "Hash": "20825e0ad20e3b9cb9c82ed8d1f3ca44",
+      "RemoteSha": "44442ad9d589ba66e69403a3434cb349d1157294",
+      "Hash": "e4f3785a4ea5342133ab344709d02b43",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -2903,13 +2903,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.39.7",
+      "Version": "0.39.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a4d37df1050d9c1b15dd069383f1c6cc5deb4f89",
-      "Hash": "c22b026d1502d71bd0c44c7be423a0ed",
+      "RemoteSha": "7634f209b31effecbe0df23cc3fb060c0a09f63a",
+      "Hash": "703ea32c58507f7a2de95025b2c59e79",
       "Requirements": [
         "SPEI",
         "countrycode",
@@ -3131,13 +3131,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.2.32",
+      "Version": "1.2.33",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f38ba148e527e147ea59d0f99cd7df06b23b3b5c",
-      "Hash": "abfd423eba882e6442fefdcdd23a509e",
+      "RemoteSha": "a5eb30bbf227364e1f485b09b65ad9afd8926112",
+      "Hash": "485dde793af38039fc6fa70f81dbcb6f",
       "Requirements": [
         "madrat",
         "magclass",
@@ -3915,13 +3915,13 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.102.2",
+      "Version": "1.103.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c9de483413eac8135233923e5c705debedc0a791",
-      "Hash": "bcefc9ddf4ad4199b5ee0b7712d19a7d",
+      "RemoteSha": "73b01cf21715bd1050922014c92ff8622976339c",
+      "Hash": "e148e7db4226c4687c152aa26d5fe794",
       "Requirements": [
         "RColorBrewer",
         "abind",
@@ -5013,10 +5013,10 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.32",
+      "Version": "0.33",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0498af3034691dde715dcd86198efe75",
+      "Hash": "1a666f915cd65072f4ccf5b2888d5d39",
       "Requirements": []
     },
     "xml2": {
