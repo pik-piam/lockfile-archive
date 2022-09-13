@@ -2765,13 +2765,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.153.2",
+      "Version": "1.154.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4c5ea0f617affda8fac3c541e0d8bf30c8f69dd2",
-      "Hash": "b47cd9850076b195d8d333650dcc61d8",
+      "RemoteSha": "ce55c55fc172f7c0b8361d25fb5a9b1498296904",
+      "Hash": "44eb84d9f6ef64067daffb158899cb24",
       "Requirements": [
         "dplyr",
         "gdx",

@@ -174,10 +174,10 @@
     },
     "Matrix": {
       "Package": "Matrix",
-      "Version": "1.5-0",
+      "Version": "1.5-1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "19d2a523548a8fd4f6460f4e61bc15fb",
+      "Hash": "539dc0c0c05636812f1080f473d2c177",
       "Requirements": [
         "lattice"
       ]
@@ -2236,10 +2236,10 @@
     },
     "lintr": {
       "Package": "lintr",
-      "Version": "3.0.0",
+      "Version": "3.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "1214604176fb93fdcac030fc5d2177d9",
+      "Hash": "41ca4b419351698a49c3a74f0281ffbd",
       "Requirements": [
         "backports",
         "codetools",
@@ -2514,13 +2514,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.153.2",
+      "Version": "1.154.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4c5ea0f617affda8fac3c541e0d8bf30c8f69dd2",
-      "Hash": "b47cd9850076b195d8d333650dcc61d8",
+      "RemoteSha": "ce55c55fc172f7c0b8361d25fb5a9b1498296904",
+      "Hash": "44eb84d9f6ef64067daffb158899cb24",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -4821,10 +4821,10 @@
     },
     "units": {
       "Package": "units",
-      "Version": "0.7-2",
+      "Version": "0.8-0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "e0f85712d5371ab2841f63cdb33fe0f0",
+      "Hash": "6c374b265ba437f8d384ec7a313edd96",
       "Requirements": [
         "Rcpp"
       ]
