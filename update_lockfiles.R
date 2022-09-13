@@ -4,7 +4,6 @@ pikPiamPackages <- sub("^Package: ", "", grep("^Package: ", readLines(packagesUr
 # all pik piam packages and their (optional) dependencies, no optional dependencies of dependencies though
 packages <- unique(c(pikPiamPackages,
                      unlist(tools::package_dependencies(pikPiamPackages, which = "all", recursive = "strong"))))
-packages <- setdiff(packages, "sr15data") # TODO remove when sr15data is gone or installable
 
 # record global package environment, usually pik-piam packages are up-to-date and
 # CRAN packages are updated only when required by pik-piam packages
@@ -14,8 +13,7 @@ renv::snapshot(lockfile = "conservative.renv.lock", packages = packages, prompt 
 callr::r(function(packages) {
   renv::load() # callr overwrites the .libPaths the renv .Rprofile has set, so load again
   renv::hydrate(packages = packages)
-  # TODO remove "exclude" when these packages can be built
-  renv::update(exclude = c("units", "stars"))
+  renv::update()
   renv::snapshot(lockfile = "../eager.renv.lock", packages = packages)
   # remove obsolete packages/dependencies
   renv::restore(lockfile = "../eager.renv.lock", clean = TRUE)
