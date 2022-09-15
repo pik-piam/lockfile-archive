@@ -20,9 +20,8 @@ invisible(callr::r(function(packages) {
 }, list(packages), wd = "eager_renv", spinner = FALSE, show = TRUE))
 
 today <- format(Sys.time(), "%Y-%m-%d")
-gert::git_add(c("conservative.renv.lock", "eager.renv.lock"))
-browser()
-if (nrow(addedFiles[]) > 0) {
+gitStatus <- gert::git_add(c("conservative.renv.lock", "eager.renv.lock"))
+if (any(grepl("^(conservative|eager)\\.renv\\.lock$", gitStatus[["file"]]))) {
   gert::git_commit(today)
   gert::git_push()
 }
