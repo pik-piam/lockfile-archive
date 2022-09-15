@@ -10,20 +10,22 @@ packages <- unique(c(pikPiamPackages,
 renv::snapshot(lockfile = "conservative.renv.lock", packages = packages, prompt = FALSE)
 
 # install packages into an renv, update all and create lockfile
-callr::r(function(packages) {
+invisible(callr::r(function(packages) {
   renv::load() # callr overwrites the .libPaths the renv .Rprofile has set, so load again
   renv::hydrate(packages = packages)
   renv::update()
   renv::snapshot(lockfile = "../eager.renv.lock", packages = packages)
   # remove obsolete packages/dependencies
   renv::restore(lockfile = "../eager.renv.lock", clean = TRUE)
-}, list(packages), wd = "eager_renv", spinner = FALSE, show = TRUE)
+}, list(packages), wd = "eager_renv", spinner = FALSE, show = TRUE))
 
 today <- format(Sys.time(), "%Y-%m-%d")
-addedFiles <- gert::git_add(c("conservative.renv.lock", "eager.renv.lock"))
-if (nrow(addedFiles) > 0) {
+gert::git_add(c("conservative.renv.lock", "eager.renv.lock"))
+browser()
+if (nrow(addedFiles[]) > 0) {
   gert::git_commit(today)
   gert::git_push()
 }
 gert::git_tag_create(today, "")
 gert::git_tag_push(today)
+invisible(NULL) # prevent useless log message

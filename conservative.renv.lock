@@ -3027,13 +3027,13 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.21.6",
+      "Version": "1.22.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "378b050c8b54ef6089f174c19bd9755daebfe931",
-      "Hash": "d555affa8f2517618c4dc42cf7c0ce90",
+      "RemoteSha": "ba445d57ff0fceefde4fc265a9de96ab36d58949",
+      "Hash": "e4dd65cd0a82f26726de5f6df50df0c5",
       "Requirements": [
         "GDPuc",
         "R.utils",
