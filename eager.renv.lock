@@ -1830,10 +1830,10 @@
     },
     "hdf5r": {
       "Package": "hdf5r",
-      "Version": "1.3.5",
+      "Version": "1.3.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0870af1f511f6d6d1230e71856801f86",
+      "Hash": "73a71a0fd5c0454014ab1b0cd13538f9",
       "Requirements": [
         "R6",
         "bit64"
@@ -3796,10 +3796,10 @@
     },
     "raster": {
       "Package": "raster",
-      "Version": "3.5-29",
+      "Version": "3.6-3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "8d673c59e4140ee8631e61216dbe5887",
+      "Hash": "d550f9d6dbb4dce7cbd146b09d663343",
       "Requirements": [
         "Rcpp",
         "sp",
