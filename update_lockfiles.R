@@ -1,3 +1,4 @@
+message("-------------------\n", format(Sys.time(), "%Y-%m-%dT%H%M%S"))
 packagesUrl <- "https://pik-piam.r-universe.dev/src/contrib/PACKAGES"
 pikPiamPackages <- sub("^Package: ", "", grep("^Package: ", readLines(packagesUrl), value = TRUE))
 
