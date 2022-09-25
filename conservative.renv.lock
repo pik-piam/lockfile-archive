@@ -2717,13 +2717,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.18.1",
+      "Version": "0.18.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fa8bfb19097ff5f58a9f94071d097940adb57e6c",
-      "Hash": "e11a0c5d44b9bbf76f3b553be7094552",
+      "RemoteSha": "7043c9db9ffa57b6cd2295fbe10ad7e923b59529",
+      "Hash": "671adfad9f10b92c25e3f0da658d065a",
       "Requirements": [
         "RColorBrewer",
         "cartogram",
