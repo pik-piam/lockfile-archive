@@ -364,6 +364,26 @@
         "Rcpp"
       ]
     },
+    "Rilostat": {
+      "Package": "Rilostat",
+      "Version": "1.1.8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "79ca1115487a3a5bac51153e7e2f4004",
+      "Requirements": [
+        "DT",
+        "RCurl",
+        "data.table",
+        "dplyr",
+        "haven",
+        "plyr",
+        "readr",
+        "stringr",
+        "tibble",
+        "tidyr",
+        "xml2"
+      ]
+    },
     "SPARQL": {
       "Package": "SPARQL",
       "Version": "1.16",
@@ -2717,13 +2737,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.18.2",
+      "Version": "0.18.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7043c9db9ffa57b6cd2295fbe10ad7e923b59529",
-      "Hash": "671adfad9f10b92c25e3f0da658d065a",
+      "RemoteSha": "5bf17c899efe57a6df1c05e6cd87c1f5191692d9",
+      "Hash": "9bf68f37cb643896599e2e24c55f49ee",
       "Requirements": [
         "RColorBrewer",
         "cartogram",
@@ -2797,13 +2817,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.156.0",
+      "Version": "1.157.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c373261469243885e888d1925a92c3bda6148602",
-      "Hash": "6ac3f7dfa9bd6b2158badf118f3e3e6f",
+      "RemoteSha": "21300f608ee682780f63333dc2f91686b0717c78",
+      "Hash": "cd604b1d82f56ecf5f32e1daf11f366d",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -3280,13 +3300,13 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.145.0",
+      "Version": "0.145.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d7bab453e41a1fe4f5765ab2adc5bf6bcc1c7acc",
-      "Hash": "985bdda7d0636aac223ffe4f911a5196",
+      "RemoteSha": "fe97a4fadd19379d3ef7f896c6ce5d715cb3bc17",
+      "Hash": "618e9eb2c262197d106dbc52a3387388",
       "Requirements": [
         "Hmisc",
         "R.utils",
