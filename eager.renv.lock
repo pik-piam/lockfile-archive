@@ -2456,13 +2456,13 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "2.20.2",
+      "Version": "2.20.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "bf5109eb368e3af5c31685bcda89fbcc0234bb79",
-      "Hash": "5cd97b2bc9d7504f1d952f1fbbe3dd51",
+      "RemoteSha": "442eff21e5ef411a3a1ba4c59b8bc69b4b588ae8",
+      "Hash": "1b904d064540f983d355f22480ced52f",
       "Requirements": [
         "Matrix",
         "callr",
@@ -3121,13 +3121,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.2.36",
+      "Version": "1.3.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b74bc2da47d155840b02324e969ff0d994500e97",
-      "Hash": "e13efaad4bde29d437d193810b1ab062",
+      "RemoteSha": "80c0ae0059cf119682887816812cb500ff614bf2",
+      "Hash": "406cb7c5d8e007e2065536326c40619d",
       "Requirements": [
         "madrat",
         "magclass",
@@ -3349,6 +3349,21 @@
         "lme4",
         "magrittr",
         "numDeriv"
+      ]
+    },
+    "piamInterfaces": {
+      "Package": "piamInterfaces",
+      "Version": "0.0.4",
+      "Source": "Repository",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "0ee4b250e2028b11dc0e3551b767773af91fced0",
+      "Hash": "c0038edbbcbc9b2759a0a7ef359e655a",
+      "Requirements": [
+        "data.table",
+        "iamc",
+        "rmndt"
       ]
     },
     "piamModelTests": {
@@ -4906,10 +4921,10 @@
     },
     "vroom": {
       "Package": "vroom",
-      "Version": "1.5.7",
+      "Version": "1.6.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "976507b5a105bc3bdf6a5a5f29e0684f",
+      "Hash": "64f81fdead6e0d250fb041e175d123ab",
       "Requirements": [
         "bit64",
         "cli",
