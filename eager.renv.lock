@@ -258,10 +258,10 @@
     },
     "RCurl": {
       "Package": "RCurl",
-      "Version": "1.98-1.8",
+      "Version": "1.98-1.9",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "19448e3b7f646a99d42660dc025e8f8c",
+      "Hash": "ea2f19dade6bd911b29b9bbb115d08f6",
       "Requirements": [
         "bitops"
       ]
@@ -418,10 +418,10 @@
     },
     "XML": {
       "Package": "XML",
-      "Version": "3.99-0.10",
+      "Version": "3.99-0.11",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "f140675d766cf765bf06a5f14afb149d",
+      "Hash": "1b8a72068e9137d4dcd1df27d092e3cc",
       "Requirements": []
     },
     "abind": {
@@ -1146,10 +1146,10 @@
     },
     "dotCall64": {
       "Package": "dotCall64",
-      "Version": "1.0-1",
+      "Version": "1.0-2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d0ef6cd1546530da4d72179b52856e84",
+      "Hash": "6aa9e277302190b6c618af042d904bdf",
       "Requirements": []
     },
     "downlit": {
@@ -1807,10 +1807,10 @@
     },
     "hdf5r": {
       "Package": "hdf5r",
-      "Version": "1.3.6",
+      "Version": "1.3.7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "73a71a0fd5c0454014ab1b0cd13538f9",
+      "Hash": "2219d3be987ddf36062385dc24ed3585",
       "Requirements": [
         "R6",
         "bit64"
@@ -2422,13 +2422,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.19.1",
+      "Version": "0.19.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1f5f43132041e6a67da1824f29815fd7ca5dffd9",
-      "Hash": "196b88b0ac3b27dc246bdabcd32dcc89",
+      "RemoteSha": "2d105003b3e6160fafe29f92082f920358cfbd2a",
+      "Hash": "b200b4c89efab5e5d08a10f181ad3c00",
       "Requirements": [
         "RColorBrewer",
         "cartogram",
@@ -2443,13 +2443,13 @@
         "magclass",
         "magpie4",
         "magpiesets",
-        "magrittr",
         "patchwork",
         "quitte",
         "rlang",
         "rnaturalearth",
         "scales",
         "sf",
+        "stringr",
         "terra",
         "tidyr"
       ]

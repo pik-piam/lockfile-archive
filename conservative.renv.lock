@@ -2734,13 +2734,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.19.1",
+      "Version": "0.19.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1f5f43132041e6a67da1824f29815fd7ca5dffd9",
-      "Hash": "196b88b0ac3b27dc246bdabcd32dcc89",
+      "RemoteSha": "2d105003b3e6160fafe29f92082f920358cfbd2a",
+      "Hash": "b200b4c89efab5e5d08a10f181ad3c00",
       "Requirements": [
         "RColorBrewer",
         "cartogram",
@@ -2755,13 +2755,13 @@
         "magclass",
         "magpie4",
         "magpiesets",
-        "magrittr",
         "patchwork",
         "quitte",
         "rlang",
         "rnaturalearth",
         "scales",
         "sf",
+        "stringr",
         "terra",
         "tidyr"
       ]
