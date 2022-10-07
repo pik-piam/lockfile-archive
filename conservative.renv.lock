@@ -2814,13 +2814,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.160.0",
+      "Version": "1.161.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c69b9610d218a5586765c4c1d0c59c052e9c9170",
-      "Hash": "e6cc3ed90e7915d9a6a8f2e1c4199451",
+      "RemoteSha": "c942597cc4e1c28fa49b11e5235a9a0287fdf01c",
+      "Hash": "1fde73c832aa7185d796bd102526c1b9",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -3234,13 +3234,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.39.8",
+      "Version": "0.39.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7634f209b31effecbe0df23cc3fb060c0a09f63a",
-      "Hash": "703ea32c58507f7a2de95025b2c59e79",
+      "RemoteSha": "88e26e95a8008766996b7c9955ebf9d79b7536f0",
+      "Hash": "833b9e7127efb5895eb194e55820b357",
       "Requirements": [
         "SPEI",
         "countrycode",
@@ -3255,7 +3255,6 @@
         "raster",
         "readxl",
         "reshape2",
-        "rgdal",
         "stringr",
         "terra",
         "withr"

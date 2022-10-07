@@ -951,10 +951,10 @@
     },
     "curl": {
       "Package": "curl",
-      "Version": "4.3.2",
+      "Version": "4.3.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "022c42d49c28e95d69ca60446dbabf88",
+      "Hash": "0eb86baa62f06e8855258fa5a8048667",
       "Requirements": []
     },
     "cyclocomp": {
@@ -2027,10 +2027,10 @@
     },
     "isoband": {
       "Package": "isoband",
-      "Version": "0.2.5",
+      "Version": "0.2.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7ab57a6de7f48a8dc84910d1eca42883",
+      "Hash": "cfdea9dea85c1a973991c8cbe299f4da",
       "Requirements": []
     },
     "iterators": {
@@ -2502,13 +2502,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.160.0",
+      "Version": "1.161.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c69b9610d218a5586765c4c1d0c59c052e9c9170",
-      "Hash": "e6cc3ed90e7915d9a6a8f2e1c4199451",
+      "RemoteSha": "c942597cc4e1c28fa49b11e5235a9a0287fdf01c",
+      "Hash": "1fde73c832aa7185d796bd102526c1b9",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -2892,13 +2892,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.39.8",
+      "Version": "0.39.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7634f209b31effecbe0df23cc3fb060c0a09f63a",
-      "Hash": "703ea32c58507f7a2de95025b2c59e79",
+      "RemoteSha": "88e26e95a8008766996b7c9955ebf9d79b7536f0",
+      "Hash": "833b9e7127efb5895eb194e55820b357",
       "Requirements": [
         "SPEI",
         "countrycode",
@@ -2913,7 +2913,6 @@
         "raster",
         "readxl",
         "reshape2",
-        "rgdal",
         "stringr",
         "terra",
         "withr"
@@ -3660,10 +3659,10 @@
     },
     "purrr": {
       "Package": "purrr",
-      "Version": "0.3.4",
+      "Version": "0.3.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "97def703420c8ab10d8f0e6c72101e02",
+      "Hash": "54842a2443c76267152eface28d9e90a",
       "Requirements": [
         "magrittr",
         "rlang"
