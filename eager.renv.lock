@@ -1242,13 +1242,13 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "0.20.1",
+      "Version": "0.21.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "56df525a1113c07f5fc24ada6047f5863d6b5234",
-      "Hash": "edecb78b374a1cbee4abd1efd948aa1d",
+      "RemoteSha": "2eb564302caf345502c3a28e561749e6fef8299e",
+      "Hash": "38513976eafcef9ff839b3527558d173",
       "Requirements": [
         "data.table",
         "gdx",
@@ -1306,10 +1306,10 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "0.16",
+      "Version": "0.17",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9a3d3c345f8a5648abe61608aaa29518",
+      "Hash": "9171b012a55a1ef53f1442b1d798a3b4",
       "Requirements": []
     },
     "fansi": {
@@ -2175,11 +2175,12 @@
     },
     "lifecycle": {
       "Package": "lifecycle",
-      "Version": "1.0.2",
+      "Version": "1.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "25f74670fa7d3277fe3ad8c1712a699f",
+      "Hash": "001cecbeac1cff9301bdc3775ee46a86",
       "Requirements": [
+        "cli",
         "glue",
         "rlang"
       ]
@@ -2892,13 +2893,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.39.9",
+      "Version": "0.39.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "88e26e95a8008766996b7c9955ebf9d79b7536f0",
-      "Hash": "833b9e7127efb5895eb194e55820b357",
+      "RemoteSha": "edd8d2687528d5b52572d62e083a15da685c5489",
+      "Hash": "c2267409c44837d7e1ee8b77360c44d6",
       "Requirements": [
         "SPEI",
         "countrycode",
@@ -2920,13 +2921,13 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.28.8",
+      "Version": "1.28.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ef786ddf448e5816dfac62be5dc899de0f78954f",
-      "Hash": "069e0e7d133757262c5bad9e9280a73a",
+      "RemoteSha": "bf80dc57b967c5bf971ae4936c51f69c7e48196a",
+      "Hash": "cfa253755e3cfdac1d0648ee2b8df0b4",
       "Requirements": [
         "class",
         "digest",
@@ -4106,10 +4107,10 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.16",
+      "Version": "2.17",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0f3eaa1547e2c6880d4de1c043ac6826",
+      "Hash": "e97c8be593e010f93520e8215c0f9189",
       "Requirements": [
         "bslib",
         "evaluate",
