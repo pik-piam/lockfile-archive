@@ -2308,10 +2308,10 @@
     },
     "lpSolve": {
       "Package": "lpSolve",
-      "Version": "5.6.16",
+      "Version": "5.6.17",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "8d81b756eff69fdd22bb028b7e0f4cac",
+      "Hash": "d990244b35d1458d4938f4f99d5f2b8b",
       "Requirements": []
     },
     "lpjclass": {
@@ -2503,13 +2503,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.161.0",
+      "Version": "1.162.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c942597cc4e1c28fa49b11e5235a9a0287fdf01c",
-      "Hash": "1fde73c832aa7185d796bd102526c1b9",
+      "RemoteSha": "a2bc5bd93a93c45107710bbb968bd46b02316b33",
+      "Hash": "a51b53bd459fe6f78abdc44ad23da3ec",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -3188,10 +3188,10 @@
     },
     "nlme": {
       "Package": "nlme",
-      "Version": "3.1-159",
+      "Version": "3.1-160",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "4a0b3a68f846cb999ff0e8e519524fbb",
+      "Hash": "02e3c6e7df163aafa8477225e6827bc5",
       "Requirements": [
         "lattice"
       ]
@@ -4735,16 +4735,17 @@
     },
     "tidyselect": {
       "Package": "tidyselect",
-      "Version": "1.1.2",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "17f6da8cfd7002760a859915ce7eef8f",
+      "Hash": "79540e5fcd9e0435af547d885f184fd5",
       "Requirements": [
-        "ellipsis",
+        "cli",
         "glue",
-        "purrr",
+        "lifecycle",
         "rlang",
-        "vctrs"
+        "vctrs",
+        "withr"
       ]
     },
     "tidyverse": {
