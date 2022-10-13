@@ -908,10 +908,10 @@
     },
     "cpp11": {
       "Package": "cpp11",
-      "Version": "0.4.2",
+      "Version": "0.4.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "fa53ce256cd280f468c080a58ea5ba8c",
+      "Hash": "ed588261931ee3be2c700d22e94a29ab",
       "Requirements": []
     },
     "crayon": {
@@ -1672,13 +1672,13 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.18.1",
+      "Version": "0.20.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/gms",
       "RemoteRef": "HEAD",
-      "RemoteSha": "60647da3497861500ccb5c2f9863820d151808e9",
-      "Hash": "15f9c80ea00b18afbee6c9123517827b",
+      "RemoteSha": "2d7d7fc3daeaea1bc1d2e75d1812dcc5208d3bb8",
+      "Hash": "4f7b36424721adcd03927e0f014bbc81",
       "Requirements": [
         "dplyr",
         "filelock",
@@ -2423,13 +2423,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.19.2",
+      "Version": "0.19.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2d105003b3e6160fafe29f92082f920358cfbd2a",
-      "Hash": "b200b4c89efab5e5d08a10f181ad3c00",
+      "RemoteSha": "ccf405a3b6048fde8fb7dd9890311c700af03b1f",
+      "Hash": "934a291d2d8a09a23467296159cae64e",
       "Requirements": [
         "RColorBrewer",
         "cartogram",
@@ -2503,13 +2503,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.162.0",
+      "Version": "1.162.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a2bc5bd93a93c45107710bbb968bd46b02316b33",
-      "Hash": "a51b53bd459fe6f78abdc44ad23da3ec",
+      "RemoteSha": "9a7acc632bb178d7595dc4ea03a60ae69420f438",
+      "Hash": "65aedc8f36a43e41b6663cf4df987b19",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -3353,13 +3353,13 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.0.5",
+      "Version": "0.0.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d167a58057738498ecc74747c2f171209775dfcb",
-      "Hash": "23bd30159a263c5ccd27cf17fe9ce8cf",
+      "RemoteSha": "6e9b96c5c6d0f9aedd30c555536234a966fe7478",
+      "Hash": "771144d3eecc7e9af9f91fe50ce50ece",
       "Requirements": [
         "data.table",
         "iamc",
