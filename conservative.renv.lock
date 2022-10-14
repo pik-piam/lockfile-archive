@@ -2652,13 +2652,13 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.30.6",
+      "Version": "0.30.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4d0e839d95bfe22349651b8dba976fb21a3126e9",
-      "Hash": "eb0a033a42efcbd473406910f409f994",
+      "RemoteSha": "cd4ac53a89d8b8fe3e475333d151225b94de1518",
+      "Hash": "9b420675ea1946096203b86908ac09c8",
       "Requirements": [
         "callr",
         "citation",
