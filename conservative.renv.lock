@@ -2734,13 +2734,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.23.0",
+      "Version": "0.23.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "faf53b90d5f778c53ed7de60df1a51d744594c3e",
-      "Hash": "b80f11799f931b6c7e245dec47cd3405",
+      "RemoteSha": "e0fb54c7f4d49f9ff4560f7d4d467d57c3d8a50d",
+      "Hash": "d10d65272b16f1060279b8f68e522fdf",
       "Requirements": [
         "RColorBrewer",
         "cartogram",
@@ -3465,13 +3465,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.3.26",
+      "Version": "1.3.27",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2dc17076787be981036e7f6b4a4c3a0804b67aea",
-      "Hash": "09814013f3bbda718b4cf97c7a7fa482",
+      "RemoteSha": "734131216821aa78d038d7324ec298a57be99521",
+      "Hash": "fdeda80aa5924154df19c6578fb6f5a5",
       "Requirements": [
         "madrat",
         "magclass",
@@ -3727,13 +3727,13 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.0.20",
+      "Version": "0.0.22",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "232b000e04d54472a7656d23c0056199a505a26d",
-      "Hash": "80b64a9ce1586a7625bdc9bfa80fcfe9",
+      "RemoteSha": "bd3c8b7cb4a49baa1c0344be1716a152a98a2b36",
+      "Hash": "77dbc464ef80d979753cfc2e9828f721",
       "Requirements": [
         "data.table",
         "dplyr",
@@ -3747,6 +3747,7 @@
         "stringr",
         "tibble",
         "tidyr",
+        "writexl",
         "yaml"
       ]
     },
@@ -4175,13 +4176,13 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3102.1",
+      "Version": "0.3103.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "56d637ebca326b3b6d2480d34b07c650c01eb5e6",
-      "Hash": "8dfa64072f7a3cb76b72232d60a83b7e",
+      "RemoteSha": "0020c4fed79fb6ea7c0157c2b1a488cc78169b33",
+      "Hash": "673312f2abc303901618840ce4019dd6",
       "Requirements": [
         "countrycode",
         "dplyr",
