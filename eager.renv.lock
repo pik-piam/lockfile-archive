@@ -227,10 +227,10 @@
     },
     "R.utils": {
       "Package": "R.utils",
-      "Version": "2.12.0",
+      "Version": "2.12.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d31333e10f14027e1cbbc6f266512806",
+      "Hash": "1ed133420fcd2b93cf55a383b38fe27c",
       "Requirements": [
         "R.methodsS3",
         "R.oo"
@@ -2413,13 +2413,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.23.6",
+      "Version": "0.23.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "85cc3e70bc14cb1d5d72bbb2e7fb6182e5ae16f3",
-      "Hash": "7d47fa86973cbcadd16fdb60193d6a23",
+      "RemoteSha": "7486a20466c7802fba5cb53bcdc60dcda1658a56",
+      "Hash": "742172d523e77b6f0da93213354925e8",
       "Requirements": [
         "RColorBrewer",
         "cartogram",
@@ -2542,10 +2542,10 @@
     },
     "maps": {
       "Package": "maps",
-      "Version": "3.4.0",
+      "Version": "3.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b3d98a967ec17c80f795719529812fa0",
+      "Hash": "644a88fb036ab50cee0b715394eefa1a",
       "Requirements": []
     },
     "maptools": {
