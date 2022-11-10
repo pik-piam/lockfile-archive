@@ -272,10 +272,10 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "0.11.4.0.1",
+      "Version": "0.11.4.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "411952f0aca6398392dad34f225753b9",
+      "Hash": "5fa867879a70ed6df6ae4ed7f392fba2",
       "Requirements": [
         "Rcpp"
       ]
@@ -1232,13 +1232,13 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "0.22.1",
+      "Version": "0.22.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1dbd5191e2334b18b6138ee810c5a73331e0a903",
-      "Hash": "220a65a5f4a2b83875f8cc1b3fd608de",
+      "RemoteSha": "63313fa52d42c2e1eb9fbbabdcfd6f555932ae82",
+      "Hash": "7b243fd591cb94f0476b7045fae9c0ca",
       "Requirements": [
         "data.table",
         "gdx",
@@ -2779,13 +2779,13 @@
     },
     "mrdrivers": {
       "Package": "mrdrivers",
-      "Version": "0.7.1",
+      "Version": "0.7.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrdrivers",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5d007e1450ebfae7593d0d3a1d2c8acba42b776b",
-      "Hash": "b8e4dd1490c2347841b55da21869de46",
+      "RemoteSha": "eb1da620d641ff8df83dbe8861a0e320400f3527",
+      "Hash": "cebf2188b6928ca88e1a720f7efa0a90",
       "Requirements": [
         "GDPuc",
         "WDI",
@@ -2880,13 +2880,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.39.15",
+      "Version": "0.40.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c3de97adb57074626a2837422cb1acfb7bfa7e3b",
-      "Hash": "fccfd63300628ad1a589c014fbee378b",
+      "RemoteSha": "cceb2ae037600989d3c22271cf7ad5d55c05ab58",
+      "Hash": "50d8c2f9854c7dcc785304035f846b37",
       "Requirements": [
         "SPEI",
         "countrycode",
@@ -4087,10 +4087,10 @@
     },
     "rgdal": {
       "Package": "rgdal",
-      "Version": "1.5-32",
+      "Version": "1.6-2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7e8f18c3a55c90a44ea05e0620c05a7e",
+      "Hash": "092d9f420cdeae5fc56aa24949b9aae9",
       "Requirements": [
         "sp"
       ]
@@ -4126,10 +4126,10 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.17",
+      "Version": "2.18",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "e97c8be593e010f93520e8215c0f9189",
+      "Hash": "8063c4e953cefb651e8cd58c82c82d2d",
       "Requirements": [
         "bslib",
         "evaluate",
