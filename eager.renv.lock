@@ -1564,6 +1564,22 @@
         "zip"
       ]
     },
+    "ggh4x": {
+      "Package": "ggh4x",
+      "Version": "0.2.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "12a9567dfa0194970dde0a3089bd7efe",
+      "Requirements": [
+        "cli",
+        "ggplot2",
+        "gtable",
+        "lifecycle",
+        "rlang",
+        "scales",
+        "vctrs"
+      ]
+    },
     "ggiraph": {
       "Package": "ggiraph",
       "Version": "0.8.3",
@@ -1612,6 +1628,19 @@
         "ggplot2",
         "scales",
         "withr"
+      ]
+    },
+    "ggtext": {
+      "Package": "ggtext",
+      "Version": "0.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c5ba8f5056487403a299b91984be86ca",
+      "Requirements": [
+        "ggplot2",
+        "gridtext",
+        "rlang",
+        "scales"
       ]
     },
     "gh": {
@@ -1760,6 +1789,23 @@
       "Hash": "7d7f283939f563670a697165b2cf5560",
       "Requirements": [
         "gtable"
+      ]
+    },
+    "gridtext": {
+      "Package": "gridtext",
+      "Version": "0.1.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "05e4f5fffb1eecfeaac9ea0b7f255fef",
+      "Requirements": [
+        "Rcpp",
+        "curl",
+        "jpeg",
+        "markdown",
+        "png",
+        "rlang",
+        "stringr",
+        "xml2"
       ]
     },
     "gtable": {
@@ -2415,13 +2461,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.25.2",
+      "Version": "0.25.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "693b4eefe0844e4b650bab083d2d81801096ea54",
-      "Hash": "c8d22b2bde0a0bbcadc4a1819576e4fe",
+      "RemoteSha": "3c16d32765f5ade3eebf4fd757389c6204be7d94",
+      "Hash": "a818861aa64bea43a3515e9198494075",
       "Requirements": [
         "RColorBrewer",
         "cartogram",
@@ -2429,8 +2475,10 @@
         "dplyr",
         "forcats",
         "gdx",
+        "ggh4x",
         "ggiraph",
         "ggplot2",
+        "ggtext",
         "htmlwidgets",
         "madrat",
         "magclass",

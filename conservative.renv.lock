@@ -2732,40 +2732,6 @@
         "xtable"
       ]
     },
-    "m4fsdp": {
-      "Package": "m4fsdp",
-      "Version": "0.25.2",
-      "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "693b4eefe0844e4b650bab083d2d81801096ea54",
-      "Hash": "c8d22b2bde0a0bbcadc4a1819576e4fe",
-      "Requirements": [
-        "RColorBrewer",
-        "cartogram",
-        "data.table",
-        "dplyr",
-        "forcats",
-        "gdx",
-        "ggiraph",
-        "ggplot2",
-        "htmlwidgets",
-        "madrat",
-        "magclass",
-        "magpie4",
-        "magpiesets",
-        "patchwork",
-        "quitte",
-        "rlang",
-        "rnaturalearth",
-        "scales",
-        "sf",
-        "stringr",
-        "terra",
-        "tidyr"
-      ]
-    },
     "madrat": {
       "Package": "madrat",
       "Version": "2.20.6",
