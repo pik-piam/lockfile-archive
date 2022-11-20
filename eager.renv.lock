@@ -2533,13 +2533,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.165.7",
+      "Version": "1.165.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f1afbacfc1b474801ac36cd2c07fec58deb14cb5",
-      "Hash": "96baa854755a0a18c808cf8e0c0b9c32",
+      "RemoteSha": "6857e90a2a0b085354130a7fb6f19f298a6181e4",
+      "Hash": "0fc252710d39b2917a7add9940231706",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -4373,10 +4373,10 @@
     },
     "sass": {
       "Package": "sass",
-      "Version": "0.4.2",
+      "Version": "0.4.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "1b191143d7d3444d504277843f3a95fe",
+      "Hash": "6cd2448458fdb03e21e69aa2d5ba25b2",
       "Requirements": [
         "R6",
         "fs",
