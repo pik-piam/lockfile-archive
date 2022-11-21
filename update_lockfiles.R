@@ -1,11 +1,11 @@
 message("-------------------\n", format(Sys.time(), "%Y-%m-%dT%H%M%S"))
-gert::git_pull(verbose = FALSE)
-packagesUrl <- "https://pik-piam.r-universe.dev/src/contrib/PACKAGES"
-pikPiamPackages <- sub("^Package: ", "", grep("^Package: ", readLines(packagesUrl), value = TRUE))
+# not using gert for pull/push because of authentication problems in the cron job
+system2("git", "pull")
+piamPackages <- lucode2::piamPackages()
 
 # all pik piam packages and their (optional) dependencies, no optional dependencies of dependencies though
-packages <- unique(c(pikPiamPackages,
-                     unlist(tools::package_dependencies(pikPiamPackages, which = "all", recursive = "strong"))))
+packages <- unique(c(piamPackages,
+                     unlist(tools::package_dependencies(piamPackages, which = "all", recursive = "strong"))))
 
 # record global package environment, usually pik-piam packages are up-to-date and
 # CRAN packages are updated only when required by pik-piam packages
@@ -25,8 +25,8 @@ today <- format(Sys.time(), "%Y-%m-%d")
 gitStatus <- gert::git_add(c("conservative.renv.lock", "eager.renv.lock"))
 if (any(grepl("^(conservative|eager)\\.renv\\.lock$", gitStatus[["file"]]))) {
   gert::git_commit(today)
-  gert::git_push()
+  system2("git", "push")
 }
 gert::git_tag_create(today, "")
-gert::git_tag_push(today)
+system2("git", c("push", "--tags"))
 invisible(NULL) # prevent useless log message
