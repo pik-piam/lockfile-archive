@@ -2775,13 +2775,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.25.8",
+      "Version": "0.25.11",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "327190d87976208d87cda9bca65bfce0fee60bdd",
-      "Hash": "0dff9e904581efe11a6d420edd3a4ae0",
+      "RemoteSha": "936b848a9e8bf3be388888d9f941f79e83f7f133",
+      "Hash": "bdf1d23f53afd3f82d7ed9125ff98fb0",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -2809,7 +2809,8 @@
         "sf",
         "stringr",
         "terra",
-        "tidyr"
+        "tidyr",
+        "withr"
       ]
     },
     "madrat": {
@@ -3122,13 +3123,13 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.23.10",
+      "Version": "1.23.11",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c9344f11377ae58fdfa32a71daeeceb99bbd0498",
-      "Hash": "e08f6e79388aceb4e456197706172820",
+      "RemoteSha": "605767eb68381c5058896a28a39c969a6dbe0df1",
+      "Hash": "2f239b6a903f9f7af14813aac0b172da",
       "Requirements": [
         "GDPuc",
         "R.utils",
@@ -3434,13 +3435,13 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.44.2",
+      "Version": "2.45.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "20c66ef41a47f7f28b804c3bc5dcbbcdfe41b4c6",
-      "Hash": "ef8b8d0898ab78a8aca5da43f2fd587e",
+      "RemoteSha": "dbf77201a43e1abe19fc1ea0a7e3971e96a1a7b9",
+      "Hash": "7fd4834f1897d063db30e5f8218f7cd7",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -3453,12 +3454,14 @@
         "mrmagpie",
         "ncdf4",
         "openxlsx",
+        "purrr",
         "raster",
         "readxl",
         "reshape2",
         "rlang",
         "stringr",
-        "tidyr"
+        "tidyr",
+        "withr"
       ]
     },
     "mrvalidnitrogen": {
@@ -3511,13 +3514,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.4.5",
+      "Version": "1.4.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8a81f6e0f4688e26c9d159c389f9e8ea4c71b07a",
-      "Hash": "a34114277849e223d8fb88bbbab6bacf",
+      "RemoteSha": "f84f8a14907e038f40059abc9390642688b74a00",
+      "Hash": "bb637243d28739f2091de535bb04fdc8",
       "Requirements": [
         "madrat",
         "magclass",
