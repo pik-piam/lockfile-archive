@@ -1226,13 +1226,13 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "0.22.3",
+      "Version": "0.22.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1ebe4f3be9906356bdcb1576dc78bc04317aee9f",
-      "Hash": "b7a3c85d43e4b9b34cbb5e7de4964303",
+      "RemoteSha": "d95501110287a60d5f460be062b28870c024e9eb",
+      "Hash": "dac15f0aacbe253d3e9c0a40aba3045f",
       "Requirements": [
         "data.table",
         "gdx",
@@ -2451,13 +2451,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.25.11",
+      "Version": "0.25.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "936b848a9e8bf3be388888d9f941f79e83f7f133",
-      "Hash": "bdf1d23f53afd3f82d7ed9125ff98fb0",
+      "RemoteSha": "da21ea19d9590f4df7f70c0282000658576e0373",
+      "Hash": "ff37e438617af9de107cbee1e32e4ed5",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -2485,8 +2485,7 @@
         "sf",
         "stringr",
         "terra",
-        "tidyr",
-        "withr"
+        "tidyr"
       ]
     },
     "madrat": {
@@ -3070,13 +3069,13 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.45.0",
+      "Version": "2.45.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "dbf77201a43e1abe19fc1ea0a7e3971e96a1a7b9",
-      "Hash": "7fd4834f1897d063db30e5f8218f7cd7",
+      "RemoteSha": "58f6ed26a989fe59e591baf3c762bb80fe471125",
+      "Hash": "ac16c2ba87da05744e422fa83627f7be",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -3149,13 +3148,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.4.6",
+      "Version": "1.4.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f84f8a14907e038f40059abc9390642688b74a00",
-      "Hash": "bb637243d28739f2091de535bb04fdc8",
+      "RemoteSha": "2070779ffeb3685bfe2dd7f603181011bde02717",
+      "Hash": "f8b0e9588918792f78236832ac38e942",
       "Requirements": [
         "madrat",
         "magclass",
