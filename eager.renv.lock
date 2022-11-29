@@ -2684,13 +2684,13 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.139.0",
+      "Version": "0.139.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mip",
       "RemoteRef": "HEAD",
-      "RemoteSha": "275eadbc1a948d5220fe92d46f53dd94184f5b9a",
-      "Hash": "b14eab913ce70d86edf1294833eeab1a",
+      "RemoteSha": "1a2485283d26c963c2720af50e091eab9bb989b1",
+      "Hash": "2565196cd644b2b20386f091f546fedb",
       "Requirements": [
         "RColorBrewer",
         "data.table",
@@ -3148,13 +3148,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.4.11",
+      "Version": "1.4.13",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d14169221c8bc7e98c3e707b8450e4c1362c54e8",
-      "Hash": "ebf33371fdd487d649fb470106896085",
+      "RemoteSha": "7a90da5bd86ab63641802d70a3df693ecde31d80",
+      "Hash": "8510fe2262ac0bd4ad66c21095d2c51f",
       "Requirements": [
         "madrat",
         "magclass",
@@ -3790,13 +3790,13 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3103.0",
+      "Version": "0.3104.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "0020c4fed79fb6ea7c0157c2b1a488cc78169b33",
-      "Hash": "673312f2abc303901618840ce4019dd6",
+      "RemoteSha": "1a64f4c213e0dc39c5a1e76a506be580795c631b",
+      "Hash": "e558c8e268739e0712b558a1184b0581",
       "Requirements": [
         "countrycode",
         "dplyr",
@@ -3868,10 +3868,10 @@
     },
     "raster": {
       "Package": "raster",
-      "Version": "3.6-3",
+      "Version": "3.6-11",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d550f9d6dbb4dce7cbd146b09d663343",
+      "Hash": "48f95b0f7e708aa96c8913cadf12eb79",
       "Requirements": [
         "Rcpp",
         "sp",
