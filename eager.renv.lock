@@ -1413,10 +1413,10 @@
     },
     "foreign": {
       "Package": "foreign",
-      "Version": "0.8-83",
+      "Version": "0.8-84",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "4e43a8846712a6d5991b19b9bd5f9199",
+      "Hash": "467ec0ca895d4e61a22cfbac9bccddf8",
       "Requirements": []
     },
     "fs": {
@@ -2095,10 +2095,10 @@
     },
     "jsonlite": {
       "Package": "jsonlite",
-      "Version": "1.8.3",
+      "Version": "1.8.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "8b1bd0be62956f2a6b91ce84fac79a45",
+      "Hash": "a4269a09a9b865579b2635c77e572374",
       "Requirements": []
     },
     "kableExtra": {
@@ -2369,13 +2369,13 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.39.0",
+      "Version": "0.41.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
       "RemoteRef": "HEAD",
-      "RemoteSha": "31268deaa3deeb8d446d7311ee497ec91ec7e598",
-      "Hash": "2c1dad0a6a4826c11928f8bbe147b7bd",
+      "RemoteSha": "010a1f4e17b75af83ca5fdd40185dcd1f8f17f24",
+      "Hash": "3c0e1401cf00ad991cbba30104838d49",
       "Requirements": [
         "callr",
         "citation",
@@ -2490,13 +2490,13 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "2.20.6",
+      "Version": "2.20.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "dc5636e3da95f0dc701eee9124746c2867f27d50",
-      "Hash": "5c0dd4542ba0fb1ab6f45564ba7d3184",
+      "RemoteSha": "e8d5ee93f4a345f01a43ccbde596f723f666d432",
+      "Hash": "71ecf3675e0329c2985406cb4c4a3d70",
       "Requirements": [
         "Matrix",
         "callr",
@@ -2757,13 +2757,13 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.23.12",
+      "Version": "1.23.14",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "41e73b0cd52cb074070d67c2dc1e7c78f4ccf378",
-      "Hash": "51fa57830ab47922b67b61fae0ed9f17",
+      "RemoteSha": "e10e245822f42644d8bcbd2b2e528cd75ecbffca",
+      "Hash": "ef7a97dd73ee0a0379c1199e65297881",
       "Requirements": [
         "GDPuc",
         "R.utils",
@@ -3148,13 +3148,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.4.25",
+      "Version": "1.4.27",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3c44a1485412eef4e372aaa12a6d2aa0ddccb1e5",
-      "Hash": "3cacaeb1b8d4f7de791a0ecae7ccaf70",
+      "RemoteSha": "dfa761ef7041615d36626eb71399ae05cb56dce7",
+      "Hash": "fcfddb7de27b72a679e9746b17f978b6",
       "Requirements": [
         "madrat",
         "magclass",
