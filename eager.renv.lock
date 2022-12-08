@@ -1925,13 +1925,14 @@
     },
     "htmltools": {
       "Package": "htmltools",
-      "Version": "0.5.3",
+      "Version": "0.5.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6496090a9e00f8354b811d1a2d47b566",
+      "Hash": "9d27e99cc90bd701c0a7a63e5923f9b7",
       "Requirements": [
         "base64enc",
         "digest",
+        "ellipsis",
         "fastmap",
         "rlang"
       ]
@@ -2536,13 +2537,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.166.0",
+      "Version": "1.166.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2b6462c3f414e160b299c39f663da5d36ecbba62",
-      "Hash": "945ffe59e6b42248eea05a771185f98d",
+      "RemoteSha": "3928b693ddd9f3b21979df52fd28e3300a4e8d0b",
+      "Hash": "5db1c8aa15c68ee053311e878e9dd805",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -2684,13 +2685,13 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.140.0",
+      "Version": "0.140.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mip",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7e2d11a72c41e30ae310d192625dc478a0b542f0",
-      "Hash": "e6482c3c17c69708a3bf35f6b5301455",
+      "RemoteSha": "7f072e2715f21d286e1f3d9c029e036576736752",
+      "Hash": "238d0529f1c668411665dd6ca46ed0d1",
       "Requirements": [
         "RColorBrewer",
         "data.table",
