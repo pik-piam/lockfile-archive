@@ -2775,13 +2775,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.25.24",
+      "Version": "0.25.25",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a50684a329f385fb1d521f48f865449d1a30c562",
-      "Hash": "01d1d138db157fa3dd0f7ad974e18b6b",
+      "RemoteSha": "00f58b8b97860aa3abba40dfb65088a89083f007",
+      "Hash": "b6080f1057a29e7237cd26f78373a285",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -2860,13 +2860,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.166.5",
+      "Version": "1.167.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "0f30cf283cc019a9f07ba4e0a0f7f8e83b492b6d",
-      "Hash": "0fc7f7e1fc33a0847fb370a351733055",
+      "RemoteSha": "9a27a24c0765824deb1f7e7144b0e11d9e90a19a",
+      "Hash": "249ab80c126edee1c661df7d4697cbc3",
       "Requirements": [
         "dplyr",
         "gdx",
