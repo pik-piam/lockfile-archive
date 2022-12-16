@@ -628,16 +628,15 @@
     },
     "broom": {
       "Package": "broom",
-      "Version": "1.0.1",
+      "Version": "1.0.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c90ff735b7812b60f067a3f7a3b4de63",
+      "Hash": "1773f8d5102f9853ecd18a0d13d460fd",
       "Requirements": [
         "backports",
         "dplyr",
         "ellipsis",
         "generics",
-        "ggplot2",
         "glue",
         "purrr",
         "rlang",
@@ -1429,10 +1428,10 @@
     },
     "future": {
       "Package": "future",
-      "Version": "1.29.0",
+      "Version": "1.30.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "783c201d2edfee73263de8e17cbdfa8e",
+      "Hash": "d8a0dcbc9350c1e40edc644611d1ee15",
       "Requirements": [
         "digest",
         "globals",
@@ -1939,13 +1938,15 @@
     },
     "htmlwidgets": {
       "Package": "htmlwidgets",
-      "Version": "1.5.4",
+      "Version": "1.6.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "76147821cd3fcd8c4b04e1ef0498e7fb",
+      "Hash": "f894e7b76e36258a483c602a786d7270",
       "Requirements": [
         "htmltools",
         "jsonlite",
+        "knitr",
+        "rmarkdown",
         "yaml"
       ]
     },
@@ -2537,13 +2538,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.167.0",
+      "Version": "1.168.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9a27a24c0765824deb1f7e7144b0e11d9e90a19a",
-      "Hash": "249ab80c126edee1c661df7d4697cbc3",
+      "RemoteSha": "24c71ed8cb8317e141a98ad0d2b2d0afcb0cf288",
+      "Hash": "e8e865eb2ab3079fb150b07743c2021b",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -2737,13 +2738,13 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.9.4",
+      "Version": "0.9.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "236db6065d2ed6725b280a5a440920c03c0dbdc1",
-      "Hash": "600f36416c030bc465d329cfc033ddaf",
+      "RemoteSha": "10406277504ce1a524d196329191a817d9c58148",
+      "Hash": "f960895df6ca7c60cacdb9112af8fa12",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3149,13 +3150,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.4.34",
+      "Version": "1.4.35",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7618292dd9a35d87df9887ec0331eb1828418041",
-      "Hash": "9303ae60244f6b27d13f2676f4343de7",
+      "RemoteSha": "c2ad37df6496aa4b0eda04edd6fa84c874af6dc4",
+      "Hash": "720f81b2f04b7ae9ed5d0721d0673fc6",
       "Requirements": [
         "madrat",
         "magclass",
@@ -3234,10 +3235,10 @@
     },
     "nlme": {
       "Package": "nlme",
-      "Version": "3.1-160",
+      "Version": "3.1-161",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "02e3c6e7df163aafa8477225e6827bc5",
+      "Hash": "b49e163093c0ef46fbbfc40bcb87916c",
       "Requirements": [
         "lattice"
       ]
@@ -3399,13 +3400,13 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.0.38",
+      "Version": "0.0.39",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "6c0197d51740fb86eb50103612128793807bfa36",
-      "Hash": "13e0d140fd1ffd61476fbf73b3419ffa",
+      "RemoteSha": "e6953cb645b107cd44ca4f2947bd7e54f8bf32db",
+      "Hash": "a8a5fc65f3ed375bbe3a7ec3ecba18f6",
       "Requirements": [
         "data.table",
         "dplyr",
@@ -3446,13 +3447,13 @@
     },
     "piamenv": {
       "Package": "piamenv",
-      "Version": "0.3.2",
+      "Version": "0.3.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamenv",
       "RemoteRef": "HEAD",
-      "RemoteSha": "998b171f4cdb4e46dc3c6b2682e695646e33ca46",
-      "Hash": "b6701db54aa372ef19625cf60e236947",
+      "RemoteSha": "c2c5a9c230f3684294168b6ff518554db1818a99",
+      "Hash": "a2ef42af3c2a1a8b893ec78456491adc",
       "Requirements": [
         "desc",
         "renv",
@@ -4203,10 +4204,10 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.18",
+      "Version": "2.19",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "8063c4e953cefb651e8cd58c82c82d2d",
+      "Hash": "4e29299e1f4c7eabb0b8365b338adf3c",
       "Requirements": [
         "bslib",
         "evaluate",
@@ -4468,10 +4469,10 @@
     },
     "shiny": {
       "Package": "shiny",
-      "Version": "1.7.3",
+      "Version": "1.7.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "fe12df67fdb3b1142325cc54f100cc06",
+      "Hash": "c2eae3d8c670fa9dfa35a12066f4a1d5",
       "Requirements": [
         "R6",
         "bslib",
