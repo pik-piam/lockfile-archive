@@ -781,10 +781,10 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "3.4.1",
+      "Version": "3.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0d297d01734d2bcea40197bd4971a764",
+      "Hash": "eb9fc121ad9a1075c471107ef185be46",
       "Requirements": []
     },
     "clipr": {
@@ -2059,10 +2059,10 @@
     },
     "isoband": {
       "Package": "isoband",
-      "Version": "0.2.6",
+      "Version": "0.2.7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "cfdea9dea85c1a973991c8cbe299f4da",
+      "Hash": "0080607b4a1a7b28979aecef976d8bc2",
       "Requirements": []
     },
     "iterators": {
@@ -2455,13 +2455,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.26.5",
+      "Version": "0.26.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "62cd8ceb84387aff6cae6ad8caae85515a2e1acc",
-      "Hash": "43b6836ab58701f1b8595b511fd341a6",
+      "RemoteSha": "9f99e4b0185b43872188f95282792256c922b160",
+      "Hash": "9a63e572688e56c5a80d4dbdf95ec236",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -2761,13 +2761,13 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.25.0",
+      "Version": "1.25.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8201c1b8715a70af5cd1c11b01c408578a35334d",
-      "Hash": "5001ecb90f6ad984ab89338243790941",
+      "RemoteSha": "ad1ba0097b933a26d4603a931fd0ed97d03b6d08",
+      "Hash": "7994241f1e9a804767bd4217702d4f28",
       "Requirements": [
         "GDPuc",
         "SPEI",
@@ -2981,13 +2981,13 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.150.0",
+      "Version": "0.151.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "36a8d988ef99aa54882ba233142a31492799176e",
-      "Hash": "09a24c90fe791cad377fe220cb5430c6",
+      "RemoteSha": "463a8fdd3bb58cabcecc4c20d89aeaa8399c7bee",
+      "Hash": "48f53f132392eb0a563ac5204e490ff5",
       "Requirements": [
         "Hmisc",
         "R.utils",
@@ -3735,13 +3735,16 @@
     },
     "purrr": {
       "Package": "purrr",
-      "Version": "0.3.5",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "54842a2443c76267152eface28d9e90a",
+      "Hash": "1ad491d27989ec6c26a2918ad6df116b",
       "Requirements": [
+        "cli",
+        "lifecycle",
         "magrittr",
-        "rlang"
+        "rlang",
+        "vctrs"
       ]
     },
     "qgraph": {
