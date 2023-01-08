@@ -1959,10 +1959,10 @@
     },
     "htmlwidgets": {
       "Package": "htmlwidgets",
-      "Version": "1.6.0",
+      "Version": "1.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "f894e7b76e36258a483c602a786d7270",
+      "Hash": "b677ee5954471eaa974c0d099a343a1a",
       "Requirements": [
         "htmltools",
         "jsonlite",
@@ -3914,10 +3914,10 @@
     },
     "raster": {
       "Package": "raster",
-      "Version": "3.6-11",
+      "Version": "3.6-13",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "48f95b0f7e708aa96c8913cadf12eb79",
+      "Hash": "2398b7f3d73637adfe6adc286e6844f4",
       "Requirements": [
         "Rcpp",
         "sp",
@@ -4161,10 +4161,10 @@
     },
     "reticulate": {
       "Package": "reticulate",
-      "Version": "1.26",
+      "Version": "1.27",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "91c176c84a2e3558572d2cbaddc08bd4",
+      "Hash": "06b70ad2da1a1bd19424d9e60fecce44",
       "Requirements": [
         "Matrix",
         "Rcpp",
