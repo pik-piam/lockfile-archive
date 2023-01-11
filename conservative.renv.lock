@@ -2696,6 +2696,26 @@
         "magclass"
       ]
     },
+    "lpjmlkit": {
+      "Package": "lpjmlkit",
+      "Version": "0.5.1",
+      "Source": "Repository",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://gitlab.pik-potsdam.de/lpjml/lpjmlkit.git",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "e0db07f54a431ee0492b328a5229d22833cc20a3",
+      "Hash": "354576522c576d25204de31d3470161d",
+      "Requirements": [
+        "abind",
+        "doParallel",
+        "dplyr",
+        "foreach",
+        "jsonlite",
+        "magrittr",
+        "processx",
+        "tibble"
+      ]
+    },
     "lubridate": {
       "Package": "lubridate",
       "Version": "1.8.0",
@@ -2715,13 +2735,13 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.43.4",
+      "Version": "0.43.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
       "RemoteRef": "HEAD",
-      "RemoteSha": "6dab278d0284324728a615608e7431e77c5d4bc2",
-      "Hash": "c8cd81143925a3e63c62d310eb32fc0e",
+      "RemoteSha": "e3f5d75a5f66cd0d127e51d8aec0e84ec42465f4",
+      "Hash": "44aedf27477ad4ce032cec2a8595db02",
       "Requirements": [
         "callr",
         "citation",
@@ -2797,13 +2817,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.29.15",
+      "Version": "0.29.20",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ad8cabfadcfd81eff1706811b119636df9049290",
-      "Hash": "b8f3e409157fb090f291f91578314a7c",
+      "RemoteSha": "58e1b578c9185742927da0d12183f8f5a815a97d",
+      "Hash": "c963652a2b3351ff6fda51c101e0222b",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -2858,13 +2878,13 @@
     },
     "magclass": {
       "Package": "magclass",
-      "Version": "6.7.0",
+      "Version": "6.7.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magclass",
       "RemoteRef": "HEAD",
-      "RemoteSha": "288d1147233c9e47ec4e01397292f95feb58e91c",
-      "Hash": "a309eb59d37996cf39d20b2bfdd3929b",
+      "RemoteSha": "a1aa84ad2e6aabb70c6e33b891c244fe81451aab",
+      "Hash": "d1c449f2c4f23bae0a27cf3407652cfb",
       "Requirements": [
         "abind",
         "data.table"
@@ -3249,13 +3269,13 @@
     },
     "mrfable": {
       "Package": "mrfable",
-      "Version": "1.6.0",
+      "Version": "1.6.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrfable.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "060de472ea9e438aa725774fd5f4906e4ec13e95",
-      "Hash": "e0bd9ad91ffe09c2df3c90182afe3a8f",
+      "RemoteSha": "fef330ec2821f47cb7de1e016faf66654f7a5c9f",
+      "Hash": "48ae0601399c8ef5de8d6c1fac42fa28",
       "Requirements": [
         "dplyr",
         "madrat",
@@ -3455,13 +3475,13 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.45.11",
+      "Version": "2.45.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "66f9127aaebd3cabde99e44776183e61d548cd01",
-      "Hash": "50738c275100d63a8c66db0513483d78",
+      "RemoteSha": "65d46b44ca650101ef29ad3aef91693eba0c3bd5",
+      "Hash": "23948d8a9f5d91cb267dfeb656e99f11",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4497,13 +4517,13 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.105.3",
+      "Version": "1.105.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "6b68b39355712ca00fa9651b02ae996986241571",
-      "Hash": "efc2be4bf703ecf61b3e363c6212ae73",
+      "RemoteSha": "43527a8ebc02915a73b92eda469e4d03f3baa5cf",
+      "Hash": "227195a62a1d553cf2fb622d4fc2270f",
       "Requirements": [
         "RColorBrewer",
         "abind",
