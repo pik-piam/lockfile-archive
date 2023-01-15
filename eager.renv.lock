@@ -3261,10 +3261,10 @@
     },
     "nleqslv": {
       "Package": "nleqslv",
-      "Version": "3.3.3",
+      "Version": "3.3.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "bd75967ceed04d03511691bc0a3c73ee",
+      "Hash": "5825e6b8a2474066c5e7601a93ed1f17",
       "Requirements": []
     },
     "nlme": {
