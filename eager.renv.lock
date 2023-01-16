@@ -269,10 +269,10 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "0.11.4.2.1",
+      "Version": "0.11.4.3.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "5fa867879a70ed6df6ae4ed7f392fba2",
+      "Hash": "836c1aeec6a7a2b28273bd42a0511a9e",
       "Requirements": [
         "Rcpp"
       ]
@@ -2375,13 +2375,13 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "0.5.2",
+      "Version": "0.5.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://gitlab.pik-potsdam.de/lpjml/lpjmlkit.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "be2d215c9d062e7e8b0d504dadc86081a6e0a89d",
-      "Hash": "572bc1f6712cd7431a809216eee9c073",
+      "RemoteSha": "6dae2840b1305daffde1a63e5998410a1f399c0f",
+      "Hash": "9e50663b37cae8ed0cce5d7377829320",
       "Requirements": [
         "abind",
         "doParallel",
@@ -4699,10 +4699,10 @@
     },
     "styler": {
       "Package": "styler",
-      "Version": "1.8.1",
+      "Version": "1.9.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b110e54b8d57031bbc736cab58455bfd",
+      "Hash": "1c038945a5e14cce208f5214c1dd167c",
       "Requirements": [
         "R.cache",
         "cli",

@@ -2698,13 +2698,13 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "0.5.2",
+      "Version": "0.5.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://gitlab.pik-potsdam.de/lpjml/lpjmlkit.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "be2d215c9d062e7e8b0d504dadc86081a6e0a89d",
-      "Hash": "572bc1f6712cd7431a809216eee9c073",
+      "RemoteSha": "6dae2840b1305daffde1a63e5998410a1f399c0f",
+      "Hash": "9e50663b37cae8ed0cce5d7377829320",
       "Requirements": [
         "abind",
         "doParallel",
