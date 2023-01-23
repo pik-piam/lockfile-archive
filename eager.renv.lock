@@ -15,16 +15,10 @@
   "Packages": {
     "BH": {
       "Package": "BH",
-      "Version": "1.78.0-0",
+      "Version": "1.81.0-1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "RemoteType": "standard",
-      "RemotePkgRef": "BH",
-      "RemoteRef": "BH",
-      "RemoteRepos": "https://cloud.r-project.org",
-      "RemotePkgPlatform": "source",
-      "RemoteSha": "1.78.0-0",
-      "Hash": "4e348572ffcaa2fb1e610e7a941f6f3a",
+      "Hash": "68122010f01c4dcfbe58ce7112f2433d",
       "Requirements": []
     },
     "Brobdingnag": {
@@ -261,10 +255,10 @@
     },
     "Rcpp": {
       "Package": "Rcpp",
-      "Version": "1.0.9",
+      "Version": "1.0.10",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "e9c08b94391e9f3f97355841229124f2",
+      "Hash": "e749cae40fa9ef469b6050959517453c",
       "Requirements": []
     },
     "RcppArmadillo": {
@@ -1357,10 +1351,10 @@
     },
     "fansi": {
       "Package": "fansi",
-      "Version": "1.0.3",
+      "Version": "1.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "83a8afdbe71839506baa9f90eebad7ec",
+      "Hash": "1d9e7ad3c8312a192dea7d3db0274fde",
       "Requirements": []
     },
     "farver": {
@@ -1630,10 +1624,10 @@
     },
     "ggiraph": {
       "Package": "ggiraph",
-      "Version": "0.8.5",
+      "Version": "0.8.6",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "602d3e92331816c7b68be832040595f3",
+      "Hash": "8b505f525831a54fa0149f457048f7a0",
       "Requirements": [
         "Rcpp",
         "ggplot2",
@@ -5132,10 +5126,10 @@
     },
     "vroom": {
       "Package": "vroom",
-      "Version": "1.6.0",
+      "Version": "1.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "64f81fdead6e0d250fb041e175d123ab",
+      "Hash": "7015a74373b83ffaef64023f4a0f5033",
       "Requirements": [
         "bit64",
         "cli",
