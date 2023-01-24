@@ -140,10 +140,10 @@
     },
     "MASS": {
       "Package": "MASS",
-      "Version": "7.3-58.1",
+      "Version": "7.3-58.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "762e1804143a332333c054759f89a706",
+      "Hash": "e02d1a0f6122fd3e634b25b433704344",
       "Requirements": []
     },
     "MagpieNCGains": {
@@ -785,10 +785,10 @@
     },
     "class": {
       "Package": "class",
-      "Version": "7.3-20",
+      "Version": "7.3-21",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "da09d82223e669d270e47ed24ac8686e",
+      "Hash": "8ae0d4328e2eb3a582dfd5391a3663b7",
       "Requirements": [
         "MASS"
       ]
@@ -855,10 +855,10 @@
     },
     "colorspace": {
       "Package": "colorspace",
-      "Version": "2.0-3",
+      "Version": "2.1-0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "bb4341986bc8b914f0f0acf2e4a3f2f7",
+      "Hash": "f20c47fd52fae58b4e377c37bb8c335b",
       "Requirements": []
     },
     "colourpicker": {
@@ -1403,10 +1403,10 @@
     },
     "flexdashboard": {
       "Package": "flexdashboard",
-      "Version": "0.6.0",
+      "Version": "0.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "48cdd2388a484f7228074265b5498047",
+      "Hash": "66aa31fb4b18c053cd20753523073742",
       "Requirements": [
         "bslib",
         "htmltools",
@@ -1474,10 +1474,10 @@
     },
     "fs": {
       "Package": "fs",
-      "Version": "1.5.2",
+      "Version": "1.6.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7c89603d81793f0d5486d91ab1fc6f1d",
+      "Hash": "0120e8c933bace1141e0b0d376b0c010",
       "Requirements": []
     },
     "future": {
@@ -2434,13 +2434,13 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "0.5.10",
+      "Version": "0.5.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://gitlab.pik-potsdam.de/lpjml/lpjmlkit.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2cc14077dbb67382c8d8ebfcb405a32926894044",
-      "Hash": "1cdef6a2641acc5acc288d8bcae8b8ae",
+      "RemoteSha": "527ad0ca9c019d4f30b1b7e666fe137a83a3f03d",
+      "Hash": "cfdf336def56ca2c6ebb196ae7dc2641",
       "Requirements": [
         "abind",
         "doParallel",
@@ -2547,13 +2547,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.30.3",
+      "Version": "0.30.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "610854b1076fc26220d43ea712dd884ea6482229",
-      "Hash": "bed87bd5d254b3b7ca2d1c153d415145",
+      "RemoteSha": "4ed2b7c332f6a329f9732838a36f8f27cfe72407",
+      "Hash": "deba887ff01975593765e8c488f3039b",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -3010,13 +3010,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.42.1",
+      "Version": "0.42.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c07c9109fcb148759128f08a20f022078bf40cbd",
-      "Hash": "9497c09df686927e5f91ae229db959c1",
+      "RemoteSha": "5917ec39f7eb2456ce205723319870b44c2d3382",
+      "Hash": "f1b0d1154283caf76b1e3b5a5c976b40",
       "Requirements": [
         "SPEI",
         "countrycode",
@@ -3243,13 +3243,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.4.47",
+      "Version": "1.4.49",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "081c80443c8ded1e3a23d7522da7e3ec30c601c4",
-      "Hash": "7ece4779129f622c91bb7d986c5a51e0",
+      "RemoteSha": "f11653b5220f1b3e0ceef17b3a94b29a8cbba36e",
+      "Hash": "f415f2e72fb26948f8dda56cdd16bbf7",
       "Requirements": [
         "madrat",
         "magclass",
@@ -4019,12 +4019,13 @@
     },
     "readODS": {
       "Package": "readODS",
-      "Version": "1.7.0",
+      "Version": "1.8.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "371b78cba5ce7ff57c4a225bc0f9260d",
+      "Hash": "6cbfab165a9d86363941727612bddf19",
       "Requirements": [
         "cellranger",
+        "purrr",
         "readr",
         "stringi",
         "xml2"
@@ -4331,11 +4332,13 @@
     },
     "rnaturalearth": {
       "Package": "rnaturalearth",
-      "Version": "0.1.0",
+      "Version": "0.3.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "946d1b43d7aba91dfa804f02302a5125",
+      "Hash": "c97d05220a4112f461eb940f2633d091",
       "Requirements": [
+        "httr",
+        "jsonlite",
         "sf",
         "sp"
       ]
@@ -4497,10 +4500,10 @@
     },
     "sass": {
       "Package": "sass",
-      "Version": "0.4.4",
+      "Version": "0.4.5",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c76cbac7ca04ce82d8c38e29729987a3",
+      "Hash": "2bb4371a4c80115518261866eab6ab11",
       "Requirements": [
         "R6",
         "fs",
@@ -5093,10 +5096,10 @@
     },
     "vctrs": {
       "Package": "vctrs",
-      "Version": "0.5.1",
+      "Version": "0.5.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "970324f6572b4fd81db507b5d4062cb0",
+      "Hash": "e4ffa94ceed5f124d429a5a5f0f5b378",
       "Requirements": [
         "cli",
         "glue",
@@ -5272,10 +5275,10 @@
     },
     "yaml": {
       "Package": "yaml",
-      "Version": "2.3.6",
+      "Version": "2.3.7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9b570515751dcbae610f29885e025b41",
+      "Hash": "0d0056cc5383fbc240ccd0cb584bf436",
       "Requirements": []
     },
     "ymlthis": {
