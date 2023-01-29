@@ -2635,13 +2635,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.172.0",
+      "Version": "1.173.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2383b670a59a82490382d3e113d7178e0fac410b",
-      "Hash": "51e9691e1af7e514e9c175a9f5f6fd73",
+      "RemoteSha": "66da8ed269e28780c18535c5dd7ea4af149cbb97",
+      "Hash": "558cc4ee48f3e6a5acbcf810504d63e5",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -3013,13 +3013,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.45.1",
+      "Version": "0.45.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "03e56d8c2954a8bf1f77e7218c30b923ba717627",
-      "Hash": "9e20cb8df95c5215da8d141d115da505",
+      "RemoteSha": "411d647f71604a0cb89bbbfb777f1f76b4350ab0",
+      "Hash": "cc2cd9464b8a8d028f563061795808bf",
       "Requirements": [
         "SPEI",
         "countrycode",
