@@ -300,10 +300,10 @@
     },
     "RcppTOML": {
       "Package": "RcppTOML",
-      "Version": "0.2.1",
+      "Version": "0.2.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c41921872ee565ed7eb7d606874b39ed",
+      "Hash": "c232938949fcd8126034419cc529333a",
       "Requirements": [
         "Rcpp"
       ]
@@ -1203,12 +1203,13 @@
     },
     "dplyr": {
       "Package": "dplyr",
-      "Version": "1.0.10",
+      "Version": "1.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "539412282059f7f0c07295723d23f987",
+      "Hash": "d3c34618017e7ae252d46d79a1b9ec32",
       "Requirements": [
         "R6",
+        "cli",
         "generics",
         "glue",
         "lifecycle",
@@ -1435,19 +1436,17 @@
     },
     "forcats": {
       "Package": "forcats",
-      "Version": "0.5.2",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "9d95bc88206321cd1bc98480ecfd74bb",
+      "Hash": "1a0a9a3d5083d0d573c4214576f1e690",
       "Requirements": [
         "cli",
-        "ellipsis",
         "glue",
         "lifecycle",
         "magrittr",
         "rlang",
-        "tibble",
-        "withr"
+        "tibble"
       ]
     },
     "foreach": {
@@ -2549,13 +2548,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.33.2",
+      "Version": "0.34.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a46f199f1a3aec375aaa3c0e3ea9b31fa46873a7",
-      "Hash": "5bd3c9a4ab5baf258b5efe07c1b31a07",
+      "RemoteSha": "d0b8a00b1012d1336c47d706567cb06df73d1bb8",
+      "Hash": "42c2ebd25051752ec59dea1f7580308a",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -2635,13 +2634,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.173.3",
+      "Version": "1.173.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "66da8ed269e28780c18535c5dd7ea4af149cbb97",
-      "Hash": "558cc4ee48f3e6a5acbcf810504d63e5",
+      "RemoteSha": "b760eaea8e91f824fbea458e30a32ad19c9a930c",
+      "Hash": "caca6ce79eeb48dea7782f28845e44d4",
       "Requirements": [
         "dplyr",
         "gdx",
