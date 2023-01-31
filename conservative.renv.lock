@@ -2860,13 +2860,13 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "2.22.4",
+      "Version": "3.0.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "879ebc9112969f23801eedb37c31bd3530842676",
-      "Hash": "518af5ce104a95f30fa1fa7f3af98aa5",
+      "RemoteSha": "631bc5124d8fa7f0fa56d0e05473f2493fa1d279",
+      "Hash": "4620e110d1a214de73e19c9a2113e1c2",
       "Requirements": [
         "Matrix",
         "callr",
