@@ -2738,13 +2738,13 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.43.13",
+      "Version": "0.43.14",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
       "RemoteRef": "HEAD",
-      "RemoteSha": "0a3ac7c0dd733f78715a51e7505ee75ec6d3748b",
-      "Hash": "2cd1c70b70445770182e486eea016179",
+      "RemoteSha": "19c1abd3129fed278bc6afd319e31d0298feaea1",
+      "Hash": "12efe3a2be2769fade498e7073246f1f",
       "Requirements": [
         "callr",
         "citation",
@@ -2820,13 +2820,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.34.2",
+      "Version": "0.34.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d0b8a00b1012d1336c47d706567cb06df73d1bb8",
-      "Hash": "42c2ebd25051752ec59dea1f7580308a",
+      "RemoteSha": "9d5b3543975893eb145946e794f886c667e9f48c",
+      "Hash": "4caf28a5d311098ef1379185147caf01",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -2906,13 +2906,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.173.4",
+      "Version": "1.174.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b760eaea8e91f824fbea458e30a32ad19c9a930c",
-      "Hash": "caca6ce79eeb48dea7782f28845e44d4",
+      "RemoteSha": "6ad51bb1e35856aea99f97c67a74cb3886dfa758",
+      "Hash": "f7a7c9a53a01eb32a4cd043a9e297c9f",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -4335,13 +4335,13 @@
     },
     "rOpenscmRunner": {
       "Package": "rOpenscmRunner",
-      "Version": "0.3.2",
+      "Version": "0.3.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/rOpenscmRunner",
       "RemoteRef": "HEAD",
-      "RemoteSha": "af0980b03616818e59fe620b7cf9c457433cf8f0",
-      "Hash": "54b09c444ca4fa4e02a1494cdf571357",
+      "RemoteSha": "e1812658af118a3ed59d871dd9a350f4f99d6d6b",
+      "Hash": "d67b3087960023b484dd4f17638cc956",
       "Requirements": [
         "reticulate"
       ]
@@ -5424,22 +5424,17 @@
     },
     "tidyselect": {
       "Package": "tidyselect",
-      "Version": "1.1.2",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "RemoteType": "standard",
-      "RemotePkgRef": "tidyselect",
-      "RemoteRef": "tidyselect",
-      "RemoteRepos": "https://cran.rstudio.com",
-      "RemotePkgPlatform": "source",
-      "RemoteSha": "1.1.2",
-      "Hash": "17f6da8cfd7002760a859915ce7eef8f",
+      "Hash": "79540e5fcd9e0435af547d885f184fd5",
       "Requirements": [
-        "ellipsis",
+        "cli",
         "glue",
-        "purrr",
+        "lifecycle",
         "rlang",
-        "vctrs"
+        "vctrs",
+        "withr"
       ]
     },
     "tidyverse": {
