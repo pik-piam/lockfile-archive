@@ -850,10 +850,10 @@
     },
     "codetools": {
       "Package": "codetools",
-      "Version": "0.2-18",
+      "Version": "0.2-19",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "019388fc48e48b3da0d3a76ff94608a8",
+      "Hash": "c089a619a7fae175d149d89164f8c7d8",
       "Requirements": []
     },
     "colorspace": {
@@ -1262,10 +1262,10 @@
     },
     "e1071": {
       "Package": "e1071",
-      "Version": "1.7-12",
+      "Version": "1.7-13",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0d776df7577206e100c2c4b508208b10",
+      "Hash": "1046cb48d06cb40c2900d8878f03a0fe",
       "Requirements": [
         "class",
         "proxy"
@@ -1484,10 +1484,10 @@
     },
     "future": {
       "Package": "future",
-      "Version": "1.30.0",
+      "Version": "1.31.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d8a0dcbc9350c1e40edc644611d1ee15",
+      "Hash": "f3f0fbe5ce9b77c002f8c5170790538a",
       "Requirements": [
         "digest",
         "globals",
@@ -2425,10 +2425,10 @@
     },
     "lpSolve": {
       "Package": "lpSolve",
-      "Version": "5.6.17",
+      "Version": "5.6.18",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d990244b35d1458d4938f4f99d5f2b8b",
+      "Hash": "12c7a918599d5700e4265dd8a21f684f",
       "Requirements": []
     },
     "lpjclass": {
@@ -2447,13 +2447,13 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "0.5.18",
+      "Version": "0.5.21",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://gitlab.pik-potsdam.de/lpjml/lpjmlkit.git",
+      "RemoteUrl": "https://oauth2:Fucy61cDhiuyyh-ne2_1@gitlab.pik-potsdam.de/lpjml/lpjmlkit.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c0b639b052731a23acffc0853d380cfd1149c38e",
-      "Hash": "b87dd478d815eabf00beb9e5b21ab8e6",
+      "RemoteSha": "1d8b0309a25084d7ce9138f2ffe8bee4bc0df3c0",
+      "Hash": "97e8a49127cb1ef4c25331f7e077fe53",
       "Requirements": [
         "abind",
         "doParallel",
@@ -2560,13 +2560,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.34.5",
+      "Version": "0.34.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9d5b3543975893eb145946e794f886c667e9f48c",
-      "Hash": "4caf28a5d311098ef1379185147caf01",
+      "RemoteSha": "485aa025c56bda42739c22d5dc28ff42c2bffd1a",
+      "Hash": "c7340663e000bd129575243837de1e6b",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -2646,13 +2646,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.174.1",
+      "Version": "1.174.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "6ad51bb1e35856aea99f97c67a74cb3886dfa758",
-      "Hash": "f7a7c9a53a01eb32a4cd043a9e297c9f",
+      "RemoteSha": "572634b46fcd14a722bae2eff2f8f2cf34415f47",
+      "Hash": "58ee8443b78ba0fa5339294621284be7",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -2866,13 +2866,13 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.25.18",
+      "Version": "1.25.19",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f654a631ad0c0d1ad090bbaa51c7b8a0a0c8ff19",
-      "Hash": "a189f246181b22e5dda2c8a337349b60",
+      "RemoteSha": "2ae465866a49f542654f8a61daa50afb86e26a14",
+      "Hash": "25f44e31ca62c46c68f8d6c69d91bb51",
       "Requirements": [
         "GDPuc",
         "SPEI",
@@ -4736,10 +4736,10 @@
     },
     "sourcetools": {
       "Package": "sourcetools",
-      "Version": "0.1.7",
+      "Version": "0.1.7-1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "947e4e02a79effa5d512473e10f41797",
+      "Hash": "5f5a7629f956619d519205ec475fe647",
       "Requirements": []
     },
     "sp": {
@@ -5025,10 +5025,10 @@
     },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.43",
+      "Version": "0.44",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "facc02f3d63ed7dd765513c004c394ce",
+      "Hash": "c0f007e2eeed7722ce13d42b84a22e07",
       "Requirements": [
         "xfun"
       ]
