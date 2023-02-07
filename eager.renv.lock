@@ -1476,10 +1476,10 @@
     },
     "fs": {
       "Package": "fs",
-      "Version": "1.6.0",
+      "Version": "1.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "0120e8c933bace1141e0b0d376b0c010",
+      "Hash": "f4dcd23b67e33d851d2079f703e8b985",
       "Requirements": []
     },
     "future": {
@@ -2447,13 +2447,13 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "0.5.22",
+      "Version": "0.6.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlkit",
       "RemoteRef": "HEAD",
-      "RemoteSha": "11222be7f265537154e8dbb398e37c9e5d421e92",
-      "Hash": "6d7050bb3512b78c35e6461ea78f2db9",
+      "RemoteSha": "9a025e58223614243cde95d868011bd7e9e146ab",
+      "Hash": "17dca29bdf8eb6c4a167b68234947768",
       "Requirements": [
         "abind",
         "doParallel",
@@ -2646,13 +2646,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.174.4",
+      "Version": "1.175.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7c9eccb71aedaa0e06bfdfe89d2bccb4868de89a",
-      "Hash": "40b7584075cf52a9ed69e77159f16011",
+      "RemoteSha": "0838b07df0c1032b62c885d0e48979bdd5071368",
+      "Hash": "f61ca59ffe6f1dba89c70e5b639f7468",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -2866,13 +2866,13 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.25.20",
+      "Version": "1.25.22",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e6b0fb201dcf70a58530e6885b92c9da72d90c4d",
-      "Hash": "fb7e10904893d174027236aa77735f48",
+      "RemoteSha": "98424eb7e23794bb3cb3cf61ff65f88bd445b34a",
+      "Hash": "bf1f88ffc83c75fcb46482ef04007212",
       "Requirements": [
         "GDPuc",
         "SPEI",
@@ -3023,13 +3023,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.45.4",
+      "Version": "0.45.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4afff6edc7bf220e8cb9162b1431e8e9b1b75f2a",
-      "Hash": "a71272f7461fa6d52f25064e5ee2ec69",
+      "RemoteSha": "a970f6919d12a31b6266fed134c56f4fd1312ab3",
+      "Hash": "73484941a5cb6e48b1672065fb35370e",
       "Requirements": [
         "SPEI",
         "abind",
@@ -3054,13 +3054,13 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.30.2",
+      "Version": "1.30.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e84c6e621f505c0b78b5bc0f3ba53b9dd914630a",
-      "Hash": "6ea44a25022684dfd492ec18548b8864",
+      "RemoteSha": "034e1b7be5576369b52bc62c928342b268a43360",
+      "Hash": "4d870cd1f7072694df8d9b9600299441",
       "Requirements": [
         "class",
         "digest",
@@ -3439,10 +3439,10 @@
     },
     "openxlsx": {
       "Package": "openxlsx",
-      "Version": "4.2.5.1",
+      "Version": "4.2.5.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "e398ce13682a7409d16e13df09f65875",
+      "Hash": "c03b4c18d42da881fb8e15a085c2b9d6",
       "Requirements": [
         "Rcpp",
         "stringi",
@@ -3934,13 +3934,13 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3110.0",
+      "Version": "0.3110.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3b04598669b209c5d781acf934225b3dad9e4a13",
-      "Hash": "183a85ee11295303f52368a4a43f51ad",
+      "RemoteSha": "b00ad0a9ffb3fcdaa27043d19587b13cf372cabc",
+      "Hash": "0d5b824fc8718c501f27c89adbfb800f",
       "Requirements": [
         "countrycode",
         "dplyr",
