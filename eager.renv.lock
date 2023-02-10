@@ -96,14 +96,15 @@
     },
     "Hmisc": {
       "Package": "Hmisc",
-      "Version": "4.7-2",
+      "Version": "4.8-0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "38d81aab48fd9587c47c8dd20d8498cd",
+      "Hash": "2d227fca83c8ae9f69a86f55b263e8a5",
       "Requirements": [
         "Formula",
         "base64enc",
         "cluster",
+        "colorspace",
         "data.table",
         "foreign",
         "ggplot2",
@@ -2263,15 +2264,16 @@
     },
     "lavaan": {
       "Package": "lavaan",
-      "Version": "0.6-13",
+      "Version": "0.6-14",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "306b269e646d042cc5bdaeba2057d572",
+      "Hash": "f3d703f2c49bbb6439259a8d92c36315",
       "Requirements": [
         "MASS",
         "mnormt",
         "numDeriv",
-        "pbivnorm"
+        "pbivnorm",
+        "quadprog"
       ]
     },
     "lazyeval": {
@@ -2467,10 +2469,10 @@
     },
     "lubridate": {
       "Package": "lubridate",
-      "Version": "1.9.1",
+      "Version": "1.9.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "88ad585eb49669b7f2db3f5ef3c8307d",
+      "Hash": "e25f18436e3efd42c7c590a1c4c15390",
       "Requirements": [
         "generics",
         "timechange"
@@ -2560,13 +2562,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.34.14",
+      "Version": "0.34.16",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "86c776e26dd0d848d6b1cc0784006552d19a41f3",
-      "Hash": "382dcadf0912c691a7ed32b2d334d22c",
+      "RemoteSha": "0aa0b1e85752564fe06312bc329c9190958399b3",
+      "Hash": "70845a2886c6d25bcf499658a846a239",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -2646,13 +2648,13 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.175.1",
+      "Version": "1.176.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "0eb3bd3ff6c4f18adc7ff9a0bf3e3cb06e5eeab4",
-      "Hash": "269fa729a3f9a3d304355fb359486b9f",
+      "RemoteSha": "cfd53fb84b51ec68812b5135982818c5a934171f",
+      "Hash": "d29a57676683154f141140a0f1aa32cf",
       "Requirements": [
         "dplyr",
         "gdx",
@@ -3023,13 +3025,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.45.9",
+      "Version": "0.45.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "326c4d0b1ae3a9502003da0156931828b8985b36",
-      "Hash": "15ed3d0347f3d96d6859fc0d122bef0a",
+      "RemoteSha": "126238c24a743e481d1573470204c7d1ad107d16",
+      "Hash": "0ab5f4f39b901ba53eeda466df7c8211",
       "Requirements": [
         "SPEI",
         "abind",
@@ -3195,13 +3197,13 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.46.0",
+      "Version": "2.46.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e317dc2337d8a747bb2879319d0851cc339e6cf4",
-      "Hash": "5ab85cf117b00634b53a05f9b0c13492",
+      "RemoteSha": "9b6ae61142d7fd8b0f3b3486919b2f219cdefc4a",
+      "Hash": "c54ff76c9a371b2686adf4544f0d7b4f",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -3274,13 +3276,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.4.55",
+      "Version": "1.4.56",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f56593006351db870ee6e7ec69c2ce663ec7336e",
-      "Hash": "75127ae6615a3e912d2bdaecceb1895f",
+      "RemoteSha": "1fbe17fe36f10b92c39c70e8749290089282e0a2",
+      "Hash": "8b41dda1e80e7362cef1b3e024da831a",
       "Requirements": [
         "madrat",
         "magclass",
@@ -3288,7 +3290,8 @@
         "mrcommons",
         "mrland",
         "raster",
-        "stringr"
+        "stringr",
+        "withr"
       ]
     },
     "mrwaterplots": {
@@ -3895,6 +3898,14 @@
         "reshape2"
       ]
     },
+    "quadprog": {
+      "Package": "quadprog",
+      "Version": "1.5-8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5f919ae5e7f83a6f91dcf2288943370d",
+      "Requirements": []
+    },
     "qualV": {
       "Package": "qualV",
       "Version": "0.3-4",
@@ -4084,10 +4095,10 @@
     },
     "readxl": {
       "Package": "readxl",
-      "Version": "1.4.1",
+      "Version": "1.4.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "5c1fbc365ac0a3fe7728ac79108b8e64",
+      "Hash": "2e6020b1399d95f947ed867045e9ca17",
       "Requirements": [
         "cellranger",
         "cpp11",
