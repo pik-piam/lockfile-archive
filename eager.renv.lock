@@ -2298,13 +2298,13 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.44.0",
+      "Version": "2.44.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b093df4b671508ca614749f0a45e12f9dc19f577",
-      "Hash": "f57f285a2057fb554ea0b05b8759e915",
+      "RemoteSha": "0e3ab654acc0dbeb151d5ab8aa84c940b704e078",
+      "Hash": "a1cd90f7c2b12a202d0d5984b42f5f04",
       "Requirements": [
         "gdx",
         "luscale",
