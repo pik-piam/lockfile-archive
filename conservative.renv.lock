@@ -3321,13 +3321,13 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.46.3",
+      "Version": "0.46.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a5d769966a376595e53c6a9364f4d86c83ecaf28",
-      "Hash": "609b62982730cf6272bd05cb2d81a793",
+      "RemoteSha": "acc1ebddf0a5952c97d74e4e6d5109dbaf1ab13d",
+      "Hash": "fc870398e8ab6a7306930d0c71ae367c",
       "Requirements": [
         "SPEI",
         "abind",
@@ -3555,13 +3555,13 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.4.57",
+      "Version": "1.4.58",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "bc2273cddb9aa887262bdd8e428db1cb14f1012f",
-      "Hash": "07ced046d8db6e772dae4cf98167a29e",
+      "RemoteSha": "b853b4626d7092368deca57db40cb200f57e1a7d",
+      "Hash": "65e3a003d186306cb16a878c1eb855ba",
       "Requirements": [
         "madrat",
         "magclass",
