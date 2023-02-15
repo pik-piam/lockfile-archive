@@ -6,4 +6,4 @@ The following is meant to be run regularly by a cronjob:
 ```
 Rscript update_lockfiles.R
 ```
-This will create `conservative.renv.lock`: a snapshot of all pik packages and their (optional) dependencies on the current system without renv. Then it will switch into an renv including all these packages, update all packages, and create a snapshot of that renv, which is called `eager.renv.lock`. Both lockfiles will be commited, a git tag with the current date is created, and pushed to this repo.
+This will create `conservative.renv.lock`: a snapshot of all pik packages and their (optional) dependencies on the current system without renv. Then it will switch into an renv including all these packages, update all packages including from CRAN, and create a snapshot of that renv, which is called `eager.renv.lock`. Both lockfiles will be commited, a git tag with the current date is created, and pushed to this repo.
