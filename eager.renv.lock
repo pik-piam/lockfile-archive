@@ -4845,10 +4845,10 @@
     },
     "styler": {
       "Package": "styler",
-      "Version": "1.9.0",
+      "Version": "1.9.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "1c038945a5e14cce208f5214c1dd167c",
+      "Hash": "ed8c90822b7da46beee603f263a85fe0",
       "Requirements": [
         "R.cache",
         "cli",
