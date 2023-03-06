@@ -3459,13 +3459,13 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.46.1",
+      "Version": "2.46.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9b6ae61142d7fd8b0f3b3486919b2f219cdefc4a",
-      "Hash": "c54ff76c9a371b2686adf4544f0d7b4f",
+      "RemoteSha": "58eccb8f3eab48ac92f1260aabc82b6e9c0de10f",
+      "Hash": "3ae612fff18919467e80b177d7c8dee2",
       "Requirements": [
         "GDPuc",
         "dplyr",
