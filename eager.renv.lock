@@ -96,10 +96,10 @@
     },
     "Hmisc": {
       "Package": "Hmisc",
-      "Version": "4.8-0",
+      "Version": "5.0-0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "2d227fca83c8ae9f69a86f55b263e8a5",
+      "Hash": "ce9dbb77edfba7153098e3f7d964290d",
       "Requirements": [
         "Formula",
         "base64enc",
@@ -112,9 +112,11 @@
         "gtable",
         "htmlTable",
         "htmltools",
+        "knitr",
         "lattice",
         "latticeExtra",
         "nnet",
+        "rmarkdown",
         "rpart",
         "survival",
         "viridis"
@@ -1764,13 +1766,13 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.24.1",
+      "Version": "0.24.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/gms",
       "RemoteRef": "HEAD",
-      "RemoteSha": "cf2596fbaa2aa1938246663089412c108dac571a",
-      "Hash": "1821561e8b7a765ae8d155fad97c8a78",
+      "RemoteSha": "4448e228c0c19755f2642a3ea219a492cc3b507a",
+      "Hash": "92ce1d9b71138f7ae9b6e825f34499ce",
       "Requirements": [
         "dplyr",
         "filelock",
@@ -2593,13 +2595,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.34.26",
+      "Version": "0.34.27",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "cdf489e328796e4792b27a0fd4b9f1f5fbea2f14",
-      "Hash": "4cfca5e76940f6ca1a1b686b4e3dc2a0",
+      "RemoteSha": "353c41236ea3e28b5e323522e7e43a5faaa0c644",
+      "Hash": "a4a251532c8d8cc7123aaf8bb3ad5760",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -2826,13 +2828,13 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.141.2",
+      "Version": "0.141.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mip",
       "RemoteRef": "HEAD",
-      "RemoteSha": "327d82ca8aea2a02bf8d69a10504942976192df5",
-      "Hash": "490b3363a8ae3705559151c7625752eb",
+      "RemoteSha": "fc398765e4ca7a7d49a15db092c53c494e1fb7ca",
+      "Hash": "a979a3dcaf0505ea2a3a8429e01dc383",
       "Requirements": [
         "RColorBrewer",
         "data.table",
@@ -3086,13 +3088,13 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.34.8",
+      "Version": "1.34.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f3f12d2c73729320e813160a819bf0300dac8121",
-      "Hash": "eaf8aaaf53158af4f445632d11b1af0d",
+      "RemoteSha": "752049c21dcea93ed57ccff8876360ac5c33e98d",
+      "Hash": "b07793b8d17c12f02fee8138ab023ad7",
       "Requirements": [
         "abind",
         "class",
@@ -3137,13 +3139,13 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.155.4",
+      "Version": "0.155.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "41ef3c08a5abb044bfaef0d291c09a3ba78d2dd6",
-      "Hash": "639f9d7c4d5224b55543510730191e0a",
+      "RemoteSha": "162876e82ca622f61c4eb32bf4b19fc6b4005dc7",
+      "Hash": "04f87db167396a140ed6d3a0e54aafe5",
       "Requirements": [
         "Hmisc",
         "R.utils",
@@ -4072,10 +4074,10 @@
     },
     "raster": {
       "Package": "raster",
-      "Version": "3.6-14",
+      "Version": "3.6-20",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "2406e2380237f4dcf84e83260419895a",
+      "Hash": "ebebd9f0f203a129eb2da96470191b82",
       "Requirements": [
         "Rcpp",
         "sp",
@@ -4915,10 +4917,10 @@
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.7-3",
+      "Version": "1.7-18",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "230c4bfbb6aae92d92ef9762b683541e",
+      "Hash": "5db3d690ad42a1828d3bf9e063c98587",
       "Requirements": [
         "Rcpp"
       ]
