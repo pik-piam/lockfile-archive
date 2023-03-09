@@ -2816,13 +2816,13 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.34.31",
+      "Version": "0.34.32",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f80a65550cf5d041bd361005027dede4e3680f52",
-      "Hash": "b480d518597206a691b6a551c60e586f",
+      "RemoteSha": "aab8da21f772c6c8ad1f2dc38c2a58e69b632c48",
+      "Hash": "f6920aa9e6a72ae536e18020b2cff9e9",
       "Requirements": [
         "DT",
         "RColorBrewer",
@@ -3368,13 +3368,13 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.155.6",
+      "Version": "0.155.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "162876e82ca622f61c4eb32bf4b19fc6b4005dc7",
-      "Hash": "04f87db167396a140ed6d3a0e54aafe5",
+      "RemoteSha": "1f3a17233a453b695d614605418b16ee4370f5db",
+      "Hash": "860b028aee41a9fdec5f54ae199d4909",
       "Requirements": [
         "Hmisc",
         "R.utils",
