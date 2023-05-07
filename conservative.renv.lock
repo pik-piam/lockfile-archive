@@ -3861,12 +3861,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.6.6",
+      "Version": "1.6.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e42905c59758f3bd88326159f0ca0b4a084ed4ba",
+      "RemoteSha": "025756c2fdfe56d2f7210120f8720d634ea1e71b",
       "Requirements": [
         "R",
         "madrat",
@@ -3880,7 +3880,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "85b6217307ad0b995ee7382ed36df797"
+      "Hash": "aa4d4219a830907fa47c20e63f7f6bb0"
     },
     "mstools": {
       "Package": "mstools",
