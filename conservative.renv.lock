@@ -3126,12 +3126,12 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.3.0",
+      "Version": "3.3.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "13ae8c0f0cf54931f38d81581ceb0b9752d5f7b9",
+      "RemoteSha": "625b75f9d2ac5dea8efb23c6bd83989bd672bbe8",
       "Requirements": [
         "Matrix",
         "R",
@@ -3148,7 +3148,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "c4560bab1ef37912de55027393ae9ab4"
+      "Hash": "e0dfd86de070fadb092887d1d73466a6"
     },
     "magclass": {
       "Package": "magclass",
@@ -3861,12 +3861,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.6.7",
+      "Version": "1.6.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "025756c2fdfe56d2f7210120f8720d634ea1e71b",
+      "RemoteSha": "65d3ee53111e1c7287266a83f59660ea14694264",
       "Requirements": [
         "R",
         "madrat",
@@ -3880,7 +3880,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "aa4d4219a830907fa47c20e63f7f6bb0"
+      "Hash": "c36f4c7ff322b72ed557a6b9afea3aec"
     },
     "mstools": {
       "Package": "mstools",
@@ -4150,12 +4150,12 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.0.87",
+      "Version": "0.0.88",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5601cccc5d5201f3c91ddc818df4593250ab72d8",
+      "RemoteSha": "c10a9550c6c1334e9775765c0b4ee1427152172a",
       "Requirements": [
         "data.table",
         "dplyr",
@@ -4170,7 +4170,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "f8c9d4fe2b3f534fe8d0294f9dfe87e6"
+      "Hash": "dcb4d40a6ff573685169a94146e657c7"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4653,12 +4653,12 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3116.0",
+      "Version": "0.3116.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9212adef1c4660f2859eae3e182c59240010fd57",
+      "RemoteSha": "a39191329fb730f89620b99dab4ee975385c9478",
       "Requirements": [
         "R",
         "countrycode",
@@ -4687,7 +4687,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "3e279bb166235fd901d314f1715605b8"
+      "Hash": "e21857897e6a7feda152825c8359b2ad"
     },
     "r2databus": {
       "Package": "r2databus",
@@ -5005,13 +5005,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.17.2",
+      "Version": "0.17.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
-      "Hash": "aaf3c7f769695266a2113db67a25148b"
+      "Hash": "4543b8cd233ae25c6aba8548be9e747e"
     },
     "reprex": {
       "Package": "reprex",
