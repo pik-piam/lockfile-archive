@@ -3126,12 +3126,12 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.3.1",
+      "Version": "3.3.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "625b75f9d2ac5dea8efb23c6bd83989bd672bbe8",
+      "RemoteSha": "377c4594457b8f945d8d0a5c0bae7db7dafb4b34",
       "Requirements": [
         "Matrix",
         "R",
@@ -3148,7 +3148,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "e0dfd86de070fadb092887d1d73466a6"
+      "Hash": "5914027a0d3eb299ea3a0a9fa89a061c"
     },
     "magclass": {
       "Package": "magclass",
@@ -3180,12 +3180,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.185.4",
+      "Version": "1.185.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8173d12df1a553e7bb9608e31a1653e1f304aeac",
+      "RemoteSha": "5dc85f1c25d82323844b30f34b4676590242ba6e",
       "Requirements": [
         "R",
         "dplyr",
@@ -3208,7 +3208,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "d207af9e1a6570ddef43f5b230a2daad"
+      "Hash": "4290d078bcf0e2f6295b9ce08f3ea934"
     },
     "magpiesets": {
       "Package": "magpiesets",
