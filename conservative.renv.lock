@@ -2169,12 +2169,12 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.25.3",
+      "Version": "0.25.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/gms",
       "RemoteRef": "HEAD",
-      "RemoteSha": "899a7691cfdff46fedff5b23dd7da911990f56b6",
+      "RemoteSha": "c1c692266e9369cf0ba14bb6967d58a79e731db0",
       "Requirements": [
         "dplyr",
         "filelock",
@@ -2183,7 +2183,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "38b5928aeb66b7288356c4ba203933a2"
+      "Hash": "ee7e404e8ba849f05d73e7ce095364bd"
     },
     "goftest": {
       "Package": "goftest",
@@ -3124,6 +3124,47 @@
       ],
       "Hash": "04e7987b44b5729e5b3fe1db50314573"
     },
+    "m4fsdp": {
+      "Package": "m4fsdp",
+      "Version": "0.46.4",
+      "Source": "Repository",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "37fa1e787e4c0568714b576091be5b72632f1113",
+      "Requirements": [
+        "DT",
+        "R",
+        "RColorBrewer",
+        "cartogram",
+        "data.table",
+        "dplyr",
+        "gdx",
+        "ggh4x",
+        "ggiraph",
+        "ggplot2",
+        "ggtext",
+        "htmlwidgets",
+        "knitr",
+        "madrat",
+        "magclass",
+        "magpie4",
+        "magpiesets",
+        "patchwork",
+        "quitte",
+        "readxl",
+        "rlang",
+        "rmarkdown",
+        "rnaturalearth",
+        "scales",
+        "sf",
+        "stats",
+        "stringr",
+        "terra",
+        "tidyr"
+      ],
+      "Hash": "8feee16b99a5d0570de96040b56dac84"
+    },
     "madrat": {
       "Package": "madrat",
       "Version": "3.3.2",
@@ -3180,12 +3221,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.185.5",
+      "Version": "1.186.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5dc85f1c25d82323844b30f34b4676590242ba6e",
+      "RemoteSha": "586d771ef57c6a7ea9fa89ac39a08df59e216de6",
       "Requirements": [
         "R",
         "dplyr",
@@ -3208,7 +3249,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "4290d078bcf0e2f6295b9ce08f3ea934"
+      "Hash": "bedb7290644a82486d281f22cf7fe8f6"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3861,12 +3902,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.6.8",
+      "Version": "1.6.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "65d3ee53111e1c7287266a83f59660ea14694264",
+      "RemoteSha": "0053a71aa8b8535db366d8e2f753026c3a19e042",
       "Requirements": [
         "R",
         "madrat",
@@ -3880,7 +3921,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "c36f4c7ff322b72ed557a6b9afea3aec"
+      "Hash": "287d7f6694ace559f5353704b00c44e2"
     },
     "mstools": {
       "Package": "mstools",
