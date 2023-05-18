@@ -467,21 +467,15 @@
     },
     "StanHeaders": {
       "Package": "StanHeaders",
-      "Version": "2.21.0-7",
+      "Version": "2.26.25",
       "Source": "Repository",
       "Repository": "CRAN",
-      "RemoteType": "standard",
-      "RemotePkgRef": "StanHeaders",
-      "RemoteRef": "StanHeaders",
-      "RemoteRepos": "https://cloud.r-project.org",
-      "RemotePkgPlatform": "source",
-      "RemoteSha": "2.21.0-7",
       "Requirements": [
         "R",
         "RcppEigen",
         "RcppParallel"
       ],
-      "Hash": "0459d4dd7a8c239be18469a30c23dd4b"
+      "Hash": "929e3524e31287dab487e63018c5dab7"
     },
     "TLMoments": {
       "Package": "TLMoments",
@@ -3076,12 +3070,12 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.3.2",
+      "Version": "3.3.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "377c4594457b8f945d8d0a5c0bae7db7dafb4b34",
+      "RemoteSha": "f55f80e123634cf6368642cc2d9843b010f8e1e6",
       "Requirements": [
         "Matrix",
         "R",
@@ -3098,7 +3092,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "5914027a0d3eb299ea3a0a9fa89a061c"
+      "Hash": "20018c7d6b804382fe51cc9f49d26297"
     },
     "magclass": {
       "Package": "magclass",
@@ -3130,12 +3124,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.186.1",
+      "Version": "1.188.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "433bd11e86e8800e82b33666fcfca3050b3074d5",
+      "RemoteSha": "efa72c6c6534d941e2c42f04ab438291acc04526",
       "Requirements": [
         "R",
         "dplyr",
@@ -3158,7 +3152,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "ccfd6a9ff230b18244a5c91881ce0d5f"
+      "Hash": "87512667c5347fc9f9409f2beb2d8be5"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -5281,7 +5275,7 @@
     },
     "s2": {
       "Package": "s2",
-      "Version": "1.1.3",
+      "Version": "1.1.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5289,7 +5283,7 @@
         "Rcpp",
         "wk"
       ],
-      "Hash": "e162ffd6ff4bde5264584be359a06f88"
+      "Hash": "f1cbe03bb3346f8e817518ffa20f9f5a"
     },
     "sandwich": {
       "Package": "sandwich",
