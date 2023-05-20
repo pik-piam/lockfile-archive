@@ -3829,24 +3829,23 @@
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
-      "Version": "1.0.12",
+      "Version": "1.0.13",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/mrwaterplots",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b153077aa9d25a6a1ca4893359028b2f860b223c",
+      "RemoteSha": "7b4f02950f69abd325acdf37d226fd3e418fb6f3",
       "Requirements": [
         "R",
         "grDevices",
         "madrat",
         "magclass",
-        "raster",
         "sf",
         "sp",
         "terra",
         "utils"
       ],
-      "Hash": "8feba18f6a3ffe7f3cbfb5194739229b"
+      "Hash": "ce2be968db12b1fa0c2534b752255d20"
     },
     "mstools": {
       "Package": "mstools",
