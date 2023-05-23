@@ -4960,12 +4960,12 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.108.1",
+      "Version": "1.110.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e66ab2bd4d65a0f9c6800a00d3d1e15660799fd2",
+      "RemoteSha": "e22e4f255ebf77f89a635b1bd80837d7826356ba",
       "Requirements": [
         "RColorBrewer",
         "abind",
@@ -5007,7 +5007,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "35401886e7e51396cee6d17979cfa514"
+      "Hash": "5cf58364de2123ae9fe50e21f6098485"
     },
     "remotes": {
       "Package": "remotes",
