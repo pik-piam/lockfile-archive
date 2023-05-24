@@ -1605,12 +1605,12 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "0.30.0",
+      "Version": "0.31.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "49223ea6ad599b6ab0c0c400392ed43f07200122",
+      "RemoteSha": "75cadc8e7cad6215010475b19c74cf8a745fa278",
       "Requirements": [
         "R",
         "data.table",
@@ -1632,7 +1632,7 @@
         "ymlthis",
         "zoo"
       ],
-      "Hash": "7e094e3b3637e9ac31b20284f91fb1d8"
+      "Hash": "c52482e396bfda881c2e3ec9166e47c5"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3470,12 +3470,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.11.7",
+      "Version": "0.11.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "446b43189008c74a000bf1ffb98cfc0e1ef20b4e",
+      "RemoteSha": "8a55fbc0a64ce44e33b363cdc3e1f649e0431d8a",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3486,9 +3486,10 @@
         "piamModelTests",
         "quitte",
         "remind2",
-        "utils"
+        "utils",
+        "withr"
       ],
-      "Hash": "07f0ab0fa546a7b837886b6c16c1abdf"
+      "Hash": "09352e94e34ffae2491a0064bb22a94c"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3727,17 +3728,18 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.163.0",
+      "Version": "0.163.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e6d3fdbfe407328db5f253e19dd6d7167bb9f3e0",
+      "RemoteSha": "2402b90c2008cdf1c552c0504cfc6370dbf48cad",
       "Requirements": [
         "Hmisc",
         "R",
         "R.utils",
         "assertr",
+        "assertthat",
         "broom",
         "car",
         "countrycode",
@@ -3749,21 +3751,26 @@
         "madrat",
         "magclass",
         "magrittr",
+        "mgsub",
         "mrcommons",
         "mrdrivers",
+        "nnls",
         "plyr",
         "purrr",
         "quitte",
+        "readODS",
         "readr",
         "readxl",
+        "reshape",
         "reshape2",
         "rlang",
+        "rmndt",
         "tibble",
         "tidyr",
         "tidyselect",
         "zoo"
       ],
-      "Hash": "c0a80242d900963a10b84f4a64e96616"
+      "Hash": "eec576e7a7be326adfc2b9dcb7ad1b77"
     },
     "mrsoil": {
       "Package": "mrsoil",
