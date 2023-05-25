@@ -4847,12 +4847,12 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.110.0",
+      "Version": "1.110.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e22e4f255ebf77f89a635b1bd80837d7826356ba",
+      "RemoteSha": "e6ab2dbeaf82ae130821f9f2cd2fc28107f58a89",
       "Requirements": [
         "RColorBrewer",
         "abind",
@@ -4894,7 +4894,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "5cf58364de2123ae9fe50e21f6098485"
+      "Hash": "3ebad0bb9ba5aa746d6a61dfbb57efa1"
     },
     "remotes": {
       "Package": "remotes",
@@ -5364,7 +5364,7 @@
     },
     "sf": {
       "Package": "sf",
-      "Version": "1.0-12",
+      "Version": "1.0-13",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5383,7 +5383,7 @@
         "units",
         "utils"
       ],
-      "Hash": "5b41b4f0bd22b38661d82205a87deb4b"
+      "Hash": "8fb4839843abc03528ff9f86424d6acd"
     },
     "shiny": {
       "Package": "shiny",
@@ -5616,7 +5616,7 @@
     },
     "styler": {
       "Package": "styler",
-      "Version": "1.9.1",
+      "Version": "1.10.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5631,7 +5631,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "ed8c90822b7da46beee603f263a85fe0"
+      "Hash": "24f7192497d696c39d3b39b2e29a039d"
     },
     "survival": {
       "Package": "survival",
