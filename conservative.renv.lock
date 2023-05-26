@@ -3221,12 +3221,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.188.0",
+      "Version": "1.188.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "efa72c6c6534d941e2c42f04ab438291acc04526",
+      "RemoteSha": "e8167542fd2b885baa56458218c5a7ab2b409cd9",
       "Requirements": [
         "R",
         "dplyr",
@@ -3249,7 +3249,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "87512667c5347fc9f9409f2beb2d8be5"
+      "Hash": "bb2967b0bffaceda519ff37e04148e1e"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3470,12 +3470,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.11.8",
+      "Version": "0.13.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8a55fbc0a64ce44e33b363cdc3e1f649e0431d8a",
+      "RemoteSha": "8ddf31fb60723211cecb9eff106c90ba719d2ad9",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3489,7 +3489,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "09352e94e34ffae2491a0064bb22a94c"
+      "Hash": "4622ea19ea3be4ef05f00cb7987554ac"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3691,12 +3691,12 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.35.3",
+      "Version": "1.35.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4321874f4a56abae16ffadf9e7ab86b3c5e5bd19",
+      "RemoteSha": "1927b18a48fa48b014803058b503ba981f1ae4cd",
       "Requirements": [
         "R",
         "abind",
@@ -3724,7 +3724,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "000ed4ae132922ff27e505eddf0c1f4f"
+      "Hash": "caf33c8604bf111bf217a8920c7a196f"
     },
     "mrremind": {
       "Package": "mrremind",
