@@ -3191,7 +3191,7 @@
     },
     "maptools": {
       "Package": "maptools",
-      "Version": "1.1-6",
+      "Version": "1.1-7",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3205,7 +3205,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "cd65b7fe71f03fca368a1e93db5ed91b"
+      "Hash": "14bf7aecce168085c4acb0acee2ad82d"
     },
     "markdown": {
       "Package": "markdown",
@@ -3613,12 +3613,12 @@
     },
     "mrorganic": {
       "Package": "mrorganic",
-      "Version": "0.5.4",
+      "Version": "0.5.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/tscheypidi/mrorganic",
       "RemoteRef": "HEAD",
-      "RemoteSha": "61e13685d3a0b7c64242482c829e6528a4254f8f",
+      "RemoteSha": "67e2dfc92e20fa7dc2a57fff7be8f55eac112af4",
       "Requirements": [
         "R",
         "geodata",
@@ -3628,7 +3628,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "4f8a27ac507f5c8401f7106680db2afb"
+      "Hash": "29ab438d44b78ac9cec76ee26dd3f9f1"
     },
     "mrremind": {
       "Package": "mrremind",
