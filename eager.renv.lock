@@ -3836,12 +3836,12 @@
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
-      "Version": "1.0.15",
+      "Version": "1.0.16",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/mrwaterplots",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e7e657b05b46d326529759a367d715fd9565a9ca",
+      "RemoteSha": "b5c7c5f9184f8b1515c6e1277ffdf8093365bbe3",
       "Requirements": [
         "R",
         "dplyr",
@@ -3857,7 +3857,7 @@
         "tidyselect",
         "utils"
       ],
-      "Hash": "5ef98e7bf0bf4e23fc16d09faacd7275"
+      "Hash": "34fd2b49960baf4746f1e3f14f252bb5"
     },
     "mstools": {
       "Package": "mstools",
@@ -5031,7 +5031,7 @@
     },
     "rgdal": {
       "Package": "rgdal",
-      "Version": "1.6-6",
+      "Version": "1.6-7",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5043,7 +5043,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "05c7c91191407d54da92816fb849ab29"
+      "Hash": "10b777236c9e7855bc9dea8e347e30b7"
     },
     "rjson": {
       "Package": "rjson",
@@ -5561,7 +5561,7 @@
     },
     "sp": {
       "Package": "sp",
-      "Version": "1.6-0",
+      "Version": "1.6-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5574,7 +5574,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "6674e075a078d9c3bde8ba800367347c"
+      "Hash": "ca27b2643e3593b7688244d035f2cd92"
     },
     "spam": {
       "Package": "spam",
