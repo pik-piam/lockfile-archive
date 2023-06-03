@@ -3470,12 +3470,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.13.0",
+      "Version": "0.14.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8ddf31fb60723211cecb9eff106c90ba719d2ad9",
+      "RemoteSha": "41ff9adffcc90cc29d5fa73c03df43233a1a8ba6",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3489,7 +3489,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "4622ea19ea3be4ef05f00cb7987554ac"
+      "Hash": "cf3b8294d0c78c728eca0094876c10b6"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3728,12 +3728,12 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.163.1",
+      "Version": "0.163.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2402b90c2008cdf1c552c0504cfc6370dbf48cad",
+      "RemoteSha": "42e719073aede60bfe21a057e4d22f46121315ed",
       "Requirements": [
         "Hmisc",
         "R",
@@ -3770,7 +3770,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "eec576e7a7be326adfc2b9dcb7ad1b77"
+      "Hash": "169191d3f0b1e3982506d83cc4da64e1"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4198,12 +4198,12 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.0.90",
+      "Version": "0.0.91",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "442c91b261d213810300b5f4197ca3d22da4b4d1",
+      "RemoteSha": "76d593c49d12564d89de71a6e4121d5a240d930d",
       "Requirements": [
         "data.table",
         "dplyr",
@@ -4218,7 +4218,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "a322ea864e58a3c1c85548283815f3c5"
+      "Hash": "fed3ce38e6c35df3caa146d019ebc2c4"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
