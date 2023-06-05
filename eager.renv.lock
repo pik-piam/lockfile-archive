@@ -3886,14 +3886,14 @@
     },
     "mvtnorm": {
       "Package": "mvtnorm",
-      "Version": "1.2-0",
+      "Version": "1.2-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "stats"
       ],
-      "Hash": "72ab76f16a4e34e3b3e41d68b6db6682"
+      "Hash": "c173af0ff1f3a9d4f6f4fbcc62d71c80"
     },
     "ncdf4": {
       "Package": "ncdf4",
