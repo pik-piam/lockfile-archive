@@ -2591,13 +2591,13 @@
     },
     "jsonlite": {
       "Package": "jsonlite",
-      "Version": "1.8.4",
+      "Version": "1.8.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "methods"
       ],
-      "Hash": "a4269a09a9b865579b2635c77e572374"
+      "Hash": "3ee4d9899e4db3e976fc82b98d24a31a"
     },
     "kableExtra": {
       "Package": "kableExtra",
@@ -3299,12 +3299,12 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.144.7",
+      "Version": "0.145.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mip",
       "RemoteRef": "HEAD",
-      "RemoteSha": "58ec7984b155022fd3dd8b5fe1ea731946974f7e",
+      "RemoteSha": "2614eb93798a1295753bb181041da99e7ce9d23a",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -3323,7 +3323,7 @@
         "tidyr",
         "trafficlight"
       ],
-      "Hash": "edeaa0dc35527a7f096c6145bb1a2d9e"
+      "Hash": "af2eb2ddbb4d61639f906ee969469302"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -3355,12 +3355,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.14.2",
+      "Version": "0.14.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "41ff9adffcc90cc29d5fa73c03df43233a1a8ba6",
+      "RemoteSha": "2cf91c98914d38f2c252f42b8a5f9e425fac3d8f",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3374,7 +3374,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "cf3b8294d0c78c728eca0094876c10b6"
+      "Hash": "1eec2607204e273c6b48e9885414ddfa"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -4851,12 +4851,12 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.111.1",
+      "Version": "1.111.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "215a6a3141d2d75803df4d0699995c83cab9045c",
+      "RemoteSha": "0b3f7e23e02025f81af6876be2795719e6fd0cba",
       "Requirements": [
         "RColorBrewer",
         "abind",
@@ -4898,7 +4898,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "ea35f1f868d7dbf5f0c8a8819f84def5"
+      "Hash": "a0f1a175a7fed2bec8f7657c220e4c95"
     },
     "remotes": {
       "Package": "remotes",
@@ -4999,7 +4999,7 @@
     },
     "reticulate": {
       "Package": "reticulate",
-      "Version": "1.28",
+      "Version": "1.29",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5013,10 +5013,11 @@
         "methods",
         "png",
         "rappdirs",
+        "rlang",
         "utils",
         "withr"
       ],
-      "Hash": "86c441bf33e1d608db773cb94b848458"
+      "Hash": "34a62f3943b5b8621c2215dda5d4d75c"
     },
     "rex": {
       "Package": "rex",
@@ -5620,7 +5621,7 @@
     },
     "styler": {
       "Package": "styler",
-      "Version": "1.10.0",
+      "Version": "1.10.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5635,7 +5636,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "24f7192497d696c39d3b39b2e29a039d"
+      "Hash": "b0911fdb2c682f526f6e9c131fd40a1f"
     },
     "survival": {
       "Package": "survival",
