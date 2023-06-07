@@ -3632,12 +3632,12 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.163.2",
+      "Version": "0.163.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "42e719073aede60bfe21a057e4d22f46121315ed",
+      "RemoteSha": "01362548064b7c4078fb4f3504ea380178044701",
       "Requirements": [
         "Hmisc",
         "R",
@@ -3674,7 +3674,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "169191d3f0b1e3982506d83cc4da64e1"
+      "Hash": "ead69006b3f18fb491e9e9e77c08776f"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -5120,7 +5120,7 @@
     },
     "rnaturalearth": {
       "Package": "rnaturalearth",
-      "Version": "0.3.2",
+      "Version": "0.3.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5129,9 +5129,10 @@
         "jsonlite",
         "sf",
         "sp",
+        "terra",
         "utils"
       ],
-      "Hash": "c97d05220a4112f461eb940f2633d091"
+      "Hash": "86411a59f5fc9534d8ea0c270d70cfa5"
     },
     "rootSolve": {
       "Package": "rootSolve",
@@ -5950,7 +5951,7 @@
     },
     "usethis": {
       "Package": "usethis",
-      "Version": "2.1.6",
+      "Version": "2.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5977,7 +5978,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "a67a22c201832b12c036cc059f1d137d"
+      "Hash": "a108160a30d25e9aca3444a130dd53d9"
     },
     "utf8": {
       "Package": "utf8",
