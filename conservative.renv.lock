@@ -3470,12 +3470,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.14.4",
+      "Version": "0.14.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2cf91c98914d38f2c252f42b8a5f9e425fac3d8f",
+      "RemoteSha": "9adc480680f5d5886dcb16298a3f9a1ef1910a80",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3489,7 +3489,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "1eec2607204e273c6b48e9885414ddfa"
+      "Hash": "eb81591c8435282797cdf96ad0243054"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3580,12 +3580,12 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.2.1",
+      "Version": "0.2.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "6c7ae444dd2da808d3de25251ea6fd14b6de3c74",
+      "RemoteSha": "34e3589a25ebbf29cbf8dbd3e24f97d1c902db1a",
       "Requirements": [
         "dplyr",
         "madrat",
@@ -3600,7 +3600,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "fbaa71b4f40b5da4efaee567af6da370"
+      "Hash": "8215ab84802feb85b4866acbc62a4ddf"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -4499,15 +4499,18 @@
     },
     "profvis": {
       "Package": "profvis",
-      "Version": "0.3.7",
+      "Version": "0.3.8",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "htmlwidgets",
-        "stringr"
+        "purrr",
+        "rlang",
+        "stringr",
+        "vctrs"
       ],
-      "Hash": "e9d21e79848e02e524bea6f5bd53e7e4"
+      "Hash": "aa5a3864397ce6ae03458f98618395a1"
     },
     "progress": {
       "Package": "progress",
@@ -4701,12 +4704,12 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3116.1",
+      "Version": "0.3116.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/quitte.git",
+      "RemoteUrl": "https://github.com/pik-piam/quitte",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a39191329fb730f89620b99dab4ee975385c9478",
+      "RemoteSha": "3142309332f6727d624491c746ba851d0d23c880",
       "Requirements": [
         "R",
         "countrycode",
@@ -4735,7 +4738,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "e21857897e6a7feda152825c8359b2ad"
+      "Hash": "eb15823c1324dbabccc1f81f48d0fcb0"
     },
     "r2databus": {
       "Package": "r2databus",
@@ -4967,12 +4970,12 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.111.2",
+      "Version": "1.112.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "0b3f7e23e02025f81af6876be2795719e6fd0cba",
+      "RemoteSha": "e65a7a26d78123bb39710a2d62be9362ba1ef9d2",
       "Requirements": [
         "RColorBrewer",
         "abind",
@@ -5014,7 +5017,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "a0f1a175a7fed2bec8f7657c220e4c95"
+      "Hash": "a5c4de4ec6bc60d935eb3071c6474f9e"
     },
     "remotes": {
       "Package": "remotes",
