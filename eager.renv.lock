@@ -3886,14 +3886,14 @@
     },
     "mvtnorm": {
       "Package": "mvtnorm",
-      "Version": "1.2-1",
+      "Version": "1.2-2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "stats"
       ],
-      "Hash": "c173af0ff1f3a9d4f6f4fbcc62d71c80"
+      "Hash": "ef6270cb713747aa8211620d6a47188d"
     },
     "ncdf4": {
       "Package": "ncdf4",
@@ -4603,12 +4603,12 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3116.2",
+      "Version": "0.3117.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3142309332f6727d624491c746ba851d0d23c880",
+      "RemoteSha": "9d9a776ab02f5f93e38fcca7d5c6e56685ae65f4",
       "Requirements": [
         "R",
         "countrycode",
@@ -4637,7 +4637,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "eb15823c1324dbabccc1f81f48d0fcb0"
+      "Hash": "77d0ffc1060282fe32c75fb0ee149391"
     },
     "r2databus": {
       "Package": "r2databus",
