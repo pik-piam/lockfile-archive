@@ -3035,12 +3035,12 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.44.1",
+      "Version": "0.44.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7ce746ea86f6242af1e78377127660e48be67fd5",
+      "RemoteSha": "aa67907eabc1ee704a428f23c86db3adf6487e3c",
       "Requirements": [
         "callr",
         "citation",
@@ -3050,13 +3050,12 @@
         "dplyr",
         "lintr",
         "rlang",
-        "styler",
         "tools",
         "usethis",
         "withr",
         "yaml"
       ],
-      "Hash": "e04b16ecb4a93e600f6c1e6aa5481fc4"
+      "Hash": "7ef834228ca7928e1fd0122686354b85"
     },
     "luplot": {
       "Package": "luplot",
@@ -3470,12 +3469,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.14.6",
+      "Version": "0.14.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9adc480680f5d5886dcb16298a3f9a1ef1910a80",
+      "RemoteSha": "acddafa958e4893102f0cb571f61927ddba8af5b",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3489,7 +3488,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "eb81591c8435282797cdf96ad0243054"
+      "Hash": "a18912f61a7e91b6c1918e2d1636e4c4"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3728,12 +3727,12 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.163.3",
+      "Version": "0.163.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "01362548064b7c4078fb4f3504ea380178044701",
+      "RemoteSha": "fc8e2e8acecc5a3e72d9e30236a4f13cbeb14afb",
       "Requirements": [
         "Hmisc",
         "R",
@@ -3770,7 +3769,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "ead69006b3f18fb491e9e9e77c08776f"
+      "Hash": "4a3c3eae11360111a22ea09bb73e7e5e"
     },
     "mrsoil": {
       "Package": "mrsoil",
