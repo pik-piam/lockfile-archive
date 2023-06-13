@@ -3035,12 +3035,12 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.44.3",
+      "Version": "0.44.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
       "RemoteRef": "HEAD",
-      "RemoteSha": "aa67907eabc1ee704a428f23c86db3adf6487e3c",
+      "RemoteSha": "b4148a7cdeac83bf8af906483e4a444daaeac335",
       "Requirements": [
         "callr",
         "citation",
@@ -3055,7 +3055,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "7ef834228ca7928e1fd0122686354b85"
+      "Hash": "09ecfe72305a202f2ac4e73b21e87417"
     },
     "luplot": {
       "Package": "luplot",
@@ -3492,12 +3492,12 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.30.7",
+      "Version": "1.30.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9044cd1899d3f64253cad48cc536f8aaddb70216",
+      "RemoteSha": "69ec6bceef2209f1d9c6fc5bbe5f22780c49ac17",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3527,7 +3527,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "c74647e039ebc89639e51161c09e8e12"
+      "Hash": "6455e3ce78d4ca6853f15d379ed60b89"
     },
     "mrdieter": {
       "Package": "mrdieter",
