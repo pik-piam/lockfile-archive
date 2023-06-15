@@ -467,7 +467,7 @@
     },
     "StanHeaders": {
       "Package": "StanHeaders",
-      "Version": "2.26.26",
+      "Version": "2.26.27",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -475,7 +475,7 @@
         "RcppEigen",
         "RcppParallel"
       ],
-      "Hash": "6b7d971cfe619a1e9fd111bf3b438cd1"
+      "Hash": "f29d708a8e830a90d8f6d2acf1734974"
     },
     "TLMoments": {
       "Package": "TLMoments",
@@ -2094,12 +2094,12 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.25.5",
+      "Version": "0.25.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/gms",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4dfce43257476c07cd4d886c6f6e6daeb39856cf",
+      "RemoteSha": "daca9a7d439bfd89aa056243f3c873bd2ec2d7c8",
       "Requirements": [
         "dplyr",
         "filelock",
@@ -2108,7 +2108,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "71aa7945e40b2029c0771523f34e1985"
+      "Hash": "04b7ac1cec6c66498e51182534098566"
     },
     "goftest": {
       "Package": "goftest",
@@ -3354,17 +3354,18 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.14.9",
+      "Version": "0.14.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d9a23aa333d3b55249d42e52373924a5f05db352",
+      "RemoteSha": "e1ee3e110975851eff579b161428f7a64795b28d",
       "Requirements": [
         "crayon",
         "dplyr",
         "gdx",
         "gms",
+        "gtools",
         "lucode2",
         "magclass",
         "piamModelTests",
@@ -3373,7 +3374,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "13fc058adb3db44978e3e7f9ce8411bb"
+      "Hash": "e6ee2d2d54a0d4f0bf958ccc24390c13"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -4113,12 +4114,12 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.0.91",
+      "Version": "0.0.92",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "76d593c49d12564d89de71a6e4121d5a240d930d",
+      "RemoteSha": "86a0286b7517e4e941b3c114692d145a64b688cf",
       "Requirements": [
         "data.table",
         "dplyr",
@@ -4133,7 +4134,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "fed3ce38e6c35df3caa146d019ebc2c4"
+      "Hash": "2aeacd482d16f1cbe635d39394e923d5"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4211,7 +4212,7 @@
     },
     "pkgbuild": {
       "Package": "pkgbuild",
-      "Version": "1.4.0",
+      "Version": "1.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4223,10 +4224,9 @@
         "desc",
         "prettyunits",
         "processx",
-        "rprojroot",
-        "withr"
+        "rprojroot"
       ],
-      "Hash": "d6c3008d79653a0f267703288230105e"
+      "Hash": "26505361723f8af3266b3008ed49de47"
     },
     "pkgconfig": {
       "Package": "pkgconfig",
@@ -4568,7 +4568,7 @@
     },
     "quantmod": {
       "Package": "quantmod",
-      "Version": "0.4.22",
+      "Version": "0.4.23",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4580,7 +4580,7 @@
         "xts",
         "zoo"
       ],
-      "Hash": "cc504f910a540b431e31ed317fd364d2"
+      "Hash": "4e22df5a2501e5f538a380c14ea852a4"
     },
     "quantreg": {
       "Package": "quantreg",
@@ -6001,7 +6001,7 @@
     },
     "vctrs": {
       "Package": "vctrs",
-      "Version": "0.6.2",
+      "Version": "0.6.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6011,7 +6011,7 @@
         "lifecycle",
         "rlang"
       ],
-      "Hash": "a745bda7aff4734c17294bb41d4e4607"
+      "Hash": "d0ef2856b83dc33ea6e255caf6229ee2"
     },
     "viridis": {
       "Package": "viridis",
