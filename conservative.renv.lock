@@ -3469,12 +3469,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.14.10",
+      "Version": "0.14.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e1ee3e110975851eff579b161428f7a64795b28d",
+      "RemoteSha": "20eceeb687c5f866e015f66e2d184e91fea49acf",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3489,7 +3489,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "e6ee2d2d54a0d4f0bf958ccc24390c13"
+      "Hash": "daf3736106bfdbb542b20ec761a74b91"
     },
     "mrcommons": {
       "Package": "mrcommons",
