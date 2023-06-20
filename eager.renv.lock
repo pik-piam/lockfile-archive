@@ -72,12 +72,9 @@
     },
     "GDPuc": {
       "Package": "GDPuc",
-      "Version": "0.10.0",
+      "Version": "0.11.0",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "git@github.com:pik-piam/GDPuc",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "6fc41ce66c5279f8af941d57213de615102c1333",
+      "Repository": "CRAN",
       "Requirements": [
         "R",
         "cli",
@@ -91,7 +88,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "f77e4f3fbd8d379ed93238e2602c5c46"
+      "Hash": "f31cf8ea49776008e2cbf6303c515087"
     },
     "HARr": {
       "Package": "HARr",
@@ -327,7 +324,7 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "0.12.4.0.0",
+      "Version": "0.12.4.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -337,7 +334,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "5402c9d935b45fe528538703b5edf680"
+      "Hash": "44b6ca3a6d22b4c87cdd6140e6f15245"
     },
     "RcppEigen": {
       "Package": "RcppEigen",
@@ -1822,7 +1819,7 @@
     },
     "gargle": {
       "Package": "gargle",
-      "Version": "1.5.0",
+      "Version": "1.5.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1840,7 +1837,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "c64c926cdc1a2796e609f99b53017be2"
+      "Hash": "d3a3cb2fefea5b3d4f8e0ea33c948406"
     },
     "gdx": {
       "Package": "gdx",
@@ -3355,12 +3352,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.14.12",
+      "Version": "0.14.13",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "20eceeb687c5f866e015f66e2d184e91fea49acf",
+      "RemoteSha": "aa3853e5d469694128cd501ae0a1bd92eca5227e",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3375,16 +3372,16 @@
         "utils",
         "withr"
       ],
-      "Hash": "daf3736106bfdbb542b20ec761a74b91"
+      "Hash": "884898dec69fc6ef1eaf5168830817b3"
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.30.9",
+      "Version": "1.30.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d82220d1293fd66193e5f54e27b8b9f0d2cd4c84",
+      "RemoteSha": "9e0634e52c34e83a4eeb59c11fdddf1718ae4e83",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3414,7 +3411,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "856dd84c69770a5aa4c2c1347726a865"
+      "Hash": "a3c50322f49614a1f089cb5e9900c9b8"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3814,12 +3811,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.6.15",
+      "Version": "1.6.17",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ae1624c114435fdadadf1ef82e7f37636d2c3a97",
+      "RemoteSha": "7b7e6080ce93faeeac8b6f3cd1fb3eac1f153490",
       "Requirements": [
         "R",
         "madrat",
@@ -3833,7 +3830,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "5d58a9a5ad463884a485b777b087b8c8"
+      "Hash": "3981e0ed569e5729c717a50941ea6d08"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
