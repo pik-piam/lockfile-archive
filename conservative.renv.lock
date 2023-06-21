@@ -2979,20 +2979,19 @@
     },
     "lpjclass": {
       "Package": "lpjclass",
-      "Version": "1.19.0",
+      "Version": "1.19.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lpjclass.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "0294e334b1053801134341f19f9ea66827495713",
+      "RemoteSha": "c7c6ec0e8ba8f230d76f7ac1f632a3277e11cc10",
       "Requirements": [
         "R",
-        "covr",
         "magclass",
         "methods",
         "utils"
       ],
-      "Hash": "0a8047ba87651c335f308d2b823f349c"
+      "Hash": "237d39b002efe84b63b3807f58659c85"
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
