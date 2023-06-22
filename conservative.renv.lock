@@ -3034,12 +3034,12 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.44.4",
+      "Version": "0.44.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b4148a7cdeac83bf8af906483e4a444daaeac335",
+      "RemoteSha": "85da7c9ea536cd72e5f0a478f9922496cb2b07af",
       "Requirements": [
         "callr",
         "citation",
@@ -3054,7 +3054,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "09ecfe72305a202f2ac4e73b21e87417"
+      "Hash": "84e39e7abaf51430a5c9ff6059ab3d63"
     },
     "luplot": {
       "Package": "luplot",
@@ -3727,12 +3727,12 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.163.4",
+      "Version": "0.164.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fc8e2e8acecc5a3e72d9e30236a4f13cbeb14afb",
+      "RemoteSha": "2eed46a038ea6836a94787795cd359580bb3abb4",
       "Requirements": [
         "Hmisc",
         "R",
@@ -3769,7 +3769,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "4a3c3eae11360111a22ea09bb73e7e5e"
+      "Hash": "e8ba4eb0d42fceb1b2458209c8c24b86"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -3908,12 +3908,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.6.17",
+      "Version": "1.6.18",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7b7e6080ce93faeeac8b6f3cd1fb3eac1f153490",
+      "RemoteSha": "fb8603a7aa388fab4dfcfc6bf99e0de17d7f3c09",
       "Requirements": [
         "R",
         "madrat",
@@ -3927,7 +3927,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "3981e0ed569e5729c717a50941ea6d08"
+      "Hash": "8d5f2d09ea23cb82ee910524bf8fe469"
     },
     "mstools": {
       "Package": "mstools",
