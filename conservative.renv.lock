@@ -3908,12 +3908,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.6.19",
+      "Version": "1.6.20",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "0ba98f94dcaa638d4c89e1df947d892c2c944d24",
+      "RemoteSha": "a4eb84ccb65cf726b84022d506bb213eb2e16285",
       "Requirements": [
         "R",
         "madrat",
@@ -3927,7 +3927,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "5ea5394bf25ea78bab30a1fd2d6c2485"
+      "Hash": "87d867e813eb3ae30a2aa6dbe868fb9a"
     },
     "mstools": {
       "Package": "mstools",
@@ -4197,12 +4197,12 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.0.92",
+      "Version": "0.0.93",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "86a0286b7517e4e941b3c114692d145a64b688cf",
+      "RemoteSha": "ff4be2a670baf99cfcba4165002a5f7b779f6194",
       "Requirements": [
         "data.table",
         "dplyr",
@@ -4217,7 +4217,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "2aeacd482d16f1cbe635d39394e923d5"
+      "Hash": "0fb7c1795519eedeb9146ec47cd1e7fe"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4969,12 +4969,12 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.112.1",
+      "Version": "1.112.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fcd6fcf6f63086355d39c806d96862a726f4e8f7",
+      "RemoteSha": "9c40594d3c82578eecf8d259f3a2c2d1241edf0e",
       "Requirements": [
         "RColorBrewer",
         "abind",
@@ -5016,7 +5016,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "9a0aaf52b72e9e201ed356656f7d32db"
+      "Hash": "3ede15bc35973d153b0b7503c6b01789"
     },
     "remotes": {
       "Package": "remotes",
