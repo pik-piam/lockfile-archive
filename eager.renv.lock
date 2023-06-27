@@ -1354,14 +1354,14 @@
     },
     "digest": {
       "Package": "digest",
-      "Version": "0.6.31",
+      "Version": "0.6.32",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "8b708f296afd9ae69f450f9640be8990"
+      "Hash": "011ce1464a4716c488f4fc649c3d4d50"
     },
     "distributional": {
       "Package": "distributional",
@@ -2880,19 +2880,19 @@
     },
     "lpjclass": {
       "Package": "lpjclass",
-      "Version": "1.19.2",
+      "Version": "1.19.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lpjclass.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c7c6ec0e8ba8f230d76f7ac1f632a3277e11cc10",
+      "RemoteSha": "88d156b2a63f2841757413c09f26336e065ea2ff",
       "Requirements": [
         "R",
         "magclass",
         "methods",
         "utils"
       ],
-      "Hash": "237d39b002efe84b63b3807f58659c85"
+      "Hash": "b2bd9a414eb29e3987261d241e4145a7"
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
@@ -3375,12 +3375,12 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.30.10",
+      "Version": "1.31.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9e0634e52c34e83a4eeb59c11fdddf1718ae4e83",
+      "RemoteSha": "ea69290f81d288f05ebb8c22a0a2bcf0245bfeac",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3410,7 +3410,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "a3c50322f49614a1f089cb5e9900c9b8"
+      "Hash": "c31c60b88b1de9c000ff3bd3de1fd158"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3542,12 +3542,12 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.49.3",
+      "Version": "0.49.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3ecca75c9428a4b0762856fd861a29bb9053d61f",
+      "RemoteSha": "08cb55b1dd25c7b95a19d641ee5b409a074283cb",
       "Requirements": [
         "R",
         "SPEI",
@@ -3569,7 +3569,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "f767adda1035c34d5db9c520d91393b3"
+      "Hash": "8c547627cf2e8bc82b4ca4807f061161"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
@@ -4209,7 +4209,7 @@
     },
     "pkgbuild": {
       "Package": "pkgbuild",
-      "Version": "1.4.1",
+      "Version": "1.4.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4223,7 +4223,7 @@
         "processx",
         "rprojroot"
       ],
-      "Hash": "26505361723f8af3266b3008ed49de47"
+      "Hash": "beb25b32a957a22a5c301a9e441190b3"
     },
     "pkgconfig": {
       "Package": "pkgconfig",
@@ -6078,7 +6078,7 @@
     },
     "webshot": {
       "Package": "webshot",
-      "Version": "0.5.4",
+      "Version": "0.5.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6087,7 +6087,7 @@
         "jsonlite",
         "magrittr"
       ],
-      "Hash": "cfd9342c76693ae53108a474aafa1641"
+      "Hash": "16858ee1aba97f902d24049d4a44ef16"
     },
     "whisker": {
       "Package": "whisker",
