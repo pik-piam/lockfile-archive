@@ -2880,19 +2880,19 @@
     },
     "lpjclass": {
       "Package": "lpjclass",
-      "Version": "1.19.5",
+      "Version": "1.19.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lpjclass.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "88d156b2a63f2841757413c09f26336e065ea2ff",
+      "RemoteSha": "6f884a689592535d6ebbda9e2e55e5ca16e6f263",
       "Requirements": [
         "R",
         "magclass",
         "methods",
         "utils"
       ],
-      "Hash": "b2bd9a414eb29e3987261d241e4145a7"
+      "Hash": "68e61715f4d98cb2e8ace12c1d279dc6"
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
@@ -2935,12 +2935,12 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.44.5",
+      "Version": "0.44.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
       "RemoteRef": "HEAD",
-      "RemoteSha": "85da7c9ea536cd72e5f0a478f9922496cb2b07af",
+      "RemoteSha": "88164efc9e2fabd6218048e4fb689798d4019e96",
       "Requirements": [
         "callr",
         "citation",
@@ -2955,7 +2955,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "84e39e7abaf51430a5c9ff6059ab3d63"
+      "Hash": "bb0d19ea43de0525348149c698c075ab"
     },
     "luplot": {
       "Package": "luplot",
@@ -4075,14 +4075,14 @@
     },
     "pbapply": {
       "Package": "pbapply",
-      "Version": "1.7-0",
+      "Version": "1.7-2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "parallel"
       ],
-      "Hash": "9e4fab5a4af145938025ac50803984e6"
+      "Hash": "68a2d681e10cf72f0afa1d84d45380e5"
     },
     "pbivnorm": {
       "Package": "pbivnorm",
@@ -4111,12 +4111,12 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.0.93",
+      "Version": "0.0.94",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ff4be2a670baf99cfcba4165002a5f7b779f6194",
+      "RemoteSha": "ba31ff30b273d997a6bcc3db39518a2ffbaaaca8",
       "Requirements": [
         "data.table",
         "dplyr",
@@ -4131,7 +4131,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "0fb7c1795519eedeb9146ec47cd1e7fe"
+      "Hash": "7750feb2d204fbedc884ea1655274aa4"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
