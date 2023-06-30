@@ -3492,12 +3492,12 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.31.0",
+      "Version": "1.31.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ea69290f81d288f05ebb8c22a0a2bcf0245bfeac",
+      "RemoteSha": "8f282efaa078f92c27c670c0a801647c28c61ab8",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3527,7 +3527,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "c31c60b88b1de9c000ff3bd3de1fd158"
+      "Hash": "41387157f181d6e9dbdfa825bdaa677b"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3579,12 +3579,12 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.2.2",
+      "Version": "0.3.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "34e3589a25ebbf29cbf8dbd3e24f97d1c902db1a",
+      "RemoteSha": "48d4f2e76d0c0ce9bafc42ed4fd22b66fd74bf32",
       "Requirements": [
         "dplyr",
         "madrat",
@@ -3599,7 +3599,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "8215ab84802feb85b4866acbc62a4ddf"
+      "Hash": "1d18e327a109b781797bc3ea28c6161b"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -3659,12 +3659,12 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.49.4",
+      "Version": "0.49.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "08cb55b1dd25c7b95a19d641ee5b409a074283cb",
+      "RemoteSha": "e4311b59149f214da273c1d4ac84916b22d5b2b7",
       "Requirements": [
         "R",
         "SPEI",
@@ -3681,12 +3681,11 @@
         "raster",
         "readxl",
         "reshape2",
-        "rgdal",
         "stringr",
         "terra",
         "withr"
       ],
-      "Hash": "8c547627cf2e8bc82b4ca4807f061161"
+      "Hash": "6eec7e9399831603f76fc2725cd16f49"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
@@ -3823,12 +3822,12 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.49.1",
+      "Version": "2.49.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ab8e30cb4705e80b03f46cd74cde472ca44f16ed",
+      "RemoteSha": "4b90e5dde8bca70f4832593a7172de2daf1af6d2",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3851,7 +3850,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "38d4c822d7a1ed0996d6c75066bbf680"
+      "Hash": "af9900ffe2d6be4a018f3409ae7423b6"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -3908,12 +3907,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.6.21",
+      "Version": "1.6.25",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2f070983496f0239282ea3ec76fc1e5ecc2258a6",
+      "RemoteSha": "8b4df5e1144191e1db559993ea47715549ef3ee2",
       "Requirements": [
         "R",
         "madrat",
@@ -3927,7 +3926,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "572cc4312cfb23e05f76ea2a5a8de221"
+      "Hash": "b7c33598d95268c9fc186dfcd9eb48cf"
     },
     "mstools": {
       "Package": "mstools",
@@ -5145,22 +5144,6 @@
         "lazyeval"
       ],
       "Hash": "ae34cd56890607370665bee5bd17812f"
-    },
-    "rgdal": {
-      "Package": "rgdal",
-      "Version": "1.6-5",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "grDevices",
-        "graphics",
-        "methods",
-        "sp",
-        "stats",
-        "utils"
-      ],
-      "Hash": "db30ee59b46241355b2da9620f591243"
     },
     "rjson": {
       "Package": "rjson",
