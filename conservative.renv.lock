@@ -3165,12 +3165,12 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.3.3",
+      "Version": "3.3.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f55f80e123634cf6368642cc2d9843b010f8e1e6",
+      "RemoteSha": "219fb6072fa13c5ffd40a29ff7205e530835d943",
       "Requirements": [
         "Matrix",
         "R",
@@ -3187,7 +3187,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "20018c7d6b804382fe51cc9f49d26297"
+      "Hash": "c34c5e1807f7ded40c6fcf57563f4d71"
     },
     "magclass": {
       "Package": "magclass",
