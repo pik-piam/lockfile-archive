@@ -3120,12 +3120,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.188.2",
+      "Version": "1.188.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4213dcfadabfeb99b4b6b7ecf45e35e3741ce3e4",
+      "RemoteSha": "6dd0dab0b2d88abe6e485abdbe2950a62bd4367b",
       "Requirements": [
         "R",
         "dplyr",
@@ -3148,7 +3148,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "7f3f794d02628904485b0851618a5e17"
+      "Hash": "31037cbae65d9eb509def5ac0fbdb012"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -4549,7 +4549,7 @@
     },
     "qualV": {
       "Package": "qualV",
-      "Version": "0.3-4",
+      "Version": "0.3-5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4560,7 +4560,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "5d5e675f238f1ee57fb0a51268e08de5"
+      "Hash": "54a3ba270d25f5284cec3e10e8f0c7da"
     },
     "quantmod": {
       "Package": "quantmod",
