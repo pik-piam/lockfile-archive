@@ -3219,12 +3219,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.188.5",
+      "Version": "1.189.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f5cf1b223fe77298f2f253dd93342f166af8f767",
+      "RemoteSha": "2e3eba3cf930430eab7e7557a3abf3b6ff751e81",
       "Requirements": [
         "R",
         "dplyr",
@@ -3245,7 +3245,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "0ecc2088b29570f62f9ac06b110b3f30"
+      "Hash": "2eee72dffafb97c7db724b527264bb65"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -4700,12 +4700,12 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3118.0",
+      "Version": "0.3119.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2b8248e247c0ceb0955f11031056e99bb5d669be",
+      "RemoteSha": "5d14fd5496bb6a921e69e98c811e8ffc142b8a9c",
       "Requirements": [
         "R",
         "countrycode",
@@ -4734,7 +4734,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "78d6ef6e663b956daa2969cddddbd0c4"
+      "Hash": "cf36646c8e2bde335dcc573e59a9fc5b"
     },
     "r2databus": {
       "Package": "r2databus",
@@ -4966,12 +4966,12 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.112.3",
+      "Version": "1.113.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fe3d7cf250d510cfe3f554ed16c03e12d98a7719",
+      "RemoteSha": "cde5892810bd88b79c811f4673554c7cb742606a",
       "Requirements": [
         "RColorBrewer",
         "abind",
@@ -5013,7 +5013,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "245e4cbe3265da1fb9c4000374701bc5"
+      "Hash": "3abd141cf93993eab0cfb77e98e996c6"
     },
     "remotes": {
       "Package": "remotes",
