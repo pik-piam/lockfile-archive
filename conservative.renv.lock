@@ -2541,12 +2541,12 @@
     },
     "iamc": {
       "Package": "iamc",
-      "Version": "0.29.7",
+      "Version": "0.29.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/IAMconsortium/iamc",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c4849cfc75997699d5e31d492ddf9021f3dad816",
+      "RemoteSha": "c418a3d89b0a2fbf8b095d7653ce108b19fb2b09",
       "Requirements": [
         "R",
         "dplyr",
@@ -2560,7 +2560,7 @@
         "utils",
         "writexl"
       ],
-      "Hash": "703a968bf2d775083d0076dd267cb851"
+      "Hash": "82cb41c0a5288cb17e4804dfcea80351"
     },
     "ids": {
       "Package": "ids",
@@ -2995,12 +2995,12 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "1.1.4",
+      "Version": "1.1.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlkit",
       "RemoteRef": "HEAD",
-      "RemoteSha": "cfbb0b37d63a347a3d5503757b19b3fc6f0f7828",
+      "RemoteSha": "63b7343bcddf08e647e80f2dc8e4faa12ec41700",
       "Requirements": [
         "R",
         "abind",
@@ -3017,7 +3017,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "cfae6b1c55538c5e55c22843f8074084"
+      "Hash": "cf1113cdf9b07e158b53ea35022472cf"
     },
     "lubridate": {
       "Package": "lubridate",
@@ -3058,12 +3058,12 @@
     },
     "luplot": {
       "Package": "luplot",
-      "Version": "3.54.4",
+      "Version": "3.55.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/luplot.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "074d0f9d18d75e148c27c7e47dda3b9c12f19f01",
+      "RemoteSha": "a6e40bd579447c7e1bbf1e99f41568e1997f84c9",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -3084,7 +3084,7 @@
         "sp",
         "xml2"
       ],
-      "Hash": "e3f3cf02d0427cf0e450886c86f5ae18"
+      "Hash": "7e05362e5d458ec41f9eb098f3ed5a64"
     },
     "luscale": {
       "Package": "luscale",
@@ -3219,12 +3219,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.189.0",
+      "Version": "1.189.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2e3eba3cf930430eab7e7557a3abf3b6ff751e81",
+      "RemoteSha": "62c852a1746b9dec87a3e05fd13278fcc3b58141",
       "Requirements": [
         "R",
         "dplyr",
@@ -3245,7 +3245,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "2eee72dffafb97c7db724b527264bb65"
+      "Hash": "0b83c0ec9223d029aba62226717e34c6"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3410,12 +3410,12 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.145.0",
+      "Version": "0.145.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mip",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2614eb93798a1295753bb181041da99e7ce9d23a",
+      "RemoteSha": "df8487362be13c4f41e5cfa4239b8472b9b74d2d",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -3434,7 +3434,7 @@
         "tidyr",
         "trafficlight"
       ],
-      "Hash": "af2eb2ddbb4d61639f906ee969469302"
+      "Hash": "bdfcdbf03bdeb128a25550692acd6e4c"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -3905,12 +3905,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.6.25",
+      "Version": "1.6.26",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8b4df5e1144191e1db559993ea47715549ef3ee2",
+      "RemoteSha": "5419cafc769ed2f29ed9631b94edf13393060dde",
       "Requirements": [
         "R",
         "madrat",
@@ -3924,7 +3924,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "b7c33598d95268c9fc186dfcd9eb48cf"
+      "Hash": "26a0a8735409ed2a9ff46ff00a40971c"
     },
     "mstools": {
       "Package": "mstools",
@@ -4700,12 +4700,12 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3119.0",
+      "Version": "0.3120.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5d14fd5496bb6a921e69e98c811e8ffc142b8a9c",
+      "RemoteSha": "df706197c1d3b7b8ba9a44e025cf0ab2cc1f5af5",
       "Requirements": [
         "R",
         "countrycode",
@@ -4734,7 +4734,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "cf36646c8e2bde335dcc573e59a9fc5b"
+      "Hash": "1ec76352573a031d782686d1d95de89a"
     },
     "r2databus": {
       "Package": "r2databus",
