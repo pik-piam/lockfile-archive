@@ -2816,12 +2816,12 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.48.2",
+      "Version": "2.49.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2a61fc47dbd057778d2ef269ec4fb386858bedf3",
+      "RemoteSha": "ef70f22e0c8421ed689ed620149656b8efbeee1b",
       "Requirements": [
         "gdx",
         "luscale",
@@ -2833,7 +2833,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "1deaee36c573a8aceccb3f44cf17c588"
+      "Hash": "259c253df2d346ca2ccbce164ed3453f"
     },
     "linprog": {
       "Package": "linprog",
@@ -2995,15 +2995,16 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "1.1.5",
+      "Version": "1.1.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlkit",
       "RemoteRef": "HEAD",
-      "RemoteSha": "63b7343bcddf08e647e80f2dc8e4faa12ec41700",
+      "RemoteSha": "43e5033d72586e6f84d640a32f12fb9a2f86f561",
       "Requirements": [
         "R",
         "abind",
+        "cli",
         "doParallel",
         "dplyr",
         "foreach",
@@ -3013,11 +3014,12 @@
         "methods",
         "processx",
         "rlang",
+        "sf",
         "tibble",
         "utils",
         "withr"
       ],
-      "Hash": "cf1113cdf9b07e158b53ea35022472cf"
+      "Hash": "d3eb1106e20a5e577d0d0a51938c8f1f"
     },
     "lubridate": {
       "Package": "lubridate",
@@ -3165,12 +3167,12 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.3.5",
+      "Version": "3.3.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "6023ad99d2ba1aa8e79e3a7eaca663ad34b9d7fe",
+      "RemoteSha": "fcc50d2985247666f9b340a51030ddbdae9fd207",
       "Requirements": [
         "Matrix",
         "R",
@@ -3187,7 +3189,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "ac7b18bf7c3e8525c465340652effb63"
+      "Hash": "5da71f7a35549ccec335a2ab0040f42d"
     },
     "magclass": {
       "Package": "magclass",
@@ -3219,12 +3221,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.189.1",
+      "Version": "1.189.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "62c852a1746b9dec87a3e05fd13278fcc3b58141",
+      "RemoteSha": "1d756e222fe881214197abfbf548661f9dbeb4cc",
       "Requirements": [
         "R",
         "dplyr",
@@ -3245,7 +3247,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "0b83c0ec9223d029aba62226717e34c6"
+      "Hash": "6ee1ed1466a7038d895cc5526cdfd51e"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3466,12 +3468,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.14.13",
+      "Version": "0.14.14",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "aa3853e5d469694128cd501ae0a1bd92eca5227e",
+      "RemoteSha": "f7cc9d668a3ae7691115ec65426904fb45410436",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3486,7 +3488,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "884898dec69fc6ef1eaf5168830817b3"
+      "Hash": "14328f7e275e4756feb34a81006c721e"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -4966,12 +4968,12 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.113.1",
+      "Version": "1.113.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "cde5892810bd88b79c811f4673554c7cb742606a",
+      "RemoteSha": "55a36d830af96d9f2d6446f4b8d2eb659c072bf3",
       "Requirements": [
         "RColorBrewer",
         "abind",
@@ -5013,7 +5015,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "3abd141cf93993eab0cfb77e98e996c6"
+      "Hash": "96f090366ea2b99dc86eb597a03a0afd"
     },
     "remotes": {
       "Package": "remotes",
@@ -5204,17 +5206,17 @@
     },
     "rmndt": {
       "Package": "rmndt",
-      "Version": "0.5.4",
+      "Version": "0.5.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/rmndt",
       "RemoteRef": "HEAD",
-      "RemoteSha": "692b5f28462cb60ea55b441b739d6fb31a585c09",
+      "RemoteSha": "f7b0704d78f2058c690885726247c703d9677277",
       "Requirements": [
         "R",
         "data.table"
       ],
-      "Hash": "179657edb9d4441d58b26981996df473"
+      "Hash": "fe7dd4df5aff8e000bb1e3839359a9d0"
     },
     "rnaturalearth": {
       "Package": "rnaturalearth",
