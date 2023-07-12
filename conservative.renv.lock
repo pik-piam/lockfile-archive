@@ -2816,12 +2816,12 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.49.0",
+      "Version": "2.49.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ef70f22e0c8421ed689ed620149656b8efbeee1b",
+      "RemoteSha": "084b3f9d3d383d3b59924a7bb5f231b0db74ed2a",
       "Requirements": [
         "gdx",
         "luscale",
@@ -2833,7 +2833,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "259c253df2d346ca2ccbce164ed3453f"
+      "Hash": "f404c632c565870864d6e4e290400623"
     },
     "linprog": {
       "Package": "linprog",
@@ -2995,12 +2995,12 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "1.1.6",
+      "Version": "1.1.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlkit",
       "RemoteRef": "HEAD",
-      "RemoteSha": "43e5033d72586e6f84d640a32f12fb9a2f86f561",
+      "RemoteSha": "db240bb211b235a9c544787ebf56c8dcbb0e5efc",
       "Requirements": [
         "R",
         "abind",
@@ -3014,12 +3014,12 @@
         "methods",
         "processx",
         "rlang",
-        "sf",
+        "stringi",
         "tibble",
         "utils",
         "withr"
       ],
-      "Hash": "d3eb1106e20a5e577d0d0a51938c8f1f"
+      "Hash": "4ba09731db86b6a2b27c7c36ff3794fe"
     },
     "lubridate": {
       "Package": "lubridate",
@@ -3492,12 +3492,12 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.32.1",
+      "Version": "1.32.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "91c685723f89c0ff455af7ce5d3912b623a75184",
+      "RemoteSha": "7e7ea2d56db99cc7215042eb6c03351544ba880c",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3527,7 +3527,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "fa3c2c82bb4698c4419723a63eadb9d6"
+      "Hash": "6b8f48d8c26d6e3bf39a86d06ce44cda"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3907,12 +3907,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.6.26",
+      "Version": "1.6.27",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5419cafc769ed2f29ed9631b94edf13393060dde",
+      "RemoteSha": "f24ba066c52559c6923d884cef79058097bd80bc",
       "Requirements": [
         "R",
         "madrat",
@@ -3926,7 +3926,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "26a0a8735409ed2a9ff46ff00a40971c"
+      "Hash": "325feed141c476becedaedd68d3eef29"
     },
     "mstools": {
       "Package": "mstools",
