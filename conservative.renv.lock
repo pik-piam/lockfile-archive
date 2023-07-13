@@ -2169,12 +2169,12 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.25.9",
+      "Version": "0.25.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/gms",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9e271249b26a19780e1f8dc5caf53ce1a8128e52",
+      "RemoteSha": "7bdb21f03a8298f1cf5bdccc594c3998d990f00e",
       "Requirements": [
         "dplyr",
         "filelock",
@@ -2183,7 +2183,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "d0f39de410fc20db1d300611ffc73682"
+      "Hash": "f425dfdc817505af89875aa4b96700e8"
     },
     "goftest": {
       "Package": "goftest",
@@ -3221,12 +3221,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.189.2",
+      "Version": "1.189.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1d756e222fe881214197abfbf548661f9dbeb4cc",
+      "RemoteSha": "6340548dc25fc4f4ab9a20b5c47451e342d8910d",
       "Requirements": [
         "R",
         "dplyr",
@@ -3247,7 +3247,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "6ee1ed1466a7038d895cc5526cdfd51e"
+      "Hash": "43e6628dc17ff5273f01891ad4a5dc5c"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3689,12 +3689,12 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.35.6",
+      "Version": "1.35.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
       "RemoteRef": "HEAD",
-      "RemoteSha": "918d1f12c01b1a93ac16226e63782f6444edb078",
+      "RemoteSha": "5b6edcabdcc51e52a944586258d038abaea9a3f6",
       "Requirements": [
         "R",
         "abind",
@@ -3722,7 +3722,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "39399703791f33a55ccd58ca5d4e9f63"
+      "Hash": "8c2156df8c49ab8b839044dab8590930"
     },
     "mrremind": {
       "Package": "mrremind",
@@ -3907,12 +3907,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.6.27",
+      "Version": "1.7.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f24ba066c52559c6923d884cef79058097bd80bc",
+      "RemoteSha": "6401ea7a7494e8b201aeb0879dfe5195524d4c20",
       "Requirements": [
         "R",
         "madrat",
@@ -3926,7 +3926,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "325feed141c476becedaedd68d3eef29"
+      "Hash": "22d6beac595f15e7d3bcef90d7176e07"
     },
     "mstools": {
       "Package": "mstools",
