@@ -3167,12 +3167,12 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.3.6",
+      "Version": "3.4.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fcc50d2985247666f9b340a51030ddbdae9fd207",
+      "RemoteSha": "ef8afd9c542107999fb2982bc2e51edea3cb927d",
       "Requirements": [
         "Matrix",
         "R",
@@ -3189,7 +3189,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "5da71f7a35549ccec335a2ab0040f42d"
+      "Hash": "0ed067213bf36c6551505420c99256db"
     },
     "magclass": {
       "Package": "magclass",
@@ -3468,12 +3468,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.14.14",
+      "Version": "0.14.15",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f7cc9d668a3ae7691115ec65426904fb45410436",
+      "RemoteSha": "b4185a6d1ed2326618d13f1af574a8726b6ed348",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3488,7 +3488,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "14328f7e275e4756feb34a81006c721e"
+      "Hash": "52794f2d34abd1a4bbd8b32c2fc7a80a"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3550,12 +3550,12 @@
     },
     "mrdrivers": {
       "Package": "mrdrivers",
-      "Version": "1.2.0",
+      "Version": "1.3.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrdrivers",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d45b79212a9311a79cdd20756d04c486d40e2a93",
+      "RemoteSha": "38aea89eb4de242f339440f7428ef059a348a692",
       "Requirements": [
         "GDPuc",
         "bezier",
@@ -3575,16 +3575,16 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "a5dc57ba3d2a67b8c73f5b2e4e639540"
+      "Hash": "f52b7b29698a8dc957c95e4c14c4ce90"
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.3.0",
+      "Version": "0.3.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "48d4f2e76d0c0ce9bafc42ed4fd22b66fd74bf32",
+      "RemoteSha": "ba5a57f53368b69e5c1f5337fc8fa10fd8175238",
       "Requirements": [
         "dplyr",
         "madrat",
@@ -3599,7 +3599,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "1d18e327a109b781797bc3ea28c6161b"
+      "Hash": "f663be1299e919f7e7c8f8cdd46a42bf"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -3726,12 +3726,12 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.164.2",
+      "Version": "0.165.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "623de95217bb436a39ef91ddd4519317d089941c",
+      "RemoteSha": "a0df8a547160ce199c1fb798f763f13e001cb174",
       "Requirements": [
         "Hmisc",
         "R",
@@ -3768,7 +3768,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "79a316905bce24baaa621988a25e787b"
+      "Hash": "cff8fcd065a653c64541cca08dbad3bf"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -3907,12 +3907,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.7.0",
+      "Version": "1.7.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "6401ea7a7494e8b201aeb0879dfe5195524d4c20",
+      "RemoteSha": "1d70e7fa45d29191eff99b61b4dc7448d714a9a8",
       "Requirements": [
         "R",
         "madrat",
@@ -3926,7 +3926,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "22d6beac595f15e7d3bcef90d7176e07"
+      "Hash": "b01c2c3a0e2cbbae4679f0631c28ae46"
     },
     "mstools": {
       "Package": "mstools",
