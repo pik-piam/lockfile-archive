@@ -3352,12 +3352,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.14.15",
+      "Version": "0.14.17",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b4185a6d1ed2326618d13f1af574a8726b6ed348",
+      "RemoteSha": "efed27b02054a4175abaeb19adc64ffa127e6cb0",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3372,16 +3372,16 @@
         "utils",
         "withr"
       ],
-      "Hash": "52794f2d34abd1a4bbd8b32c2fc7a80a"
+      "Hash": "b58b91f4fdb1f7e622ca52fd5c4178e5"
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.32.2",
+      "Version": "1.32.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7e7ea2d56db99cc7215042eb6c03351544ba880c",
+      "RemoteSha": "f4cbbfa17927257975a3a7a66d9e44bb8eb830d3",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3411,7 +3411,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "6b8f48d8c26d6e3bf39a86d06ce44cda"
+      "Hash": "3bc3a35d6d78b508dca71a702bffc85b"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3810,12 +3810,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.7.6",
+      "Version": "1.7.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "013fcc942b72ce68e862291d922b9049063561da",
+      "RemoteSha": "a5b731577b2191eb642cfe5a9079b41fae599430",
       "Requirements": [
         "R",
         "madrat",
@@ -3829,7 +3829,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "e94dc7f42abce76ec2b78b78c5d4ab44"
+      "Hash": "8039624fae5f2668ca468985eeb9eb27"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
@@ -4565,7 +4565,7 @@
     },
     "quantmod": {
       "Package": "quantmod",
-      "Version": "0.4.23",
+      "Version": "0.4.24",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4577,7 +4577,7 @@
         "xts",
         "zoo"
       ],
-      "Hash": "4e22df5a2501e5f538a380c14ea852a4"
+      "Hash": "e505db321b45813cca561521092b89bc"
     },
     "quantreg": {
       "Package": "quantreg",
