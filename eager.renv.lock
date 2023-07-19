@@ -2897,12 +2897,12 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "1.1.7",
+      "Version": "1.1.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlkit",
       "RemoteRef": "HEAD",
-      "RemoteSha": "db240bb211b235a9c544787ebf56c8dcbb0e5efc",
+      "RemoteSha": "0d0259f58d5211480e389ebec0741d79f9f8859c",
       "Requirements": [
         "R",
         "abind",
@@ -2921,7 +2921,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "4ba09731db86b6a2b27c7c36ff3794fe"
+      "Hash": "017840672ad1e395df7d75d05e955957"
     },
     "lubridate": {
       "Package": "lubridate",
@@ -3188,7 +3188,7 @@
     },
     "maptools": {
       "Package": "maptools",
-      "Version": "1.1-7",
+      "Version": "1.1-8",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3202,7 +3202,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "14bf7aecce168085c4acb0acee2ad82d"
+      "Hash": "2457cdde319dfcd4d78ff10b9238c08e"
     },
     "markdown": {
       "Package": "markdown",
@@ -3352,12 +3352,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.14.17",
+      "Version": "0.14.20",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "efed27b02054a4175abaeb19adc64ffa127e6cb0",
+      "RemoteSha": "078f98c4ee7a210f2c80825fdeb6ca184b52243a",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3372,7 +3372,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "b58b91f4fdb1f7e622ca52fd5c4178e5"
+      "Hash": "f727b3d383be9510d77b80a92e2da183"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3810,12 +3810,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.7.10",
+      "Version": "1.7.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a5b731577b2191eb642cfe5a9079b41fae599430",
+      "RemoteSha": "7b15730e42bd620f039de6566a7f7324c40cc2a0",
       "Requirements": [
         "R",
         "madrat",
@@ -3829,7 +3829,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "8039624fae5f2668ca468985eeb9eb27"
+      "Hash": "aeb16f3439bad5ddda18a249b8773cf3"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
@@ -4898,7 +4898,7 @@
     },
     "remotes": {
       "Package": "remotes",
-      "Version": "2.4.2",
+      "Version": "2.4.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4908,7 +4908,7 @@
         "tools",
         "utils"
       ],
-      "Hash": "227045be9aee47e6dda9bb38ac870d67"
+      "Hash": "63d15047eb239f95160112bcadc4fcb9"
     },
     "remulator": {
       "Package": "remulator",
@@ -5200,7 +5200,7 @@
     },
     "rstantools": {
       "Package": "rstantools",
-      "Version": "2.3.1",
+      "Version": "2.3.1.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5210,7 +5210,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "5deb54a7658e89cc3d5ac4b534bcb344"
+      "Hash": "32d3b6fe28162eb1c430697f95f40a83"
     },
     "rstudioapi": {
       "Package": "rstudioapi",
