@@ -3822,12 +3822,12 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.49.2",
+      "Version": "2.50.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4b90e5dde8bca70f4832593a7172de2daf1af6d2",
+      "RemoteSha": "c1961b17864ee86b9d57f2ebe18e15a1d4586a2c",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3850,7 +3850,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "af9900ffe2d6be4a018f3409ae7423b6"
+      "Hash": "2a8d8ce97e4682eccf3436b32750864c"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -3907,12 +3907,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.7.12",
+      "Version": "1.7.16",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7b15730e42bd620f039de6566a7f7324c40cc2a0",
+      "RemoteSha": "d1575cd1c6bda58c239915675167a58a5332e848",
       "Requirements": [
         "R",
         "madrat",
@@ -3926,7 +3926,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "aeb16f3439bad5ddda18a249b8773cf3"
+      "Hash": "b7947730a64011f564dfd79145526f40"
     },
     "mstools": {
       "Package": "mstools",

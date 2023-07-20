@@ -2681,7 +2681,7 @@
     },
     "lavaan": {
       "Package": "lavaan",
-      "Version": "0.6-15",
+      "Version": "0.6-16",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2697,7 +2697,7 @@
         "stats4",
         "utils"
       ],
-      "Hash": "97922872c7af252faeeda2ce029edf61"
+      "Hash": "6dbce6012efbb98656aa0e924393632e"
     },
     "lazyeval": {
       "Package": "lazyeval",
@@ -2756,18 +2756,16 @@
     },
     "lintr": {
       "Package": "lintr",
-      "Version": "3.0.2",
+      "Version": "3.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "backports",
         "codetools",
-        "crayon",
         "cyclocomp",
         "digest",
         "glue",
-        "jsonlite",
         "knitr",
         "rex",
         "stats",
@@ -2775,7 +2773,7 @@
         "xml2",
         "xmlparsedata"
       ],
-      "Hash": "b21ebd652d940f099915221f3328ab7b"
+      "Hash": "2b4b803af6017e93b67ddaf0eacba918"
     },
     "listenv": {
       "Package": "listenv",
@@ -3725,12 +3723,12 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.49.2",
+      "Version": "2.50.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4b90e5dde8bca70f4832593a7172de2daf1af6d2",
+      "RemoteSha": "c1961b17864ee86b9d57f2ebe18e15a1d4586a2c",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3753,7 +3751,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "af9900ffe2d6be4a018f3409ae7423b6"
+      "Hash": "2a8d8ce97e4682eccf3436b32750864c"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -3810,12 +3808,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.7.12",
+      "Version": "1.7.16",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7b15730e42bd620f039de6566a7f7324c40cc2a0",
+      "RemoteSha": "d1575cd1c6bda58c239915675167a58a5332e848",
       "Requirements": [
         "R",
         "madrat",
@@ -3829,7 +3827,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "aeb16f3439bad5ddda18a249b8773cf3"
+      "Hash": "b7947730a64011f564dfd79145526f40"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
@@ -4581,7 +4579,7 @@
     },
     "quantreg": {
       "Package": "quantreg",
-      "Version": "5.95",
+      "Version": "5.96",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4595,7 +4593,7 @@
         "stats",
         "survival"
       ],
-      "Hash": "6cdf5a3dc958f55529b0401a8e5869e3"
+      "Hash": "47a0047c3082b2a285434db2eb418dcc"
     },
     "quitte": {
       "Package": "quitte",
