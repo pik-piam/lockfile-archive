@@ -1536,12 +1536,12 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "0.31.0",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "75cadc8e7cad6215010475b19c74cf8a745fa278",
+      "RemoteSha": "0d7efd48fbfeaacd1718644f2c7d82f8f3fdf2cf",
       "Requirements": [
         "R",
         "data.table",
@@ -1563,7 +1563,7 @@
         "ymlthis",
         "zoo"
       ],
-      "Hash": "c52482e396bfda881c2e3ec9166e47c5"
+      "Hash": "ae018fa52aa71f2e5e8a14b235e6ca0d"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -2725,12 +2725,12 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.49.1",
+      "Version": "2.49.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "084b3f9d3d383d3b59924a7bb5f231b0db74ed2a",
+      "RemoteSha": "d0028b2b381c12ef34d66e03450a6b01bc000cae",
       "Requirements": [
         "gdx",
         "luscale",
@@ -2742,7 +2742,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "f404c632c565870864d6e4e290400623"
+      "Hash": "d8663926a8d76215da604a7cd773e287"
     },
     "linprog": {
       "Package": "linprog",
@@ -3068,12 +3068,12 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.5.0",
+      "Version": "3.6.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9e560222678b5a79db4a4aa7dc8a0284b2a3a912",
+      "RemoteSha": "1c5bed8b6744b57eb149a49afd3f398fae664535",
       "Requirements": [
         "Matrix",
         "R",
@@ -3090,7 +3090,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "b1434489bf03bd7ad36e074ac6bf3638"
+      "Hash": "421e7ceb640fd7cc0072f88ff9d21d31"
     },
     "magclass": {
       "Package": "magclass",
@@ -3351,12 +3351,12 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.14.21",
+      "Version": "0.14.22",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1aeb0f737e26033ffd235d32008915a64748afc1",
+      "RemoteSha": "b84da78eb2ddcc102b408e2411f36a98cad1bfde",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3371,7 +3371,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "99164e3ac6c6f4c096d72042cf9c71da"
+      "Hash": "67da4e5dcc490522684462101010f1e0"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3809,12 +3809,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.7.18",
+      "Version": "1.8.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2eddd938cb153af1d757de8cfad20d09ef447e5c",
+      "RemoteSha": "ee4be74d7306eafa4128626536bb752a015124a2",
       "Requirements": [
         "R",
         "madrat",
@@ -3828,7 +3828,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "2f9fc4abaa4c5e57cfcccfda99944e17"
+      "Hash": "a03931cfe1127a05c581f06058ce591f"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
