@@ -3068,12 +3068,12 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.6.2",
+      "Version": "3.6.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1c5bed8b6744b57eb149a49afd3f398fae664535",
+      "RemoteSha": "2af1b575000e1b9781dc72611a2e12253af07a07",
       "Requirements": [
         "Matrix",
         "R",
@@ -3090,7 +3090,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "421e7ceb640fd7cc0072f88ff9d21d31"
+      "Hash": "91f59a844624a06315ad5f4a06cd29fc"
     },
     "magclass": {
       "Package": "magclass",
@@ -3809,12 +3809,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.8.1",
+      "Version": "1.8.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ee4be74d7306eafa4128626536bb752a015124a2",
+      "RemoteSha": "072e81b15289416c032b4468371c68bd256e96cb",
       "Requirements": [
         "R",
         "madrat",
@@ -3828,7 +3828,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "a03931cfe1127a05c581f06058ce591f"
+      "Hash": "f78128b1fe3612c2033fc796777987d4"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
