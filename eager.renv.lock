@@ -2991,12 +2991,12 @@
     },
     "luscale": {
       "Package": "luscale",
-      "Version": "2.27.3",
+      "Version": "2.27.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/luscale",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4fdf9c75f12f0c9f2b6d22fb6e12c6e95007bd8c",
+      "RemoteSha": "56394d63040e96bc2a611c79b5923d51090cc8b7",
       "Requirements": [
         "R",
         "lpSolve",
@@ -3007,7 +3007,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "33534f4e0cdda82f04df28c13d7958cc"
+      "Hash": "2844696c28e9ee916bf37e4dd60dca03"
     },
     "lusweave": {
       "Package": "lusweave",
@@ -3375,12 +3375,12 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.32.3",
+      "Version": "1.32.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f4cbbfa17927257975a3a7a66d9e44bb8eb830d3",
+      "RemoteSha": "35d9feaafd59b065c03703f72846c4d049a7e138",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3410,7 +3410,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "3bc3a35d6d78b508dca71a702bffc85b"
+      "Hash": "386273a617cd6bdd735e760afcb92740"
     },
     "mrdieter": {
       "Package": "mrdieter",
