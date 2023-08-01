@@ -3201,12 +3201,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.189.3",
+      "Version": "1.189.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "6340548dc25fc4f4ab9a20b5c47451e342d8910d",
+      "RemoteSha": "d01a60ee13361226ce289df43add0a3e66932f60",
       "Requirements": [
         "R",
         "dplyr",
@@ -3227,7 +3227,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "43e6628dc17ff5273f01891ad4a5dc5c"
+      "Hash": "0b4a9f1b26dd983eaa8221f3cab3d802"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3472,12 +3472,12 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.33.0",
+      "Version": "1.33.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e771d90ad6598c1a9ba8de4004de448d227403e3",
+      "RemoteSha": "14b9dcd4783377d0287a2e2509e31736e89a4812",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3507,7 +3507,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "46195e585afaa0e8fabac41764103db8"
+      "Hash": "300a975f4c1793da247e641c2d79981c"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3603,12 +3603,12 @@
     },
     "mrfactors": {
       "Package": "mrfactors",
-      "Version": "0.2.0",
+      "Version": "0.2.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/mrfactors",
       "RemoteRef": "HEAD",
-      "RemoteSha": "67f0d10d5e25d37b8377ee79dbd64f3e6e717047",
+      "RemoteSha": "feb3945ce549fbd620ef1c34e49ff76bba91e22d",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3623,7 +3623,7 @@
         "readxl",
         "stringr"
       ],
-      "Hash": "248a44bff7a72cb3626daa4a2af43bee"
+      "Hash": "eecb5b05504453e7ae5696965b898a9d"
     },
     "mrfeed": {
       "Package": "mrfeed",
