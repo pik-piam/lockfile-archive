@@ -3663,12 +3663,12 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.50.0",
+      "Version": "0.50.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "beaafd170ff2989a7e0917a9a23ce40fccf84de7",
+      "RemoteSha": "f34d5b7943d60eccbc90110a2c64669f4ba24ac1",
       "Requirements": [
         "R",
         "SPEI",
@@ -3690,7 +3690,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "18285a1bf48edd3c16d8cf8f9347250b"
+      "Hash": "d14087b88ebab6462d44eb5db22a3f14"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
