@@ -400,6 +400,27 @@
       ],
       "Hash": "d22e94d9088f55cc112e722888afcc70"
     },
+    "Rilostat": {
+      "Package": "Rilostat",
+      "Version": "1.1.8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "DT",
+        "R",
+        "RCurl",
+        "data.table",
+        "dplyr",
+        "haven",
+        "plyr",
+        "readr",
+        "stringr",
+        "tibble",
+        "tidyr",
+        "xml2"
+      ],
+      "Hash": "79ca1115487a3a5bac51153e7e2f4004"
+    },
     "SPARQL": {
       "Package": "SPARQL",
       "Version": "1.16",
@@ -1910,7 +1931,7 @@
     },
     "gert": {
       "Package": "gert",
-      "Version": "1.9.2",
+      "Version": "1.9.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1921,7 +1942,7 @@
         "sys",
         "zip"
       ],
-      "Hash": "9122b3958e749badb5c939f498038b57"
+      "Hash": "b544c397820e05a97d391b2d614a921a"
     },
     "ggh4x": {
       "Package": "ggh4x",
@@ -3073,12 +3094,12 @@
     },
     "magclass": {
       "Package": "magclass",
-      "Version": "6.10.1",
+      "Version": "6.11.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magclass",
       "RemoteRef": "HEAD",
-      "RemoteSha": "af61b25d0daaec51e475b4122d0084d37b621f69",
+      "RemoteSha": "9a06c8bb82696f520ef1d99da6b6b400f702ddc4",
       "Requirements": [
         "R",
         "abind",
@@ -3086,7 +3107,7 @@
         "methods",
         "stats"
       ],
-      "Hash": "53429f1244fee8c001f6f42f6024808a"
+      "Hash": "1b6dcc311dd115a89098e4e8319e67dd"
     },
     "magic": {
       "Package": "magic",
@@ -3101,12 +3122,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.189.6",
+      "Version": "1.190.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "59c9a62cf1cb44eeecad6d9b00f7d005fc95eb0f",
+      "RemoteSha": "322c00c711b4b3e21d2a01531de5d50e42f1dfd0",
       "Requirements": [
         "R",
         "dplyr",
@@ -3127,7 +3148,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "5d4e9c670ccbfbb4c22a54e15732399d"
+      "Hash": "48567511e5ac738905e45fe3cdbdf69b"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3546,12 +3567,12 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.50.5",
+      "Version": "0.50.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d277dde2f9490b891ef453650392c530897e2ae2",
+      "RemoteSha": "4c4e973146d04a12c00cfef0ab96a6d161490119",
       "Requirements": [
         "R",
         "SPEI",
@@ -3573,7 +3594,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "6dc191c3774e8c6f7fff5a9634d284f5"
+      "Hash": "7a96ead715b90599853680844bbfb13a"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
@@ -3815,12 +3836,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.9.4",
+      "Version": "1.9.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5d4f932019113d38445fd39ce95294fcc9cd9492",
+      "RemoteSha": "487c1712464e78b08b01d31e1aa463300b554f89",
       "Requirements": [
         "R",
         "madrat",
@@ -3834,7 +3855,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "32690cccfaf757b113001fbb3d2de2b0"
+      "Hash": "5e8f840edf85251c2f83394630439dbe"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
