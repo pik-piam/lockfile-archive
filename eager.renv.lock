@@ -3122,12 +3122,12 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.190.1",
+      "Version": "1.190.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "322c00c711b4b3e21d2a01531de5d50e42f1dfd0",
+      "RemoteSha": "abaffb1aaeda804a3ada38e8ed1f4fd7535cf6e8",
       "Requirements": [
         "R",
         "dplyr",
@@ -3148,7 +3148,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "48567511e5ac738905e45fe3cdbdf69b"
+      "Hash": "4716ae327b69de8eaa81d8d5a3d97f1e"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3750,12 +3750,12 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.51.2",
+      "Version": "2.51.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7a5fa39020355e7579e04c226494e786d58ee479",
+      "RemoteSha": "125c2cff771a91e0dfeb1601994fe8e9a963c0f8",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3779,7 +3779,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "39066effa34517bd359bbb3c91d4b02b"
+      "Hash": "611e924a7b74d436740bd3945af8eaff"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -3836,12 +3836,12 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.9.6",
+      "Version": "1.9.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "487c1712464e78b08b01d31e1aa463300b554f89",
+      "RemoteSha": "2e91b7e438efd3fb1cda6069dbaf8a4ded5951a9",
       "Requirements": [
         "R",
         "madrat",
@@ -3855,7 +3855,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "5e8f840edf85251c2f83394630439dbe"
+      "Hash": "bcb637fc88ae4fd436a96639654006e6"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
