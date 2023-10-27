@@ -2927,7 +2927,7 @@
     },
     "luscale": {
       "Package": "luscale",
-      "Version": "2.27.10",
+      "Version": "2.27.11",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2940,7 +2940,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "f114a85488cb0258f59703a3dcbd7e04"
+      "Hash": "287f45846a514d29dd501f755caf3171"
     },
     "lusweave": {
       "Package": "lusweave",
@@ -3043,7 +3043,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.192.11",
+      "Version": "1.192.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3066,7 +3066,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "9a6e1af136b3b2a390ddf07a268efc61"
+      "Hash": "15f5465203806017b7f6edcc418bb92b"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3484,7 +3484,7 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.38.1",
+      "Version": "1.38.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3514,7 +3514,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "e2a5598f0e94e513dc5632071301279a"
+      "Hash": "106fbbd3067cd52003771ad52334406e"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3718,7 +3718,7 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.9.32",
+      "Version": "1.9.33",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3734,7 +3734,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "7f64f0db510b6bfcd2071763f01c06a0"
+      "Hash": "96013a5c307b6a39f20be5ca01cd5600"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",

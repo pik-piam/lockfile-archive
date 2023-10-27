@@ -1215,7 +1215,7 @@
     },
     "dbplyr": {
       "Package": "dbplyr",
-      "Version": "2.3.4",
+      "Version": "2.4.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1239,7 +1239,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "63534894354af6b2587b7aa518a5193a"
+      "Hash": "59351f28a81f0742720b85363c4fdd61"
     },
     "deSolve": {
       "Package": "deSolve",
@@ -2875,10 +2875,6 @@
       "Version": "3.55.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteType": "repository",
-      "RemoteUrl": "https://github.com/pik-piam/luplot.git",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "a6e40bd579447c7e1bbf1e99f41568e1997f84c9",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -2899,7 +2895,7 @@
         "sp",
         "xml2"
       ],
-      "Hash": "a22fb635e19865f36b4fbc2fd777e721"
+      "Hash": "7e05362e5d458ec41f9eb098f3ed5a64"
     },
     "luscale": {
       "Package": "luscale",
@@ -3019,7 +3015,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.192.11",
+      "Version": "1.192.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3042,7 +3038,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "9a6e1af136b3b2a390ddf07a268efc61"
+      "Hash": "15f5465203806017b7f6edcc418bb92b"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3441,7 +3437,7 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.38.2",
+      "Version": "1.38.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3471,7 +3467,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "809e8ff4e4946f7fd5c20ce17b7b4fb7"
+      "Hash": "106fbbd3067cd52003771ad52334406e"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3675,13 +3671,9 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.9.32",
+      "Version": "1.9.33",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteType": "repository",
-      "RemoteUrl": "https://github.com/pik-piam/mrwater",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "9d5898a3b0511745a36b5e97edc5d9e5685f15aa",
       "Requirements": [
         "R",
         "madrat",
@@ -3695,7 +3687,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "811eeaa75dc9f25d01e5d3275c55d76f"
+      "Hash": "96013a5c307b6a39f20be5ca01cd5600"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
