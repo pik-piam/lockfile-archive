@@ -3240,7 +3240,7 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.36.9",
+      "Version": "1.36.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3274,7 +3274,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "e94a8f10b4bb0458020a6e3f91125b64"
+      "Hash": "a11c0788480970a89581ee40fa615112"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3409,7 +3409,7 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.50.16",
+      "Version": "0.50.17",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3433,11 +3433,11 @@
         "terra",
         "withr"
       ],
-      "Hash": "00e8aa32268375d0bb36e0815d180545"
+      "Hash": "e0d853426b58a6026b7f9930e96c7dc1"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.38.3",
+      "Version": "1.38.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3467,7 +3467,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "106fbbd3067cd52003771ad52334406e"
+      "Hash": "bbe0650a277166f3b280933f54528584"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3487,7 +3487,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.170.4",
+      "Version": "0.170.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3526,7 +3526,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "ab6ca721e32eec8f8c15a4f8e917d309"
+      "Hash": "88fc70aa44a5dc16e16615dd7cc7c4b6"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -3671,7 +3671,7 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.9.33",
+      "Version": "1.10.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3687,7 +3687,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "96013a5c307b6a39f20be5ca01cd5600"
+      "Hash": "e0dfe0a4c2e3e115ea9bccaf2c7c5f1f"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
@@ -3959,7 +3959,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.8.0",
+      "Version": "0.9.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3976,7 +3976,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "d79ef7126707e8217ad4ed0853435869"
+      "Hash": "c5669868616a818bc9926730dc2da12a"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
