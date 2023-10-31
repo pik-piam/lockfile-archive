@@ -2559,7 +2559,7 @@
     },
     "knitr": {
       "Package": "knitr",
-      "Version": "1.44",
+      "Version": "1.45",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2571,7 +2571,7 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "60885b9f746c9dfaef110d070b5f7dc0"
+      "Hash": "1ec462871063897135c1bcbe0fc8f07d"
     },
     "labeling": {
       "Package": "labeling",
@@ -3438,7 +3438,7 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.38.4",
+      "Version": "1.38.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3468,7 +3468,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "bbe0650a277166f3b280933f54528584"
+      "Hash": "b8e264c4b96d34366df1119dbb83bf94"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3960,7 +3960,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.9.0",
+      "Version": "0.10.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3977,7 +3977,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "c5669868616a818bc9926730dc2da12a"
+      "Hash": "8c684e00cdc1e1fb605e93f40534d1f5"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4178,13 +4178,13 @@
     },
     "poorman": {
       "Package": "poorman",
-      "Version": "0.2.6",
+      "Version": "0.2.7",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "ec25e99cf706dab2abda759c87030b24"
+      "Hash": "d0bb8a425a213bc38f2cf8f14ded8941"
     },
     "posterior": {
       "Package": "posterior",
@@ -5870,7 +5870,7 @@
     },
     "withr": {
       "Package": "withr",
-      "Version": "2.5.1",
+      "Version": "2.5.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5879,7 +5879,7 @@
         "graphics",
         "stats"
       ],
-      "Hash": "d77c6f74be05c33164e33fbc85540cae"
+      "Hash": "4b25e70111b7d644322e9513f403a272"
     },
     "wk": {
       "Package": "wk",

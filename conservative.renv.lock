@@ -3484,7 +3484,7 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.38.4",
+      "Version": "1.38.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3514,7 +3514,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "bbe0650a277166f3b280933f54528584"
+      "Hash": "b8e264c4b96d34366df1119dbb83bf94"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -4005,7 +4005,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.9.0",
+      "Version": "0.10.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4022,7 +4022,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "c5669868616a818bc9926730dc2da12a"
+      "Hash": "8c684e00cdc1e1fb605e93f40534d1f5"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5198,7 +5198,7 @@
     },
     "sf": {
       "Package": "sf",
-      "Version": "1.0-9",
+      "Version": "1.0-14",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5217,7 +5217,7 @@
         "units",
         "utils"
       ],
-      "Hash": "8a348490fefb623e7935f405230900a7"
+      "Hash": "e2111252a76984ca50bf8d6314348681"
     },
     "shiny": {
       "Package": "shiny",
