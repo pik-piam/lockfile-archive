@@ -2879,7 +2879,7 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.45.0",
+      "Version": "0.45.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2896,7 +2896,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "facf41fb9c4a4ba760b61f82490fcbdd"
+      "Hash": "78081d50e6da4e3e0a6124f465418363"
     },
     "luplot": {
       "Package": "luplot",
@@ -2995,7 +2995,7 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.6.10",
+      "Version": "3.7.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3014,7 +3014,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "8906ea1550009431ad4a2893b04fd9a1"
+      "Hash": "552340fea0b0665726ff27bcac65d14b"
     },
     "magclass": {
       "Package": "magclass",
@@ -3043,7 +3043,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.192.12",
+      "Version": "1.192.14",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3066,7 +3066,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "15f5465203806017b7f6edcc418bb92b"
+      "Hash": "c813b931c54b7e359671799f339699e2"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3456,7 +3456,7 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.50.17",
+      "Version": "0.50.18",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3480,7 +3480,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "e0d853426b58a6026b7f9930e96c7dc1"
+      "Hash": "940f5fc83125fdca7bcba1e1f2491488"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
@@ -3534,7 +3534,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.170.6",
+      "Version": "0.171.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3573,7 +3573,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "88fc70aa44a5dc16e16615dd7cc7c4b6"
+      "Hash": "905d85667ac15a0e6c066c670a3f5c85"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -3718,7 +3718,7 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.10.1",
+      "Version": "1.10.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3734,7 +3734,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "42f5ce6bafec7a3fa00f3ba63dec5f95"
+      "Hash": "ea8618b490aabbe6377fb22472087113"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
