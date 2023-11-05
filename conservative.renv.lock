@@ -3456,7 +3456,7 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.50.18",
+      "Version": "0.50.19",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3480,7 +3480,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "940f5fc83125fdca7bcba1e1f2491488"
+      "Hash": "2435c0a9971dc714f58fde46867fceb9"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
