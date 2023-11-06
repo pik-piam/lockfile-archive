@@ -2714,7 +2714,7 @@
     },
     "lme4": {
       "Package": "lme4",
-      "Version": "1.1-35",
+      "Version": "1.1-35.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2736,7 +2736,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "d87e075484c058fc42da2bf65a494720"
+      "Hash": "07fb0c5b727b15b0ce40feb641498e4e"
     },
     "lmom": {
       "Package": "lmom",
@@ -4982,13 +4982,13 @@
     },
     "rprojroot": {
       "Package": "rprojroot",
-      "Version": "2.0.3",
+      "Version": "2.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "1de7ab598047a87bba48434ba35d497d"
+      "Hash": "4c8415e0ec1e29f3f4f6fc108bef0144"
     },
     "rstan": {
       "Package": "rstan",
