@@ -3717,7 +3717,7 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.11.0",
+      "Version": "1.11.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3733,7 +3733,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "d6497ff4ff4db5cf174f2d0da62dd1a0"
+      "Hash": "d606063dfc731f0c54697742f349cac0"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
@@ -4713,7 +4713,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.123.1",
+      "Version": "1.123.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4757,7 +4757,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "1bf27358dfa3d84b47964226997554b1"
+      "Hash": "8e2978615cbcdae240d11b5514d05cc1"
     },
     "remotes": {
       "Package": "remotes",

@@ -1110,7 +1110,7 @@
     },
     "covr": {
       "Package": "covr",
-      "Version": "3.6.3",
+      "Version": "3.6.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1126,7 +1126,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "1555dd95f983200d5997dcbb5b9cd262"
+      "Hash": "0cbf0435830e767ba9b292b313592362"
     },
     "cpp11": {
       "Package": "cpp11",
@@ -3670,7 +3670,7 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.11.0",
+      "Version": "1.11.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3686,7 +3686,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "d6497ff4ff4db5cf174f2d0da62dd1a0"
+      "Hash": "d606063dfc731f0c54697742f349cac0"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
@@ -4676,13 +4676,9 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.123.1",
+      "Version": "1.123.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteType": "repository",
-      "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "ae67f6fe47eb863f5bc56f788c0f2ec26be02465",
       "Requirements": [
         "RColorBrewer",
         "abind",
@@ -4724,7 +4720,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "e6176694fe877b7c286196a5245168ce"
+      "Hash": "8e2978615cbcdae240d11b5514d05cc1"
     },
     "remotes": {
       "Package": "remotes",
