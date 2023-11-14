@@ -2990,7 +2990,7 @@
     },
     "magclass": {
       "Package": "magclass",
-      "Version": "6.11.2",
+      "Version": "6.11.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3000,7 +3000,7 @@
         "methods",
         "stats"
       ],
-      "Hash": "35a1ff808541c64d418fbe8df5b2a226"
+      "Hash": "4eae8c0b0a034497b9528e1f5aa86624"
     },
     "magic": {
       "Package": "magic",
@@ -3486,7 +3486,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.171.0",
+      "Version": "0.171.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3525,7 +3525,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "905d85667ac15a0e6c066c670a3f5c85"
+      "Hash": "64938c91a6cf8d1ebbc684bd952c4d37"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -5361,7 +5361,7 @@
     },
     "stringi": {
       "Package": "stringi",
-      "Version": "1.7.12",
+      "Version": "1.8.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5370,7 +5370,7 @@
         "tools",
         "utils"
       ],
-      "Hash": "ca8bd84263c77310739d2cf64d84d7c9"
+      "Hash": "12bf57fdcb9b7068bea39b32f87ecac9"
     },
     "stringr": {
       "Package": "stringr",
