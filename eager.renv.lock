@@ -2041,7 +2041,7 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.26.2",
+      "Version": "0.26.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2052,7 +2052,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "e884c6773d488afbacca57386bf647a7"
+      "Hash": "954be609d1a4f8e613a272c420e503d4"
     },
     "goftest": {
       "Package": "goftest",
@@ -2184,7 +2184,7 @@
     },
     "gtools": {
       "Package": "gtools",
-      "Version": "3.9.4",
+      "Version": "3.9.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2192,7 +2192,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "88bb96eaf7140cdf29e374ef74182220"
+      "Hash": "588d091c35389f1f4a9d533c8d709b35"
     },
     "haven": {
       "Package": "haven",
@@ -2969,7 +2969,7 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.7.1",
+      "Version": "3.7.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2988,7 +2988,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "44c8a2ebf978419dee5c52bfc6f88bfa"
+      "Hash": "80d8c092eedb466bdbc856d1196b3457"
     },
     "magclass": {
       "Package": "magclass",
