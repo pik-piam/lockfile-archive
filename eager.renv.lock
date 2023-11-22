@@ -817,7 +817,7 @@
     },
     "bslib": {
       "Package": "bslib",
-      "Version": "0.5.1",
+      "Version": "0.6.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -828,12 +828,13 @@
         "htmltools",
         "jquerylib",
         "jsonlite",
+        "lifecycle",
         "memoise",
         "mime",
         "rlang",
         "sass"
       ],
-      "Hash": "283015ddfbb9d7bf15ea9f0b5698f0d9"
+      "Hash": "fac047b773ad75cea6e2a25214b09ca0"
     },
     "cachem": {
       "Package": "cachem",
@@ -3321,7 +3322,7 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.3.1",
+      "Version": "0.4.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3338,7 +3339,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "f663be1299e919f7e7c8f8cdd46a42bf"
+      "Hash": "09e4718a7c497c632670c22c275a8409"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -3410,7 +3411,7 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.51.0",
+      "Version": "0.51.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3434,7 +3435,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "635af05642adbf3e28a2aa331e5f2313"
+      "Hash": "9bef24529fd67ed1a7475364bcdb5e5b"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
