@@ -2047,18 +2047,19 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.26.3",
+      "Version": "0.28.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "dplyr",
         "filelock",
         "rlang",
+        "stats",
         "stringr",
         "withr",
         "yaml"
       ],
-      "Hash": "954be609d1a4f8e613a272c420e503d4"
+      "Hash": "745c13632acdbc670f3fad99d3f64a25"
     },
     "goftest": {
       "Package": "goftest",
@@ -2124,7 +2125,7 @@
     },
     "goxygen": {
       "Package": "goxygen",
-      "Version": "1.3.3",
+      "Version": "1.4.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2135,7 +2136,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "e051886f696294aeacd072603b9b9d0e"
+      "Hash": "f5bce0f5f97e972c42e69b958821b08e"
     },
     "gridExtra": {
       "Package": "gridExtra",
@@ -3533,7 +3534,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.171.2",
+      "Version": "0.172.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3572,7 +3573,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "64938c91a6cf8d1ebbc684bd952c4d37"
+      "Hash": "5a1112875dbc962b97eb76684c5e0c95"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4714,7 +4715,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.123.2",
+      "Version": "1.124.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4758,7 +4759,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "8e2978615cbcdae240d11b5514d05cc1"
+      "Hash": "1eb2e88eccdd6c385633e81006e73040"
     },
     "remotes": {
       "Package": "remotes",
