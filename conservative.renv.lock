@@ -93,10 +93,10 @@
     },
     "HARr": {
       "Package": "HARr",
-      "Version": "1.0.0",
+      "Version": "1.1.0",
       "Source": "Repository",
       "Repository": "https://pik-piam.r-universe.dev",
-      "Hash": "42f6e2413647589cd62c3a32587b0b25"
+      "Hash": "3ff41fec0e15b10adcd26e58aad59e38"
     },
     "Hmisc": {
       "Package": "Hmisc",
@@ -124,16 +124,6 @@
         "viridis"
       ],
       "Hash": "38d81aab48fd9587c47c8dd20d8498cd"
-    },
-    "ISOweek": {
-      "Package": "ISOweek",
-      "Version": "0.6-2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "stringr"
-      ],
-      "Hash": "ad7e2b013b9379cb560caa9b168202f0"
     },
     "KernSmooth": {
       "Package": "KernSmooth",
@@ -218,33 +208,6 @@
         "stats"
       ],
       "Hash": "963ab8fbaf980a5b081ed40419081439"
-    },
-    "QuickJSR": {
-      "Package": "QuickJSR",
-      "Version": "1.0.7",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R6",
-        "Rcpp",
-        "jsonlite"
-      ],
-      "Hash": "1160fb7afae2eebb5f24939590956cdf"
-    },
-    "R.cache": {
-      "Package": "R.cache",
-      "Version": "0.16.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "R.methodsS3",
-        "R.oo",
-        "R.utils",
-        "digest",
-        "utils"
-      ],
-      "Hash": "fe539ca3f8efb7410c3ae2cf5fe6c0f8"
     },
     "R.methodsS3": {
       "Package": "R.methodsS3",
@@ -384,47 +347,6 @@
       ],
       "Hash": "c41921872ee565ed7eb7d606874b39ed"
     },
-    "RefManageR": {
-      "Package": "RefManageR",
-      "Version": "1.4.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "bibtex",
-        "httr",
-        "jsonlite",
-        "lubridate",
-        "methods",
-        "plyr",
-        "stringr",
-        "tools",
-        "utils",
-        "xml2"
-      ],
-      "Hash": "d22e94d9088f55cc112e722888afcc70"
-    },
-    "Rilostat": {
-      "Package": "Rilostat",
-      "Version": "1.1.8",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "DT",
-        "R",
-        "RCurl",
-        "data.table",
-        "dplyr",
-        "haven",
-        "plyr",
-        "readr",
-        "stringr",
-        "tibble",
-        "tidyr",
-        "xml2"
-      ],
-      "Hash": "79ca1115487a3a5bac51153e7e2f4004"
-    },
     "SPARQL": {
       "Package": "SPARQL",
       "Version": "1.16",
@@ -494,18 +416,6 @@
         "stats"
       ],
       "Hash": "097b94d554eaa84c48ad0016abecd7f3"
-    },
-    "TTR": {
-      "Package": "TTR",
-      "Version": "0.24.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "curl",
-        "xts",
-        "zoo"
-      ],
-      "Hash": "c553a7be22ec50faaebee27be54a1313"
     },
     "WDI": {
       "Package": "WDI",
@@ -630,25 +540,6 @@
       ],
       "Hash": "9c4f6ab31da906185d23e69a88595cf7"
     },
-    "bezier": {
-      "Package": "bezier",
-      "Version": "1.1.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "a02b18c7fe82856f3e9a7e2f2a643435"
-    },
-    "bibtex": {
-      "Package": "bibtex",
-      "Version": "0.5.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "backports",
-        "utils"
-      ],
-      "Hash": "a704d52e87822191b42c715c568f96dd"
-    },
     "bit": {
       "Package": "bit",
       "Version": "4.0.5",
@@ -700,18 +591,6 @@
         "withr"
       ],
       "Hash": "e437f97cc03509597d19030b7b7963c6"
-    },
-    "blob": {
-      "Package": "blob",
-      "Version": "1.2.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "methods",
-        "rlang",
-        "vctrs"
-      ],
-      "Hash": "10d231579bc9c06ab1c320618808d4ff"
     },
     "boot": {
       "Package": "boot",
@@ -928,9 +807,9 @@
     },
     "citation": {
       "Package": "citation",
-      "Version": "0.8.2",
+      "Version": "0.9.0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "desc",
         "jsonlite",
@@ -938,7 +817,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "4d83f1db61b1fc69690b94fa939cb161"
+      "Hash": "fa58ba74e6483238f6cdd1597a4095c4"
     },
     "class": {
       "Package": "class",
@@ -1063,19 +942,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "b6e3e947d1d7ebf3d2bdcea1bde63fe7"
-    },
-    "conflicted": {
-      "Package": "conflicted",
-      "Version": "1.2.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cli",
-        "memoise",
-        "rlang"
-      ],
-      "Hash": "bb097fccb22d156624fd07cd2894ddb6"
     },
     "contfrac": {
       "Package": "contfrac",
@@ -1205,34 +1071,6 @@
         "methods"
       ],
       "Hash": "aecef50008ea7b57c76f1cb5c127fb02"
-    },
-    "dbplyr": {
-      "Package": "dbplyr",
-      "Version": "2.3.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "DBI",
-        "R",
-        "R6",
-        "assertthat",
-        "blob",
-        "cli",
-        "dplyr",
-        "glue",
-        "lifecycle",
-        "magrittr",
-        "methods",
-        "pillar",
-        "purrr",
-        "rlang",
-        "tibble",
-        "tidyselect",
-        "utils",
-        "vctrs",
-        "withr"
-      ],
-      "Hash": "f03e0e456f1cb7b068772af43772baea"
     },
     "deSolve": {
       "Package": "deSolve",
@@ -1456,26 +1294,6 @@
       ],
       "Hash": "e85ffbebaad5f70e1a2e2ef4302b4949"
     },
-    "dtplyr": {
-      "Package": "dtplyr",
-      "Version": "1.2.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "crayon",
-        "data.table",
-        "dplyr",
-        "ellipsis",
-        "glue",
-        "lifecycle",
-        "rlang",
-        "tibble",
-        "tidyselect",
-        "vctrs"
-      ],
-      "Hash": "c5f8828a0b459a703db190b001ad4818"
-    },
     "dygraphs": {
       "Package": "dygraphs",
       "Version": "1.1.1.6",
@@ -1509,7 +1327,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "1.3.0",
+      "Version": "1.5.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -1533,7 +1351,7 @@
         "ymlthis",
         "zoo"
       ],
-      "Hash": "8705696d178a7dd79d4b4fdcfda87c32"
+      "Hash": "f0bd60d1b258a753ca9e6d2afe5f5850"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -1578,34 +1396,6 @@
         "R"
       ],
       "Hash": "4ad4fc696f70fece9399140246f409f3"
-    },
-    "eurostat": {
-      "Package": "eurostat",
-      "Version": "3.8.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "ISOweek",
-        "R",
-        "RefManageR",
-        "broom",
-        "classInt",
-        "countrycode",
-        "curl",
-        "dplyr",
-        "httr",
-        "jsonlite",
-        "lubridate",
-        "methods",
-        "rappdirs",
-        "readr",
-        "regions",
-        "stringi",
-        "stringr",
-        "tibble",
-        "tidyr"
-      ],
-      "Hash": "c9c4433dee657159f082700903f6d305"
     },
     "evaluate": {
       "Package": "evaluate",
@@ -1677,28 +1467,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "38ec653c2613bed60052ba3787bd8a2c"
-    },
-    "flexdashboard": {
-      "Package": "flexdashboard",
-      "Version": "0.6.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "bslib",
-        "grDevices",
-        "htmltools",
-        "htmlwidgets",
-        "jsonlite",
-        "knitr",
-        "rmarkdown",
-        "sass",
-        "scales",
-        "shiny",
-        "tools",
-        "utils"
-      ],
-      "Hash": "66aa31fb4b18c053cd20753523073742"
     },
     "fontawesome": {
       "Package": "fontawesome",
@@ -1781,37 +1549,16 @@
       ],
       "Hash": "d8a0dcbc9350c1e40edc644611d1ee15"
     },
-    "gargle": {
-      "Package": "gargle",
-      "Version": "1.2.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cli",
-        "fs",
-        "glue",
-        "httr",
-        "jsonlite",
-        "rappdirs",
-        "rlang",
-        "rstudioapi",
-        "stats",
-        "utils",
-        "withr"
-      ],
-      "Hash": "cca71329ad88e21267f09255d3f008c2"
-    },
     "gdx": {
       "Package": "gdx",
-      "Version": "1.51.5",
+      "Version": "1.51.6",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "gdxrrw",
         "magclass"
       ],
-      "Hash": "a07ab4039e2bdcfb62a00fe55f050b13"
+      "Hash": "9ed0c7fbb79e4f54dbcb1524d25a8f55"
     },
     "gdxdt": {
       "Package": "gdxdt",
@@ -2047,7 +1794,7 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.28.0",
+      "Version": "0.29.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2059,7 +1806,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "745c13632acdbc670f3fad99d3f64a25"
+      "Hash": "85dcbfb63434c5921b58563909af32e7"
     },
     "goftest": {
       "Package": "goftest",
@@ -2072,60 +1819,9 @@
       ],
       "Hash": "dbe0201f91eeb15918dd3fbf01ee689a"
     },
-    "googledrive": {
-      "Package": "googledrive",
-      "Version": "2.0.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cli",
-        "gargle",
-        "glue",
-        "httr",
-        "jsonlite",
-        "lifecycle",
-        "magrittr",
-        "pillar",
-        "purrr",
-        "rlang",
-        "tibble",
-        "utils",
-        "uuid",
-        "vctrs",
-        "withr"
-      ],
-      "Hash": "c3a25adbbfbb03f12e6f88c5fb1f3024"
-    },
-    "googlesheets4": {
-      "Package": "googlesheets4",
-      "Version": "1.0.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cellranger",
-        "cli",
-        "curl",
-        "gargle",
-        "glue",
-        "googledrive",
-        "httr",
-        "ids",
-        "magrittr",
-        "methods",
-        "purrr",
-        "rematch2",
-        "rlang",
-        "tibble",
-        "utils",
-        "vctrs"
-      ],
-      "Hash": "3b449d5292327880fc6cb61d0b2e9063"
-    },
     "goxygen": {
       "Package": "goxygen",
-      "Version": "1.4.1",
+      "Version": "1.4.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2136,7 +1832,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "f5bce0f5f97e972c42e69b958821b08e"
+      "Hash": "9ae9cbbcb712ef8b77de596b78cb0d59"
     },
     "gridExtra": {
       "Package": "gridExtra",
@@ -2195,27 +1891,6 @@
       ],
       "Hash": "88bb96eaf7140cdf29e374ef74182220"
     },
-    "haven": {
-      "Package": "haven",
-      "Version": "2.5.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cli",
-        "cpp11",
-        "forcats",
-        "hms",
-        "lifecycle",
-        "methods",
-        "readr",
-        "rlang",
-        "tibble",
-        "tidyselect",
-        "vctrs"
-      ],
-      "Hash": "5b45a553fca2217a07b6f9c843304c44"
-    },
     "hdf5r": {
       "Package": "hdf5r",
       "Version": "1.3.8",
@@ -2239,36 +1914,6 @@
         "rprojroot"
       ],
       "Hash": "24b224366f9c2e7534d2344d10d59211"
-    },
-    "highcharter": {
-      "Package": "highcharter",
-      "Version": "0.9.4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "assertthat",
-        "broom",
-        "dplyr",
-        "htmltools",
-        "htmlwidgets",
-        "igraph",
-        "jsonlite",
-        "lubridate",
-        "magrittr",
-        "purrr",
-        "quantmod",
-        "rjson",
-        "rlang",
-        "rlist",
-        "stringr",
-        "tibble",
-        "tidyr",
-        "xts",
-        "yaml",
-        "zoo"
-      ],
-      "Hash": "e9851999ff5a7d33d6b17a68b2cb7f59"
     },
     "highr": {
       "Package": "highr",
@@ -2427,17 +2072,6 @@
       ],
       "Hash": "82cb41c0a5288cb17e4804dfcea80351"
     },
-    "ids": {
-      "Package": "ids",
-      "Version": "1.0.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "openssl",
-        "uuid"
-      ],
-      "Hash": "99df65cfef20e525ed38c3d2577f7190"
-    },
     "igraph": {
       "Package": "igraph",
       "Version": "1.3.5",
@@ -2537,34 +2171,6 @@
         "methods"
       ],
       "Hash": "266a20443ca13c65688b2116d5220f76"
-    },
-    "kableExtra": {
-      "Package": "kableExtra",
-      "Version": "1.3.4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "digest",
-        "glue",
-        "grDevices",
-        "graphics",
-        "htmltools",
-        "knitr",
-        "magrittr",
-        "rmarkdown",
-        "rstudioapi",
-        "rvest",
-        "scales",
-        "stats",
-        "stringr",
-        "svglite",
-        "tools",
-        "viridisLite",
-        "webshot",
-        "xml2"
-      ],
-      "Hash": "49b625e6aabe4c5f091f5850aba8ff78"
     },
     "knitr": {
       "Package": "knitr",
@@ -2683,7 +2289,7 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.56.1",
+      "Version": "2.62.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2697,7 +2303,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "1d10e59e5647482a2da10ce7e7eaf550"
+      "Hash": "a4209a4f17ceccc7ec36b5f497287ecb"
     },
     "linprog": {
       "Package": "linprog",
@@ -2842,7 +2448,7 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "1.1.9",
+      "Version": "1.3.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2863,7 +2469,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "a2ebf19c0c2025e0511b311fa72e5863"
+      "Hash": "c45a195d477510b8021267e8fe152115"
     },
     "lubridate": {
       "Package": "lubridate",
@@ -2880,7 +2486,7 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.45.1",
+      "Version": "0.46.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2897,11 +2503,11 @@
         "withr",
         "yaml"
       ],
-      "Hash": "78081d50e6da4e3e0a6124f465418363"
+      "Hash": "9725adbd8f7c7341f06e497aba0a157d"
     },
     "luplot": {
       "Package": "luplot",
-      "Version": "3.56.0",
+      "Version": "3.58.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2913,6 +2519,7 @@
         "ggplot2",
         "grDevices",
         "graphics",
+        "gridExtra",
         "luscale",
         "lusweave",
         "magclass",
@@ -2924,7 +2531,7 @@
         "sp",
         "xml2"
       ],
-      "Hash": "115f4e7fdc28c7726de4c8a7a6c760b1"
+      "Hash": "dd1c7a5f4847cfa79a546a7765042dcf"
     },
     "luscale": {
       "Package": "luscale",
@@ -2996,7 +2603,7 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.7.2",
+      "Version": "3.8.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3015,11 +2622,11 @@
         "withr",
         "yaml"
       ],
-      "Hash": "80d8c092eedb466bdbc856d1196b3457"
+      "Hash": "5b698887621f3e7875f70dbb289a132b"
     },
     "magclass": {
       "Package": "magclass",
-      "Version": "6.11.3",
+      "Version": "6.13.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3029,7 +2636,7 @@
         "methods",
         "stats"
       ],
-      "Hash": "4eae8c0b0a034497b9528e1f5aa86624"
+      "Hash": "dbc9e33e04a823f72197aa1d5c2ae0b1"
     },
     "magic": {
       "Package": "magic",
@@ -3044,7 +2651,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.192.18",
+      "Version": "1.198.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3067,7 +2674,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "b62731ab4488dcc3f055a7dc14edbba1"
+      "Hash": "f551003c5929dd61cdfefc0947385fc7"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3212,7 +2819,7 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.146.0",
+      "Version": "0.147.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3233,7 +2840,7 @@
         "tidyr",
         "trafficlight"
       ],
-      "Hash": "b986ffb4a28f878a7c6552c09a5000c4"
+      "Hash": "7f82497dc16b0f0e9629e8dc3d7caa01"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -3245,27 +2852,9 @@
       ],
       "Hash": "c83992ef63553d1e4b97162a4a753470"
     },
-    "modelr": {
-      "Package": "modelr",
-      "Version": "0.1.10",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "broom",
-        "magrittr",
-        "purrr",
-        "rlang",
-        "tibble",
-        "tidyr",
-        "tidyselect",
-        "vctrs"
-      ],
-      "Hash": "bc23cda9c6a8f91dc1c10e1994494711"
-    },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.15.14",
+      "Version": "0.16.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3283,11 +2872,11 @@
         "utils",
         "withr"
       ],
-      "Hash": "504e9ed509d5f02453f122df58533d3b"
+      "Hash": "6906bdb586276e4947163a7f9ddbe365"
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.37.0",
+      "Version": "1.38.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3303,6 +2892,7 @@
         "madrat",
         "magclass",
         "magpiesets",
+        "methods",
         "mrdrivers",
         "mstools",
         "ncdf4",
@@ -3321,7 +2911,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "d69bd003e9ed824ee3bf349b6db37830"
+      "Hash": "b3f82caf0879197b97b49aac84184150"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3341,12 +2931,11 @@
     },
     "mrdrivers": {
       "Package": "mrdrivers",
-      "Version": "1.4.0",
+      "Version": "1.5.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "GDPuc",
-        "bezier",
         "countrycode",
         "dplyr",
         "glue",
@@ -3363,49 +2952,27 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "70cd994465e252ced937acab89d926fc"
-    },
-    "mredgebuildings": {
-      "Package": "mredgebuildings",
-      "Version": "0.4.0",
-      "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "Requirements": [
-        "dplyr",
-        "madrat",
-        "magclass",
-        "mrcommons",
-        "mrdrivers",
-        "plyr",
-        "quadprog",
-        "quitte",
-        "readxl",
-        "rlang",
-        "tidyr",
-        "zoo"
-      ],
-      "Hash": "09e4718a7c497c632670c22c275a8409"
+      "Hash": "76d276e33c1f37dc8b9f83e81a96461a"
     },
     "mrfable": {
       "Package": "mrfable",
-      "Version": "1.6.2",
+      "Version": "1.6.3",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "R",
         "dplyr",
         "madrat",
         "magclass",
-        "quitte",
         "readxl",
         "tidyr",
         "utils"
       ],
-      "Hash": "48ae0601399c8ef5de8d6c1fac42fa28"
+      "Hash": "79506db81663d6a67a4dd2fa27454866"
     },
     "mrfactors": {
       "Package": "mrfactors",
-      "Version": "0.3.5",
+      "Version": "0.3.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3422,7 +2989,7 @@
         "readxl",
         "stringr"
       ],
-      "Hash": "aeb2974fd92ff512fd26c92d67dcb6df"
+      "Hash": "b671b197ac9e8468fbb32d1232d3f974"
     },
     "mrfeed": {
       "Package": "mrfeed",
@@ -3456,10 +3023,11 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.51.1",
+      "Version": "0.52.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
+        "GDPuc",
         "R",
         "SPEI",
         "countrycode",
@@ -3480,11 +3048,11 @@
         "terra",
         "withr"
       ],
-      "Hash": "9bef24529fd67ed1a7475364bcdb5e5b"
+      "Hash": "9ee80cdccb5f9fa1c3b379c8c8275aa7"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.39.0",
+      "Version": "1.40.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3502,6 +3070,7 @@
         "magpiesets",
         "mrcommons",
         "mrland",
+        "mrsoil",
         "mrwater",
         "mstools",
         "ncdf4",
@@ -3514,7 +3083,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "7703d446d5bc1d3fc11683f8b62bf5ef"
+      "Hash": "0dd50e60f0bd959e60e72caeebd7e0cb"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3534,7 +3103,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.172.0",
+      "Version": "0.175.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3573,11 +3142,11 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "5a1112875dbc962b97eb76684c5e0c95"
+      "Hash": "c523c6c66dfd55c2295550a7207749b3"
     },
     "mrsoil": {
       "Package": "mrsoil",
-      "Version": "1.17.12",
+      "Version": "2.0.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3588,20 +3157,15 @@
         "magclass",
         "magpiesets",
         "mrcommons",
-        "mrmagpie",
-        "mrvalidation",
-        "ncdf4",
+        "mrdrivers",
         "readxl",
-        "reshape2",
-        "stringr",
-        "utils",
-        "xml2"
+        "utils"
       ],
-      "Hash": "b54b356c1697c99da16ae28020746e84"
+      "Hash": "0aee3e62b873ed752d7441d9a9c1c902"
     },
     "mrtransport": {
       "Package": "mrtransport",
-      "Version": "0.2.0",
+      "Version": "0.2.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3617,7 +3181,7 @@
         "stringr",
         "zoo"
       ],
-      "Hash": "b45c7e9c698f34e2bfefd3fb90b9d17d"
+      "Hash": "343d9be0a997ea70587888b7fa9843d6"
     },
     "mrtutorial": {
       "Package": "mrtutorial",
@@ -3641,7 +3205,7 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.52.0",
+      "Version": "2.55.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3667,16 +3231,15 @@
         "utils",
         "withr"
       ],
-      "Hash": "ba3c9a6cc533eb97de639e40be30db04"
+      "Hash": "69d2a407028302441f9a9d790ac0671e"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
-      "Version": "1.6.5",
+      "Version": "1.6.6",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "R",
-        "dplyr",
         "madrat",
         "magclass",
         "magpiesets",
@@ -3684,7 +3247,7 @@
         "reshape2",
         "utils"
       ],
-      "Hash": "56d3c58ce5f7492d76ef68030156fb65"
+      "Hash": "716cc42a3460818e90e76ab8cc6421ff"
     },
     "mrwaste": {
       "Package": "mrwaste",
@@ -3718,7 +3281,7 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.11.2",
+      "Version": "1.11.16",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3728,13 +3291,14 @@
         "magpiesets",
         "mrcommons",
         "mrland",
+        "mstools",
         "raster",
         "stats",
         "stringr",
         "utils",
         "withr"
       ],
-      "Hash": "d606063dfc731f0c54697742f349cac0"
+      "Hash": "03004a580b88037a99a9161589680903"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
@@ -3760,14 +3324,14 @@
     },
     "mstools": {
       "Package": "mstools",
-      "Version": "0.3.0",
+      "Version": "0.4.0",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "madrat",
         "magclass"
       ],
-      "Hash": "1701058c3898ea89fee7e7af04eaa4e0"
+      "Hash": "8558c194236c78dbedb7616fc603e5fc"
     },
     "munsell": {
       "Package": "munsell",
@@ -4005,7 +3569,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.10.1",
+      "Version": "0.12.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4022,11 +3586,11 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "8c684e00cdc1e1fb605e93f40534d1f5"
+      "Hash": "390fcc52fa3b0134a6e2b90ea3e96695"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
-      "Version": "0.31.4",
+      "Version": "0.31.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4043,11 +3607,11 @@
         "utils",
         "writexl"
       ],
-      "Hash": "af3720e09fd31db6f3b38f6bc212a8f9"
+      "Hash": "1726820988b82a2dbcd0cc2f9f9190c1"
     },
     "piamenv": {
       "Package": "piamenv",
-      "Version": "0.4.3",
+      "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4056,7 +3620,7 @@
         "renv",
         "withr"
       ],
-      "Hash": "bf1a5fad76622b7509fe89c63577f534"
+      "Hash": "c7e5fb577cb5f7f5faf12921d20cbbc1"
     },
     "piktests": {
       "Package": "piktests",
@@ -4221,16 +3785,6 @@
         "R"
       ],
       "Hash": "bd54ba8a0a5faded999a7aab6e46b374"
-    },
-    "poorman": {
-      "Package": "poorman",
-      "Version": "0.2.6",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R"
-      ],
-      "Hash": "ec25e99cf706dab2abda759c87030b24"
     },
     "posterior": {
       "Package": "posterior",
@@ -4407,18 +3961,6 @@
       ],
       "Hash": "dc8982cd7965d6d14df1b7c90b274171"
     },
-    "qpdf": {
-      "Package": "qpdf",
-      "Version": "1.3.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "Rcpp",
-        "askpass",
-        "curl"
-      ],
-      "Hash": "c483a5cbb08463128f1bd714e6e9e914"
-    },
     "quadprog": {
       "Package": "quadprog",
       "Version": "1.5-8",
@@ -4444,21 +3986,6 @@
       ],
       "Hash": "5d5e675f238f1ee57fb0a51268e08de5"
     },
-    "quantmod": {
-      "Package": "quantmod",
-      "Version": "0.4.20",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "TTR",
-        "curl",
-        "methods",
-        "xts",
-        "zoo"
-      ],
-      "Hash": "e8c1ef1a6bc7ea89c1801ab4994b87bb"
-    },
     "quantreg": {
       "Package": "quantreg",
       "Version": "5.94",
@@ -4479,7 +4006,7 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3127.2",
+      "Version": "0.3128.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4510,7 +4037,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "3167c7caf07ae1d0e14a1d59607c8cf0"
+      "Hash": "e8aec3319f9c62f0c736e6b018d76cca"
     },
     "r2databus": {
       "Package": "r2databus",
@@ -4649,36 +4176,11 @@
       ],
       "Hash": "5c1fbc365ac0a3fe7728ac79108b8e64"
     },
-    "regions": {
-      "Package": "regions",
-      "Version": "0.1.8",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "assertthat",
-        "countrycode",
-        "dplyr",
-        "glue",
-        "here",
-        "magrittr",
-        "purrr",
-        "readxl",
-        "rlang",
-        "stats",
-        "stringr",
-        "tibble",
-        "tidyr",
-        "tidyselect",
-        "utils"
-      ],
-      "Hash": "c03b0e9b4289b24062e895ae81ef7b3d"
-    },
     "regressionworlddata": {
       "Package": "regressionworlddata",
-      "Version": "1.1.3",
+      "Version": "1.1.4",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -4694,7 +4196,7 @@
         "sandwich",
         "stats"
       ],
-      "Hash": "d9b64f24cfc19e6c5e702b18833e4719"
+      "Hash": "e3cad84169a4760b03a702ad21d520ab"
     },
     "rematch": {
       "Package": "rematch",
@@ -4715,11 +4217,10 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.124.0",
+      "Version": "1.130.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
-        "RColorBrewer",
         "abind",
         "assertr",
         "data.table",
@@ -4729,11 +4230,10 @@
         "gdxrrw",
         "ggplot2",
         "gms",
-        "highcharter",
+        "htmltools",
         "iamc",
         "jsonlite",
         "knitr",
-        "lubridate",
         "lucode2",
         "luplot",
         "luscale",
@@ -4751,7 +4251,6 @@
         "rlang",
         "rmarkdown",
         "rmndt",
-        "scales",
         "tibble",
         "tidyr",
         "tidyselect",
@@ -4759,7 +4258,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "1eb2e88eccdd6c385633e81006e73040"
+      "Hash": "5f7319fd8fd006cd94f69a88f8193602"
     },
     "remotes": {
       "Package": "remotes",
@@ -4801,28 +4300,6 @@
         "utils"
       ],
       "Hash": "41b847654f567341725473431dd0d5ab"
-    },
-    "reprex": {
-      "Package": "reprex",
-      "Version": "2.0.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "callr",
-        "cli",
-        "clipr",
-        "fs",
-        "glue",
-        "knitr",
-        "lifecycle",
-        "rlang",
-        "rmarkdown",
-        "rstudioapi",
-        "utils",
-        "withr"
-      ],
-      "Hash": "d66fe009d4c20b7ab1927eb405db9ee2"
     },
     "reshape": {
       "Package": "reshape",
@@ -4879,16 +4356,6 @@
       ],
       "Hash": "ae34cd56890607370665bee5bd17812f"
     },
-    "rjson": {
-      "Package": "rjson",
-      "Version": "0.2.21",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R"
-      ],
-      "Hash": "f9da75e6444e95a1baf8ca24909d63b9"
-    },
     "rlang": {
       "Package": "rlang",
       "Version": "1.1.1",
@@ -4899,20 +4366,6 @@
         "utils"
       ],
       "Hash": "a85c767b55f0bf9b7ad16c6d7baee5bb"
-    },
-    "rlist": {
-      "Package": "rlist",
-      "Version": "0.4.6.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "XML",
-        "data.table",
-        "jsonlite",
-        "yaml"
-      ],
-      "Hash": "290c8ea0700d2e7258082d0025386e68"
     },
     "rmarkdown": {
       "Package": "rmarkdown",
@@ -4978,7 +4431,7 @@
     },
     "roxygen2": {
       "Package": "roxygen2",
-      "Version": "7.2.3",
+      "Version": "7.3.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5000,7 +4453,7 @@
         "withr",
         "xml2"
       ],
-      "Hash": "7b153c746193b143c14baa072bae4e27"
+      "Hash": "31561c910b524c8313d8c26a692f8b9a"
     },
     "rpart": {
       "Package": "rpart",
@@ -5080,26 +4533,6 @@
       ],
       "Hash": "a9881dfed103e83f9de151dc17002cd1"
     },
-    "rvest": {
-      "Package": "rvest",
-      "Version": "1.0.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cli",
-        "glue",
-        "httr",
-        "lifecycle",
-        "magrittr",
-        "rlang",
-        "selectr",
-        "tibble",
-        "withr",
-        "xml2"
-      ],
-      "Hash": "a4a5ac819a467808c60e36e92ddf195e"
-    },
     "rworldmap": {
       "Package": "rworldmap",
       "Version": "1.3-6",
@@ -5170,19 +4603,6 @@
         "viridisLite"
       ],
       "Hash": "906cb23d2f1c5680b8ce439b44c6fa63"
-    },
-    "selectr": {
-      "Package": "selectr",
-      "Version": "0.4-2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "R6",
-        "methods",
-        "stringr"
-      ],
-      "Hash": "3838071b66e0c566d55cc26bd6e27bf4"
     },
     "sessioninfo": {
       "Package": "sessioninfo",
@@ -5269,7 +4689,7 @@
     },
     "shinyresults": {
       "Package": "shinyresults",
-      "Version": "0.29.4",
+      "Version": "0.31.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -5285,9 +4705,10 @@
         "reshape2",
         "shiny",
         "snow",
-        "trafficlight"
+        "trafficlight",
+        "withr"
       ],
-      "Hash": "6c9823a12cdda471479b4cfdedcf0bd2"
+      "Hash": "8db6c8cef8b77f8df9c3630992bd7c09"
     },
     "shinystan": {
       "Package": "shinystan",
@@ -5422,25 +4843,6 @@
       ],
       "Hash": "671a4d384ae9d32fc47a14e98bfa3dc8"
     },
-    "styler": {
-      "Package": "styler",
-      "Version": "1.9.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "R.cache",
-        "cli",
-        "magrittr",
-        "purrr",
-        "rlang",
-        "rprojroot",
-        "tools",
-        "vctrs",
-        "withr"
-      ],
-      "Hash": "1c038945a5e14cce208f5214c1dd167c"
-    },
     "survival": {
       "Package": "survival",
       "Version": "3.5-0",
@@ -5456,18 +4858,6 @@
         "utils"
       ],
       "Hash": "db758f6f1e367f04222c745ca0260b8a"
-    },
-    "svglite": {
-      "Package": "svglite",
-      "Version": "2.1.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cpp11",
-        "systemfonts"
-      ],
-      "Hash": "29442899581643411facb66f4add846a"
     },
     "sys": {
       "Package": "sys",
@@ -5626,45 +5016,6 @@
       ],
       "Hash": "79540e5fcd9e0435af547d885f184fd5"
     },
-    "tidyverse": {
-      "Package": "tidyverse",
-      "Version": "1.3.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "broom",
-        "cli",
-        "crayon",
-        "dbplyr",
-        "dplyr",
-        "dtplyr",
-        "forcats",
-        "ggplot2",
-        "googledrive",
-        "googlesheets4",
-        "haven",
-        "hms",
-        "httr",
-        "jsonlite",
-        "lubridate",
-        "magrittr",
-        "modelr",
-        "pillar",
-        "purrr",
-        "readr",
-        "readxl",
-        "reprex",
-        "rlang",
-        "rstudioapi",
-        "rvest",
-        "stringr",
-        "tibble",
-        "tidyr",
-        "xml2"
-      ],
-      "Hash": "972389aea7fa1a34739054a810d0c6f6"
-    },
     "timechange": {
       "Package": "timechange",
       "Version": "0.2.0",
@@ -5688,7 +5039,7 @@
     },
     "trafficlight": {
       "Package": "trafficlight",
-      "Version": "1.15.0",
+      "Version": "1.15.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -5697,7 +5048,7 @@
         "magclass",
         "qualV"
       ],
-      "Hash": "26816c38e727c592fd5075357cde0df9"
+      "Hash": "f93d9023c872d2156f964735905b0664"
     },
     "tzdb": {
       "Package": "tzdb",
@@ -5867,19 +5218,6 @@
         "tibble"
       ],
       "Hash": "c7d3fd6d29ab077cbac8f0e2751449e6"
-    },
-    "webshot": {
-      "Package": "webshot",
-      "Version": "0.5.4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "callr",
-        "jsonlite",
-        "magrittr"
-      ],
-      "Hash": "cfd9342c76693ae53108a474aafa1641"
     },
     "whisker": {
       "Package": "whisker",
