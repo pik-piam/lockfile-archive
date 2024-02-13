@@ -1782,14 +1782,15 @@
     },
     "gdx": {
       "Package": "gdx",
-      "Version": "1.51.6",
+      "Version": "1.52.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "gdxrrw",
-        "magclass"
+        "magclass",
+        "utils"
       ],
-      "Hash": "9ed0c7fbb79e4f54dbcb1524d25a8f55"
+      "Hash": "316a28c20de6158a0155ec04cf7ae8de"
     },
     "gdxdt": {
       "Package": "gdxdt",
@@ -2806,7 +2807,7 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.46.1",
+      "Version": "0.46.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2823,7 +2824,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "9725adbd8f7c7341f06e497aba0a157d"
+      "Hash": "0cd82eb0be9805f3bdc9a6ec2ff263a1"
     },
     "luplot": {
       "Package": "luplot",
@@ -2971,7 +2972,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.200.0",
+      "Version": "1.201.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2994,7 +2995,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "f48f73fd6ce1dc7e4442507965e121fd"
+      "Hash": "682c0811394a11dc514e6137e4939ae9"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3343,7 +3344,7 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.53.3",
+      "Version": "0.53.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3368,7 +3369,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "33afe790fc3ef09efc874e9427ae4360"
+      "Hash": "098c6329887cdeae032a6f206f6d320a"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
@@ -3485,7 +3486,7 @@
     },
     "mrtransport": {
       "Package": "mrtransport",
-      "Version": "0.2.3",
+      "Version": "0.3.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3501,7 +3502,7 @@
         "stringr",
         "zoo"
       ],
-      "Hash": "343d9be0a997ea70587888b7fa9843d6"
+      "Hash": "4f8de75874564c33beda2b530a19beee"
     },
     "mrtutorial": {
       "Package": "mrtutorial",
@@ -3890,7 +3891,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.12.12",
+      "Version": "0.12.15",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3907,7 +3908,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "fe4f637fd46df6b3f7020f49dabb32fb"
+      "Hash": "0e86188ccfd2a5f46ebc5b07b60efd8a"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4579,7 +4580,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.134.3",
+      "Version": "1.134.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4620,7 +4621,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "e4f8361578922e9c3fd5b8b1282319e7"
+      "Hash": "99c838db15947e6dc978914a8f217c72"
     },
     "remotes": {
       "Package": "remotes",
@@ -4922,7 +4923,7 @@
     },
     "rvest": {
       "Package": "rvest",
-      "Version": "1.0.3",
+      "Version": "1.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4935,10 +4936,9 @@
         "rlang",
         "selectr",
         "tibble",
-        "withr",
         "xml2"
       ],
-      "Hash": "a4a5ac819a467808c60e36e92ddf195e"
+      "Hash": "0bcf0c6f274e90ea314b812a6d19a519"
     },
     "rworldmap": {
       "Package": "rworldmap",
