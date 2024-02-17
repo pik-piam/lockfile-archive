@@ -34,14 +34,14 @@
     },
     "DBI": {
       "Package": "DBI",
-      "Version": "1.2.1",
+      "Version": "1.2.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "9b4993e98e0e19da84c168460c032fef"
+      "Hash": "164809cd72e1d5160b4cb3aa57f510fe"
     },
     "DT": {
       "Package": "DT",
@@ -407,13 +407,11 @@
     },
     "Rilostat": {
       "Package": "Rilostat",
-      "Version": "1.1.8",
+      "Version": "1.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
-        "DT",
         "R",
-        "RCurl",
         "data.table",
         "dplyr",
         "haven",
@@ -421,10 +419,9 @@
         "readr",
         "stringr",
         "tibble",
-        "tidyr",
         "xml2"
       ],
-      "Hash": "79ca1115487a3a5bac51153e7e2f4004"
+      "Hash": "d37c11be5b40aa1c4b5d52cb05e299fa"
     },
     "SPARQL": {
       "Package": "SPARQL",
@@ -2886,7 +2883,7 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.49.2",
+      "Version": "0.50.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2920,7 +2917,7 @@
         "terra",
         "tidyr"
       ],
-      "Hash": "1acdd0ed4fc95ab42e5753399f0893c3"
+      "Hash": "b4e765a1650f59dcca4b33615918b5b1"
     },
     "madrat": {
       "Package": "madrat",
@@ -2972,7 +2969,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.201.1",
+      "Version": "1.201.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2995,7 +2992,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "682c0811394a11dc514e6137e4939ae9"
+      "Hash": "b38b2465bfcb20fb86fa5b430d48bcb1"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -4581,7 +4578,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.134.4",
+      "Version": "1.135.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4622,7 +4619,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "99c838db15947e6dc978914a8f217c72"
+      "Hash": "bc13f79b3c1567a7584b45f25377fb11"
     },
     "remotes": {
       "Package": "remotes",
