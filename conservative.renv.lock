@@ -2918,7 +2918,7 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.50.1",
+      "Version": "0.50.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2952,7 +2952,7 @@
         "terra",
         "tidyr"
       ],
-      "Hash": "b4e765a1650f59dcca4b33615918b5b1"
+      "Hash": "bb4490897eec75f5add161de864abb9c"
     },
     "madrat": {
       "Package": "madrat",
