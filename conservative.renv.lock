@@ -2918,7 +2918,7 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.50.8",
+      "Version": "0.50.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2953,7 +2953,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "1b3d998922a4d143535ecdb9ae166706"
+      "Hash": "ce25200221abb3a664e361311af9dc76"
     },
     "madrat": {
       "Package": "madrat",
@@ -3226,7 +3226,7 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.17.0",
+      "Version": "0.17.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3245,7 +3245,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "26fe7b8f5cdab7c1bf467cc93f59e984"
+      "Hash": "16ace4df8b0e5a548d1acb9ce33c7f9a"
     },
     "mrcommons": {
       "Package": "mrcommons",
