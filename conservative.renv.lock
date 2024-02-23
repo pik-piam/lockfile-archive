@@ -2918,7 +2918,7 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.50.12",
+      "Version": "0.50.13",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2953,7 +2953,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "c9a6b5543d52aadb2fcbf2a6c5b5e222"
+      "Hash": "3cfbdd1972d9e95161c4153bd8c0092b"
     },
     "madrat": {
       "Package": "madrat",
@@ -3005,7 +3005,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.202.4",
+      "Version": "1.202.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3028,7 +3028,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "b517bcc009a69766ca9112b1b28904da"
+      "Hash": "03dae644083652b9642e8b5e4bb5bdf8"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3942,11 +3942,10 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.12.17",
+      "Version": "0.12.18",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
-        "data.table",
         "dplyr",
         "gms",
         "magclass",
@@ -3959,7 +3958,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "164896bf7984e3d92e8424cda4d37d46"
+      "Hash": "87cdbb7f74384abdd9a89401168056ee"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
