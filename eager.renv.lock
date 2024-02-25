@@ -1895,11 +1895,12 @@
     },
     "ggiraph": {
       "Package": "ggiraph",
-      "Version": "0.8.8",
+      "Version": "0.8.9",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "Rcpp",
+        "cli",
         "ggplot2",
         "grid",
         "htmltools",
@@ -1911,7 +1912,7 @@
         "uuid",
         "vctrs"
       ],
-      "Hash": "120f23937aa0311367eb1d94731660f7"
+      "Hash": "50a51e9be10ba75fc43ee7fb21c18af0"
     },
     "ggplot2": {
       "Package": "ggplot2",
@@ -2733,7 +2734,7 @@
     },
     "loo": {
       "Package": "loo",
-      "Version": "2.6.0",
+      "Version": "2.7.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2741,9 +2742,10 @@
         "checkmate",
         "matrixStats",
         "parallel",
+        "posterior",
         "stats"
       ],
-      "Hash": "e5c8f41731502a0e98f353da23f7ca30"
+      "Hash": "7917e9c58d89dbb80d8eede166581fa0"
     },
     "lpSolve": {
       "Package": "lpSolve",
@@ -2971,7 +2973,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.202.8",
+      "Version": "1.202.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2994,7 +2996,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "e587f5283f22a8fa24a8797ca2d214e7"
+      "Hash": "96a4c8657dec1a3bed2f899b7885024e"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -4655,13 +4657,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.4",
+      "Version": "1.0.3",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "utils"
       ],
-      "Hash": "11abaf7c540ff33f94514d50f929bfd1"
+      "Hash": "41b847654f567341725473431dd0d5ab"
     },
     "reprex": {
       "Package": "reprex",

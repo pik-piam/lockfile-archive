@@ -3005,7 +3005,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.202.8",
+      "Version": "1.202.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3028,7 +3028,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "e587f5283f22a8fa24a8797ca2d214e7"
+      "Hash": "96a4c8657dec1a3bed2f899b7885024e"
     },
     "magpiesets": {
       "Package": "magpiesets",
