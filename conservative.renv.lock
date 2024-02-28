@@ -3005,7 +3005,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.202.12",
+      "Version": "1.202.16",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3028,7 +3028,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "9317bf312a5d5ecffa43c499bca95bf4"
+      "Hash": "4b38730040c2a6c21fe5dd13658ead23"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3249,7 +3249,7 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.38.4",
+      "Version": "1.39.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3284,7 +3284,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "3fd8899c012017f2281ed3a1f8620d04"
+      "Hash": "4181b24fa98aa45144a45eed2c0c499a"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3425,7 +3425,7 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.40.6",
+      "Version": "1.41.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3456,7 +3456,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "3f429d944bc68d58082a7a792d0ddb52"
+      "Hash": "4cbd9f7335ea294353e023c2b5b7c914"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3983,7 +3983,7 @@
     },
     "piamenv": {
       "Package": "piamenv",
-      "Version": "0.5.0",
+      "Version": "0.5.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3992,7 +3992,7 @@
         "renv",
         "withr"
       ],
-      "Hash": "c7e5fb577cb5f7f5faf12921d20cbbc1"
+      "Hash": "72f8f5fdbf53b847b613a5457dcea3b6"
     },
     "piktests": {
       "Package": "piktests",
@@ -4624,7 +4624,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.135.3",
+      "Version": "1.135.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4665,7 +4665,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "1b1517b520c23f9e268f6e90290b12e5"
+      "Hash": "e22e43dd19526d6694dc314a92c56831"
     },
     "remotes": {
       "Package": "remotes",
