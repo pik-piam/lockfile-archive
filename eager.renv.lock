@@ -346,7 +346,7 @@
     },
     "RcppEigen": {
       "Package": "RcppEigen",
-      "Version": "0.3.3.9.4",
+      "Version": "0.3.4.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -355,7 +355,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "acb0a5bf38490f26ab8661b467f4f53a"
+      "Hash": "df49e3306f232ec28f1604e36a202847"
     },
     "RcppParallel": {
       "Package": "RcppParallel",
@@ -2025,7 +2025,7 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.30.3",
+      "Version": "0.30.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2037,7 +2037,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "b3a70e40f25cb9bf209653c8fd74b780"
+      "Hash": "4db3e1aafb1e7e1c7ab35b190dea5116"
     },
     "goftest": {
       "Package": "goftest",
@@ -2948,7 +2948,7 @@
     },
     "magclass": {
       "Package": "magclass",
-      "Version": "6.13.2",
+      "Version": "6.14.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2958,7 +2958,7 @@
         "methods",
         "stats"
       ],
-      "Hash": "dbc9e33e04a823f72197aa1d5c2ae0b1"
+      "Hash": "3b46b5c29d44cb7f2dfc1bbb79b6c80a"
     },
     "magic": {
       "Package": "magic",
@@ -2973,7 +2973,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.202.16",
+      "Version": "1.202.17",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2996,17 +2996,17 @@
         "stringr",
         "utils"
       ],
-      "Hash": "4b38730040c2a6c21fe5dd13658ead23"
+      "Hash": "ef166d609e6b7857af51818ae39bdcb0"
     },
     "magpiesets": {
       "Package": "magpiesets",
-      "Version": "0.45.4",
+      "Version": "0.45.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "magclass"
       ],
-      "Hash": "242f4f0e43745be14db7fe7914a85b38"
+      "Hash": "805b6a7813710e709a269886ee3066cb"
     },
     "magrittr": {
       "Package": "magrittr",
@@ -3122,7 +3122,7 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.148.4",
+      "Version": "0.148.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3140,10 +3140,11 @@
         "reshape2",
         "rlang",
         "shiny",
+        "stringr",
         "tidyr",
         "trafficlight"
       ],
-      "Hash": "b1067b1a972eb2e081e2ac6ba160e869"
+      "Hash": "b0b2f9d9f713ea23b145d6176e4d967d"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -3425,7 +3426,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.175.10",
+      "Version": "0.175.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3464,7 +3465,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "b2ef9925707defd48026855790805102"
+      "Hash": "fe8968687f1fea7c15cc9ea7a9c42863"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -3893,7 +3894,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.13.1",
+      "Version": "0.13.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3909,7 +3910,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "73b2a1bd230999551b6a790fec98cace"
+      "Hash": "3bf54421590ffa73e3a8678c1b881938"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4581,7 +4582,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.135.5",
+      "Version": "1.135.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4622,7 +4623,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "e22e43dd19526d6694dc314a92c56831"
+      "Hash": "15564e80d2ab20dedddf2382f1fa3e87"
     },
     "remotes": {
       "Package": "remotes",
@@ -4657,13 +4658,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.4",
+      "Version": "1.0.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
-      "Hash": "11abaf7c540ff33f94514d50f929bfd1"
+      "Hash": "32c3f93e8360f667ca5863272ec8ba6a"
     },
     "reprex": {
       "Package": "reprex",
