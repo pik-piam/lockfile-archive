@@ -1185,14 +1185,14 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.15.0",
+      "Version": "1.15.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "cfbbb4aed6e78cd45f17123a9ec9981a"
+      "Hash": "536dfe4ac4093b5d115caed7a1a7223b"
     },
     "dbplyr": {
       "Package": "dbplyr",
@@ -2973,7 +2973,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.202.17",
+      "Version": "1.204.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2993,10 +2993,11 @@
         "reshape2",
         "rlang",
         "spam",
+        "stats",
         "stringr",
         "utils"
       ],
-      "Hash": "ef166d609e6b7857af51818ae39bdcb0"
+      "Hash": "5e009f688a6d4f27e42e7fbaa391064a"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3828,7 +3829,7 @@
     },
     "parallelly": {
       "Package": "parallelly",
-      "Version": "1.37.0",
+      "Version": "1.37.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3836,7 +3837,7 @@
         "tools",
         "utils"
       ],
-      "Hash": "8da17de8b15c89b574269fc414ff4e20"
+      "Hash": "5410df8d22bd36e616f2a2343dbb328c"
     },
     "patchwork": {
       "Package": "patchwork",
@@ -3894,7 +3895,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.13.4",
+      "Version": "0.13.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3910,7 +3911,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "3bf54421590ffa73e3a8678c1b881938"
+      "Hash": "e83fde937a28627548b9184dd5c45db0"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4658,13 +4659,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.5",
+      "Version": "1.0.3",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "utils"
       ],
-      "Hash": "32c3f93e8360f667ca5863272ec8ba6a"
+      "Hash": "41b847654f567341725473431dd0d5ab"
     },
     "reprex": {
       "Package": "reprex",

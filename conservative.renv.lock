@@ -3005,7 +3005,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.202.17",
+      "Version": "1.204.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3025,10 +3025,11 @@
         "reshape2",
         "rlang",
         "spam",
+        "stats",
         "stringr",
         "utils"
       ],
-      "Hash": "ef166d609e6b7857af51818ae39bdcb0"
+      "Hash": "5e009f688a6d4f27e42e7fbaa391064a"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3943,7 +3944,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.13.4",
+      "Version": "0.13.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3959,7 +3960,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "3bf54421590ffa73e3a8678c1b881938"
+      "Hash": "e83fde937a28627548b9184dd5c45db0"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
