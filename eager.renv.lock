@@ -468,7 +468,7 @@
     },
     "StanHeaders": {
       "Package": "StanHeaders",
-      "Version": "2.32.5",
+      "Version": "2.32.6",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -476,7 +476,7 @@
         "RcppEigen",
         "RcppParallel"
       ],
-      "Hash": "b8d6850ef3e330bc108e712679e79443"
+      "Hash": "2286252ee7b8ee96e6d7f248ba65bb1f"
     },
     "TLMoments": {
       "Package": "TLMoments",
@@ -1161,13 +1161,13 @@
     },
     "curl": {
       "Package": "curl",
-      "Version": "5.2.0",
+      "Version": "5.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "ce88d13c0b10fe88a37d9c59dba2d7f9"
+      "Hash": "411ca2c03b1ce5f548345d2fc2685f7a"
     },
     "cyclocomp": {
       "Package": "cyclocomp",
@@ -1479,7 +1479,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "1.5.2",
+      "Version": "1.5.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -1503,7 +1503,7 @@
         "ymlthis",
         "zoo"
       ],
-      "Hash": "03a36f9a85b115382b6607ddd3e71e38"
+      "Hash": "f4825dfcfc96f38af6211b47c61e7b75"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3177,7 +3177,7 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.17.1",
+      "Version": "0.18.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3196,7 +3196,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "16ace4df8b0e5a548d1acb9ce33c7f9a"
+      "Hash": "5c12bd63b2ee8415f78f9ad1a566646d"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3376,7 +3376,7 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.41.1",
+      "Version": "1.44.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3407,7 +3407,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "4cbd9f7335ea294353e023c2b5b7c914"
+      "Hash": "15cf2762b0a3a2969b09bab29188e7a9"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3427,7 +3427,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.175.12",
+      "Version": "0.176.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3466,7 +3466,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "fe8968687f1fea7c15cc9ea7a9c42863"
+      "Hash": "4aaa33b22bda6b6029227db6f831bdda"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -3895,7 +3895,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.13.6",
+      "Version": "0.13.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3911,7 +3911,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "e83fde937a28627548b9184dd5c45db0"
+      "Hash": "86e1ebc5023b48eda2a8381d653c18e1"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4583,7 +4583,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.135.6",
+      "Version": "1.135.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4624,7 +4624,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "15564e80d2ab20dedddf2382f1fa3e87"
+      "Hash": "d18d0b8e6271004fedc06b1d1bb7d3ce"
     },
     "remotes": {
       "Package": "remotes",
@@ -4659,13 +4659,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.3",
+      "Version": "1.0.5",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
-      "Hash": "41b847654f567341725473431dd0d5ab"
+      "Hash": "32c3f93e8360f667ca5863272ec8ba6a"
     },
     "reprex": {
       "Package": "reprex",
