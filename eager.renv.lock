@@ -2202,7 +2202,7 @@
     },
     "hdf5r": {
       "Package": "hdf5r",
-      "Version": "1.3.9",
+      "Version": "1.3.10",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2212,7 +2212,7 @@
         "methods",
         "utils"
       ],
-      "Hash": "b171fef9acb116ad6ac859bd3a8859be"
+      "Hash": "455082f1cd7e02855a5bd087527706b5"
     },
     "here": {
       "Package": "here",
