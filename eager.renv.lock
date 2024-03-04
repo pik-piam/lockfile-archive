@@ -332,7 +332,7 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "0.12.8.0.0",
+      "Version": "0.12.8.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -342,7 +342,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "847fc78bd9f83f55696b4b016482f7ed"
+      "Hash": "e78bbbb81a5dcd71a4bd3268d6ede0b1"
     },
     "RcppEigen": {
       "Package": "RcppEigen",
@@ -2973,7 +2973,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.204.2",
+      "Version": "1.204.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2997,7 +2997,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "5e009f688a6d4f27e42e7fbaa391064a"
+      "Hash": "65be1f3df4075b122d53d431d946d499"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -4659,13 +4659,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.5",
+      "Version": "1.0.3",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "utils"
       ],
-      "Hash": "32c3f93e8360f667ca5863272ec8ba6a"
+      "Hash": "41b847654f567341725473431dd0d5ab"
     },
     "reprex": {
       "Package": "reprex",
