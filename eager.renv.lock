@@ -2025,7 +2025,7 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.30.4",
+      "Version": "0.30.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2037,7 +2037,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "4db3e1aafb1e7e1c7ab35b190dea5116"
+      "Hash": "ac15c94bc34f50882749eb143935d3da"
     },
     "goftest": {
       "Package": "goftest",
@@ -2886,7 +2886,7 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.50.14",
+      "Version": "0.50.15",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2921,7 +2921,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "305ed49cdd6f05f5bb032cfaeccbf11b"
+      "Hash": "da184f4e6f609a75571ee45765d86f68"
     },
     "madrat": {
       "Package": "madrat",
@@ -3123,7 +3123,7 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.148.6",
+      "Version": "0.148.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3145,7 +3145,7 @@
         "tidyr",
         "trafficlight"
       ],
-      "Hash": "b0b2f9d9f713ea23b145d6176e4d967d"
+      "Hash": "04e0b9e5d163f497539acd5862feb156"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -3177,7 +3177,7 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.18.0",
+      "Version": "0.18.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3196,11 +3196,11 @@
         "utils",
         "withr"
       ],
-      "Hash": "5c12bd63b2ee8415f78f9ad1a566646d"
+      "Hash": "cf5811b13ac5ddc525b0b8bb9e50c226"
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.39.0",
+      "Version": "1.39.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3235,7 +3235,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "4181b24fa98aa45144a45eed2c0c499a"
+      "Hash": "c6191978be7ce1a108829fab2f435e3b"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3296,7 +3296,7 @@
     },
     "mrfactors": {
       "Package": "mrfactors",
-      "Version": "0.3.7",
+      "Version": "0.3.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3313,7 +3313,7 @@
         "readxl",
         "stringr"
       ],
-      "Hash": "b671b197ac9e8468fbb32d1232d3f974"
+      "Hash": "ef3973cbef75acbf37a9c68e28b5cfb5"
     },
     "mrfeed": {
       "Package": "mrfeed",
@@ -4659,13 +4659,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.5",
+      "Version": "1.0.3",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "utils"
       ],
-      "Hash": "32c3f93e8360f667ca5863272ec8ba6a"
+      "Hash": "41b847654f567341725473431dd0d5ab"
     },
     "reprex": {
       "Package": "reprex",
@@ -4758,7 +4758,7 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.25",
+      "Version": "2.26",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4771,14 +4771,13 @@
         "jsonlite",
         "knitr",
         "methods",
-        "stringr",
         "tinytex",
         "tools",
         "utils",
         "xfun",
         "yaml"
       ],
-      "Hash": "d65e35823c817f09f4de424fcdfa812a"
+      "Hash": "9b148e7f95d33aac01f31282d49e4f44"
     },
     "rmndt": {
       "Package": "rmndt",
@@ -4870,7 +4869,7 @@
     },
     "rstan": {
       "Package": "rstan",
-      "Version": "2.32.5",
+      "Version": "2.32.6",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4889,7 +4888,7 @@
         "pkgbuild",
         "stats4"
       ],
-      "Hash": "378a10b6373822761ec78021c105b059"
+      "Hash": "8a5b5978f888a3477c116e0395d006f8"
     },
     "rstantools": {
       "Package": "rstantools",
