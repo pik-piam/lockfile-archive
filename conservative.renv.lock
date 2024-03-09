@@ -1788,7 +1788,7 @@
     },
     "gdx": {
       "Package": "gdx",
-      "Version": "1.52.0",
+      "Version": "1.53.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -1796,7 +1796,7 @@
         "magclass",
         "utils"
       ],
-      "Hash": "316a28c20de6158a0155ec04cf7ae8de"
+      "Hash": "9fb0e6e9315280f451bc4f5d50e28747"
     },
     "gdxdt": {
       "Package": "gdxdt",
@@ -2032,7 +2032,7 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.30.5",
+      "Version": "0.30.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2044,7 +2044,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "ac15c94bc34f50882749eb143935d3da"
+      "Hash": "6b8e970637217eb264979892b66495fb"
     },
     "goftest": {
       "Package": "goftest",
@@ -3228,7 +3228,7 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.18.1",
+      "Version": "0.19.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3247,17 +3247,18 @@
         "utils",
         "withr"
       ],
-      "Hash": "cf5811b13ac5ddc525b0b8bb9e50c226"
+      "Hash": "5074227816cf5b6229c7cb0b7eb00691"
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.39.3",
+      "Version": "1.40.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "GDPuc",
         "R",
         "SPEI",
+        "countrycode",
         "data.table",
         "dplyr",
         "hdf5r",
@@ -3286,7 +3287,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "fe9413ac4eceb64f0616511128eaeeda"
+      "Hash": "f8816f505290c9622075bdc6a821e7b3"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3398,7 +3399,7 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.53.7",
+      "Version": "0.53.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3423,7 +3424,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "0d8f7a28c93e45d95861499eede9e89a"
+      "Hash": "d5c0859cedb02dc75d594724a3da3233"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
