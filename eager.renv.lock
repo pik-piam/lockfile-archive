@@ -2973,7 +2973,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.204.7",
+      "Version": "1.205.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2997,7 +2997,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "37a9e576cddd4c3df43e8a21ef27aaf5"
+      "Hash": "c287ad3c71f431f44fbf1513bb11f8f4"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -4660,13 +4660,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.5",
+      "Version": "1.0.3",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "utils"
       ],
-      "Hash": "32c3f93e8360f667ca5863272ec8ba6a"
+      "Hash": "41b847654f567341725473431dd0d5ab"
     },
     "reprex": {
       "Package": "reprex",

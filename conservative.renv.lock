@@ -3005,7 +3005,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.204.7",
+      "Version": "1.205.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3029,7 +3029,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "37a9e576cddd4c3df43e8a21ef27aaf5"
+      "Hash": "c287ad3c71f431f44fbf1513bb11f8f4"
     },
     "magpiesets": {
       "Package": "magpiesets",
