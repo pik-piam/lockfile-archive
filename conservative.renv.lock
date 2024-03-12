@@ -3005,7 +3005,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.205.0",
+      "Version": "1.205.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3029,7 +3029,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "c287ad3c71f431f44fbf1513bb11f8f4"
+      "Hash": "24034e6d70cfbca161aa7db60ac24657"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3399,7 +3399,7 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.53.8",
+      "Version": "0.53.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3424,11 +3424,11 @@
         "terra",
         "withr"
       ],
-      "Hash": "d5c0859cedb02dc75d594724a3da3233"
+      "Hash": "e67a247982a211a421ffdcb3ae6dcd2a"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.44.3",
+      "Version": "1.44.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3459,7 +3459,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "4d2773a0baf1417e1c34bbb8718e58e5"
+      "Hash": "d2ec1b939197c952b6aedd2c3eaf1945"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3479,7 +3479,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.176.1",
+      "Version": "0.177.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3518,7 +3518,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "4aaa33b22bda6b6029227db6f831bdda"
+      "Hash": "4c618386f094a4efda2cb7d1687cfc97"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -3945,7 +3945,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.13.15",
+      "Version": "0.14.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3961,7 +3961,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "6eee1326f31b21dd96c8a4baa2e327d8"
+      "Hash": "61c77b8ef2441de02cda4f63a2270442"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4627,7 +4627,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.135.9",
+      "Version": "1.135.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4668,7 +4668,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "e37dbae62d28f536117949657cc75c0f"
+      "Hash": "f16ce416de483a158120d478d9fdfda1"
     },
     "remotes": {
       "Package": "remotes",
