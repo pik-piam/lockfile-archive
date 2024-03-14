@@ -3005,7 +3005,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "1.205.5",
+      "Version": "1.205.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3029,7 +3029,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "c37a0309cd19268e7393fdb845ecbd4c"
+      "Hash": "ddf594ee2e162bf8ad435078d98b641b"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3427,7 +3427,7 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.44.4",
+      "Version": "1.44.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3458,7 +3458,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "d2ec1b939197c952b6aedd2c3eaf1945"
+      "Hash": "c13f09acfccf8297e5f5fdfa9d5d556d"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3946,7 +3946,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.15.1",
+      "Version": "0.15.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3962,7 +3962,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "4b85c085e35a96f0f2bf24d5951d465e"
+      "Hash": "cd007738ee6ab7f9260774d83eec331e"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4628,7 +4628,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.135.11",
+      "Version": "1.135.14",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4669,7 +4669,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "2015ffc107425ab705582cab84d6cff9"
+      "Hash": "f0d192f5c75b0ac3c56f999a47f1c423"
     },
     "remotes": {
       "Package": "remotes",
