@@ -73,7 +73,7 @@
     },
     "GDPuc": {
       "Package": "GDPuc",
-      "Version": "1.0.2",
+      "Version": "1.0.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -90,7 +90,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "de7f00da4df4c860822ebffc76432b39"
+      "Hash": "e2c9db951f2e22baee64d2337fb61c3f"
     },
     "HARr": {
       "Package": "HARr",
@@ -1805,14 +1805,14 @@
     },
     "gdx2": {
       "Package": "gdx2",
-      "Version": "0.3.1",
+      "Version": "0.3.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "gamstransfer",
         "magclass"
       ],
-      "Hash": "770cf78c27605cf5ee13f19bae13e5fa"
+      "Hash": "2dbe7537abc16b42ac5cc828de799ef0"
     },
     "gdxdt": {
       "Package": "gdxdt",
@@ -2839,7 +2839,7 @@
     },
     "lpjmlstats": {
       "Package": "lpjmlstats",
-      "Version": "0.4.2",
+      "Version": "0.4.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2866,7 +2866,7 @@
         "tidyselect",
         "units"
       ],
-      "Hash": "ae0c6eecef2734f9dd42d84ade390a05"
+      "Hash": "891ba9f65b18960c72e23d9a7e05d737"
     },
     "lubridate": {
       "Package": "lubridate",
@@ -3018,7 +3018,7 @@
     },
     "magclass": {
       "Package": "magclass",
-      "Version": "6.17.0",
+      "Version": "6.17.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3028,7 +3028,7 @@
         "methods",
         "stats"
       ],
-      "Hash": "9783b172c5c8c335a3cde9ac19c38aec"
+      "Hash": "10c942addaf04eb074aafd71d9554619"
     },
     "magic": {
       "Package": "magic",
@@ -3043,7 +3043,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.8.3",
+      "Version": "2.8.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3066,7 +3066,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "eedd262c08a2fc771e93d12c49c18b83"
+      "Hash": "cdb425ce7772333805c350f5c794dae4"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3197,7 +3197,7 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.149.1",
+      "Version": "0.149.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3220,7 +3220,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "bfcacc7b1bdbc48f6e93b8751261fbbf"
+      "Hash": "33a7c53e134d683562b06801d72ac470"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -3327,9 +3327,9 @@
     },
     "mrdrivers": {
       "Package": "mrdrivers",
-      "Version": "2.0.1",
+      "Version": "2.0.2",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "GDPuc",
         "countrycode",
@@ -3348,7 +3348,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "bce583845a323a3ba6d976a22a18958d"
+      "Hash": "928c377c90d5ade718bee460fcfd143d"
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
@@ -4830,7 +4830,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.148.0",
+      "Version": "1.148.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4868,7 +4868,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "1fa6bd5f24588e78415a9c7bef899ed7"
+      "Hash": "fcbb140cd08d107350a2ab4fe6989005"
     },
     "remotes": {
       "Package": "remotes",
