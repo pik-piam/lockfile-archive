@@ -2945,7 +2945,7 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.47.8",
+      "Version": "0.47.9",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -2962,7 +2962,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "92321c9496623e110a69c6bbe030d344"
+      "Hash": "30d7030f36656f2cc4af3fe2b45f2438"
     },
     "luplot": {
       "Package": "luplot",
@@ -3105,7 +3105,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.8.4",
+      "Version": "2.8.5",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3128,7 +3128,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "cdb425ce7772333805c350f5c794dae4"
+      "Hash": "fcad571622fd3d6808f6af951eed9a5d"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -4905,7 +4905,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.148.1",
+      "Version": "1.149.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4943,7 +4943,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "fcbb140cd08d107350a2ab4fe6989005"
+      "Hash": "df3db52091a209fcf1a14a9726adba63"
     },
     "remotes": {
       "Package": "remotes",
