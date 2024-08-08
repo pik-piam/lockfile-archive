@@ -2883,7 +2883,7 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.47.9",
+      "Version": "0.47.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2900,7 +2900,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "30d7030f36656f2cc4af3fe2b45f2438"
+      "Hash": "29ef35c77e5a2343e6e7d197c8015fc9"
     },
     "luplot": {
       "Package": "luplot",
@@ -4059,7 +4059,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.20.26",
+      "Version": "0.22.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4076,7 +4076,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "463b9003d23211f868b6f25f703387b6"
+      "Hash": "79930b63eea5c34e3b6a34b487209c5f"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4830,7 +4830,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.149.0",
+      "Version": "1.149.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4868,7 +4868,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "df3db52091a209fcf1a14a9726adba63"
+      "Hash": "156755edffe7484a62a0691e823909d1"
     },
     "remotes": {
       "Package": "remotes",
