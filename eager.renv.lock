@@ -4132,7 +4132,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.22.0",
+      "Version": "0.22.1",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4149,7 +4149,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "79930b63eea5c34e3b6a34b487209c5f"
+      "Hash": "266d497e7cbb65b33fc46e66c71c057b"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4905,9 +4905,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.149.1",
-      "Source": "Repository",
-      "Repository": "pik",
+      "Version": "1.149.2",
+      "Source": "Local",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteType": "local",
+      "RemoteUrl": "../zeroLowMemRemind2",
       "Requirements": [
         "abind",
         "assertr",
@@ -4943,7 +4945,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "156755edffe7484a62a0691e823909d1"
+      "Hash": "6286fcc52a988341b0dd3814f1778126"
     },
     "remotes": {
       "Package": "remotes",
