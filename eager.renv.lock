@@ -1534,9 +1534,9 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.0.1",
+      "Version": "2.1.0",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "Repository": "pik",
       "Requirements": [
         "R",
         "data.table",
@@ -1552,7 +1552,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "bcb9eff709aee14dba486de50e912240"
+      "Hash": "ce8a755bc3c2a94b72ddd7ae7ef773c5"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -4990,9 +4990,9 @@
     },
     "reportbrick": {
       "Package": "reportbrick",
-      "Version": "0.4.2",
+      "Version": "0.5.0",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "pik",
       "Requirements": [
         "dplyr",
         "gamstransfer",
@@ -5008,7 +5008,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "2d00d4eb6fb99edb4239ff81765fbbf0"
+      "Hash": "1979526e735ae55f89855e73d7181648"
     },
     "reporttransport": {
       "Package": "reporttransport",
