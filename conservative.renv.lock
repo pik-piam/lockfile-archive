@@ -708,7 +708,7 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.4.4",
+      "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -728,7 +728,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "14662bfacd5a4960fb9f497f4f12ec77"
+      "Hash": "82ef4c25379a024c7dc965006683cac0"
     },
     "bridgesampling": {
       "Package": "bridgesampling",
@@ -1472,7 +1472,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.1.0",
+      "Version": "2.1.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -1490,7 +1490,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "ce8a755bc3c2a94b72ddd7ae7ef773c5"
+      "Hash": "4f95675a8d35bc135d948ba9480357a6"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3043,7 +3043,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.8.5",
+      "Version": "2.8.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3066,7 +3066,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "fcad571622fd3d6808f6af951eed9a5d"
+      "Hash": "3d8288d12558818f293df72e5b986ffd"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3352,9 +3352,9 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.6.1",
+      "Version": "0.6.2",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "GDPuc",
         "brick",
@@ -3378,7 +3378,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "17fc0e6ed1f835c2b2eaa546d2e72186"
+      "Hash": "2b6ec6f5afd9eec4f6bc9aebebb94f32"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -4059,7 +4059,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.22.1",
+      "Version": "0.24.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4076,7 +4076,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "266d497e7cbb65b33fc46e66c71c057b"
+      "Hash": "ec234e861b192358022509a7471098de"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4101,12 +4101,13 @@
     },
     "piamPlotComparison": {
       "Package": "piamPlotComparison",
-      "Version": "0.0.12",
+      "Version": "0.0.13",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "dplyr",
         "jsonlite",
+        "kableExtra",
         "knitr",
         "magclass",
         "mip",
@@ -4118,7 +4119,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "8532da87b654957915a8a884b28d0093"
+      "Hash": "ba6acd93a517c2d142e0206b12109e99"
     },
     "piamValidation": {
       "Package": "piamValidation",
