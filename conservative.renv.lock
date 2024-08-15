@@ -708,7 +708,7 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.5.0",
+      "Version": "0.5.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -728,7 +728,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "82ef4c25379a024c7dc965006683cac0"
+      "Hash": "7c2adad0bd1a4ffb734062ba48e867b1"
     },
     "bridgesampling": {
       "Package": "bridgesampling",
@@ -4059,7 +4059,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.24.0",
+      "Version": "0.24.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4076,7 +4076,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "ec234e861b192358022509a7471098de"
+      "Hash": "468f425228b0fc1a0356015bb1832145"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4831,7 +4831,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.149.3",
+      "Version": "1.149.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4869,7 +4869,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "94774016cbcc8b70b466a8e2a36c5100"
+      "Hash": "4b655adf43ae540792796f793e7c064a"
     },
     "remotes": {
       "Package": "remotes",

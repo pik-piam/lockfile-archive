@@ -729,7 +729,7 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.5.0",
+      "Version": "0.5.1",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -749,7 +749,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "82ef4c25379a024c7dc965006683cac0"
+      "Hash": "7c2adad0bd1a4ffb734062ba48e867b1"
     },
     "bridgesampling": {
       "Package": "bridgesampling",
@@ -3924,7 +3924,7 @@
     },
     "nlme": {
       "Package": "nlme",
-      "Version": "3.1-165",
+      "Version": "3.1-166",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3934,7 +3934,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "2769a88be217841b1f33ed469675c3cc"
+      "Hash": "ccbb8846be320b627e6aa2b4616a2ded"
     },
     "nloptr": {
       "Package": "nloptr",
@@ -4132,9 +4132,9 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.24.0",
+      "Version": "0.24.1",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "dplyr",
         "gms",
@@ -4149,7 +4149,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "ec234e861b192358022509a7471098de"
+      "Hash": "468f425228b0fc1a0356015bb1832145"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
