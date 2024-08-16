@@ -2654,7 +2654,7 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.64.2",
+      "Version": "2.65.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2668,7 +2668,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "32a06e1e8a29ed2b0b28c8ceeee30a6f"
+      "Hash": "a6a52ce766672dce131ef20f005f0903"
     },
     "linprog": {
       "Package": "linprog",
@@ -4059,7 +4059,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.24.1",
+      "Version": "0.26.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4076,7 +4076,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "468f425228b0fc1a0356015bb1832145"
+      "Hash": "e24c2d4d8e6d637b930d2d75a06dc004"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4159,7 +4159,7 @@
     },
     "piamutils": {
       "Package": "piamutils",
-      "Version": "0.0.11",
+      "Version": "0.0.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4167,7 +4167,7 @@
         "pkgload",
         "quitte"
       ],
-      "Hash": "487c512c71dc2a399f2b5905a68d0512"
+      "Hash": "863b83ab61f4631b450a6fe64a6d1b20"
     },
     "piktests": {
       "Package": "piktests",
@@ -4593,11 +4593,12 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3135.0",
+      "Version": "0.3136.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "R",
+        "cli",
         "countrycode",
         "dplyr",
         "forcats",
@@ -4624,7 +4625,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "c53cade755a4c0d65ea8ef1f99d85240"
+      "Hash": "74d73c2a33e57167f884a7e7f96123ad"
     },
     "r2databus": {
       "Package": "r2databus",
@@ -4831,13 +4832,14 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.149.4",
+      "Version": "1.150.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "abind",
         "assertr",
         "data.table",
+        "digest",
         "dplyr",
         "gdx",
         "gdxdt",
@@ -4869,7 +4871,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "4b655adf43ae540792796f793e7c064a"
+      "Hash": "4096dc162cea2418ded87d24b4e5fee4"
     },
     "remotes": {
       "Package": "remotes",
