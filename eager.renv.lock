@@ -376,13 +376,13 @@
     },
     "RcppParallel": {
       "Package": "RcppParallel",
-      "Version": "5.1.8",
+      "Version": "5.1.9",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "21c1466a17de6b1f5f4bc0569868775e"
+      "Hash": "f38a72a419b91faac0ce5d9eee04c120"
     },
     "RcppProgress": {
       "Package": "RcppProgress",
@@ -1367,14 +1367,14 @@
     },
     "digest": {
       "Package": "digest",
-      "Version": "0.6.36",
+      "Version": "0.6.37",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "fd6824ad91ede64151e93af67df6376b"
+      "Hash": "33698c4b3127fc9f506654607fb73676"
     },
     "distributional": {
       "Package": "distributional",
@@ -4132,7 +4132,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.26.0",
+      "Version": "0.26.2",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4149,7 +4149,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "e24c2d4d8e6d637b930d2d75a06dc004"
+      "Hash": "681330e1dba2a6929fe9dea921efc331"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4668,7 +4668,7 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3136.0",
+      "Version": "0.3137.1",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4700,7 +4700,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "74d73c2a33e57167f884a7e7f96123ad"
+      "Hash": "850284720bab32e750a8996eb8950216"
     },
     "r2databus": {
       "Package": "r2databus",

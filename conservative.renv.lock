@@ -4059,7 +4059,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.26.0",
+      "Version": "0.26.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4076,7 +4076,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "e24c2d4d8e6d637b930d2d75a06dc004"
+      "Hash": "681330e1dba2a6929fe9dea921efc331"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4593,7 +4593,7 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3136.0",
+      "Version": "0.3137.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4625,7 +4625,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "74d73c2a33e57167f884a7e7f96123ad"
+      "Hash": "850284720bab32e750a8996eb8950216"
     },
     "r2databus": {
       "Package": "r2databus",
