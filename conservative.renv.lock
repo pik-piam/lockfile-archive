@@ -2995,7 +2995,7 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.12.2",
+      "Version": "3.13.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3014,7 +3014,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "3bd1ea0c364b47e720b247f01151df34"
+      "Hash": "a1548d7f205c86f14122cdde345d4e84"
     },
     "magclass": {
       "Package": "magclass",
@@ -4832,7 +4832,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.150.0",
+      "Version": "1.151.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4871,7 +4871,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "4096dc162cea2418ded87d24b4e5fee4"
+      "Hash": "34b8b5ba118a392823b80c0d643d83d6"
     },
     "remotes": {
       "Package": "remotes",

@@ -3057,7 +3057,7 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.12.2",
+      "Version": "3.13.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3076,7 +3076,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "3bd1ea0c364b47e720b247f01151df34"
+      "Hash": "a1548d7f205c86f14122cdde345d4e84"
     },
     "magclass": {
       "Package": "magclass",
