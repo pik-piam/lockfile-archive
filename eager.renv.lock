@@ -729,7 +729,7 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.5.1",
+      "Version": "0.5.2",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -749,7 +749,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "7c2adad0bd1a4ffb734062ba48e867b1"
+      "Hash": "c3ddc978f12810b8cfd750066d963362"
     },
     "bridgesampling": {
       "Package": "bridgesampling",
@@ -2438,7 +2438,7 @@
     },
     "httr2": {
       "Package": "httr2",
-      "Version": "1.0.2",
+      "Version": "1.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2455,7 +2455,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "320c8fe23fcb25a6690ef7bdb6a3a705"
+      "Hash": "10d93e97faad6b629301bb3a2fd23378"
     },
     "hypergeo": {
       "Package": "hypergeo",
@@ -3105,7 +3105,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.8.6",
+      "Version": "2.9.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3128,7 +3128,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "3d8288d12558818f293df72e5b986ffd"
+      "Hash": "60ad7900a9018e1613c7f74b5e473b48"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3756,7 +3756,7 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.59.3",
+      "Version": "2.59.4",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3785,7 +3785,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "b4b9ef9625180b2e85ef6592c1bd8b27"
+      "Hash": "e201e5003c321f810bbe8da4fa7a6169"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -4196,7 +4196,7 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.2.13",
+      "Version": "0.3.2",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4215,7 +4215,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "6829b520aa92be7dbdaabaf76326e633"
+      "Hash": "f4f789760ae67197fc297f0479d51264"
     },
     "piamenv": {
       "Package": "piamenv",
@@ -5993,21 +5993,20 @@
     },
     "waldo": {
       "Package": "waldo",
-      "Version": "0.5.2",
+      "Version": "0.5.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "cli",
         "diffobj",
-        "fansi",
         "glue",
         "methods",
         "rematch2",
         "rlang",
         "tibble"
       ],
-      "Hash": "c7d3fd6d29ab077cbac8f0e2751449e6"
+      "Hash": "16aa934a49658677d8041df9017329b9"
     },
     "whisker": {
       "Package": "whisker",

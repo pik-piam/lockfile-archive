@@ -708,7 +708,7 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.5.1",
+      "Version": "0.5.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -728,7 +728,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "7c2adad0bd1a4ffb734062ba48e867b1"
+      "Hash": "c3ddc978f12810b8cfd750066d963362"
     },
     "bridgesampling": {
       "Package": "bridgesampling",
@@ -3043,7 +3043,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.8.6",
+      "Version": "2.9.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3066,7 +3066,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "3d8288d12558818f293df72e5b986ffd"
+      "Hash": "60ad7900a9018e1613c7f74b5e473b48"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3683,7 +3683,7 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.59.3",
+      "Version": "2.59.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3712,7 +3712,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "b4b9ef9625180b2e85ef6592c1bd8b27"
+      "Hash": "e201e5003c321f810bbe8da4fa7a6169"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -4123,9 +4123,9 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.2.13",
+      "Version": "0.3.2",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "R",
         "devtools",
@@ -4142,7 +4142,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "6829b520aa92be7dbdaabaf76326e633"
+      "Hash": "f4f789760ae67197fc297f0479d51264"
     },
     "piamenv": {
       "Package": "piamenv",
@@ -4832,7 +4832,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.151.0",
+      "Version": "1.151.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4871,7 +4871,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "34b8b5ba118a392823b80c0d643d83d6"
+      "Hash": "ce9ec24fb5eb5248d225bf6a4c48b3d5"
     },
     "remotes": {
       "Package": "remotes",
