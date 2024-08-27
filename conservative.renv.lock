@@ -4593,7 +4593,7 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3137.1",
+      "Version": "0.3137.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4625,7 +4625,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "850284720bab32e750a8996eb8950216"
+      "Hash": "5d2d537cca50abedb9f29ab904292de2"
     },
     "r2databus": {
       "Package": "r2databus",

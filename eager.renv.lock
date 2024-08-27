@@ -1207,13 +1207,13 @@
     },
     "curl": {
       "Package": "curl",
-      "Version": "5.2.1",
+      "Version": "5.2.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "411ca2c03b1ce5f548345d2fc2685f7a"
+      "Hash": "8f27335f2bcff4d6035edcc82d7d46de"
     },
     "cyclocomp": {
       "Package": "cyclocomp",
@@ -4668,7 +4668,7 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3137.1",
+      "Version": "0.3137.2",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4700,7 +4700,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "850284720bab32e750a8996eb8950216"
+      "Hash": "5d2d537cca50abedb9f29ab904292de2"
     },
     "r2databus": {
       "Package": "r2databus",
