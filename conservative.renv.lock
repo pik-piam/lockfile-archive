@@ -4832,7 +4832,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.151.1",
+      "Version": "1.152.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4842,12 +4842,9 @@
         "digest",
         "dplyr",
         "gdx",
-        "gdxdt",
         "gdxrrw",
         "ggplot2",
         "gms",
-        "htmltools",
-        "knitr",
         "lucode2",
         "lusweave",
         "madrat",
@@ -4864,14 +4861,12 @@
         "reshape2",
         "rlang",
         "rmarkdown",
-        "rmndt",
         "tibble",
         "tidyr",
         "tidyselect",
-        "withr",
-        "yaml"
+        "withr"
       ],
-      "Hash": "ce9ec24fb5eb5248d225bf6a4c48b3d5"
+      "Hash": "b6850d2eebad8c48ec51e1afca3d30cb"
     },
     "remotes": {
       "Package": "remotes",
