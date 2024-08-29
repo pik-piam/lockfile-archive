@@ -2412,7 +2412,7 @@
       "Package": "iamc",
       "Version": "0.29.8",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "R",
         "dplyr",
@@ -3070,13 +3070,13 @@
     },
     "magpiesets": {
       "Package": "magpiesets",
-      "Version": "0.45.7",
+      "Version": "0.46.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "magclass"
       ],
-      "Hash": "3ff8ac968aaf24b4979d03fadd4afe4e"
+      "Hash": "499d0cf93dfb3e7fd2443d2c88ef335b"
     },
     "magrittr": {
       "Package": "magrittr",
@@ -3586,7 +3586,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.184.1",
+      "Version": "0.186.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3621,7 +3621,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "377281273fd7b994be1960608baa2001"
+      "Hash": "bda003299bec13248b69c6bb290a00c9"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4123,7 +4123,7 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.3.2",
+      "Version": "0.3.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4142,7 +4142,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "f4f789760ae67197fc297f0479d51264"
+      "Hash": "e9eaf0314d84fd07fa106222ef451ea0"
     },
     "piamenv": {
       "Package": "piamenv",
