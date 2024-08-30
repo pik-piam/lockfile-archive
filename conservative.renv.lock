@@ -3352,7 +3352,7 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.6.2",
+      "Version": "0.7.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3368,6 +3368,7 @@
         "openxlsx",
         "plyr",
         "pracma",
+        "purrr",
         "quadprog",
         "quitte",
         "raster",
@@ -3378,7 +3379,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "2b6ec6f5afd9eec4f6bc9aebebb94f32"
+      "Hash": "18ebed3b93adecf5409f573a8f5988ba"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -4123,7 +4124,7 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.3.3",
+      "Version": "0.3.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4142,20 +4143,20 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "e9eaf0314d84fd07fa106222ef451ea0"
+      "Hash": "743203afc2fb4343c2f44a4026fbde49"
     },
     "piamenv": {
       "Package": "piamenv",
-      "Version": "0.5.3",
+      "Version": "0.5.4",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "desc",
         "methods",
         "renv",
         "withr"
       ],
-      "Hash": "80ecba6591b4488ed6fb86a17fa205ef"
+      "Hash": "35921df283f94d6e042731b23ca72ae9"
     },
     "piamutils": {
       "Package": "piamutils",
