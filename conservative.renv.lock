@@ -708,7 +708,7 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.5.2",
+      "Version": "0.5.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -728,7 +728,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "c3ddc978f12810b8cfd750066d963362"
+      "Hash": "d303c10407313c536cca97de52e4e8da"
     },
     "bridgesampling": {
       "Package": "bridgesampling",
@@ -3587,7 +3587,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.186.0",
+      "Version": "0.186.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3622,7 +3622,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "bda003299bec13248b69c6bb290a00c9"
+      "Hash": "6dfd1481b8f95925f28ed7fd75245581"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4912,7 +4912,7 @@
     },
     "reportbrick": {
       "Package": "reportbrick",
-      "Version": "0.5.0",
+      "Version": "0.6.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4927,14 +4927,15 @@
         "piamutils",
         "purrr",
         "rmarkdown",
+        "stringr",
         "tidyr",
         "yaml"
       ],
-      "Hash": "1979526e735ae55f89855e73d7181648"
+      "Hash": "f77824db1536fcba81b5fafe1426a48d"
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "0.0.12",
+      "Version": "0.0.13",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4948,7 +4949,7 @@
         "rmndt",
         "utils"
       ],
-      "Hash": "3835ad55610cdbf6a6ef42667ae489fa"
+      "Hash": "ad6b54a4cb75c13bebcd9751ec9d2e54"
     },
     "reprex": {
       "Package": "reprex",
