@@ -1922,7 +1922,7 @@
     },
     "geometry": {
       "Package": "geometry",
-      "Version": "0.4.7",
+      "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1933,7 +1933,7 @@
         "lpSolve",
         "magic"
       ],
-      "Hash": "8e5ba8a115dee2730bab618934db4b85"
+      "Hash": "b052bd270aeddeca332c20feecfb039d"
     },
     "geosphere": {
       "Package": "geosphere",
