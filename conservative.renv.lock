@@ -3043,7 +3043,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.10.0",
+      "Version": "2.10.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3066,7 +3066,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "08be03579fc680e1f3540e1026a54752"
+      "Hash": "9fa7e27971a4a5c345c843094bf70831"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3587,7 +3587,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.187.1",
+      "Version": "0.187.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3622,7 +3622,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "a909d2c7106e0be6bd9b2b97ab954173"
+      "Hash": "41fdf9d8835b14e6ffc3069004d89d86"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4102,7 +4102,7 @@
     },
     "piamPlotComparison": {
       "Package": "piamPlotComparison",
-      "Version": "0.0.13",
+      "Version": "0.0.14",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4120,7 +4120,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "ba6acd93a517c2d142e0206b12109e99"
+      "Hash": "e28c7703df348048f0d90f5d8d6d5f12"
     },
     "piamValidation": {
       "Package": "piamValidation",
