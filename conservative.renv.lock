@@ -3197,7 +3197,7 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.149.2",
+      "Version": "0.149.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3220,7 +3220,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "33a7c53e134d683562b06801d72ac470"
+      "Hash": "76c0c2e396c274a88890f3edd2230329"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -4060,7 +4060,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.26.2",
+      "Version": "0.27.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4077,7 +4077,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "681330e1dba2a6929fe9dea921efc331"
+      "Hash": "2ecd3627841780ad3b011a02b800d0bd"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
