@@ -1534,7 +1534,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.3.0",
+      "Version": "2.4.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -1552,7 +1552,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "3b234cdc89acf10289aa5a97045874c9"
+      "Hash": "49952f1aa1438e74dca300a879ed695b"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -2133,7 +2133,7 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.32.1",
+      "Version": "0.33.1",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -2145,7 +2145,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "c3d519dc1fe600a6f14eb175957b43f0"
+      "Hash": "06a3e4ec579cb1ebb056279ccb471156"
     },
     "goftest": {
       "Package": "goftest",
@@ -2945,7 +2945,7 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.47.10",
+      "Version": "0.47.11",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -2962,7 +2962,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "29ef35c77e5a2343e6e7d197c8015fc9"
+      "Hash": "88eab06f260661bdfa5ef41efaa40449"
     },
     "luplot": {
       "Package": "luplot",
@@ -4135,9 +4135,9 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.27.1",
+      "Version": "0.27.2",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "Repository": "pik",
       "Requirements": [
         "dplyr",
         "gms",
@@ -4152,7 +4152,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "2ecd3627841780ad3b011a02b800d0bd"
+      "Hash": "a9d3532691fb0e4df4e81f57389d588a"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5018,9 +5018,9 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "0.1.0",
+      "Version": "0.4.0",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "Repository": "pik",
       "Requirements": [
         "R",
         "data.table",
@@ -5032,7 +5032,7 @@
         "rmndt",
         "utils"
       ],
-      "Hash": "e81dd10448ae13f58a5a6a7678d46ba7"
+      "Hash": "c8aa8c54748ac74fe768835f34a8f843"
     },
     "reprex": {
       "Package": "reprex",
