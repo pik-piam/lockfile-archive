@@ -1472,7 +1472,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.4.0",
+      "Version": "2.5.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -1490,7 +1490,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "49952f1aa1438e74dca300a879ed695b"
+      "Hash": "66b1640e27448c48770b1ade168ccea4"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3197,7 +3197,7 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.149.3",
+      "Version": "0.150.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3220,7 +3220,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "76c0c2e396c274a88890f3edd2230329"
+      "Hash": "82901ff73236a1b86934faecd289e37a"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -4061,12 +4061,13 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.27.2",
+      "Version": "0.28.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "dplyr",
         "gms",
+        "jsonlite",
         "magclass",
         "mip",
         "piamutils",
@@ -4078,7 +4079,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "a9d3532691fb0e4df4e81f57389d588a"
+      "Hash": "7d8b959b722384b35fca82ed532b9904"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4834,7 +4835,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.154.0",
+      "Version": "1.154.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4868,7 +4869,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "d2e0244158644e24c8e6e8a79cd3b112"
+      "Hash": "02f9957f9ab70d24b25276986c79fda3"
     },
     "remotes": {
       "Package": "remotes",
