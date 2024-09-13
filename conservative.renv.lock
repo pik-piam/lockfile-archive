@@ -708,7 +708,7 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.5.4",
+      "Version": "0.5.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -728,7 +728,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "e249a6a5d09a7c57e6843e0ef3e794e1"
+      "Hash": "5a92bdb65711054c6b28c22b68a2826e"
     },
     "bridgesampling": {
       "Package": "bridgesampling",
@@ -1472,7 +1472,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.5.0",
+      "Version": "2.6.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -1490,7 +1490,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "66b1640e27448c48770b1ade168ccea4"
+      "Hash": "f898af91183e490455593d501c63dc69"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -2558,7 +2558,7 @@
     },
     "knitr": {
       "Package": "knitr",
-      "Version": "1.47",
+      "Version": "1.48",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2570,7 +2570,7 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "7c99b2d55584b982717fcc0950378612"
+      "Hash": "acf380f300c721da9fde7df115a5f86f"
     },
     "labeling": {
       "Package": "labeling",
@@ -2654,7 +2654,7 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.65.0",
+      "Version": "2.65.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2668,7 +2668,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "a6a52ce766672dce131ef20f005f0903"
+      "Hash": "3efe0e271cc604c42b4fff523c518340"
     },
     "linprog": {
       "Package": "linprog",
@@ -2883,7 +2883,7 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.47.11",
+      "Version": "0.47.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -2900,7 +2900,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "88eab06f260661bdfa5ef41efaa40449"
+      "Hash": "a300182cbb65562e19dc4ad0c51e042d"
     },
     "luplot": {
       "Package": "luplot",
@@ -3273,7 +3273,7 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.43.2",
+      "Version": "1.43.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3307,7 +3307,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "9441adf58d5ddb55cebf119d82063d57"
+      "Hash": "b273c2e49ee30cd933c14b914ec8a580"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3352,7 +3352,7 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.7.0",
+      "Version": "0.7.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3379,7 +3379,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "18ebed3b93adecf5409f573a8f5988ba"
+      "Hash": "f31b2df34524c3edf8cdfda41e99ee00"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -3469,7 +3469,7 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.61.1",
+      "Version": "0.61.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3495,11 +3495,11 @@
         "terra",
         "withr"
       ],
-      "Hash": "4afcf7dd51297393f2256fe0967e6a2a"
+      "Hash": "b3bc0b02d799f6967066bab43037bf32"
     },
     "mrlandcore": {
       "Package": "mrlandcore",
-      "Version": "1.1.4",
+      "Version": "1.1.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3522,11 +3522,11 @@
         "terra",
         "withr"
       ],
-      "Hash": "1ddfc69027abff5dc693362bb1352fef"
+      "Hash": "162fdf5a52760683267d89011966dd08"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.52.0",
+      "Version": "1.52.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3557,7 +3557,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "a7fc77314060f1d11ffd577827a360c4"
+      "Hash": "85a88813b16c5f8d8a001b8be43538f8"
     },
     "mrmaterials": {
       "Package": "mrmaterials",
@@ -3587,7 +3587,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.187.4",
+      "Version": "0.188.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3622,13 +3622,13 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "0c82d773d1704e59f0e2e911b65b4dd7"
+      "Hash": "4dfe110e535ac53af6f3bc308eb04c30"
     },
     "mrsoil": {
       "Package": "mrsoil",
-      "Version": "2.3.3",
+      "Version": "2.3.4",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "R",
         "jsonlite",
@@ -3643,7 +3643,7 @@
         "readxl",
         "utils"
       ],
-      "Hash": "4f7e453e415325b730c19ac27cdece00"
+      "Hash": "e086950ce08a0ac640b4c0016a70a376"
     },
     "mrtransport": {
       "Package": "mrtransport",
@@ -3684,7 +3684,7 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.60.0",
+      "Version": "2.60.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3714,7 +3714,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "2d6718659b40fb0a305283f5cf796405"
+      "Hash": "02552c073efb81d40e8d01ea67432ae0"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -5580,15 +5580,15 @@
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.7-78",
+      "Version": "1.7-81",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://rspatial.r-universe.dev",
       "Requirements": [
         "R",
         "Rcpp",
         "methods"
       ],
-      "Hash": "8f020def0792119cb98bd8f696dab22d"
+      "Hash": "18f7adbaf57647f1b683a8dc5c34efcb"
     },
     "testthat": {
       "Package": "testthat",
