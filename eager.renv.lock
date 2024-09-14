@@ -62,13 +62,13 @@
     },
     "Deriv": {
       "Package": "Deriv",
-      "Version": "4.1.3",
+      "Version": "4.1.6",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "methods"
       ],
-      "Hash": "bc727aba82bcda74db0bbe188ec6757c"
+      "Hash": "cd52c065c9e687c60c56b51f10f7bcd3"
     },
     "Formula": {
       "Package": "Formula",
@@ -2438,7 +2438,7 @@
     },
     "httr2": {
       "Package": "httr2",
-      "Version": "1.0.3",
+      "Version": "1.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2455,7 +2455,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "10d93e97faad6b629301bb3a2fd23378"
+      "Hash": "836e9564fbeca3bb390bb429a53cd401"
     },
     "hypergeo": {
       "Package": "hypergeo",
@@ -2945,7 +2945,7 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.47.12",
+      "Version": "0.47.13",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -2962,7 +2962,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "a300182cbb65562e19dc4ad0c51e042d"
+      "Hash": "a4b2b421dec01feef09aa74b2dc77902"
     },
     "luplot": {
       "Package": "luplot",
@@ -3426,7 +3426,7 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.7.1",
+      "Version": "0.7.2",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3453,7 +3453,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "f31b2df34524c3edf8cdfda41e99ee00"
+      "Hash": "6358608112938d9e2ecfc7ba162f71c3"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -3661,7 +3661,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.188.0",
+      "Version": "0.189.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3696,7 +3696,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "4dfe110e535ac53af6f3bc308eb04c30"
+      "Hash": "54a4cf38ff1a088cece473a78956b543"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4135,7 +4135,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.28.1",
+      "Version": "0.29.1",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4153,7 +4153,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "7d8b959b722384b35fca82ed532b9904"
+      "Hash": "2a9743f8b8b713953320ad5bf9b44e38"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
