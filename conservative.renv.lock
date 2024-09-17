@@ -3043,7 +3043,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.10.3",
+      "Version": "2.11.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3066,7 +3066,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "9fa7e27971a4a5c345c843094bf70831"
+      "Hash": "ff182ad66408a8b40bc376e23de7c09a"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -4835,7 +4835,7 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.154.2",
+      "Version": "1.154.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4869,7 +4869,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "02f9957f9ab70d24b25276986c79fda3"
+      "Hash": "76ff68dac488348bd8bf65327bf45996"
     },
     "remotes": {
       "Package": "remotes",
