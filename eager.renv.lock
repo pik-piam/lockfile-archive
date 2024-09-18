@@ -1378,19 +1378,20 @@
     },
     "distributional": {
       "Package": "distributional",
-      "Version": "0.4.0",
+      "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "generics",
         "lifecycle",
         "numDeriv",
+        "pillar",
         "rlang",
         "stats",
         "utils",
         "vctrs"
       ],
-      "Hash": "3bad76869f2257ea4fd00a3c08c2bcce"
+      "Hash": "76e94de462aa18ea966a38956ecf4497"
     },
     "doBy": {
       "Package": "doBy",
@@ -1630,14 +1631,13 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "0.24.0",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
-        "R",
-        "methods"
+        "R"
       ],
-      "Hash": "a1066cbc05caee9a4bf6d90f194ff4da"
+      "Hash": "6b567375113ceb7d9f800de4dd42218e"
     },
     "fansi": {
       "Package": "fansi",
@@ -3326,7 +3326,7 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.21.20",
+      "Version": "0.21.21",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3343,7 +3343,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "02ab0c7dcd5705b81fadec8929708bd6"
+      "Hash": "eff7853936b20cb6d54191485f96e09f"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3834,9 +3834,9 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.13.2",
+      "Version": "1.13.3",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "Repository": "pik",
       "Requirements": [
         "R",
         "madrat",
@@ -3852,7 +3852,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "d9507dd073818127a3d41726ac9f111e"
+      "Hash": "128629ac1223ef108ed66e1ed256b7c9"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
@@ -4136,9 +4136,9 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.29.1",
+      "Version": "0.29.2",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
         "dplyr",
         "gms",
@@ -4154,7 +4154,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "2a9743f8b8b713953320ad5bf9b44e38"
+      "Hash": "f6e1fa0a48f21e2b2db5e444fd667d2f"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4305,7 +4305,7 @@
     },
     "pkgdown": {
       "Package": "pkgdown",
-      "Version": "2.1.0",
+      "Version": "2.1.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4331,7 +4331,7 @@
         "xml2",
         "yaml"
       ],
-      "Hash": "0d3d789055c873f48521ce7e23c23f48"
+      "Hash": "df2912d5873422b55a13002510f02c9f"
     },
     "pkgload": {
       "Package": "pkgload",

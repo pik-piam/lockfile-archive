@@ -3252,7 +3252,7 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.21.20",
+      "Version": "0.21.21",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3269,7 +3269,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "02ab0c7dcd5705b81fadec8929708bd6"
+      "Hash": "eff7853936b20cb6d54191485f96e09f"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3760,7 +3760,7 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.13.2",
+      "Version": "1.13.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3778,7 +3778,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "d9507dd073818127a3d41726ac9f111e"
+      "Hash": "128629ac1223ef108ed66e1ed256b7c9"
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
@@ -4061,7 +4061,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.29.1",
+      "Version": "0.29.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4079,7 +4079,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "2a9743f8b8b713953320ad5bf9b44e38"
+      "Hash": "f6e1fa0a48f21e2b2db5e444fd667d2f"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
