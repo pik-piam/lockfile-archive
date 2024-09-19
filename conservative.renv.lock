@@ -1472,7 +1472,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.6.1",
+      "Version": "2.6.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -1490,7 +1490,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "f898af91183e490455593d501c63dc69"
+      "Hash": "23c4fffb5c2e5273940a518656fddaaa"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3043,7 +3043,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.11.0",
+      "Version": "2.12.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3066,7 +3066,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "ff182ad66408a8b40bc376e23de7c09a"
+      "Hash": "64cd9ab6ebda4d4fd054ca1525546d0f"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3197,7 +3197,7 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.150.0",
+      "Version": "0.151.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3220,7 +3220,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "82901ff73236a1b86934faecd289e37a"
+      "Hash": "c2890ce3af695fb45aac36727bbb4b21"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -3273,7 +3273,7 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.43.4",
+      "Version": "1.43.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3307,7 +3307,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "b273c2e49ee30cd933c14b914ec8a580"
+      "Hash": "c7f4434bd5836b756ed5d5821dc219d3"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3559,16 +3559,6 @@
       ],
       "Hash": "85a88813b16c5f8d8a001b8be43538f8"
     },
-    "mrmaterials": {
-      "Package": "mrmaterials",
-      "Version": "0.0.2",
-      "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
-      "Requirements": [
-        "madrat"
-      ],
-      "Hash": "a3fc491749449689460b22a55e8dfa25"
-    },
     "mrorganic": {
       "Package": "mrorganic",
       "Version": "0.5.6",
@@ -3587,7 +3577,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.189.0",
+      "Version": "0.190.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3622,7 +3612,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "54a4cf38ff1a088cece473a78956b543"
+      "Hash": "4e8da6d27ae7dd686a678359e455fd00"
     },
     "mrsoil": {
       "Package": "mrsoil",
