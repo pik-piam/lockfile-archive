@@ -83,7 +83,7 @@
     },
     "GDPuc": {
       "Package": "GDPuc",
-      "Version": "1.0.5",
+      "Version": "1.1.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -100,7 +100,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "fe73e3ccc579ea6ab4bff435e37e0970"
+      "Hash": "95df5f6ef85864bd5f0f3e4bc8fee228"
     },
     "GPArotation": {
       "Package": "GPArotation",
@@ -646,13 +646,13 @@
     },
     "bit": {
       "Package": "bit",
-      "Version": "4.0.5",
+      "Version": "4.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "d242abec29412ce988848d0294b208fd"
+      "Hash": "5dc7b2677d65d0e874fc4aaf0e879987"
     },
     "bit64": {
       "Package": "bit64",
@@ -1207,13 +1207,13 @@
     },
     "curl": {
       "Package": "curl",
-      "Version": "5.2.2",
+      "Version": "5.2.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "8f27335f2bcff4d6035edcc82d7d46de"
+      "Hash": "d91263322a58af798f6cf3b13fd56dde"
     },
     "cyclocomp": {
       "Package": "cyclocomp",
@@ -1535,7 +1535,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.6.2",
+      "Version": "2.7.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -1553,7 +1553,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "23c4fffb5c2e5273940a518656fddaaa"
+      "Hash": "672ccc78b13509b337c20ec04211fd02"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -1949,7 +1949,7 @@
     },
     "gert": {
       "Package": "gert",
-      "Version": "2.1.1",
+      "Version": "2.1.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1960,7 +1960,7 @@
         "sys",
         "zip"
       ],
-      "Hash": "ab2ca7d6bd706ed218d096b7b16d7233"
+      "Hash": "347d104ed332650b737f509a703c9c7f"
     },
     "ggh4x": {
       "Package": "ggh4x",
@@ -2585,13 +2585,13 @@
     },
     "jsonlite": {
       "Package": "jsonlite",
-      "Version": "1.8.8",
+      "Version": "1.8.9",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "methods"
       ],
-      "Hash": "e1b9c55281c5adc4dd113652d9e26768"
+      "Hash": "4e993b65c2c3ffbffce7bb3e2c6f832b"
     },
     "kableExtra": {
       "Package": "kableExtra",
@@ -3105,7 +3105,7 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.12.0",
+      "Version": "2.12.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -3128,7 +3128,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "64cd9ab6ebda4d4fd054ca1525546d0f"
+      "Hash": "08fec5594cfbc5414165de4f89c1e2eb"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3347,7 +3347,7 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.43.5",
+      "Version": "1.43.6",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3381,7 +3381,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "c7f4434bd5836b756ed5d5821dc219d3"
+      "Hash": "38a6c44be8d078600f5f16a6d7c2de4c"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3401,9 +3401,9 @@
     },
     "mrdrivers": {
       "Package": "mrdrivers",
-      "Version": "2.0.3",
+      "Version": "3.0.0",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "countrycode",
@@ -3422,7 +3422,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "52faaf250f8819de1c564ffc99865cf2"
+      "Hash": "47fe275790f618dc5b2962f3391580d9"
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
@@ -3651,10 +3651,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.191.0",
+      "Version": "0.191.2",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
+        "GDPuc",
         "Hmisc",
         "R",
         "R.utils",
@@ -3686,7 +3687,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "26ecc6bfe0fba66afed77d7ab108a7e1"
+      "Hash": "f7b8399e82479d445ff855a45f86c008"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -3711,21 +3712,23 @@
     },
     "mrtransport": {
       "Package": "mrtransport",
-      "Version": "0.7.0",
+      "Version": "0.7.1",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
+        "GDPuc",
         "data.table",
         "madrat",
         "magclass",
         "magrittr",
+        "mrdrivers",
         "quitte",
         "readxl",
         "rmndt",
         "stringr",
         "zoo"
       ],
-      "Hash": "881b81df6a35888547d786fb9f1c0ed8"
+      "Hash": "8f4ead1a23e0434cf6afb074342073b9"
     },
     "mrtutorial": {
       "Package": "mrtutorial",
@@ -3992,17 +3995,17 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.2.1",
+      "Version": "2.2.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "askpass"
       ],
-      "Hash": "c62edf62de70cadf40553e10c739049d"
+      "Hash": "d413e0fef796c9401a4419485f709ca1"
     },
     "openxlsx": {
       "Package": "openxlsx",
-      "Version": "4.2.7",
+      "Version": "4.2.7.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4015,7 +4018,7 @@
         "utils",
         "zip"
       ],
-      "Hash": "4eb6bb5d6b95b2e3177f0dd1e7b9ca0e"
+      "Hash": "14304e44a0f90fa2d0f905472333c561"
     },
     "packcircles": {
       "Package": "packcircles",
@@ -4115,18 +4118,18 @@
     },
     "pdftools": {
       "Package": "pdftools",
-      "Version": "3.4.0",
+      "Version": "3.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "Rcpp",
         "qpdf"
       ],
-      "Hash": "9f04cfdc668ad1149d865a2996ac2045"
+      "Hash": "cbd8a325d6d327ccb3faf037b73954e3"
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.29.2",
+      "Version": "0.30.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "Requirements": [
@@ -4144,7 +4147,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "f6e1fa0a48f21e2b2db5e444fd667d2f"
+      "Hash": "275f536dd09a12a67ff67b08c0678dbb"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4476,18 +4479,16 @@
     },
     "profvis": {
       "Package": "profvis",
-      "Version": "0.3.8",
+      "Version": "0.4.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "htmlwidgets",
-        "purrr",
         "rlang",
-        "stringr",
         "vctrs"
       ],
-      "Hash": "aa5a3864397ce6ae03458f98618395a1"
+      "Hash": "bffa126bf92987e677c12cfb5651fc1d"
     },
     "progress": {
       "Package": "progress",
@@ -4977,13 +4978,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.7",
+      "Version": "1.0.8",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
-      "Hash": "397b7b2a265bc5a7a06852524dabae20"
+      "Hash": "e082251834fa427514e68bec8afc8fda"
     },
     "reportbrick": {
       "Package": "reportbrick",
@@ -5010,7 +5011,7 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "0.4.0",
+      "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -5024,7 +5025,7 @@
         "rmndt",
         "utils"
       ],
-      "Hash": "c8aa8c54748ac74fe768835f34a8f843"
+      "Hash": "dec090bc471d8e0a406f6bf08a877104"
     },
     "reprex": {
       "Package": "reprex",
