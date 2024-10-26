@@ -1127,13 +1127,13 @@
     },
     "cpp11": {
       "Package": "cpp11",
-      "Version": "0.4.7",
+      "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "5a295d7d963cc5035284dcdbaf334f4e"
+      "Hash": "91570bba75d0c9d3f1040c835cee8fba"
     },
     "crayon": {
       "Package": "crayon",
@@ -2461,7 +2461,7 @@
     },
     "igraph": {
       "Package": "igraph",
-      "Version": "2.0.3",
+      "Version": "2.1.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2480,7 +2480,7 @@
         "utils",
         "vctrs"
       ],
-      "Hash": "c3b7d801d722e26e4cd888e042bf9af5"
+      "Hash": "c03878b48737a0e2da3b772d7b2e22da"
     },
     "ini": {
       "Package": "ini",
@@ -3027,11 +3027,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.14.0",
+      "Version": "3.15.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
-      "RemoteSha": "da201b837b10b135759bb2a90e3db31bd5114eef",
+      "RemoteSha": "4bd6d04482fe367d05d8612cdb42382505c2041a",
       "Requirements": [
         "Matrix",
         "R",
@@ -3048,7 +3048,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "97cfa7d24e7291caf7654748c88c6a33"
+      "Hash": "9913acb18a57fc1da9f79e6ddeeedbe6"
     },
     "magclass": {
       "Package": "magclass",
@@ -3524,11 +3524,11 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.63.0",
+      "Version": "0.64.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
-      "RemoteSha": "56a500f9896595e5e457128205c57417443db603",
+      "RemoteSha": "53fb81833fc023ae375adb64016b3503b1dc9a9a",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3552,7 +3552,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "3b56a45da8cb10c898202a75d1b01a8c"
+      "Hash": "9d6262a6e8845c9364f3b0170d4b554d"
     },
     "mrlandcore": {
       "Package": "mrlandcore",
@@ -3585,11 +3585,11 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.52.3",
+      "Version": "1.52.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
-      "RemoteSha": "66a78ab9d74c825b4ffaf94db87b9cb72872853a",
+      "RemoteSha": "644897ac34a7b618677402ef1e954f173c7f2b65",
       "Requirements": [
         "R",
         "abind",
@@ -3618,7 +3618,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "6513240bfd8448f16c2b52180e46bc89"
+      "Hash": "fdd5cf7b821fe16d96be8549a8b19a59"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3703,11 +3703,11 @@
     },
     "mrtransport": {
       "Package": "mrtransport",
-      "Version": "0.7.7",
+      "Version": "0.7.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrtransport",
-      "RemoteSha": "4fc1f948c2bf4da2acdeda5127b2ff7b29065724",
+      "RemoteSha": "ebe843cd519df50ef7dfedacaf74211e0e5a77a4",
       "Requirements": [
         "GDPuc",
         "data.table",
@@ -3721,7 +3721,7 @@
         "stringr",
         "zoo"
       ],
-      "Hash": "39e8567c671034bc3fa194085df7dd5b"
+      "Hash": "e177ee3a6bda818b1cc627c2c071ecc5"
     },
     "mrtutorial": {
       "Package": "mrtutorial",
