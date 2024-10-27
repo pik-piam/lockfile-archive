@@ -3585,11 +3585,11 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.52.4",
+      "Version": "1.52.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
-      "RemoteSha": "644897ac34a7b618677402ef1e954f173c7f2b65",
+      "RemoteSha": "d8dbec063717ffe9b2e6874021e6cc5b7ba6a1bd",
       "Requirements": [
         "R",
         "abind",
@@ -3618,7 +3618,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "fdd5cf7b821fe16d96be8549a8b19a59"
+      "Hash": "7e503bfd7c603dc33fdefafec7a031ae"
     },
     "mrorganic": {
       "Package": "mrorganic",
