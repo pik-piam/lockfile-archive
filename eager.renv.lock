@@ -2724,11 +2724,11 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.67.0",
+      "Version": "2.67.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
-      "RemoteSha": "3199ba04753fdc510fa5bded89172757b6ca0c70",
+      "RemoteSha": "6e334b9e6467f369b166c2f2ecf072fb59843027",
       "Requirements": [
         "gdx",
         "madrat",
@@ -2740,7 +2740,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "3ec4b5bcbc2ab1b850833c7c807a7aa8"
+      "Hash": "141f6a4196c7ea6e308c1cd48ee83e7a"
     },
     "linprog": {
       "Package": "linprog",
@@ -3005,7 +3005,7 @@
     },
     "luscale": {
       "Package": "luscale",
-      "Version": "3.0.1",
+      "Version": "3.1.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3016,7 +3016,7 @@
         "spam",
         "utils"
       ],
-      "Hash": "af496d843df1673816d83b50fdaa7748"
+      "Hash": "a219570043a47be440f43868f7a4b5a2"
     },
     "lusweave": {
       "Package": "lusweave",
@@ -3572,13 +3572,50 @@
       ],
       "Hash": "44986971568a28db492fbf2a4c13c722"
     },
+    "mrindustry": {
+      "Package": "mrindustry",
+      "Version": "0.1.0",
+      "Source": "Repository",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mrindustry",
+      "RemoteSha": "b4b6288c90ec27cf57fd6a8b186ddb02ad7d3607",
+      "Requirements": [
+        "GDPuc",
+        "Hmisc",
+        "R",
+        "assertr",
+        "broom",
+        "car",
+        "countrycode",
+        "data.table",
+        "dplyr",
+        "ggplot2",
+        "madrat",
+        "magclass",
+        "magrittr",
+        "mrdrivers",
+        "mrremind",
+        "purrr",
+        "quitte",
+        "readODS",
+        "readr",
+        "readxl",
+        "reshape2",
+        "rlang",
+        "tibble",
+        "tidyr",
+        "tidyselect",
+        "zoo"
+      ],
+      "Hash": "19d47b9a5b82328ff2193443d46e2371"
+    },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.64.1",
+      "Version": "0.64.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
-      "RemoteSha": "53fb81833fc023ae375adb64016b3503b1dc9a9a",
+      "RemoteSha": "d94b6f060fa9456de04fd99999b4ffd3c288b279",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3602,7 +3639,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "9d6262a6e8845c9364f3b0170d4b554d"
+      "Hash": "04c9a3460d590a280f04b63e9f3f3c9f"
     },
     "mrlandcore": {
       "Package": "mrlandcore",
