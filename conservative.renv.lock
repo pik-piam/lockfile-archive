@@ -1479,11 +1479,11 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.8.0",
+      "Version": "2.8.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "79502017aed4e7a7b7509ba48e561874d83a1c2e",
+      "RemoteSha": "b2256c11a70f1de83e262a2ae5912d14e8d7f2be",
       "Requirements": [
         "GDPuc",
         "R",
@@ -1501,7 +1501,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "0de637ed82ca6a7990477fa93d08a488"
+      "Hash": "2bd4c8e91adbea5162fbd1720b96366a"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3401,11 +3401,11 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.7.3",
+      "Version": "0.7.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
-      "RemoteSha": "4bbfa665097f3e56dcb7a000a03b6add6aa4217f",
+      "RemoteSha": "449c2fb91c3c6f9a46377af3f5f196789651a32a",
       "Requirements": [
         "GDPuc",
         "brick",
@@ -3430,7 +3430,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "88a1276a1d6165e29ac7d9285741f348"
+      "Hash": "ef592abd4001bf22b47aa6aa65aecfbc"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -3523,13 +3523,49 @@
       ],
       "Hash": "44986971568a28db492fbf2a4c13c722"
     },
+    "mrindustry": {
+      "Package": "mrindustry",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mrindustry",
+      "RemoteSha": "52abd3bbd854240c25ed70e24ed6704a64ae1fd8",
+      "Requirements": [
+        "GDPuc",
+        "Hmisc",
+        "R",
+        "assertr",
+        "broom",
+        "car",
+        "countrycode",
+        "data.table",
+        "dplyr",
+        "ggplot2",
+        "madrat",
+        "magclass",
+        "magrittr",
+        "mrdrivers",
+        "purrr",
+        "quitte",
+        "readODS",
+        "readr",
+        "readxl",
+        "reshape2",
+        "rlang",
+        "tibble",
+        "tidyr",
+        "tidyselect",
+        "zoo"
+      ],
+      "Hash": "6538b99cbc6214b05286e54bb4ffe9a5"
+    },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.64.3",
+      "Version": "0.64.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
-      "RemoteSha": "78d29f5522e24cde3a509d208de20ef27efed75c",
+      "RemoteSha": "da0b69cb1ee1fa07a5e61d9ed90676870df72537",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3553,7 +3589,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "c9d87b5487bcb3fb0429b40220b42f3d"
+      "Hash": "34384f726d4b0b93ac4eb72b8a974e3e"
     },
     "mrlandcore": {
       "Package": "mrlandcore",
@@ -3639,19 +3675,16 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.194.1",
+      "Version": "0.196.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "252efede93fb8334b1074d32d626b2d1828462f1",
+      "RemoteSha": "bdf2841a6c8bc4997497e3465c4336ef2f06b390",
       "Requirements": [
         "GDPuc",
-        "Hmisc",
         "R",
         "R.utils",
         "assertr",
-        "broom",
-        "car",
         "countrycode",
         "data.table",
         "dplyr",
@@ -3663,10 +3696,10 @@
         "magrittr",
         "mrcommons",
         "mrdrivers",
+        "mrindustry",
         "nnls",
         "purrr",
         "quitte",
-        "readODS",
         "readr",
         "readxl",
         "reshape2",
@@ -3677,7 +3710,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "e2ea1908637d617621209dde79fea422"
+      "Hash": "ad370640fc752f4449a22ec143ef5bd1"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -5023,11 +5056,11 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "0.6.0",
+      "Version": "0.6.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reporttransport",
-      "RemoteSha": "cc2278b4a568d4a7c4c93c79051f0d79a17c4dcf",
+      "RemoteSha": "5818c9134a703a12a35eb69dad27281cb51386ee",
       "Requirements": [
         "R",
         "data.table",
@@ -5039,7 +5072,7 @@
         "rmndt",
         "utils"
       ],
-      "Hash": "2aea7ae0008c35664c05cff42d3c8b15"
+      "Hash": "32d97771d5eb67499e13179689942f15"
     },
     "reprex": {
       "Package": "reprex",
