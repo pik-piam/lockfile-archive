@@ -3292,11 +3292,11 @@
     },
     "mrdrivers": {
       "Package": "mrdrivers",
-      "Version": "4.0.0",
+      "Version": "4.0.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrdrivers",
-      "RemoteSha": "5ef20f4c170a2685636b66ff9bfc91b630688cfc",
+      "RemoteSha": "a045211ccc7a81b3e6509aefd85ed613ddc46cfc",
       "Requirements": [
         "GDPuc",
         "countrycode",
@@ -3313,7 +3313,7 @@
         "tidyr",
         "tidyselect"
       ],
-      "Hash": "81beeb05a4f39a592ee9ba4b7c0bbf7c"
+      "Hash": "74c283d6e09585c8980f70a8533eebd2"
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
@@ -3366,11 +3366,11 @@
     },
     "mrfactors": {
       "Package": "mrfactors",
-      "Version": "0.7.1",
+      "Version": "0.7.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/mrfactors",
-      "RemoteSha": "e8949a8fe34890914d2716eb5f4b220ee2291c4a",
+      "RemoteSha": "cdedac99f941a83612e5f6ed3dfeaa9dda12159c",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3386,7 +3386,7 @@
         "readxl",
         "stringr"
       ],
-      "Hash": "a945e89281db6b7a832051ee746db2a3"
+      "Hash": "c85fa1ec0d5fa0b12931ce8cf3396aee"
     },
     "mrfaocore": {
       "Package": "mrfaocore",
@@ -4947,11 +4947,11 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "0.6.2",
+      "Version": "0.6.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reporttransport",
-      "RemoteSha": "0397e6032eca26ce69255dd3774a33174ab01249",
+      "RemoteSha": "46c534aa880d5acf9e456fc58d7d6025b7f0ad60",
       "Requirements": [
         "R",
         "data.table",
@@ -4963,7 +4963,7 @@
         "rmndt",
         "utils"
       ],
-      "Hash": "89d90fb479a4a4787047623173fd60ed"
+      "Hash": "e0876605f866a216572cc7375038d0b4"
     },
     "reprex": {
       "Package": "reprex",
