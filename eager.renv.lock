@@ -3294,11 +3294,9 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.46.2",
+      "Version": "1.46.4",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "3a0d184476d197a45fa8516a17b73c0b5387b3bb",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3330,7 +3328,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "f0941a77b8521f79b7fe27ff0fc3e40c"
+      "Hash": "fe4476fe937152d2f6f9c9b4e9944cc3"
     },
     "mrdieter": {
       "Package": "mrdieter",
