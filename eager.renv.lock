@@ -2832,11 +2832,11 @@
     },
     "lpjmlstats": {
       "Package": "lpjmlstats",
-      "Version": "0.5.1",
+      "Version": "0.6.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlstats",
-      "RemoteSha": "46926173372888fb871d7cc0d836e785d10de629",
+      "RemoteSha": "dfe2b257c5d93f4fc7f827cc6f78c0c8aa2da507",
       "Requirements": [
         "Matrix",
         "R",
@@ -2861,7 +2861,7 @@
         "tidyselect",
         "units"
       ],
-      "Hash": "dde991c06b7b275510945c83f6e123cb"
+      "Hash": "8ba7e16f9e715cfd7050c2c3d426dafc"
     },
     "lubridate": {
       "Package": "lubridate",
@@ -2994,11 +2994,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.15.1",
+      "Version": "3.15.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
-      "RemoteSha": "4bd6d04482fe367d05d8612cdb42382505c2041a",
+      "RemoteSha": "07a507763cf16f28411cccd9fd7672235abb3a02",
       "Requirements": [
         "Matrix",
         "R",
@@ -3015,7 +3015,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "9913acb18a57fc1da9f79e6ddeeedbe6"
+      "Hash": "833c8389b808fd23a626ecee2cc98a53"
     },
     "magclass": {
       "Package": "magclass",
@@ -4128,11 +4128,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.36.4",
+      "Version": "0.36.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "982ffea8e17f92cb0bf5505e5b212843efe6b30e",
+      "RemoteSha": "4dd2679fef2ff4fcddc950986bfb73f8aa727c63",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4150,7 +4150,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "04815795acc07878c0f4fd96e9bc0895"
+      "Hash": "030d75b1d59ca304c8650b914b272c21"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
