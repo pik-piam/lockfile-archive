@@ -3294,9 +3294,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.46.4",
+      "Version": "1.46.6",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mrcommons",
+      "RemoteSha": "5dd0be8b5212114d9c977c247bec5930c3c5e2de",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3328,7 +3330,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "fe4476fe937152d2f6f9c9b4e9944cc3"
+      "Hash": "c6c8fab4abdd1f6f3ebb74f42cdfaaba"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -4994,11 +4996,9 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "0.6.3",
+      "Version": "0.6.4",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/reporttransport",
-      "RemoteSha": "46c534aa880d5acf9e456fc58d7d6025b7f0ad60",
+      "Repository": "pik",
       "Requirements": [
         "R",
         "data.table",
@@ -5010,7 +5010,7 @@
         "rmndt",
         "utils"
       ],
-      "Hash": "e0876605f866a216572cc7375038d0b4"
+      "Hash": "ae012e3de9e1fe9b60e68c354d05cfc3"
     },
     "reprex": {
       "Package": "reprex",
