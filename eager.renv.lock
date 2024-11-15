@@ -1157,13 +1157,13 @@
     },
     "curl": {
       "Package": "curl",
-      "Version": "6.0.0",
+      "Version": "6.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "ff51697d9205fe715f29e7171e874c6e"
+      "Hash": "e8ba62486230951fcd2b881c5be23f96"
     },
     "cyclocomp": {
       "Package": "cyclocomp",
@@ -3042,11 +3042,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.14.4",
+      "Version": "2.15.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "395124f5e33ba19b837025bcaa494c94f5ce6dd6",
+      "RemoteSha": "d0f0e0eefe9bbc8d7fb6755e3b95e726cc886d1f",
       "Requirements": [
         "R",
         "dplyr",
@@ -3067,7 +3067,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "f691407b46e023472e9d04fee0d3ac86"
+      "Hash": "a51bfedfab0f37e7aa0bea9971563b0b"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3497,7 +3497,7 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "0.4.1",
+      "Version": "0.4.2",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3527,7 +3527,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "bad2d10d7c71edcb7ee06ce04c9d3ef4"
+      "Hash": "43a9c44051375ed9ecebdbf3474b0845"
     },
     "mrland": {
       "Package": "mrland",
@@ -3645,9 +3645,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.198.0",
+      "Version": "0.198.1",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mrremind",
+      "RemoteSha": "f64d7859535589e27508f0792a981313e925a79e",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3678,7 +3680,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "49ccc0f2767280f5449ac07d370a4f5d"
+      "Hash": "c9ba5aaf8c0526f528e99f7a7e41ebca"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -5056,7 +5058,7 @@
     },
     "reticulate": {
       "Package": "reticulate",
-      "Version": "1.39.0",
+      "Version": "1.40.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5074,7 +5076,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "e1a5d04397edc1580c5e0ed1dbdccf76"
+      "Hash": "04740f615607c4e6099356ff6d6694ee"
     },
     "rex": {
       "Package": "rex",
