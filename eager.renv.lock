@@ -112,6 +112,18 @@
       ],
       "Hash": "b8b658ec0d7a6a55d9d01e00e3cafd20"
     },
+    "GlobalOptions": {
+      "Package": "GlobalOptions",
+      "Version": "0.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "methods",
+        "utils"
+      ],
+      "Hash": "c3f7b221e60c28f5f3533d74c6fef024"
+    },
     "HARr": {
       "Package": "HARr",
       "Version": "1.1.0",
@@ -591,6 +603,39 @@
       ],
       "Hash": "c5cde76012ea08e94265ace1b53b77b9"
     },
+    "biospheremetrics": {
+      "Package": "biospheremetrics",
+      "Version": "1.0.2",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "stenzelf",
+      "RemoteRepo": "biospheremetrics",
+      "RemoteRef": "main",
+      "RemoteSha": "09399cfec0a8f0293598bdc30b7f536a03f9a277",
+      "Requirements": [
+        "RColorBrewer",
+        "abind",
+        "circlize",
+        "dplyr",
+        "fBasics",
+        "fields",
+        "grDevices",
+        "graphics",
+        "lpjmlkit",
+        "magrittr",
+        "maps",
+        "methods",
+        "readr",
+        "rlang",
+        "stats",
+        "tidyr",
+        "utils",
+        "yaml",
+        "zoo"
+      ],
+      "Hash": "25927f1ea3f3e2021227e3b5b2ce1c32"
+    },
     "bit": {
       "Package": "bit",
       "Version": "4.5.0",
@@ -666,6 +711,35 @@
         "stats"
       ],
       "Hash": "de2a4646c18661d6a0a08ec67f40b7ed"
+    },
+    "boundaries": {
+      "Package": "boundaries",
+      "Version": "1.0.4",
+      "Source": "Repository",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-tess/boundaries",
+      "RemoteSha": "95f2fe0251ebac34853b7c121d3623effee9c50e",
+      "Requirements": [
+        "R",
+        "abind",
+        "biospheremetrics",
+        "dplyr",
+        "future",
+        "lpjmlkit",
+        "magrittr",
+        "matrixStats",
+        "methods",
+        "readr",
+        "reshape2",
+        "rlang",
+        "sf",
+        "terra",
+        "tibble",
+        "tidyr",
+        "tidyselect",
+        "yaml"
+      ],
+      "Hash": "170608b33c22b58a6db35062de5da08f"
     },
     "brew": {
       "Package": "brew",
@@ -901,6 +975,25 @@
       ],
       "Hash": "0e14e01ce07e7c88fd25de6d4260d26b"
     },
+    "circlize": {
+      "Package": "circlize",
+      "Version": "0.4.16",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "GlobalOptions",
+        "R",
+        "colorspace",
+        "grDevices",
+        "graphics",
+        "grid",
+        "methods",
+        "shape",
+        "stats",
+        "utils"
+      ],
+      "Hash": "bf366c80e2b55a5383b4af8fa2a10b74"
+    },
     "citation": {
       "Package": "citation",
       "Version": "0.11.3",
@@ -1058,6 +1151,13 @@
         "stats"
       ],
       "Hash": "17ebe3b6d75d09c5bab3891880b34237"
+    },
+    "corrplot": {
+      "Package": "corrplot",
+      "Version": "0.95",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "f52d5babd10d348f9c0771386b61ea4a"
     },
     "countrycode": {
       "Package": "countrycode",
@@ -1561,6 +1661,27 @@
       ],
       "Hash": "3fd29944b231036ad67c3edb32e02201"
     },
+    "fBasics": {
+      "Package": "fBasics",
+      "Version": "4041.97",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "MASS",
+        "R",
+        "grDevices",
+        "graphics",
+        "gss",
+        "methods",
+        "spatial",
+        "stabledist",
+        "stats",
+        "timeDate",
+        "timeSeries",
+        "utils"
+      ],
+      "Hash": "19180703bbc8e6a07c775507d418505b"
+    },
     "fansi": {
       "Package": "fansi",
       "Version": "1.0.6",
@@ -1923,6 +2044,34 @@
       ],
       "Hash": "14b3b3b923944afb9542dbef4c68bf4b"
     },
+    "ggnewscale": {
+      "Package": "ggnewscale",
+      "Version": "0.5.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "ggplot2"
+      ],
+      "Hash": "0e4714a05e572eacd7c232fde675558e"
+    },
+    "ggpattern": {
+      "Package": "ggpattern",
+      "Version": "1.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "cli",
+        "ggplot2",
+        "glue",
+        "grid",
+        "gridpattern",
+        "lifecycle",
+        "rlang",
+        "scales",
+        "vctrs"
+      ],
+      "Hash": "e7a13d0c2f7444511e7bfdc2e120402a"
+    },
     "ggplot2": {
       "Package": "ggplot2",
       "Version": "3.5.1",
@@ -1948,6 +2097,51 @@
       ],
       "Hash": "44c6a2f8202d5b7e878ea274b1092426"
     },
+    "ggpubr": {
+      "Package": "ggpubr",
+      "Version": "0.6.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "cowplot",
+        "dplyr",
+        "ggplot2",
+        "ggrepel",
+        "ggsci",
+        "ggsignif",
+        "glue",
+        "grid",
+        "gridExtra",
+        "magrittr",
+        "polynom",
+        "purrr",
+        "rlang",
+        "rstatix",
+        "scales",
+        "stats",
+        "tibble",
+        "tidyr",
+        "utils"
+      ],
+      "Hash": "c957612b8bb1ee9ab7b2450d26663e7e"
+    },
+    "ggrepel": {
+      "Package": "ggrepel",
+      "Version": "0.9.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "Rcpp",
+        "ggplot2",
+        "grid",
+        "rlang",
+        "scales",
+        "withr"
+      ],
+      "Hash": "3d4156850acc1161f2f24bc61c9217c1"
+    },
     "ggridges": {
       "Package": "ggridges",
       "Version": "0.5.6",
@@ -1961,6 +2155,50 @@
         "withr"
       ],
       "Hash": "66488692cb8621bc78df1b9b819497a6"
+    },
+    "ggsci": {
+      "Package": "ggsci",
+      "Version": "3.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "ggplot2",
+        "grDevices",
+        "scales"
+      ],
+      "Hash": "0c3268cddf4d3a3ce4e7e6330f8e92c8"
+    },
+    "ggsignif": {
+      "Package": "ggsignif",
+      "Version": "0.6.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "ggplot2"
+      ],
+      "Hash": "a57f0f5dbcfd0d77ad4ff33032f5dc79"
+    },
+    "ggspatial": {
+      "Package": "ggspatial",
+      "Version": "1.1.9",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "abind",
+        "ggplot2",
+        "glue",
+        "grid",
+        "methods",
+        "rlang",
+        "rosm",
+        "scales",
+        "sf",
+        "tibble",
+        "tidyr"
+      ],
+      "Hash": "0a4e5ed181eb823957df790ec11a28fc"
     },
     "ggtext": {
       "Package": "ggtext",
@@ -1995,6 +2233,23 @@
         "tibble"
       ],
       "Hash": "16a4974681fc751a09a1250431361896"
+    },
+    "ggtrace": {
+      "Package": "ggtrace",
+      "Version": "0.7.3",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "yjunechoe",
+      "RemoteRepo": "ggtrace",
+      "RemoteRef": "main",
+      "RemoteSha": "5b73d39698b932137e4bc039026e05e4c261aeba",
+      "Requirements": [
+        "R",
+        "cli",
+        "rlang"
+      ],
+      "Hash": "74d648376177f1f10e7b97a3d92aa119"
     },
     "gh": {
       "Package": "gh",
@@ -2164,6 +2419,24 @@
       ],
       "Hash": "7d7f283939f563670a697165b2cf5560"
     },
+    "gridpattern": {
+      "Package": "gridpattern",
+      "Version": "1.2.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "glue",
+        "grDevices",
+        "grid",
+        "memoise",
+        "png",
+        "rlang",
+        "sf",
+        "utils"
+      ],
+      "Hash": "5f495a284021000f7940f886893eef36"
+    },
     "gridtext": {
       "Package": "gridtext",
       "Version": "0.1.5",
@@ -2183,6 +2456,17 @@
         "xml2"
       ],
       "Hash": "05e4f5fffb1eecfeaac9ea0b7f255fef"
+    },
+    "gss": {
+      "Package": "gss",
+      "Version": "2.2-8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "stats"
+      ],
+      "Hash": "9c6bd1c7545c3ec0b3c1c4d7c74abb5c"
     },
     "gtable": {
       "Package": "gtable",
@@ -2952,9 +3236,11 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.57.13",
+      "Version": "0.58.1",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
+      "RemoteSha": "be5ec4a0ebe4ee685b10f715b47e323e99954e86",
       "Requirements": [
         "DT",
         "R",
@@ -2962,7 +3248,7 @@
         "cartogram",
         "data.table",
         "dplyr",
-        "gdx",
+        "gdx2",
         "ggh4x",
         "ggiraph",
         "ggplot2",
@@ -2988,7 +3274,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "36852bc15d58eec707a047425918ba60"
+      "Hash": "4d1d8c2a9a8ecb0fee4e31d8dd9339f5"
     },
     "madrat": {
       "Package": "madrat",
@@ -3290,11 +3576,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.46.6",
+      "Version": "1.46.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "5dd0be8b5212114d9c977c247bec5930c3c5e2de",
+      "RemoteSha": "a14955f6a7acafceceb4e6e3441cd66776ed5169",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3326,7 +3612,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "c6c8fab4abdd1f6f3ebb74f42cdfaaba"
+      "Hash": "42619d9b2982f85be28ec8f48108256c"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -4124,7 +4410,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.36.9",
+      "Version": "0.36.10",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4144,7 +4430,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "ea3bc99ef04a5ea72d0578b7fe82b55a"
+      "Hash": "8c90a16658ac0c94fe80c9fd51804adf"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4399,6 +4685,17 @@
         "R"
       ],
       "Hash": "bd54ba8a0a5faded999a7aab6e46b374"
+    },
+    "polynom": {
+      "Package": "polynom",
+      "Version": "1.4-1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "graphics",
+        "stats"
+      ],
+      "Hash": "ceb5c2a59ba33d42d051285a3e8a5118"
     },
     "poorman": {
       "Package": "poorman",
@@ -5157,6 +5454,22 @@
       ],
       "Hash": "c6fa270a97604238a5ce5fe5d327fdad"
     },
+    "rosm": {
+      "Package": "rosm",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "curl",
+        "glue",
+        "jpeg",
+        "png",
+        "progress",
+        "rlang",
+        "wk"
+      ],
+      "Hash": "fcd529f183c4163a91430d7b7bbaece5"
+    },
     "roxygen2": {
       "Package": "roxygen2",
       "Version": "7.3.2",
@@ -5242,6 +5555,29 @@
         "utils"
       ],
       "Hash": "23813e635fcd210c33e154aa46d0a21a"
+    },
+    "rstatix": {
+      "Package": "rstatix",
+      "Version": "0.7.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "broom",
+        "car",
+        "corrplot",
+        "dplyr",
+        "generics",
+        "magrittr",
+        "purrr",
+        "rlang",
+        "stats",
+        "tibble",
+        "tidyr",
+        "tidyselect",
+        "utils"
+      ],
+      "Hash": "5045fbb71b143878d8c51975d1d7d56d"
     },
     "rstudioapi": {
       "Package": "rstudioapi",
@@ -5404,6 +5740,19 @@
       ],
       "Hash": "fe02eec2f6b3ba0e24afe83d5ccfb528"
     },
+    "shape": {
+      "Package": "shape",
+      "Version": "1.4.6.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "grDevices",
+        "graphics",
+        "stats"
+      ],
+      "Hash": "5c47e84dc0a3ca761ae1d307889e796d"
+    },
     "shiny": {
       "Package": "shiny",
       "Version": "1.9.1",
@@ -5523,6 +5872,30 @@
         "methods"
       ],
       "Hash": "6581c0a0bb8594b85c8de869644174ac"
+    },
+    "spatial": {
+      "Package": "spatial",
+      "Version": "7.3-17",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "graphics",
+        "stats",
+        "utils"
+      ],
+      "Hash": "1229a01b4ec059e9f2396724f2ec9010"
+    },
+    "stabledist": {
+      "Package": "stabledist",
+      "Version": "0.7-2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "stats"
+      ],
+      "Hash": "b399e5007fe512f314d74b41fa7e4a41"
     },
     "stringi": {
       "Package": "stringi",
@@ -5743,6 +6116,27 @@
       ],
       "Hash": "829f27b9c4919c16b593794a6344d6c0"
     },
+    "tidyterra": {
+      "Package": "tidyterra",
+      "Version": "0.6.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "cli",
+        "data.table",
+        "dplyr",
+        "ggplot2",
+        "magrittr",
+        "rlang",
+        "scales",
+        "sf",
+        "terra",
+        "tibble",
+        "tidyr"
+      ],
+      "Hash": "5d9672bc78297d33c4ad8b51a8aaa48f"
+    },
     "tidyverse": {
       "Package": "tidyverse",
       "Version": "2.0.0",
@@ -5782,6 +6176,36 @@
         "xml2"
       ],
       "Hash": "c328568cd14ea89a83bd4ca7f54ae07e"
+    },
+    "timeDate": {
+      "Package": "timeDate",
+      "Version": "4041.110",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "graphics",
+        "methods",
+        "stats",
+        "utils"
+      ],
+      "Hash": "c5e48e8ac24d4472ddb122bcdeb011ad"
+    },
+    "timeSeries": {
+      "Package": "timeSeries",
+      "Version": "4041.111",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "grDevices",
+        "graphics",
+        "methods",
+        "stats",
+        "timeDate",
+        "utils"
+      ],
+      "Hash": "8c52573a9d4f1f4e63a45d00b339ef01"
     },
     "timechange": {
       "Package": "timechange",
@@ -5919,6 +6343,25 @@
         "rlang"
       ],
       "Hash": "c03fa420630029418f7e6da3667aac4a"
+    },
+    "vdiffr": {
+      "Package": "vdiffr",
+      "Version": "1.0.8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "cpp11",
+        "diffobj",
+        "glue",
+        "grDevices",
+        "htmltools",
+        "lifecycle",
+        "rlang",
+        "testthat",
+        "xml2"
+      ],
+      "Hash": "a2c13c62dd86ef646ae276d004deadce"
     },
     "viridis": {
       "Package": "viridis",
