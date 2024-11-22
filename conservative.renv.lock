@@ -93,6 +93,18 @@
       ],
       "Hash": "6ae9c192538a5ef6aef7e01dc45eb3ad"
     },
+    "GlobalOptions": {
+      "Package": "GlobalOptions",
+      "Version": "0.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "methods",
+        "utils"
+      ],
+      "Hash": "c3f7b221e60c28f5f3533d74c6fef024"
+    },
     "HARr": {
       "Package": "HARr",
       "Version": "1.1.0",
@@ -572,6 +584,35 @@
       ],
       "Hash": "c5cde76012ea08e94265ace1b53b77b9"
     },
+    "biospheremetrics": {
+      "Package": "biospheremetrics",
+      "Version": "1.0.2",
+      "Source": "Repository",
+      "Repository": "pik",
+      "Requirements": [
+        "R",
+        "RColorBrewer",
+        "abind",
+        "circlize",
+        "dplyr",
+        "fBasics",
+        "fields",
+        "grDevices",
+        "graphics",
+        "lpjmlkit",
+        "magrittr",
+        "maps",
+        "methods",
+        "readr",
+        "rlang",
+        "stats",
+        "tidyr",
+        "utils",
+        "yaml",
+        "zoo"
+      ],
+      "Hash": "d81e081c4c208c692ebd7729cd0ff2b3"
+    },
     "bit": {
       "Package": "bit",
       "Version": "4.0.5",
@@ -649,6 +690,35 @@
         "stats"
       ],
       "Hash": "9a052fbcbe97a98ceb18dbfd30ebd96e"
+    },
+    "boundaries": {
+      "Package": "boundaries",
+      "Version": "1.0.4",
+      "Source": "Repository",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-tess/boundaries",
+      "RemoteSha": "95f2fe0251ebac34853b7c121d3623effee9c50e",
+      "Requirements": [
+        "R",
+        "abind",
+        "biospheremetrics",
+        "dplyr",
+        "future",
+        "lpjmlkit",
+        "magrittr",
+        "matrixStats",
+        "methods",
+        "readr",
+        "reshape2",
+        "rlang",
+        "sf",
+        "terra",
+        "tibble",
+        "tidyr",
+        "tidyselect",
+        "yaml"
+      ],
+      "Hash": "170608b33c22b58a6db35062de5da08f"
     },
     "brew": {
       "Package": "brew",
@@ -882,6 +952,25 @@
         "utils"
       ],
       "Hash": "c01cab1cb0f9125211a6fc99d540e315"
+    },
+    "circlize": {
+      "Package": "circlize",
+      "Version": "0.4.16",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "GlobalOptions",
+        "R",
+        "colorspace",
+        "grDevices",
+        "graphics",
+        "grid",
+        "methods",
+        "shape",
+        "stats",
+        "utils"
+      ],
+      "Hash": "bf366c80e2b55a5383b4af8fa2a10b74"
     },
     "citation": {
       "Package": "citation",
@@ -1505,6 +1594,27 @@
         "methods"
       ],
       "Hash": "a1066cbc05caee9a4bf6d90f194ff4da"
+    },
+    "fBasics": {
+      "Package": "fBasics",
+      "Version": "4041.97",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "MASS",
+        "R",
+        "grDevices",
+        "graphics",
+        "gss",
+        "methods",
+        "spatial",
+        "stabledist",
+        "stats",
+        "timeDate",
+        "timeSeries",
+        "utils"
+      ],
+      "Hash": "19180703bbc8e6a07c775507d418505b"
     },
     "fansi": {
       "Package": "fansi",
@@ -2150,6 +2260,17 @@
         "xml2"
       ],
       "Hash": "05e4f5fffb1eecfeaac9ea0b7f255fef"
+    },
+    "gss": {
+      "Package": "gss",
+      "Version": "2.2-8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "stats"
+      ],
+      "Hash": "9c6bd1c7545c3ec0b3c1c4d7c74abb5c"
     },
     "gtable": {
       "Package": "gtable",
@@ -3556,11 +3677,11 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.52.6",
+      "Version": "1.53.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
-      "RemoteSha": "524d31a896a560fe9ecc7b17e5a01366b90231f8",
+      "RemoteSha": "206160e276689d1ecac3285bdcfc21cdcc502251",
       "Requirements": [
         "R",
         "abind",
@@ -3589,7 +3710,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "f88e498fc8980608ea2b536d9947c2af"
+      "Hash": "074126729ac5822de49dad258f21cd5e"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3609,11 +3730,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.199.0",
+      "Version": "0.199.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "97969d57be4fe5b0237f099d57d349cb1f9ef5d4",
+      "RemoteSha": "9e543c90ef8a113dc1c0d549ddbb642851be7626",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3644,7 +3765,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "0feeaaaee852ace3d92841fb06f44429"
+      "Hash": "6d74e8c4ba55b930748a6259321f2878"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -3712,11 +3833,11 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.61.8",
+      "Version": "2.61.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
-      "RemoteSha": "9b4708f2315e690b4f3b13a6a013b75b49a0659c",
+      "RemoteSha": "e56d1ff2f58a1d61f9270d0e1e8d7e7c6b354da3",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3744,7 +3865,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "9786c13f2157af5bcd0c439f661bd6f2"
+      "Hash": "25ac7b18db8167bcdee5683add58274a"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -4166,11 +4287,11 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.4.0",
+      "Version": "0.4.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamValidation",
-      "RemoteSha": "cda4cea6f02159c926ac72278a4825e77bb0f7f1",
+      "RemoteSha": "ed58632c171167ab123eafe9889bc5c807f1fd68",
       "Requirements": [
         "R",
         "devtools",
@@ -4187,7 +4308,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "15659edd39f176f39e90541d219abaaf"
+      "Hash": "1271de56e6b0706a12730a687ef67bd2"
     },
     "piamenv": {
       "Package": "piamenv",
@@ -5381,6 +5502,19 @@
       ],
       "Hash": "ad57b543f7c3fca05213ba78ff63df9b"
     },
+    "shape": {
+      "Package": "shape",
+      "Version": "1.4.6.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "grDevices",
+        "graphics",
+        "stats"
+      ],
+      "Hash": "5c47e84dc0a3ca761ae1d307889e796d"
+    },
     "shiny": {
       "Package": "shiny",
       "Version": "1.8.1.1",
@@ -5502,6 +5636,30 @@
         "methods"
       ],
       "Hash": "ffe1f9e95a4375530747b268f82b5086"
+    },
+    "spatial": {
+      "Package": "spatial",
+      "Version": "7.3-17",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "graphics",
+        "stats",
+        "utils"
+      ],
+      "Hash": "1229a01b4ec059e9f2396724f2ec9010"
+    },
+    "stabledist": {
+      "Package": "stabledist",
+      "Version": "0.7-2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "stats"
+      ],
+      "Hash": "b399e5007fe512f314d74b41fa7e4a41"
     },
     "stringi": {
       "Package": "stringi",
@@ -5763,6 +5921,36 @@
         "xml2"
       ],
       "Hash": "c328568cd14ea89a83bd4ca7f54ae07e"
+    },
+    "timeDate": {
+      "Package": "timeDate",
+      "Version": "4041.110",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "graphics",
+        "methods",
+        "stats",
+        "utils"
+      ],
+      "Hash": "c5e48e8ac24d4472ddb122bcdeb011ad"
+    },
+    "timeSeries": {
+      "Package": "timeSeries",
+      "Version": "4041.111",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "grDevices",
+        "graphics",
+        "methods",
+        "stats",
+        "timeDate",
+        "utils"
+      ],
+      "Hash": "8c52573a9d4f1f4e63a45d00b339ef01"
     },
     "timechange": {
       "Package": "timechange",

@@ -2005,6 +2005,35 @@
       ],
       "Hash": "ae855ad6d7be20dd7b05d43d25700398"
     },
+    "ggforce": {
+      "Package": "ggforce",
+      "Version": "0.4.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "MASS",
+        "R",
+        "Rcpp",
+        "RcppEigen",
+        "cli",
+        "ggplot2",
+        "grDevices",
+        "grid",
+        "gtable",
+        "lifecycle",
+        "polyclip",
+        "rlang",
+        "scales",
+        "stats",
+        "systemfonts",
+        "tidyselect",
+        "tweenr",
+        "utils",
+        "vctrs",
+        "withr"
+      ],
+      "Hash": "384b388bd9155468d2c851846ee69f9f"
+    },
     "ggh4x": {
       "Package": "ggh4x",
       "Version": "0.2.8",
@@ -3876,11 +3905,9 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.52.6",
+      "Version": "1.53.0",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
-      "RemoteSha": "524d31a896a560fe9ecc7b17e5a01366b90231f8",
+      "Repository": "pik",
       "Requirements": [
         "R",
         "abind",
@@ -3909,7 +3936,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "f88e498fc8980608ea2b536d9947c2af"
+      "Hash": "074126729ac5822de49dad258f21cd5e"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3929,7 +3956,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.199.0",
+      "Version": "0.199.1",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3962,7 +3989,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "0feeaaaee852ace3d92841fb06f44429"
+      "Hash": "6d74e8c4ba55b930748a6259321f2878"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4026,11 +4053,9 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.61.8",
+      "Version": "2.61.9",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
-      "RemoteSha": "9b4708f2315e690b4f3b13a6a013b75b49a0659c",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4058,7 +4083,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "9786c13f2157af5bcd0c439f661bd6f2"
+      "Hash": "25ac7b18db8167bcdee5683add58274a"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -4303,14 +4328,15 @@
     },
     "packcircles": {
       "Package": "packcircles",
-      "Version": "0.3.6",
+      "Version": "0.3.7",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
-        "Rcpp"
+        "Rcpp",
+        "checkmate"
       ],
-      "Hash": "200e0502e07847f9e6306287fea23961"
+      "Hash": "0d74def8a84adc7b302f5495bbfe5dcd"
     },
     "pander": {
       "Package": "pander",
@@ -4477,11 +4503,11 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.4.0",
+      "Version": "0.4.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamValidation",
-      "RemoteSha": "cda4cea6f02159c926ac72278a4825e77bb0f7f1",
+      "RemoteSha": "ed58632c171167ab123eafe9889bc5c807f1fd68",
       "Requirements": [
         "R",
         "devtools",
@@ -4498,7 +4524,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "15659edd39f176f39e90541d219abaaf"
+      "Hash": "1271de56e6b0706a12730a687ef67bd2"
     },
     "piamenv": {
       "Package": "piamenv",
@@ -4685,6 +4711,16 @@
         "R"
       ],
       "Hash": "bd54ba8a0a5faded999a7aab6e46b374"
+    },
+    "polyclip": {
+      "Package": "polyclip",
+      "Version": "1.10-7",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "5879bf5aae702ffef0a315c44328f984"
     },
     "polynom": {
       "Package": "polynom",
@@ -6243,6 +6279,21 @@
       ],
       "Hash": "f93d9023c872d2156f964735905b0664"
     },
+    "tweenr": {
+      "Package": "tweenr",
+      "Version": "2.0.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "cpp11",
+        "farver",
+        "magrittr",
+        "rlang",
+        "vctrs"
+      ],
+      "Hash": "82fac2b73e6a1f3874fc000aaf96d8bc"
+    },
     "tzdb": {
       "Package": "tzdb",
       "Version": "0.4.0",
@@ -6343,25 +6394,6 @@
         "rlang"
       ],
       "Hash": "c03fa420630029418f7e6da3667aac4a"
-    },
-    "vdiffr": {
-      "Package": "vdiffr",
-      "Version": "1.0.8",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "cpp11",
-        "diffobj",
-        "glue",
-        "grDevices",
-        "htmltools",
-        "lifecycle",
-        "rlang",
-        "testthat",
-        "xml2"
-      ],
-      "Hash": "a2c13c62dd86ef646ae276d004deadce"
     },
     "viridis": {
       "Package": "viridis",
