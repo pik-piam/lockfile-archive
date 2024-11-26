@@ -714,11 +714,11 @@
     },
     "boundaries": {
       "Package": "boundaries",
-      "Version": "1.0.4",
+      "Version": "1.1.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-tess/boundaries",
-      "RemoteSha": "95f2fe0251ebac34853b7c121d3623effee9c50e",
+      "RemoteSha": "8bc5d125aebc6295cc1483a7c15834d7e1912ba4",
       "Requirements": [
         "R",
         "abind",
@@ -739,7 +739,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "170608b33c22b58a6db35062de5da08f"
+      "Hash": "bb4d0ce4759bbe16022c5f9880631328"
     },
     "brew": {
       "Package": "brew",
@@ -3267,11 +3267,9 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.58.1",
+      "Version": "0.58.3",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
-      "RemoteSha": "be5ec4a0ebe4ee685b10f715b47e323e99954e86",
+      "Repository": "pik",
       "Requirements": [
         "DT",
         "R",
@@ -3305,15 +3303,13 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "4d1d8c2a9a8ecb0fee4e31d8dd9339f5"
+      "Hash": "5ab14d5cd851e136f02bf109fa12d60c"
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.15.3",
+      "Version": "3.15.4",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/madrat",
-      "RemoteSha": "56acadf5c91150fba7ee1492cd81a327fac66110",
+      "Repository": "pik",
       "Requirements": [
         "Matrix",
         "R",
@@ -3330,7 +3326,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "06e9178d687026ac842e4b18938ae129"
+      "Hash": "cf1e851bfb1093c608981bf53c0f1ea5"
     },
     "magclass": {
       "Package": "magclass",
