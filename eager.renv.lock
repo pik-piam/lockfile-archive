@@ -1585,11 +1585,9 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.10.1",
+      "Version": "2.10.2",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "ea35b2bdf850fe2287d2307d23c2e8f3210ff74e",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "R",
@@ -1607,7 +1605,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "81eb112a524bf11866be085057d089bb"
+      "Hash": "fb2dbb175ee77e47965b459137352e3e"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -2678,7 +2676,7 @@
     },
     "httr2": {
       "Package": "httr2",
-      "Version": "1.0.6",
+      "Version": "1.0.7",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2695,7 +2693,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "3ef5d07ec78803475a94367d71b40c41"
+      "Hash": "5a76da345ed4f3e6430517e08441edaf"
     },
     "hypergeo": {
       "Package": "hypergeo",
@@ -2887,14 +2885,14 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.3.2",
+      "Version": "1.4.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "Rcpp",
         "rlang"
       ],
-      "Hash": "a3e051d405326b8b0012377434c62b37"
+      "Hash": "dd8a8b6833989ba10fba1bf1ee7d3860"
     },
     "lattice": {
       "Package": "lattice",
@@ -3118,11 +3116,11 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "1.7.3",
+      "Version": "1.7.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlkit",
-      "RemoteSha": "9da101e5027d8faf9545009f98e3385b83c7c797",
+      "RemoteSha": "a2832b78fe29e05fce7ad7162c0e72e464b4983d",
       "Requirements": [
         "R",
         "abind",
@@ -3141,7 +3139,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "c59340a334fdf4c5390f7bef3a059bcd"
+      "Hash": "038a58c4039db3044a2a54fa83e18d0e"
     },
     "lpjmlstats": {
       "Package": "lpjmlstats",
@@ -4840,7 +4838,7 @@
     },
     "promises": {
       "Package": "promises",
-      "Version": "1.3.0",
+      "Version": "1.3.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4852,7 +4850,7 @@
         "rlang",
         "stats"
       ],
-      "Hash": "434cd5388a3979e74be5c219bcd6e77d"
+      "Hash": "08049fb8ae7205a0f8f83da772761e3a"
     },
     "proxy": {
       "Package": "proxy",
@@ -6334,7 +6332,7 @@
     },
     "usethis": {
       "Package": "usethis",
-      "Version": "3.0.0",
+      "Version": "3.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6356,12 +6354,13 @@
         "rprojroot",
         "rstudioapi",
         "stats",
+        "tools",
         "utils",
         "whisker",
         "withr",
         "yaml"
       ],
-      "Hash": "b2fbf93c2127bedd2cbe9b799530d5d2"
+      "Hash": "0d7f5ca181f9b1e68b217bd93b6cc703"
     },
     "utf8": {
       "Package": "utf8",
