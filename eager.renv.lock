@@ -3353,9 +3353,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.15.6",
+      "Version": "2.15.7",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/magpie4",
+      "RemoteSha": "cb9866722ad48e3ec9dde2a907e034b699b1f291",
       "Requirements": [
         "R",
         "dplyr",
@@ -3376,7 +3378,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "6527af17bfafaee7d3302d03d2ffba77"
+      "Hash": "b21a28be116e3cf068c1b8feb0065845"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -4061,9 +4063,11 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.61.9",
+      "Version": "2.61.10",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
+      "RemoteSha": "db035ae6c4a25d887d170ab59d95bd6b0a1e3a77",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4091,7 +4095,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "25ac7b18db8167bcdee5683add58274a"
+      "Hash": "e2c034db40e323a97d471d2ecf4d1661"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
