@@ -3525,9 +3525,7 @@
       "Package": "mip",
       "Version": "0.151.1",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mip",
-      "RemoteSha": "517255afd64090082b960cc83c3aae8c08a520b2",
+      "Repository": "pik",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -4540,7 +4538,7 @@
     },
     "piamenv": {
       "Package": "piamenv",
-      "Version": "0.5.6",
+      "Version": "0.6.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4549,7 +4547,7 @@
         "renv",
         "withr"
       ],
-      "Hash": "39d54cbefd8eb69202458f5b88f97508"
+      "Hash": "71629b25aa802972a58c17fcd2b39341"
     },
     "piamutils": {
       "Package": "piamutils",
@@ -5008,11 +5006,9 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3138.0",
+      "Version": "0.3139.0",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/quitte",
-      "RemoteSha": "3c12640c0a5c80bc2d1754167f14c4e16d92515d",
+      "Repository": "pik",
       "Requirements": [
         "R",
         "cli",
@@ -5042,7 +5038,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "af071cdb6541940e42c78675fe096dc7"
+      "Hash": "5865b68b835b8fd09df02bedac8565d0"
     },
     "r2databus": {
       "Package": "r2databus",
@@ -5335,7 +5331,7 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "0.6.4",
+      "Version": "0.6.5",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -5349,7 +5345,7 @@
         "rmndt",
         "utils"
       ],
-      "Hash": "ae012e3de9e1fe9b60e68c354d05cfc3"
+      "Hash": "4ed7eceb59b65504d2bba3acc0fe4efb"
     },
     "reprex": {
       "Package": "reprex",

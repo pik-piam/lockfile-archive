@@ -4461,18 +4461,18 @@
     },
     "piamenv": {
       "Package": "piamenv",
-      "Version": "0.5.6",
+      "Version": "0.6.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamenv",
-      "RemoteSha": "41299ffb37b0da4a3469af5949f6c93b89b5f490",
+      "RemoteSha": "2d9ed814ae4fed749a833a516c6b7341a65288c1",
       "Requirements": [
         "desc",
         "methods",
         "renv",
         "withr"
       ],
-      "Hash": "39d54cbefd8eb69202458f5b88f97508"
+      "Hash": "71629b25aa802972a58c17fcd2b39341"
     },
     "piamutils": {
       "Package": "piamutils",
@@ -4923,11 +4923,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3138.0",
+      "Version": "0.3139.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
-      "RemoteSha": "3c12640c0a5c80bc2d1754167f14c4e16d92515d",
+      "RemoteSha": "db1855fa4d0a12b8697949320f08fe9d1ec14a34",
       "Requirements": [
         "R",
         "cli",
@@ -4957,7 +4957,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "af071cdb6541940e42c78675fe096dc7"
+      "Hash": "5865b68b835b8fd09df02bedac8565d0"
     },
     "r2databus": {
       "Package": "r2databus",
@@ -5139,11 +5139,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.160.4",
+      "Version": "1.161.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "b1852205f64fea2934ee5c8ab1cc8fe46651025c",
+      "RemoteSha": "c2958bcf8a342231758dfabedb6c9ae9797509ec",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5176,7 +5176,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "4a8ed8c078ac06fbb8004b8a2cbc7512"
+      "Hash": "ad31061caec792b982a492d8b2a175b3"
     },
     "remotes": {
       "Package": "remotes",
@@ -5246,11 +5246,11 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "0.6.4",
+      "Version": "0.6.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reporttransport",
-      "RemoteSha": "0cb343e268ad91215c70b4098ec8321bebf572a7",
+      "RemoteSha": "dcb8d29ef28a196a81b070ee9aa3359650e7681f",
       "Requirements": [
         "R",
         "data.table",
@@ -5262,7 +5262,7 @@
         "rmndt",
         "utils"
       ],
-      "Hash": "ae012e3de9e1fe9b60e68c354d05cfc3"
+      "Hash": "4ed7eceb59b65504d2bba3acc0fe4efb"
     },
     "reprex": {
       "Package": "reprex",
