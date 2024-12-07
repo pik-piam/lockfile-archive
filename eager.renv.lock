@@ -350,7 +350,7 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "14.2.0-1",
+      "Version": "14.2.2-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -360,7 +360,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "ce9c35ab9ea9c6ef4e27a08868cdb32b"
+      "Hash": "9da7c242d94a8419d045f6b3a64b9765"
     },
     "RcppEigen": {
       "Package": "RcppEigen",
@@ -750,11 +750,11 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.5.9",
+      "Version": "0.5.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/brick",
-      "RemoteSha": "9ea4a120de9cebcea0b67a601ae7423a6433c778",
+      "RemoteSha": "2e50fc4ed6878ab8d0761fbe1b04c30142500bf3",
       "Requirements": [
         "dplyr",
         "gamstransfer",
@@ -772,7 +772,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "b94e05dc534c3b39badbf5b59f18c645"
+      "Hash": "e28d0941a3957c650756aacf70fb3607"
     },
     "bridgesampling": {
       "Package": "bridgesampling",
@@ -1281,14 +1281,14 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.16.2",
+      "Version": "1.16.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "2e00b378fc3be69c865120d9f313039a"
+      "Hash": "38bbf05fc2503143db4c734a7e5cab66"
     },
     "dbplyr": {
       "Package": "dbplyr",
@@ -3523,7 +3523,7 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.151.1",
+      "Version": "0.152.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3546,7 +3546,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "9d70ae6835a86f1c66f55f4b3179cc74"
+      "Hash": "3eac0f6474095c9012b4cefe5e06f6c4"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -3680,11 +3680,11 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.7.7",
+      "Version": "0.7.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
-      "RemoteSha": "a98222173d7183e2cf0fdb5e1814b1ff74a74dca",
+      "RemoteSha": "f4cccccba1e96d499f6a063936d85bc63aa35ce2",
       "Requirements": [
         "GDPuc",
         "brick",
@@ -3709,7 +3709,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "9f9076ee984181f333f3484569bf5078"
+      "Hash": "5d90ad05ca5ceaa417b3cfbd5710e51e"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -3952,11 +3952,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.202.0",
+      "Version": "0.202.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "719369719bd1e74876b21271b9dfac3e0cb6f06c",
+      "RemoteSha": "49eaa26e3461fad5fe8585c78bb1b5bab0f5dd8e",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3987,7 +3987,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "d66b3c66383e8024aa35d0725ea35c06"
+      "Hash": "59602172da20dc88f767181d0e49e7f2"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -6091,7 +6091,7 @@
     },
     "textshaping": {
       "Package": "textshaping",
-      "Version": "0.4.0",
+      "Version": "0.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6100,7 +6100,7 @@
         "lifecycle",
         "systemfonts"
       ],
-      "Hash": "5142f8bc78ed3d819d26461b641627ce"
+      "Hash": "573e0d015b7fc3e555f83e254cad7533"
     },
     "tibble": {
       "Package": "tibble",
