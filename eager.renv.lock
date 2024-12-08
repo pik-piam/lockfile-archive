@@ -2743,7 +2743,7 @@
     },
     "igraph": {
       "Package": "igraph",
-      "Version": "2.1.1",
+      "Version": "2.1.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2762,7 +2762,7 @@
         "utils",
         "vctrs"
       ],
-      "Hash": "c03878b48737a0e2da3b772d7b2e22da"
+      "Hash": "9a93b743b2461ba06ba3b5df12011145"
     },
     "ini": {
       "Package": "ini",
@@ -3952,11 +3952,9 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.202.1",
+      "Version": "0.203.0",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "49eaa26e3461fad5fe8585c78bb1b5bab0f5dd8e",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3987,7 +3985,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "59602172da20dc88f767181d0e49e7f2"
+      "Hash": "24ba9651b04a45f257cfbfd48214cd56"
     },
     "mrsoil": {
       "Package": "mrsoil",
