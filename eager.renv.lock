@@ -3353,11 +3353,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.15.8",
+      "Version": "2.15.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "0b1a09841e13e68e2a8a225d0fa1e1c319ccf693",
+      "RemoteSha": "5187155110b0f487e86303ade58248f58aa52357",
       "Requirements": [
         "R",
         "dplyr",
@@ -3378,7 +3378,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "1d094034e2e11158bbd70a414b3e1046"
+      "Hash": "9377ee23fe2055fb0e65018adec9fa14"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3523,7 +3523,7 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.152.0",
+      "Version": "0.152.1",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3546,7 +3546,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "3eac0f6474095c9012b4cefe5e06f6c4"
+      "Hash": "01d99872492968bc337d2a0f460bdb2c"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -4442,11 +4442,9 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.37.1",
+      "Version": "0.37.2",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "2e137c57c3b502eed2ed43b44fb5fa39c7a177b7",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4464,7 +4462,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "7f16999b86693d7ec731480ca1a24967"
+      "Hash": "9e153e7e7443fc21dcf303ec2b1128eb"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
