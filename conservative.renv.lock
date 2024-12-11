@@ -5139,11 +5139,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.161.0",
+      "Version": "1.162.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "c2958bcf8a342231758dfabedb6c9ae9797509ec",
+      "RemoteSha": "d2b6c69f1575c08e2f1ea12ca84814569a5a3483",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5176,7 +5176,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "ad31061caec792b982a492d8b2a175b3"
+      "Hash": "556c761463a9a88fde60ef5be215e53d"
     },
     "remotes": {
       "Package": "remotes",
