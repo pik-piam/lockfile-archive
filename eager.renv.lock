@@ -1062,7 +1062,7 @@
     },
     "cluster": {
       "Package": "cluster",
-      "Version": "2.1.7",
+      "Version": "2.1.8",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1072,7 +1072,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "669a8ff0ccc1d9ea17639c773978b44e"
+      "Hash": "b361779da7f8b129a1859b6cf243ba58"
     },
     "coda": {
       "Package": "coda",
