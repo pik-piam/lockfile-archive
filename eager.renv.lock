@@ -3120,9 +3120,11 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "1.7.4",
+      "Version": "1.7.5",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlkit",
+      "RemoteSha": "fea831b854095c8c3407ddcf6575563524d92f5d",
       "Requirements": [
         "R",
         "abind",
@@ -3141,7 +3143,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "038a58c4039db3044a2a54fa83e18d0e"
+      "Hash": "8716720c1cd9018b3ee3a10788d08cb2"
     },
     "lpjmlstats": {
       "Package": "lpjmlstats",
@@ -3353,11 +3355,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.15.9",
+      "Version": "2.15.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "5187155110b0f487e86303ade58248f58aa52357",
+      "RemoteSha": "054525f12f26c6b8097bc72b08c0de9c06ac3f77",
       "Requirements": [
         "R",
         "dplyr",
@@ -3378,7 +3380,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "9377ee23fe2055fb0e65018adec9fa14"
+      "Hash": "f93946c07d2427e917f255b80088f654"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -6052,7 +6054,7 @@
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.7-83",
+      "Version": "1.8-5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6060,7 +6062,7 @@
         "Rcpp",
         "methods"
       ],
-      "Hash": "fbeffe988419d292225a57cf9c284802"
+      "Hash": "6e3f2c53b58161327fe5787fe1a63d02"
     },
     "testthat": {
       "Package": "testthat",
