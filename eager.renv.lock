@@ -1587,11 +1587,9 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.12.0",
+      "Version": "2.12.2",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "15dd818237760af44fa3982555a72fca017ab269",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "R",
@@ -1609,7 +1607,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "665b617e3928e7999cc1bbb563483ebb"
+      "Hash": "1a1bf8ef829ec814afa902e619284de0"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -2089,7 +2087,7 @@
     },
     "ggpattern": {
       "Package": "ggpattern",
-      "Version": "1.1.1",
+      "Version": "1.1.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2103,7 +2101,7 @@
         "scales",
         "vctrs"
       ],
-      "Hash": "e7a13d0c2f7444511e7bfdc2e120402a"
+      "Hash": "d657827632e2c0a7e11ab940f39e2fa1"
     },
     "ggplot2": {
       "Package": "ggplot2",
@@ -3100,10 +3098,10 @@
     },
     "lpSolve": {
       "Package": "lpSolve",
-      "Version": "5.6.22",
+      "Version": "5.6.23",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "bd62ebb5bdc0cbf55ea6da593a4475ed"
+      "Hash": "c4e64e374c4ab1e6ffda55073fd04c59"
     },
     "lpjclass": {
       "Package": "lpjclass",
@@ -3355,11 +3353,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.15.12",
+      "Version": "2.15.13",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "054525f12f26c6b8097bc72b08c0de9c06ac3f77",
+      "RemoteSha": "21c98b0fdeaa9e9b6f5ef0a059e044d4bec11304",
       "Requirements": [
         "R",
         "dplyr",
@@ -3380,7 +3378,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "f93946c07d2427e917f255b80088f654"
+      "Hash": "eee6ba271c29b45ba2c6f5f8f5db82e8"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3525,9 +3523,11 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.152.1",
+      "Version": "0.152.2",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mip",
+      "RemoteSha": "c75e2fcab8bdf078bf9a5c28cecc6f8f494a75eb",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -3548,7 +3548,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "01d99872492968bc337d2a0f460bdb2c"
+      "Hash": "90fba23b170b624eccdc68a3f4eb7b69"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -3954,11 +3954,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.203.0",
+      "Version": "0.204.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "f43a18d04e387e1a3e4ab3ab4414d49f16cded9b",
+      "RemoteSha": "590cfa2a6eb5ddae6d8746d5a62228b60609f970",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3969,7 +3969,6 @@
         "dplyr",
         "edgeTransport",
         "ggplot2",
-        "luscale",
         "madrat",
         "magclass",
         "magrittr",
@@ -3989,7 +3988,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "24ba9651b04a45f257cfbfd48214cd56"
+      "Hash": "99ce7f599eba2048b9eb3d96306884a5"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4014,15 +4013,16 @@
     },
     "mrtransport": {
       "Package": "mrtransport",
-      "Version": "0.9.0",
+      "Version": "0.10.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrtransport",
-      "RemoteSha": "72a78dcdae0f28aa7ba23fa00e5a0a5289aa5e1f",
+      "RemoteSha": "f86f00b252504b87f8ac32af2c6400d35f5813ba",
       "Requirements": [
         "GDPuc",
         "data.table",
         "dplyr",
+        "gdx",
         "madrat",
         "magclass",
         "magrittr",
@@ -4038,7 +4038,7 @@
         "utils",
         "zoo"
       ],
-      "Hash": "62194495686af79d716a4741a649d139"
+      "Hash": "bd0faed9e6b26b8392faa5461e4565cf"
     },
     "mrtutorial": {
       "Package": "mrtutorial",
@@ -4446,9 +4446,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.37.2",
+      "Version": "0.38.1",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
+      "RemoteSha": "cae29ddc03b7199b043ea5bc07d4a36d54144571",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4466,7 +4468,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "9e153e7e7443fc21dcf303ec2b1128eb"
+      "Hash": "c7f842d37131ce3cd0584c27dccf55a5"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5803,7 +5805,7 @@
     },
     "shiny": {
       "Package": "shiny",
-      "Version": "1.9.1",
+      "Version": "1.10.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5832,7 +5834,7 @@
         "withr",
         "xtable"
       ],
-      "Hash": "6a293995a66e12c48d13aa1f957d09c7"
+      "Hash": "4b4477baa9a939c5577e5ddb4bf01f28"
     },
     "shinyresults": {
       "Package": "shinyresults",

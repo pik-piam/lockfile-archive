@@ -1540,11 +1540,11 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.12.0",
+      "Version": "2.12.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "15dd818237760af44fa3982555a72fca017ab269",
+      "RemoteSha": "e9b554e257b821c8c01ad6f183a75ff8573ca9a9",
       "Requirements": [
         "GDPuc",
         "R",
@@ -1562,7 +1562,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "665b617e3928e7999cc1bbb563483ebb"
+      "Hash": "1a1bf8ef829ec814afa902e619284de0"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3280,11 +3280,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.15.12",
+      "Version": "2.15.13",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "054525f12f26c6b8097bc72b08c0de9c06ac3f77",
+      "RemoteSha": "21c98b0fdeaa9e9b6f5ef0a059e044d4bec11304",
       "Requirements": [
         "R",
         "dplyr",
@@ -3305,7 +3305,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "f93946c07d2427e917f255b80088f654"
+      "Hash": "eee6ba271c29b45ba2c6f5f8f5db82e8"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3438,11 +3438,11 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.152.1",
+      "Version": "0.152.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mip",
-      "RemoteSha": "c063a5dd252f447f3946c3fe9affe9c68e116c75",
+      "RemoteSha": "c75e2fcab8bdf078bf9a5c28cecc6f8f494a75eb",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -3463,7 +3463,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "01d99872492968bc337d2a0f460bdb2c"
+      "Hash": "90fba23b170b624eccdc68a3f4eb7b69"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -3873,11 +3873,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.203.0",
+      "Version": "0.204.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "f43a18d04e387e1a3e4ab3ab4414d49f16cded9b",
+      "RemoteSha": "590cfa2a6eb5ddae6d8746d5a62228b60609f970",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3888,7 +3888,6 @@
         "dplyr",
         "edgeTransport",
         "ggplot2",
-        "luscale",
         "madrat",
         "magclass",
         "magrittr",
@@ -3908,7 +3907,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "24ba9651b04a45f257cfbfd48214cd56"
+      "Hash": "99ce7f599eba2048b9eb3d96306884a5"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -3935,15 +3934,16 @@
     },
     "mrtransport": {
       "Package": "mrtransport",
-      "Version": "0.9.0",
+      "Version": "0.10.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrtransport",
-      "RemoteSha": "72a78dcdae0f28aa7ba23fa00e5a0a5289aa5e1f",
+      "RemoteSha": "f86f00b252504b87f8ac32af2c6400d35f5813ba",
       "Requirements": [
         "GDPuc",
         "data.table",
         "dplyr",
+        "gdx",
         "madrat",
         "magclass",
         "magrittr",
@@ -3959,7 +3959,7 @@
         "utils",
         "zoo"
       ],
-      "Hash": "62194495686af79d716a4741a649d139"
+      "Hash": "bd0faed9e6b26b8392faa5461e4565cf"
     },
     "mrtutorial": {
       "Package": "mrtutorial",
@@ -4365,11 +4365,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.37.2",
+      "Version": "0.38.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "223429f84844aa59327324a53be1f96a3a6c34c4",
+      "RemoteSha": "cae29ddc03b7199b043ea5bc07d4a36d54144571",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4387,7 +4387,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "9e153e7e7443fc21dcf303ec2b1128eb"
+      "Hash": "c7f842d37131ce3cd0584c27dccf55a5"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
