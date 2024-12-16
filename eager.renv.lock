@@ -2038,7 +2038,7 @@
     },
     "ggh4x": {
       "Package": "ggh4x",
-      "Version": "0.2.8",
+      "Version": "0.3.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2052,7 +2052,7 @@
         "stats",
         "vctrs"
       ],
-      "Hash": "012d7705b4cdc7b5ee89895aeefc1d45"
+      "Hash": "8e0e5e8db2bda5c3bdc48268afa5afea"
     },
     "ggiraph": {
       "Package": "ggiraph",
