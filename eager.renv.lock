@@ -996,11 +996,11 @@
     },
     "citation": {
       "Package": "citation",
-      "Version": "0.11.3",
+      "Version": "0.12.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/citation",
-      "RemoteSha": "c1bc22d5abf602c12ce34d223edd27de35eac509",
+      "RemoteSha": "92394879832dc974562101212eda7b83d1ee9ad4",
       "Requirements": [
         "desc",
         "jsonlite",
@@ -1008,7 +1008,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "be98ed4492bd2769f0f4099640788457"
+      "Hash": "d4583dcfc1ee2fb320dffd42af8f65f0"
     },
     "class": {
       "Package": "class",
@@ -3305,9 +3305,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.15.4",
+      "Version": "3.15.5",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/madrat",
+      "RemoteSha": "f1b12e5c84e475ea3af3cbbedf1ed3cb9a616c12",
       "Requirements": [
         "Matrix",
         "R",
@@ -3324,7 +3326,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "cf1e851bfb1093c608981bf53c0f1ea5"
+      "Hash": "6db2c15930048cfb5ffa2d3d8f1c2335"
     },
     "magclass": {
       "Package": "magclass",
@@ -4311,13 +4313,13 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.2.2",
+      "Version": "2.3.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "askpass"
       ],
-      "Hash": "d413e0fef796c9401a4419485f709ca1"
+      "Hash": "5bfe2927efa9f87766ca9605301ea48f"
     },
     "openxlsx": {
       "Package": "openxlsx",
@@ -4446,11 +4448,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.38.1",
+      "Version": "0.38.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "cae29ddc03b7199b043ea5bc07d4a36d54144571",
+      "RemoteSha": "662422180696d935ce0d35c90d7af7dac92e6aff",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4468,7 +4470,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "c7f842d37131ce3cd0584c27dccf55a5"
+      "Hash": "98a1f11d98e99dd5f734c196b9ca4bce"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4493,7 +4495,7 @@
     },
     "piamPlotComparison": {
       "Package": "piamPlotComparison",
-      "Version": "0.0.16",
+      "Version": "0.1.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4511,7 +4513,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "9d9d8e14f909eef874c6ee813bd918ce"
+      "Hash": "c655ec6d8fbded8335eb42dbe7167e97"
     },
     "piamValidation": {
       "Package": "piamValidation",
