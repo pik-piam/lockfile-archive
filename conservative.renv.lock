@@ -2873,11 +2873,11 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.68.0",
+      "Version": "2.69.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
-      "RemoteSha": "9ba9020302380253f6c4e0091ab4a0af8e862a3c",
+      "RemoteSha": "cefe51f702406f9e1c1db550de69276b2a930c2b",
       "Requirements": [
         "gdx",
         "madrat",
@@ -2889,7 +2889,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "36ad252185ce21f96ab9649f2ed0759c"
+      "Hash": "a35da66aa9cce14087386339488db073"
     },
     "linprog": {
       "Package": "linprog",
@@ -3108,11 +3108,11 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.48.3",
+      "Version": "0.49.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
-      "RemoteSha": "49bf563d8079738d68bdb91f52fa8b68a99bce63",
+      "RemoteSha": "78f4cdab9309f774c285bc65c402ab7d1a14a7a2",
       "Requirements": [
         "callr",
         "citation",
@@ -3127,7 +3127,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "ff170c527b92337c5a2a5ea8536ce08e"
+      "Hash": "08367d5a6f05b4d4fb633ad681a93cfe"
     },
     "luplot": {
       "Package": "luplot",
@@ -4365,11 +4365,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.38.2",
+      "Version": "0.38.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "662422180696d935ce0d35c90d7af7dac92e6aff",
+      "RemoteSha": "89148e7ca25b23a7ff839be74e1fdd468a9a58c1",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4387,7 +4387,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "98a1f11d98e99dd5f734c196b9ca4bce"
+      "Hash": "c327c4e35e909b9696eae5ab25197d9f"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
