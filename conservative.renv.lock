@@ -2873,11 +2873,11 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.69.0",
+      "Version": "2.70.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
-      "RemoteSha": "cefe51f702406f9e1c1db550de69276b2a930c2b",
+      "RemoteSha": "6bcce6a174c03310f672029d90531835339bf96b",
       "Requirements": [
         "gdx",
         "madrat",
@@ -2889,7 +2889,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "a35da66aa9cce14087386339488db073"
+      "Hash": "3e16cd4fb2e304b800c5af84007909af"
     },
     "linprog": {
       "Package": "linprog",
@@ -3108,11 +3108,11 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.49.0",
+      "Version": "0.49.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
-      "RemoteSha": "78f4cdab9309f774c285bc65c402ab7d1a14a7a2",
+      "RemoteSha": "bba6b6e95278c8f649df3187eef35e14383b4c89",
       "Requirements": [
         "callr",
         "citation",
@@ -3127,7 +3127,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "08367d5a6f05b4d4fb633ad681a93cfe"
+      "Hash": "3a07355696f3c04517f7d95784b34b36"
     },
     "luplot": {
       "Package": "luplot",
@@ -4365,11 +4365,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.38.5",
+      "Version": "0.39.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "89148e7ca25b23a7ff839be74e1fdd468a9a58c1",
+      "RemoteSha": "41836a5df577d74041b99df847b0244f11253599",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4387,7 +4387,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "c327c4e35e909b9696eae5ab25197d9f"
+      "Hash": "e16be127b897d843c0edfd434a0764bd"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5139,11 +5139,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.162.0",
+      "Version": "1.162.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "d2b6c69f1575c08e2f1ea12ca84814569a5a3483",
+      "RemoteSha": "6fe85c5275348b038815f5a26e7466953f30023c",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5176,7 +5176,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "556c761463a9a88fde60ef5be215e53d"
+      "Hash": "9df33882f17fba45f553a80ce2bb8e11"
     },
     "remotes": {
       "Package": "remotes",
