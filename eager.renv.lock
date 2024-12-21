@@ -1587,7 +1587,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.12.2",
+      "Version": "2.12.3",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -1607,7 +1607,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "1a1bf8ef829ec814afa902e619284de0"
+      "Hash": "6e565c030741b5455161457c1567aaf8"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3191,11 +3191,11 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.49.1",
+      "Version": "0.49.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
-      "RemoteSha": "bba6b6e95278c8f649df3187eef35e14383b4c89",
+      "RemoteSha": "aedf62008487de46339ba758310551628dca2779",
       "Requirements": [
         "callr",
         "citation",
@@ -3210,7 +3210,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "3a07355696f3c04517f7d95784b34b36"
+      "Hash": "84fd05aa3d559d85be07535c94823e0b"
     },
     "luplot": {
       "Package": "luplot",
@@ -3842,11 +3842,9 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.65.2",
+      "Version": "0.65.3",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrland",
-      "RemoteSha": "f0bdc08bff1367f878aa6f7bd02792207962ee2a",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3870,7 +3868,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "3240067c0950e23515f7d80125025316"
+      "Hash": "c4a86a86eda4b46ed558ac24c7d4bd9f"
     },
     "mrlandcore": {
       "Package": "mrlandcore",
@@ -4446,7 +4444,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.40.2",
+      "Version": "0.40.4",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4466,7 +4464,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "7cae60c9d3a56251012c518170e584d1"
+      "Hash": "5d0770660bfa8558b026c621e0d70bb3"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
