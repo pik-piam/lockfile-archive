@@ -1610,14 +1610,13 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "0.24.0",
+      "Version": "1.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
-        "R",
-        "methods"
+        "R"
       ],
-      "Hash": "a1066cbc05caee9a4bf6d90f194ff4da"
+      "Hash": "3fd29944b231036ad67c3edb32e02201"
     },
     "fBasics": {
       "Package": "fBasics",
@@ -4363,11 +4362,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.40.4",
+      "Version": "0.40.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "7e842014329b6d10e101823d7b69b0c96f69c9fd",
+      "RemoteSha": "69e5fe8be1e0a5636449f15b0b0898c34ed794ff",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4385,7 +4384,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "5d0770660bfa8558b026c621e0d70bb3"
+      "Hash": "b1d7a7c54a60ed398678b8dc7e3c92fd"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5137,11 +5136,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.162.1",
+      "Version": "1.162.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "6fe85c5275348b038815f5a26e7466953f30023c",
+      "RemoteSha": "27a81b63735acf3521bf3780fd234e89a2139306",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5174,7 +5173,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "9df33882f17fba45f553a80ce2bb8e11"
+      "Hash": "0afbbbdd021c74bc9f4e94fe4144703d"
     },
     "remotes": {
       "Package": "remotes",
@@ -5981,7 +5980,7 @@
     },
     "testthat": {
       "Package": "testthat",
-      "Version": "3.2.1.1",
+      "Version": "3.2.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6006,7 +6005,7 @@
         "waldo",
         "withr"
       ],
-      "Hash": "3f6e7e5e2220856ff865e4834766bf2b"
+      "Hash": "6773967afbe2f74c87021e72c1bb05c0"
     },
     "textshaping": {
       "Package": "textshaping",
@@ -6358,21 +6357,18 @@
     },
     "waldo": {
       "Package": "waldo",
-      "Version": "0.5.2",
+      "Version": "0.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "cli",
         "diffobj",
-        "fansi",
         "glue",
         "methods",
-        "rematch2",
-        "rlang",
-        "tibble"
+        "rlang"
       ],
-      "Hash": "c7d3fd6d29ab077cbac8f0e2751449e6"
+      "Hash": "52f574062a7b66e56926988c3fbdb3b7"
     },
     "whisker": {
       "Package": "whisker",
@@ -6395,7 +6391,7 @@
     },
     "withr": {
       "Package": "withr",
-      "Version": "3.0.0",
+      "Version": "3.0.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6403,7 +6399,7 @@
         "grDevices",
         "graphics"
       ],
-      "Hash": "d31b6c62c10dcf11ec530ca6b0dd5d35"
+      "Hash": "cc2d62c76458d425210d1eb1478b30b4"
     },
     "wk": {
       "Package": "wk",
