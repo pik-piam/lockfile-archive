@@ -70,6 +70,13 @@
       ],
       "Hash": "cd52c065c9e687c60c56b51f10f7bcd3"
     },
+    "FRACTION": {
+      "Package": "FRACTION",
+      "Version": "1.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c89687e0cfeaa9049220b20423fea4c3"
+    },
     "Formula": {
       "Package": "Formula",
       "Version": "1.2-5",
@@ -2743,7 +2750,7 @@
     },
     "igraph": {
       "Package": "igraph",
-      "Version": "2.1.2",
+      "Version": "2.1.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2762,7 +2769,7 @@
         "utils",
         "vctrs"
       ],
-      "Hash": "9a93b743b2461ba06ba3b5df12011145"
+      "Hash": "337fa0da3fe0506d235cde01d751b4c3"
     },
     "ini": {
       "Package": "ini",
@@ -2941,6 +2948,24 @@
       ],
       "Hash": "d908914ae53b04d4c0c0fd72ecc35370"
     },
+    "lemon": {
+      "Package": "lemon",
+      "Version": "0.5.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "ggplot2",
+        "grid",
+        "gridExtra",
+        "gtable",
+        "knitr",
+        "lattice",
+        "plyr",
+        "scales"
+      ],
+      "Hash": "10b998c44e6a3766d8aa874626489441"
+    },
     "lifecycle": {
       "Package": "lifecycle",
       "Version": "1.0.4",
@@ -2956,11 +2981,11 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.70.0",
+      "Version": "2.71.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
-      "RemoteSha": "6bcce6a174c03310f672029d90531835339bf96b",
+      "RemoteSha": "881a1b0878e044f4022b46a3542de7e1fa85a936",
       "Requirements": [
         "gdx",
         "madrat",
@@ -2972,7 +2997,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "3e16cd4fb2e304b800c5af84007909af"
+      "Hash": "ee32ed86f6ecaada91f4204eaaaffe6b"
     },
     "linprog": {
       "Package": "linprog",
@@ -3214,7 +3239,7 @@
     },
     "luplot": {
       "Package": "luplot",
-      "Version": "4.0.1",
+      "Version": "4.0.3",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3233,7 +3258,7 @@
         "reshape2",
         "utils"
       ],
-      "Hash": "89db2dcb7c1215c94fa792539356bf10"
+      "Hash": "e91634512874b5630e48b522ad5a0de8"
     },
     "luscale": {
       "Package": "luscale",
@@ -3355,11 +3380,9 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.16.1",
+      "Version": "2.16.2",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "3fde65c80cc21fb87aa44402c99d809f44ead68c",
+      "Repository": "pik",
       "Requirements": [
         "R",
         "dplyr",
@@ -3380,7 +3403,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "e86ce399adda78f259aac852090209ab"
+      "Hash": "c793179cc811bab7adfb1bea122d39d2"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3431,13 +3454,13 @@
     },
     "matrixStats": {
       "Package": "matrixStats",
-      "Version": "1.4.1",
+      "Version": "1.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "8885ffb1f46e820dede6b2ca9442abca"
+      "Hash": "9fd316b52ac8c24fef4c67fdd646e965"
     },
     "memoise": {
       "Package": "memoise",
@@ -3513,7 +3536,7 @@
     },
     "minty": {
       "Package": "minty",
-      "Version": "0.0.4",
+      "Version": "0.0.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3521,7 +3544,7 @@
         "cpp11",
         "tzdb"
       ],
-      "Hash": "ab9d0930bfa21e98aec9d07f0c43cc89"
+      "Hash": "3fe20e661e6ce59e604cb8d470744e79"
     },
     "mip": {
       "Package": "mip",
@@ -4581,7 +4604,7 @@
     },
     "pillar": {
       "Package": "pillar",
-      "Version": "1.10.0",
+      "Version": "1.10.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4593,7 +4616,7 @@
         "utils",
         "vctrs"
       ],
-      "Hash": "101ca350beea21261a15ba169d7a8513"
+      "Hash": "8b16b6097daef84cd3c40a6a7c5c9d86"
     },
     "pkgbuild": {
       "Package": "pkgbuild",
@@ -5547,7 +5570,7 @@
     },
     "rpart": {
       "Package": "rpart",
-      "Version": "4.1.23",
+      "Version": "4.1.24",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5556,7 +5579,7 @@
         "graphics",
         "stats"
       ],
-      "Hash": "b3d390424f41d04174cccf84d49676c2"
+      "Hash": "ad31b457482eda7a12e51c5d8e7b0be4"
     },
     "rprojroot": {
       "Package": "rprojroot",
@@ -6523,7 +6546,7 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.49",
+      "Version": "0.50",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6532,7 +6555,7 @@
         "stats",
         "tools"
       ],
-      "Hash": "8687398773806cfff9401a2feca96298"
+      "Hash": "44ab88837d3f8dfc66a837299b887fa6"
     },
     "xml2": {
       "Package": "xml2",

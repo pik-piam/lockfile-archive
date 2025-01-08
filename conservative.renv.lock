@@ -2872,11 +2872,11 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.70.0",
+      "Version": "2.71.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
-      "RemoteSha": "6bcce6a174c03310f672029d90531835339bf96b",
+      "RemoteSha": "881a1b0878e044f4022b46a3542de7e1fa85a936",
       "Requirements": [
         "gdx",
         "madrat",
@@ -2888,7 +2888,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "3e16cd4fb2e304b800c5af84007909af"
+      "Hash": "ee32ed86f6ecaada91f4204eaaaffe6b"
     },
     "linprog": {
       "Package": "linprog",
@@ -3130,9 +3130,11 @@
     },
     "luplot": {
       "Package": "luplot",
-      "Version": "4.0.1",
+      "Version": "4.0.3",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/luplot.git",
+      "RemoteSha": "054857c6c5a6293e961e45aeeba3a1d44d76d77c",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -3149,7 +3151,7 @@
         "reshape2",
         "utils"
       ],
-      "Hash": "89db2dcb7c1215c94fa792539356bf10"
+      "Hash": "e91634512874b5630e48b522ad5a0de8"
     },
     "luscale": {
       "Package": "luscale",
@@ -3277,11 +3279,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.16.1",
+      "Version": "2.16.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "3fde65c80cc21fb87aa44402c99d809f44ead68c",
+      "RemoteSha": "0f84254d3818667d73fb5dc40934b3157372d699",
       "Requirements": [
         "R",
         "dplyr",
@@ -3302,7 +3304,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "e86ce399adda78f259aac852090209ab"
+      "Hash": "c793179cc811bab7adfb1bea122d39d2"
     },
     "magpiesets": {
       "Package": "magpiesets",
