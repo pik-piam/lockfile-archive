@@ -1540,11 +1540,11 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.12.3",
+      "Version": "2.12.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "a8ef0bfad873249be323ddb9157055c113e602c0",
+      "RemoteSha": "3e2094f3768dfd2a4a65a00eadb28f389149870b",
       "Requirements": [
         "GDPuc",
         "R",
@@ -1562,7 +1562,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "6e565c030741b5455161457c1567aaf8"
+      "Hash": "0e95e3f66447a355ac32f09d0e955bae"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -2872,11 +2872,11 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.71.0",
+      "Version": "2.71.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
-      "RemoteSha": "881a1b0878e044f4022b46a3542de7e1fa85a936",
+      "RemoteSha": "cdb045d49727af655f5b99c7bc758d06ac3a0c96",
       "Requirements": [
         "gdx",
         "madrat",
@@ -2888,7 +2888,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "ee32ed86f6ecaada91f4204eaaaffe6b"
+      "Hash": "6102bff77df45da883e817694d743f5b"
     },
     "linprog": {
       "Package": "linprog",
@@ -3229,9 +3229,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.15.6",
+      "Version": "3.16.0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/madrat",
+      "RemoteSha": "60a49f9f4dbcc77fe342a29e104e47797f040030",
       "Requirements": [
         "Matrix",
         "R",
@@ -3248,7 +3250,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "b4660d2db11b834861d6176159a3763f"
+      "Hash": "413be343443cfe5d4b14634b0cc2678c"
     },
     "magclass": {
       "Package": "magclass",
@@ -3933,11 +3935,11 @@
     },
     "mrtransport": {
       "Package": "mrtransport",
-      "Version": "0.10.1",
+      "Version": "0.10.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrtransport",
-      "RemoteSha": "07b76d2c61d7b603f95645e4f22ccb98660e4e7b",
+      "RemoteSha": "f5f2b495363be937bc65face7dd36e1e61a0e658",
       "Requirements": [
         "GDPuc",
         "data.table",
@@ -3958,7 +3960,7 @@
         "utils",
         "zoo"
       ],
-      "Hash": "439dbd2c5b08aced57303ca49546c8fe"
+      "Hash": "cf61431b6eacc156182478f92c819e88"
     },
     "mrtutorial": {
       "Package": "mrtutorial",
@@ -4364,11 +4366,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.40.5",
+      "Version": "0.40.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "69e5fe8be1e0a5636449f15b0b0898c34ed794ff",
+      "RemoteSha": "0138c65d5c4304f7a5dd2de3bea0a97d2d746865",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4386,7 +4388,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "b1d7a7c54a60ed398678b8dc7e3c92fd"
+      "Hash": "37f0a878907d0937dddab53d11bb4b99"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
