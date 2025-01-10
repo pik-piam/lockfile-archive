@@ -2782,13 +2782,13 @@
     },
     "inline": {
       "Package": "inline",
-      "Version": "0.3.20",
+      "Version": "0.3.21",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "methods"
       ],
-      "Hash": "e53e635cd18fc8b0d82f2896517ac786"
+      "Hash": "a816db522447eb5ca56e7d4e6e82e4eb"
     },
     "isoband": {
       "Package": "isoband",
@@ -3334,11 +3334,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.16.0",
+      "Version": "3.16.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
-      "RemoteSha": "60a49f9f4dbcc77fe342a29e104e47797f040030",
+      "RemoteSha": "60fcc7df9d300096f0e597c9f6f94c4f758cff01",
       "Requirements": [
         "Matrix",
         "R",
@@ -3355,7 +3355,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "413be343443cfe5d4b14634b0cc2678c"
+      "Hash": "e1807a203d73773fb9916ef6f9aa1126"
     },
     "magclass": {
       "Package": "magclass",
@@ -3833,11 +3833,11 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "0.8.0",
+      "Version": "0.10.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrindustry",
-      "RemoteSha": "b2289955fdc17d515b7d67456544072d5d0ad2dc",
+      "RemoteSha": "569f2b8807afbe9f3a9f81909e5f52ab37a3341c",
       "Requirements": [
         "GDPuc",
         "Hmisc",
@@ -3865,7 +3865,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "31e08174f112ab6335664202e6b42163"
+      "Hash": "a186fa610e0dfb1f47db845e3eea6af6"
     },
     "mrland": {
       "Package": "mrland",
@@ -3981,11 +3981,9 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.204.1",
+      "Version": "0.205.0",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "590cfa2a6eb5ddae6d8746d5a62228b60609f970",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4015,7 +4013,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "99ce7f599eba2048b9eb3d96306884a5"
+      "Hash": "9b96ab56d29e8ff2d541a90f9815c906"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4088,11 +4086,11 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.61.18",
+      "Version": "2.61.21",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
-      "RemoteSha": "a24aa45e129165716724261d7281b1b661c69ed6",
+      "RemoteSha": "93c523f670b2298ffead80d8e79c72bbba5be250",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4120,7 +4118,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "593737a2718919216f5d7893d50ca5eb"
+      "Hash": "26cd6dac2477c04dc652dba726852f68"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -4338,13 +4336,13 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.3.0",
+      "Version": "2.3.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "askpass"
       ],
-      "Hash": "5bfe2927efa9f87766ca9605301ea48f"
+      "Hash": "37a7f0abce0349f5950ce49f38c7626b"
     },
     "openxlsx": {
       "Package": "openxlsx",
@@ -4542,11 +4540,11 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.4.2",
+      "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamValidation",
-      "RemoteSha": "50109e3482208f0139077d786a8b277a960e8f6c",
+      "RemoteSha": "ff6e93be0b65cfef52afe771316f9045108ae1c8",
       "Requirements": [
         "R",
         "devtools",
@@ -4563,7 +4561,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "a9e55318c3d89c6f7d19ed4f8caccc76"
+      "Hash": "d0d62995671548471ff94a1f967ee7eb"
     },
     "piamenv": {
       "Package": "piamenv",
