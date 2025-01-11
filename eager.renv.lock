@@ -140,7 +140,7 @@
     },
     "Hmisc": {
       "Package": "Hmisc",
-      "Version": "5.2-1",
+      "Version": "5.2-2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -164,7 +164,7 @@
         "rpart",
         "viridis"
       ],
-      "Hash": "f0cc53d252666c65b2fc1f7ad88491ac"
+      "Hash": "ce88f29ff07b63c77f9b7ac747b9321b"
     },
     "KernSmooth": {
       "Package": "KernSmooth",
@@ -1664,13 +1664,13 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "1.0.1",
+      "Version": "1.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "3fd29944b231036ad67c3edb32e02201"
+      "Hash": "e9651417729bbe7472e32b5027370e79"
     },
     "fBasics": {
       "Package": "fBasics",
@@ -1976,7 +1976,7 @@
     },
     "geometry": {
       "Package": "geometry",
-      "Version": "0.5.0",
+      "Version": "0.5.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1987,7 +1987,7 @@
         "lpSolve",
         "magic"
       ],
-      "Hash": "b052bd270aeddeca332c20feecfb039d"
+      "Hash": "976567130d7f1da41497c42927623003"
     },
     "geosphere": {
       "Package": "geosphere",
@@ -2983,11 +2983,11 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.71.1",
+      "Version": "2.72.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
-      "RemoteSha": "cdb045d49727af655f5b99c7bc758d06ac3a0c96",
+      "RemoteSha": "ee39d6e60da19f645854cbd7dafc1b8d62d38ba8",
       "Requirements": [
         "gdx",
         "madrat",
@@ -2999,7 +2999,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "6102bff77df45da883e817694d743f5b"
+      "Hash": "7f974e638dc31eb11b79d34b2449be01"
     },
     "linprog": {
       "Package": "linprog",
@@ -3928,11 +3928,9 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.53.0",
+      "Version": "1.53.1",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
-      "RemoteSha": "206160e276689d1ecac3285bdcfc21cdcc502251",
+      "Repository": "pik",
       "Requirements": [
         "R",
         "abind",
@@ -3961,7 +3959,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "074126729ac5822de49dad258f21cd5e"
+      "Hash": "065b65c02c41d0275dc064d8c4a18ea7"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -3981,7 +3979,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.205.0",
+      "Version": "0.205.2",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4013,7 +4011,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "9b96ab56d29e8ff2d541a90f9815c906"
+      "Hash": "8f737af752ae6b4258316387ec595edc"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4236,14 +4234,14 @@
     },
     "mvtnorm": {
       "Package": "mvtnorm",
-      "Version": "1.3-2",
+      "Version": "1.3-3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "stats"
       ],
-      "Hash": "9e8405eacb262c0a939e121650247f4b"
+      "Hash": "c7241e6be9d6df551a2e539a50f5c875"
     },
     "ncdf4": {
       "Package": "ncdf4",
@@ -4471,7 +4469,7 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.40.7",
+      "Version": "0.40.8",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4491,7 +4489,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "37f0a878907d0937dddab53d11bb4b99"
+      "Hash": "325dc8db0981babc85be35509889356a"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
