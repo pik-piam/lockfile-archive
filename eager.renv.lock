@@ -410,6 +410,20 @@
       ],
       "Hash": "c232938949fcd8126034419cc529333a"
     },
+    "Rdpack": {
+      "Package": "Rdpack",
+      "Version": "2.6.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "methods",
+        "rbibutils",
+        "tools",
+        "utils"
+      ],
+      "Hash": "a9e2118c664c2cd694f03de074e8d4b3"
+    },
     "Rilostat": {
       "Package": "Rilostat",
       "Version": "2.2.0",
@@ -3045,7 +3059,7 @@
     },
     "lme4": {
       "Package": "lme4",
-      "Version": "1.1-35.5",
+      "Version": "1.1-36",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3063,11 +3077,12 @@
         "nlme",
         "nloptr",
         "parallel",
+        "reformulas",
         "splines",
         "stats",
         "utils"
       ],
-      "Hash": "16a08fc75007da0d08e0c0388c7c33e6"
+      "Hash": "5f0e0456cdabdc82fbf1e4a7dcb5885e"
     },
     "lmom": {
       "Package": "lmom",
@@ -5127,6 +5142,18 @@
       ],
       "Hash": "0e2829df8cb74a98179c886b023ffea8"
     },
+    "rbibutils": {
+      "Package": "rbibutils",
+      "Version": "2.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "tools",
+        "utils"
+      ],
+      "Hash": "dfc034a172fd88fc66b1a703894c4185"
+    },
     "rcmdcheck": {
       "Package": "rcmdcheck",
       "Version": "1.4.0",
@@ -5204,6 +5231,19 @@
         "utils"
       ],
       "Hash": "8cf9c239b96df1bbb133b74aef77ad0a"
+    },
+    "reformulas": {
+      "Package": "reformulas",
+      "Version": "0.4.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "Matrix",
+        "Rdpack",
+        "methods",
+        "stats"
+      ],
+      "Hash": "d23beb08dca526d22ff47ce399260ba4"
     },
     "regressionworlddata": {
       "Package": "regressionworlddata",
