@@ -3233,9 +3233,11 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.49.3",
+      "Version": "0.50.0",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/lucode2",
+      "RemoteSha": "ad2c3657089c487a917ab36216800372da04ce00",
       "Requirements": [
         "callr",
         "citation",
@@ -3250,7 +3252,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "4e94a9a64ba2fa3a27d8a64630861cbf"
+      "Hash": "13bf838fc8b176e3941560225589a30f"
     },
     "luplot": {
       "Package": "luplot",
@@ -3643,11 +3645,9 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.46.10",
+      "Version": "1.47.0",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "22426ecb63728b70ead67b2413792951755e1f38",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3679,7 +3679,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "2ca467446185bb23a0c56fe58008906d"
+      "Hash": "ad785736c328048a3387d63efcfd2dd9"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -5395,11 +5395,9 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "0.6.5",
+      "Version": "0.7.0",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/reporttransport",
-      "RemoteSha": "dcb8d29ef28a196a81b070ee9aa3359650e7681f",
+      "Repository": "pik",
       "Requirements": [
         "R",
         "data.table",
@@ -5411,7 +5409,7 @@
         "rmndt",
         "utils"
       ],
-      "Hash": "4ed7eceb59b65504d2bba3acc0fe4efb"
+      "Hash": "bc47668398a2a6d4cb9488b49b397acd"
     },
     "reprex": {
       "Package": "reprex",
