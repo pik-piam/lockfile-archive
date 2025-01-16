@@ -3399,9 +3399,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.16.2",
+      "Version": "2.16.3",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/magpie4",
+      "RemoteSha": "6a2347e82c422109d6de4143a5cc2d10db9335d9",
       "Requirements": [
         "R",
         "dplyr",
@@ -3422,7 +3424,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "c793179cc811bab7adfb1bea122d39d2"
+      "Hash": "2b7cab3f08bbbaf832c84154ca33bf3f"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3992,7 +3994,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.206.0",
+      "Version": "0.207.0",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -4024,7 +4026,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "e3e7268992da8ab45514e60409e5b2dc"
+      "Hash": "2620286c5eb4ba029f3b0a76d643cccf"
     },
     "mrsoil": {
       "Package": "mrsoil",
