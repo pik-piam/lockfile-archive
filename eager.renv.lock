@@ -3400,11 +3400,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.16.3",
+      "Version": "2.16.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "6a2347e82c422109d6de4143a5cc2d10db9335d9",
+      "RemoteSha": "0fcbe816c91005147b438ce92f1abbeb7603be9a",
       "Requirements": [
         "R",
         "dplyr",
@@ -3425,7 +3425,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "2b7cab3f08bbbaf832c84154ca33bf3f"
+      "Hash": "68ecef1c9e2f8d8ff501e29b41c15741"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3849,11 +3849,11 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "0.10.0",
+      "Version": "0.11.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrindustry",
-      "RemoteSha": "569f2b8807afbe9f3a9f81909e5f52ab37a3341c",
+      "RemoteSha": "d6648461c74a3d26f0f616c4ccea60fa722ba0fd",
       "Requirements": [
         "GDPuc",
         "Hmisc",
@@ -3881,7 +3881,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "a186fa610e0dfb1f47db845e3eea6af6"
+      "Hash": "49cb28b414ecc1b15f27cd19b0de8b85"
     },
     "mrland": {
       "Package": "mrland",
@@ -5494,14 +5494,14 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "1.1.4",
+      "Version": "1.1.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "3eec01f8b1dee337674b2e34ab1f9bc1"
+      "Hash": "724dcc1490cd7071ee75ca2994a5446e"
     },
     "rmarkdown": {
       "Package": "rmarkdown",
