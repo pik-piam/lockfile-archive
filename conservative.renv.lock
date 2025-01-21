@@ -2872,11 +2872,11 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.72.0",
+      "Version": "2.72.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
-      "RemoteSha": "ee39d6e60da19f645854cbd7dafc1b8d62d38ba8",
+      "RemoteSha": "2a35b7e591df842cf2f2c9a67d0a8ac854b52895",
       "Requirements": [
         "gdx",
         "madrat",
@@ -2888,7 +2888,7 @@
         "yaml",
         "ymlthis"
       ],
-      "Hash": "7f974e638dc31eb11b79d34b2449be01"
+      "Hash": "831261ef4ca1ccd7bd6a56f802191a88"
     },
     "linprog": {
       "Package": "linprog",
@@ -3496,11 +3496,11 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.22.2",
+      "Version": "0.22.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
-      "RemoteSha": "10fc170845c53d6c36e3747ed2a3c657aad80da4",
+      "RemoteSha": "a01b8d34ffe70b67c566a5e627305a0aa2cd79a0",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3515,15 +3515,15 @@
         "utils",
         "withr"
       ],
-      "Hash": "eda082af2dd176228a20983f50ffbfbd"
+      "Hash": "858eb6e02dc9eaeb9876db015389f6ae"
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.47.0",
+      "Version": "1.48.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "c5f85311c18fba4a9968c7d826163399059ac174",
+      "RemoteSha": "5a4114d35c13f47996fdc77a4928a967ebbd83e8",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3555,7 +3555,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "ad785736c328048a3387d63efcfd2dd9"
+      "Hash": "7fbfbd4fa89d4f4c09956dbacd134c7b"
     },
     "mrdieter": {
       "Package": "mrdieter",
