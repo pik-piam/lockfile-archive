@@ -4366,11 +4366,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.40.9",
+      "Version": "0.40.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "c9a015780c5a706e77647c8e26937e711272139d",
+      "RemoteSha": "7469a30e2a256200d04826cc8d56c19618d05a73",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4388,7 +4388,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "5156c8d7e23a03ca3752678bbcd16fac"
+      "Hash": "bda8cf8cebab9c268f5ccae8af78b0bf"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5247,11 +5247,11 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "0.7.0",
+      "Version": "0.7.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reporttransport",
-      "RemoteSha": "60b78242e032603356645f41eab558fe65bbf2c1",
+      "RemoteSha": "f4eb08d565faf709080219c3ffbaa9ec118fe100",
       "Requirements": [
         "R",
         "data.table",
@@ -5263,7 +5263,7 @@
         "rmndt",
         "utils"
       ],
-      "Hash": "bc47668398a2a6d4cb9488b49b397acd"
+      "Hash": "951e28018ba8c6f843541dadca8a7146"
     },
     "reprex": {
       "Package": "reprex",
