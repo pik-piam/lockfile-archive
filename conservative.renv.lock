@@ -3130,11 +3130,11 @@
     },
     "luplot": {
       "Package": "luplot",
-      "Version": "4.0.3",
+      "Version": "4.1.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/luplot.git",
-      "RemoteSha": "054857c6c5a6293e961e45aeeba3a1d44d76d77c",
+      "RemoteSha": "e46c5220117607791e5462604d330a053838ea5c",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -3151,7 +3151,7 @@
         "reshape2",
         "utils"
       ],
-      "Hash": "e91634512874b5630e48b522ad5a0de8"
+      "Hash": "3bcaf9ee819c7ccad5182580c262f623"
     },
     "luscale": {
       "Package": "luscale",
@@ -3439,11 +3439,11 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.152.3",
+      "Version": "0.152.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mip",
-      "RemoteSha": "10eb01ffcbe74a84a5a7971ba982312288d39722",
+      "RemoteSha": "728ce4095fdac4be9ca89e8d2747e4bf1137bc6f",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -3464,7 +3464,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "c1357e978730652f802caa7e819eb79a"
+      "Hash": "200d2e1318940774f74273f4c4e4a076"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -4365,11 +4365,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.41.0",
+      "Version": "0.42.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "6272bdb4b4dfdb72ba7bd6eacae39eb7e0d69316",
+      "RemoteSha": "6177003e0e4db9f2b534cf917936bd85e77ee041",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4387,7 +4387,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "90bd191d0af0531abbc482c8aa6686e6"
+      "Hash": "e7193528b95ee936524098d7d967eb8b"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4476,17 +4476,17 @@
     },
     "piamutils": {
       "Package": "piamutils",
-      "Version": "0.0.12",
+      "Version": "0.0.13",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamutils",
-      "RemoteSha": "5dad291da96ad1a410c4157151931e7381d68971",
+      "RemoteSha": "d8b6674ad92dc373b415aff4365796df58627ce8",
       "Requirements": [
         "magclass",
         "pkgload",
         "quitte"
       ],
-      "Hash": "863b83ab61f4631b450a6fe64a6d1b20"
+      "Hash": "87c6ab21655dc1b519a7415e5f505f86"
     },
     "piktests": {
       "Package": "piktests",
