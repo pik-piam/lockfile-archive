@@ -3107,11 +3107,11 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.50.0",
+      "Version": "0.51.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
-      "RemoteSha": "ad2c3657089c487a917ab36216800372da04ce00",
+      "RemoteSha": "829cdd0b27d618aebe78d39d4a780d882e95318a",
       "Requirements": [
         "callr",
         "citation",
@@ -3126,7 +3126,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "13bf838fc8b176e3941560225589a30f"
+      "Hash": "f5ea8139106ce0cb8faef57d62d3921d"
     },
     "luplot": {
       "Package": "luplot",
@@ -5139,11 +5139,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.162.3",
+      "Version": "1.162.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "e250dcef8a3f0d5e4d887c7f6e3bc7bfc9b0e56e",
+      "RemoteSha": "46ad0b704f1d1ec0daaea1174b97b121e88ee980",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5176,7 +5176,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "b27eb7bfaf5a67d9739e30d04e0eaf1e"
+      "Hash": "45250b1a30e6be9c3a1db325b3295b92"
     },
     "remotes": {
       "Package": "remotes",

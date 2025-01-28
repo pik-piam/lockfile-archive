@@ -3234,11 +3234,9 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.50.0",
+      "Version": "0.51.0",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/lucode2",
-      "RemoteSha": "ad2c3657089c487a917ab36216800372da04ce00",
+      "Repository": "pik",
       "Requirements": [
         "callr",
         "citation",
@@ -3253,7 +3251,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "13bf838fc8b176e3941560225589a30f"
+      "Hash": "f5ea8139106ce0cb8faef57d62d3921d"
     },
     "luplot": {
       "Package": "luplot",
@@ -4276,7 +4274,7 @@
     },
     "nlme": {
       "Package": "nlme",
-      "Version": "3.1-166",
+      "Version": "3.1-167",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4286,7 +4284,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "ccbb8846be320b627e6aa2b4616a2ded"
+      "Hash": "abd9318b4073223646c0f9d3ed641904"
     },
     "nloptr": {
       "Package": "nloptr",
