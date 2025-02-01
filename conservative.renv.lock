@@ -3034,11 +3034,11 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "1.7.5",
+      "Version": "1.7.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlkit",
-      "RemoteSha": "fea831b854095c8c3407ddcf6575563524d92f5d",
+      "RemoteSha": "bc2b59991c58a2f35275de58539e4ba635291ead",
       "Requirements": [
         "R",
         "abind",
@@ -3057,7 +3057,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "8716720c1cd9018b3ee3a10788d08cb2"
+      "Hash": "0201ff5122f38867d6b0b82a62fa838a"
     },
     "lpjmlstats": {
       "Package": "lpjmlstats",
@@ -4366,11 +4366,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.42.0",
+      "Version": "0.42.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "6177003e0e4db9f2b534cf917936bd85e77ee041",
+      "RemoteSha": "3268adaf5a055646ccad3fce21980e436dcf0735",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4388,7 +4388,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "e7193528b95ee936524098d7d967eb8b"
+      "Hash": "c55a7553278de4c21f8a094fc1aba65c"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5140,11 +5140,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.164.0",
+      "Version": "1.164.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "ab3b7a382061f8f5463ef7f475eee644dadf3036",
+      "RemoteSha": "513ff5ca12515270ec7ea0239cf0e6e7f6ea7e83",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5177,7 +5177,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "1b881f07f9e73c5819d2800f73ee1d3f"
+      "Hash": "dcdd56bb23108e718b9bec90ddde4502"
     },
     "remotes": {
       "Package": "remotes",
