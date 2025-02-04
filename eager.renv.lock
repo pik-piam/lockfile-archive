@@ -3375,9 +3375,11 @@
     },
     "magclass": {
       "Package": "magclass",
-      "Version": "6.17.1",
+      "Version": "6.17.2",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/magclass",
+      "RemoteSha": "0d865c02cd1a3850042247434381e85993200e09",
       "Requirements": [
         "R",
         "abind",
@@ -3385,7 +3387,7 @@
         "methods",
         "stats"
       ],
-      "Hash": "10c942addaf04eb074aafd71d9554619"
+      "Hash": "91f515fc74fb632b723848ab6293822a"
     },
     "magic": {
       "Package": "magic",
@@ -3400,11 +3402,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.16.5",
+      "Version": "2.16.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "0fcbe816c91005147b438ce92f1abbeb7603be9a",
+      "RemoteSha": "8eabc1e331577e958570d372b406e7b0ff5c8047",
       "Requirements": [
         "R",
         "dplyr",
@@ -3425,7 +3427,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "68ecef1c9e2f8d8ff501e29b41c15741"
+      "Hash": "da9c82fb6c7512d06e0d3738b35ab311"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3702,11 +3704,11 @@
     },
     "mrdrivers": {
       "Package": "mrdrivers",
-      "Version": "6.0.2",
+      "Version": "6.1.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrdrivers",
-      "RemoteSha": "54e35d2cee737ddc43a47ecfb7f417d26cc3d4bd",
+      "RemoteSha": "93014275c17d6fe4deaf2f18ad0e230bd2cbca5d",
       "Requirements": [
         "GDPuc",
         "countrycode",
@@ -3723,7 +3725,7 @@
         "tidyr",
         "tidyselect"
       ],
-      "Hash": "dba3d6b59209532b607d13e4b463a591"
+      "Hash": "d910ade47f5f289b0597f7d8e7121c3d"
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
@@ -4354,13 +4356,13 @@
     },
     "openssl": {
       "Package": "openssl",
-      "Version": "2.3.1",
+      "Version": "2.3.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "askpass"
       ],
-      "Hash": "37a7f0abce0349f5950ce49f38c7626b"
+      "Hash": "bc54d87ebf858b28de18df4bca6528d3"
     },
     "openxlsx": {
       "Package": "openxlsx",
@@ -4489,9 +4491,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.42.1",
+      "Version": "0.42.3",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
+      "RemoteSha": "428e9191cbdbce97cded83e2fe105b363ad0714b",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4509,7 +4513,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "c55a7553278de4c21f8a094fc1aba65c"
+      "Hash": "b33378a1107e061f2090d7732d47c924"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -6244,7 +6248,7 @@
     },
     "tidyterra": {
       "Package": "tidyterra",
-      "Version": "0.6.2",
+      "Version": "0.7.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6261,7 +6265,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "64b9a914479ed42bd16d7ffbf0c2708a"
+      "Hash": "5fbb9b971f3a93b53113828e097cd879"
     },
     "tidyverse": {
       "Package": "tidyverse",
