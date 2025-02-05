@@ -3034,11 +3034,11 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "1.7.6",
+      "Version": "1.7.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlkit",
-      "RemoteSha": "bc2b59991c58a2f35275de58539e4ba635291ead",
+      "RemoteSha": "6dd07c12a2a04bca08ebda766276456fbf9ec255",
       "Requirements": [
         "R",
         "abind",
@@ -3057,7 +3057,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "0201ff5122f38867d6b0b82a62fa838a"
+      "Hash": "34835eca6742f997ec0b17d040243983"
     },
     "lpjmlstats": {
       "Package": "lpjmlstats",
@@ -4366,11 +4366,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.42.3",
+      "Version": "0.42.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "428e9191cbdbce97cded83e2fe105b363ad0714b",
+      "RemoteSha": "55b5ebcfbf5a00c5be5e49eddabb397471c1d253",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4388,7 +4388,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "b33378a1107e061f2090d7732d47c924"
+      "Hash": "ff71025ca6be02def4caa60ccc40fe7c"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4437,11 +4437,11 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.6.0",
+      "Version": "0.6.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamValidation",
-      "RemoteSha": "66243aa45457f39c1525379ed7053eeede71b971",
+      "RemoteSha": "e0b0349a0bbc07e9adf416eef4398caf8ad61cc6",
       "Requirements": [
         "R",
         "devtools",
@@ -4458,7 +4458,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "ae6b5171a301df3d27755974e49023d8"
+      "Hash": "802681b6d3b8b14483370491ff9788dc"
     },
     "piamenv": {
       "Package": "piamenv",
