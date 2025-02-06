@@ -3350,11 +3350,9 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.16.1",
+      "Version": "3.16.2",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/madrat",
-      "RemoteSha": "60fcc7df9d300096f0e597c9f6f94c4f758cff01",
+      "Repository": "pik",
       "Requirements": [
         "Matrix",
         "R",
@@ -3371,7 +3369,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "e1807a203d73773fb9916ef6f9aa1126"
+      "Hash": "0c2796156615fdcfb91dccc93d9e8eef"
     },
     "magclass": {
       "Package": "magclass",
@@ -3627,7 +3625,7 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.22.3",
+      "Version": "0.22.4",
       "Source": "Repository",
       "Repository": "pik",
       "Requirements": [
@@ -3644,7 +3642,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "858eb6e02dc9eaeb9876db015389f6ae"
+      "Hash": "5f175eda37448664e356000cdcda137d"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3918,11 +3916,11 @@
     },
     "mrlandcore": {
       "Package": "mrlandcore",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrlandcore",
-      "RemoteSha": "e99dba1d00c09a6a58f737e9576039e0b19c19ff",
+      "RemoteSha": "fc32ce8780af48a32d2cb76be672c6df5132836d",
       "Requirements": [
         "R",
         "SPEI",
@@ -3943,7 +3941,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "7fa4db8f11f8e79c2d014880e16a8971"
+      "Hash": "3e17193fdc32703a9ab3fa93591ac883"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
@@ -4491,9 +4489,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.42.4",
+      "Version": "0.44.1",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
+      "RemoteSha": "f992d4a3ca073f4af2d484622b24087235489bdd",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4511,7 +4511,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "ff71025ca6be02def4caa60ccc40fe7c"
+      "Hash": "7089336c6841ac8397ea8c437946bd7c"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4955,7 +4955,7 @@
     },
     "purrr": {
       "Package": "purrr",
-      "Version": "1.0.2",
+      "Version": "1.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4966,7 +4966,7 @@
         "rlang",
         "vctrs"
       ],
-      "Hash": "1cba04a4e9414bdefc9dcaa99649a8dc"
+      "Hash": "cc8b5d43f90551fa6df0a6be5d640a4f"
     },
     "qgraph": {
       "Package": "qgraph",
@@ -5827,7 +5827,7 @@
     },
     "sessioninfo": {
       "Package": "sessioninfo",
-      "Version": "1.2.2",
+      "Version": "1.2.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5836,7 +5836,7 @@
         "tools",
         "utils"
       ],
-      "Hash": "3f9796a8d0a0e8c6eb49a4b029359d1f"
+      "Hash": "bf169c6e52cdbded916e448dc1254913"
     },
     "sf": {
       "Package": "sf",
