@@ -637,14 +637,10 @@
     "biospheremetrics": {
       "Package": "biospheremetrics",
       "Version": "1.0.2",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "stenzelf",
-      "RemoteRepo": "biospheremetrics",
-      "RemoteRef": "main",
-      "RemoteSha": "09399cfec0a8f0293598bdc30b7f536a03f9a277",
+      "Source": "Repository",
+      "Repository": "pik",
       "Requirements": [
+        "R",
         "RColorBrewer",
         "abind",
         "circlize",
@@ -665,7 +661,7 @@
         "yaml",
         "zoo"
       ],
-      "Hash": "25927f1ea3f3e2021227e3b5b2ce1c32"
+      "Hash": "d81e081c4c208c692ebd7729cd0ff2b3"
     },
     "bit": {
       "Package": "bit",
