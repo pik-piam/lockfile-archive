@@ -70,6 +70,16 @@
       ],
       "Hash": "cd52c065c9e687c60c56b51f10f7bcd3"
     },
+    "FNN": {
+      "Package": "FNN",
+      "Version": "1.1.4.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "c7b4a49c7f435d0a67bb1e127e953d75"
+    },
     "FRACTION": {
       "Package": "FRACTION",
       "Version": "1.1.1",
@@ -1063,14 +1073,14 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "3.6.3",
+      "Version": "3.6.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "b21916dd77a27642b447374a5d30ecf3"
+      "Hash": "491c34d3d9dd0d2fe13d9f278bb90795"
     },
     "clipr": {
       "Package": "clipr",
@@ -2506,6 +2516,28 @@
       ],
       "Hash": "9c6bd1c7545c3ec0b3c1c4d7c74abb5c"
     },
+    "gstat": {
+      "Package": "gstat",
+      "Version": "2.1-3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "FNN",
+        "R",
+        "graphics",
+        "lattice",
+        "methods",
+        "sf",
+        "sftime",
+        "sp",
+        "spacetime",
+        "stars",
+        "stats",
+        "utils",
+        "zoo"
+      ],
+      "Hash": "a4f8533cba38da8cc8f6fb2c1269d06a"
+    },
     "gtable": {
       "Package": "gtable",
       "Version": "0.3.6",
@@ -2787,6 +2819,19 @@
         "methods"
       ],
       "Hash": "a816db522447eb5ca56e7d4e6e82e4eb"
+    },
+    "intervals": {
+      "Package": "intervals",
+      "Version": "0.15.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "graphics",
+        "methods",
+        "utils"
+      ],
+      "Hash": "da1fd6a5634e370ad0ef99a1aa2b17cb"
     },
     "isoband": {
       "Package": "isoband",
@@ -3610,9 +3655,11 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.22.6",
+      "Version": "0.22.7",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/modelstats",
+      "RemoteSha": "2b5323d8eff80da097068ac2a4c9da0ebac16d60",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3627,7 +3674,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "8d63cb29cd29b1601c694479b07096de"
+      "Hash": "0319f2faf8abd1f3f259ae59334c1d08"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3782,11 +3829,11 @@
     },
     "mrfaocore": {
       "Package": "mrfaocore",
-      "Version": "1.1.1",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrfaocore",
-      "RemoteSha": "6401aa0fb854c1b860d6f8a55522ea4602ebb73d",
+      "RemoteSha": "74c543d570d871b2bc4b5874c92e0c0d4baa80c4",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3800,7 +3847,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "747e21f9a6146086f6da3949aa0b7e92"
+      "Hash": "9c31a796c9e5c513d0216095b4fd1b8e"
     },
     "mrfeed": {
       "Package": "mrfeed",
@@ -3929,11 +3976,11 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.53.2",
+      "Version": "1.54.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
-      "RemoteSha": "27ba42d7666533e8a0754a59259accf0115b92e9",
+      "RemoteSha": "7ad1ab25ddc8f307f7c2b3d729286f6d0ff357bc",
       "Requirements": [
         "R",
         "abind",
@@ -3941,6 +3988,7 @@
         "digest",
         "dplyr",
         "ggplot2",
+        "gstat",
         "lpjclass",
         "luplot",
         "madrat",
@@ -3956,13 +4004,15 @@
         "pbapply",
         "raster",
         "readxl",
+        "rlang",
+        "sp",
         "stats",
         "stringr",
         "terra",
         "tidyr",
         "withr"
       ],
-      "Hash": "c54a212e4772ca082d30682d88ad398f"
+      "Hash": "5df8b2ede6080871236eae7bd58c47fa"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -5279,23 +5329,20 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.149.2",
-      "Source": "Local",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteType": "local",
-      "RemoteUrl": "../zeroLowMemRemind2",
+      "Version": "1.164.3",
+      "Source": "Repository",
+      "Repository": "pik",
       "Requirements": [
+        "GDPuc",
         "abind",
         "assertr",
         "data.table",
+        "digest",
         "dplyr",
         "gdx",
-        "gdxdt",
         "gdxrrw",
         "ggplot2",
         "gms",
-        "htmltools",
-        "knitr",
         "lucode2",
         "lusweave",
         "madrat",
@@ -5312,14 +5359,12 @@
         "reshape2",
         "rlang",
         "rmarkdown",
-        "rmndt",
         "tibble",
         "tidyr",
         "tidyselect",
-        "withr",
-        "yaml"
+        "withr"
       ],
-      "Hash": "6286fcc52a988341b0dd3814f1778126"
+      "Hash": "a02d744ce871a9dad1c88a486dad72c9"
     },
     "remotes": {
       "Package": "remotes",
@@ -5844,6 +5889,17 @@
       ],
       "Hash": "fe02eec2f6b3ba0e24afe83d5ccfb528"
     },
+    "sftime": {
+      "Package": "sftime",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "methods",
+        "sf"
+      ],
+      "Hash": "627ee68a5187625b8f042a305bbbb2cc"
+    },
     "shape": {
       "Package": "shape",
       "Version": "1.4.6.1",
@@ -5963,6 +6019,25 @@
       ],
       "Hash": "d9ff3b753db98bc50650314c8782abe6"
     },
+    "spacetime": {
+      "Package": "spacetime",
+      "Version": "1.3-2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "graphics",
+        "intervals",
+        "lattice",
+        "methods",
+        "sp",
+        "stats",
+        "utils",
+        "xts",
+        "zoo"
+      ],
+      "Hash": "a8ac9c0b373f7d477d885112092f82df"
+    },
     "spam": {
       "Package": "spam",
       "Version": "2.11-1",
@@ -6000,6 +6075,23 @@
         "stats"
       ],
       "Hash": "b399e5007fe512f314d74b41fa7e4a41"
+    },
+    "stars": {
+      "Package": "stars",
+      "Version": "0.6-8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "abind",
+        "classInt",
+        "methods",
+        "parallel",
+        "rlang",
+        "sf",
+        "units"
+      ],
+      "Hash": "c5934e48efbbbab89a52629921857120"
     },
     "stringi": {
       "Package": "stringi",
@@ -6641,6 +6733,18 @@
         "utils"
       ],
       "Hash": "b8acdf8af494d9ec19ccb2481a9b11c2"
+    },
+    "xts": {
+      "Package": "xts",
+      "Version": "0.14.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "methods",
+        "zoo"
+      ],
+      "Hash": "be0d8259b62c520dac5097ad7ba9baea"
     },
     "yaml": {
       "Package": "yaml",
