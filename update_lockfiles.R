@@ -6,6 +6,7 @@ piamPackages <- lucode2::piamPackages()
 # all pik piam packages and their (optional) dependencies, no optional dependencies of dependencies though
 packages <- unique(c(piamPackages,
                      unlist(tools::package_dependencies(piamPackages, which = "all", recursive = "strong"))))
+packages <- setdiff(packages, "archive") # archive is tricky to install on hpc, currently not installed
 
 # record global package environment, usually pik-piam packages are up-to-date and
 # CRAN packages are updated only when required by pik-piam packages
@@ -14,11 +15,9 @@ renv::snapshot(lockfile = "conservative.renv.lock", packages = packages, prompt 
 # install packages into an renv, update all and create lockfile
 invisible(callr::r(function(packages) {
   renv::load() # callr overwrites the .libPaths the renv .Rprofile has set, so load again
-  renv::hydrate(packages = packages)
+  renv::install(packages = setdiff(packages, utils::installed.packages()[, 1]))
   renv::update()
   renv::snapshot(lockfile = "../eager.renv.lock", packages = packages)
-  # remove obsolete packages/dependencies
-  renv::restore(lockfile = "../eager.renv.lock", clean = TRUE)
 }, list(packages), wd = "eager_renv", spinner = FALSE, show = TRUE))
 
 today <- format(Sys.time(), "%Y-%m-%d")
