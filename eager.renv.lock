@@ -3753,11 +3753,11 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.8.0",
+      "Version": "0.8.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
-      "RemoteSha": "cfff54748cc2d4d7db8b53a1277f2f118163a54c",
+      "RemoteSha": "1b77138c894c34c957688a431b857a90d27d786b",
       "Requirements": [
         "GDPuc",
         "brick",
@@ -3781,7 +3781,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "1b3473ed57d2deab8f2cc301ea3ec45d"
+      "Hash": "d4bd81890c6e0de2e5695eb92f8d9b47"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -4518,11 +4518,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.44.3",
+      "Version": "0.44.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "7c15a42ab6e3761e66197d63876a3b3ea3497441",
+      "RemoteSha": "05a396d77a7b304a8772da75135083fc7e2bccc5",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4540,7 +4540,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "66dd58cf13ee421ce7c8d76b1f115384"
+      "Hash": "e5a9f6d88e311488d68818bfeaad0df3"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -6017,7 +6017,7 @@
     },
     "spacetime": {
       "Package": "spacetime",
-      "Version": "1.3-2",
+      "Version": "1.3-3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6032,7 +6032,7 @@
         "xts",
         "zoo"
       ],
-      "Hash": "a8ac9c0b373f7d477d885112092f82df"
+      "Hash": "d0c888b4bc7c7021870885ccab5e8bf6"
     },
     "spam": {
       "Package": "spam",
