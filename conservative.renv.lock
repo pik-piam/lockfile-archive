@@ -3904,11 +3904,11 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "0.14.0",
+      "Version": "0.15.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrindustry",
-      "RemoteSha": "51c2fd298b980b520aaefe65dab4bc0e3cb2afe5",
+      "RemoteSha": "804e3d3d1140ee54cef25c45fb27eee5230d9e6c",
       "Requirements": [
         "GDPuc",
         "Hmisc",
@@ -3934,7 +3934,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "23f8f1eacf81b43566f31a700ebc31c6"
+      "Hash": "be869a6b9891203a543101d15b8689c5"
     },
     "mrland": {
       "Package": "mrland",
@@ -4000,11 +4000,11 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.54.0",
+      "Version": "1.55.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
-      "RemoteSha": "7ad1ab25ddc8f307f7c2b3d729286f6d0ff357bc",
+      "RemoteSha": "2df2b99c7987051a80ab744da503e9cb565fd7f9",
       "Requirements": [
         "R",
         "abind",
@@ -4036,7 +4036,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "5df8b2ede6080871236eae7bd58c47fa"
+      "Hash": "2ffc5f80ba42283b70168ffbdb12700d"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -4056,11 +4056,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.216.1",
+      "Version": "0.216.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "7e2b2626182eb59b81f10cbd66ef8504a2d13ec3",
+      "RemoteSha": "73fbb45dd578035a5009c6ce9cc3fa2a9d72ba65",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4091,7 +4091,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "bcb52d79876c2a1936ba5fa7e54755e8"
+      "Hash": "6bd83a80268469448fe5d4490a6dbdb3"
     },
     "mrsoil": {
       "Package": "mrsoil",
