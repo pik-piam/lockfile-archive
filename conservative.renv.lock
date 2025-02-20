@@ -3249,7 +3249,7 @@
     },
     "lubridate": {
       "Package": "lubridate",
-      "Version": "1.9.3",
+      "Version": "1.9.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3258,7 +3258,7 @@
         "methods",
         "timechange"
       ],
-      "Hash": "680ad542fbcf801442c83a6ac5a2126c"
+      "Hash": "be38bc740fc51783a78edb5a157e4104"
     },
     "lucode2": {
       "Package": "lucode2",
@@ -4042,11 +4042,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.216.3",
+      "Version": "0.217.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "8f7bc4a6bf71dfde532a64dc421a42500051d6a3",
+      "RemoteSha": "00311a6e4328c32139923505805493f9f1f6d3c5",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4077,7 +4077,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "96a79ec88ae0f476e8017c686ff6cfcc"
+      "Hash": "535af5e10eb7cb2824001ac4d80e5441"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4534,11 +4534,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.44.5",
+      "Version": "0.45.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "25e690e7c7f7271e48877a5824327e518813d4d6",
+      "RemoteSha": "f3b1372d4d38d3cb361ce780239ac402e04f3ec5",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4556,7 +4556,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "cb6db32c5dbef845a5c0fd0715ffad0f"
+      "Hash": "5ace4c5d3841c965fa0ff5052a374f84"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5001,7 +5001,7 @@
     },
     "purrr": {
       "Package": "purrr",
-      "Version": "1.0.2",
+      "Version": "1.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5012,7 +5012,7 @@
         "rlang",
         "vctrs"
       ],
-      "Hash": "1cba04a4e9414bdefc9dcaa99649a8dc"
+      "Hash": "cc8b5d43f90551fa6df0a6be5d640a4f"
     },
     "qgraph": {
       "Package": "qgraph",
@@ -5516,7 +5516,7 @@
     },
     "reticulate": {
       "Package": "reticulate",
-      "Version": "1.38.0",
+      "Version": "1.40.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5534,7 +5534,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "8810e64cfe0240afe926617a854a38a4"
+      "Hash": "04740f615607c4e6099356ff6d6694ee"
     },
     "rex": {
       "Package": "rex",
@@ -6434,13 +6434,13 @@
     },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.51",
+      "Version": "0.54",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "xfun"
       ],
-      "Hash": "d44e2fcd2e4e076f0aac540208559d1d"
+      "Hash": "3ec7e3ddcacc2d34a9046941222bf94d"
     },
     "trafficlight": {
       "Package": "trafficlight",
@@ -6687,15 +6687,16 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.45",
+      "Version": "0.50",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
+        "R",
         "grDevices",
         "stats",
         "tools"
       ],
-      "Hash": "ca59c87fe305b16a9141a5874c3a7889"
+      "Hash": "44ab88837d3f8dfc66a837299b887fa6"
     },
     "xml2": {
       "Package": "xml2",
@@ -6757,10 +6758,10 @@
     },
     "yaml": {
       "Package": "yaml",
-      "Version": "2.3.8",
+      "Version": "2.3.10",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "29240487a071f535f5e5d5a323b7afbd"
+      "Hash": "51dab85c6c98e50a18d7551e9d49f76c"
     },
     "ymlthis": {
       "Package": "ymlthis",
