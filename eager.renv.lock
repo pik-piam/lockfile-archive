@@ -263,10 +263,10 @@
     },
     "QuickJSR": {
       "Package": "QuickJSR",
-      "Version": "1.5.1",
+      "Version": "1.5.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6df3e8d7718ee15be75dc27753f96628"
+      "Hash": "8e10adec2c81b61543ee71290b11357b"
     },
     "R.cache": {
       "Package": "R.cache",
@@ -1301,14 +1301,14 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.16.4",
+      "Version": "1.17.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "38bbf05fc2503143db4c734a7e5cab66"
+      "Hash": "d06cd1a942bb17b607df7d57048d6840"
     },
     "dbplyr": {
       "Package": "dbplyr",
@@ -6790,7 +6790,7 @@
     },
     "zoo": {
       "Package": "zoo",
-      "Version": "1.8-12",
+      "Version": "1.8-13",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6801,7 +6801,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "5c715954112b45499fb1dadc6ee6ee3e"
+      "Hash": "6f871c10fc0f5f54d812207015595831"
     }
   }
 }
