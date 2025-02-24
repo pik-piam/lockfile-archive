@@ -3917,11 +3917,11 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.65.5",
+      "Version": "0.65.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
-      "RemoteSha": "96457ed8a1f48182c7f3a9791d7f0387b25dea3b",
+      "RemoteSha": "6438cbd8c5b82f5599d459e04d24b8f75520f1f9",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3946,7 +3946,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "1917214f6bc9382cc96f44fdb6518d21"
+      "Hash": "9bff23524b954e7520745494f3f919ca"
     },
     "mrlandcore": {
       "Package": "mrlandcore",
