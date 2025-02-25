@@ -781,11 +781,11 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.5.11",
+      "Version": "0.6.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/brick",
-      "RemoteSha": "a56e24e73c6758dabde9c026f4408069852229f6",
+      "RemoteSha": "7f3df154405659b11b7a1022e62008484c720106",
       "Requirements": [
         "dplyr",
         "gamstransfer",
@@ -803,7 +803,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "c2a6cf5c2f8c1300b70bbde5e61f5b8a"
+      "Hash": "cf498cca55fd4dbabbefe598358c5532"
     },
     "bridgesampling": {
       "Package": "bridgesampling",
@@ -3436,11 +3436,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.18.0",
+      "Version": "2.18.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "62b4927ed94eb4e91563c1255361cc80df48d0d8",
+      "RemoteSha": "388e03933f757798544f07cbebdeaeba73b3fffe",
       "Requirements": [
         "R",
         "dplyr",
@@ -3461,7 +3461,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "30ba35a943e8a73d65286932165f4b58"
+      "Hash": "d6db8655e74ae134d4cc6f578055397c"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3768,11 +3768,11 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.8.4",
+      "Version": "0.8.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
-      "RemoteSha": "76aba36ae84fd19670b2bfa315bf8dcc167ad8f1",
+      "RemoteSha": "9df6ba14020d7938085209c939e6c4db9d1ff039",
       "Requirements": [
         "GDPuc",
         "brick",
@@ -3796,7 +3796,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "dd14ad0a381b0fc9811bb7e54d0e9117"
+      "Hash": "af1978a6987874681e191e6ca53bfcc1"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -3925,11 +3925,11 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.65.6",
+      "Version": "0.65.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
-      "RemoteSha": "6438cbd8c5b82f5599d459e04d24b8f75520f1f9",
+      "RemoteSha": "3174db097dd2f8e144699f6483660d63a1d14727",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3954,7 +3954,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "9bff23524b954e7520745494f3f919ca"
+      "Hash": "f5c56eb1b84c3c14c1823b41729877fe"
     },
     "mrlandcore": {
       "Package": "mrlandcore",
@@ -4535,11 +4535,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.45.2",
+      "Version": "0.45.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "2669bfe86cb00b15c76982d23ceceb4bd7f1e07d",
+      "RemoteSha": "3d93a5d7927cea2b17123701e6c28db6c7f3e45a",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4557,7 +4557,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "5259faee696d307b9d9a640a1d9bf82c"
+      "Hash": "f3f321d9dd05c4359f08039d767f121c"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5103,11 +5103,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3140.0",
+      "Version": "0.3141.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
-      "RemoteSha": "258dbf06261f9c2ccc42a3925c4e03c74bfad31e",
+      "RemoteSha": "3c527150b8ed7500d5e95ad31c4306e12ab1371a",
       "Requirements": [
         "R",
         "cli",
@@ -5137,7 +5137,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "a62cbcf81ee60d7add8e8e428a86cfa1"
+      "Hash": "2e0f19dc01c04254caba15bbe286cfc8"
     },
     "r2databus": {
       "Package": "r2databus",
