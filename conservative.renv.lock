@@ -3768,11 +3768,11 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.8.5",
+      "Version": "0.8.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
-      "RemoteSha": "9df6ba14020d7938085209c939e6c4db9d1ff039",
+      "RemoteSha": "0e61f5ddc659f34b973155a0eea2ea63c5e9074a",
       "Requirements": [
         "GDPuc",
         "brick",
@@ -3796,7 +3796,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "af1978a6987874681e191e6ca53bfcc1"
+      "Hash": "e0b1748e2668d892c2eab473fa7a49e4"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -4535,11 +4535,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.45.4",
+      "Version": "0.45.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "3d93a5d7927cea2b17123701e6c28db6c7f3e45a",
+      "RemoteSha": "cbf1b4e286a1fc2965fccc63bdc95b18fbd0ac16",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4557,7 +4557,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "f3f321d9dd05c4359f08039d767f121c"
+      "Hash": "73a8cefa2e62a40822c49c9869b194d6"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5426,11 +5426,11 @@
     },
     "reportbrick": {
       "Package": "reportbrick",
-      "Version": "0.7.1",
+      "Version": "0.7.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reportbrick",
-      "RemoteSha": "b32fba3469092267540258217623b3ba462be4cd",
+      "RemoteSha": "4fb176ffa2f54f4697d46ee98ef0297eb3f55325",
       "Requirements": [
         "dplyr",
         "gamstransfer",
@@ -5447,7 +5447,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "30f5bd92fbb8472b463aef79fc3a9a2d"
+      "Hash": "2c8a597128d5126243cd3058867951d8"
     },
     "reporttransport": {
       "Package": "reporttransport",
