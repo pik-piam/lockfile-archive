@@ -263,10 +263,10 @@
     },
     "QuickJSR": {
       "Package": "QuickJSR",
-      "Version": "1.5.2",
+      "Version": "1.6.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "8e10adec2c81b61543ee71290b11357b"
+      "Hash": "77cdf5984a548b7baf02245c44111d36"
     },
     "R.cache": {
       "Package": "R.cache",
@@ -3883,11 +3883,9 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "0.16.0",
+      "Version": "0.17.1",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrindustry",
-      "RemoteSha": "149b45b1d08bc9eabe496fd8122dc458de397f1a",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "Hmisc",
@@ -3913,7 +3911,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "d9425d0585c5f16bb28a45ad83870aee"
+      "Hash": "1d5413ab6912992febe371da6c70a606"
     },
     "mrland": {
       "Package": "mrland",
@@ -4033,11 +4031,9 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.219.1",
+      "Version": "0.220.1",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "3e6432d6f526482ad63d561d97810b770cf232ec",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4068,7 +4064,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "de62913486447b3c5c06619d0fb9519f"
+      "Hash": "a331607617753ff5eceebc238c916fcf"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -5090,9 +5086,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3141.0",
+      "Version": "0.3141.2",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/quitte",
+      "RemoteSha": "5eb1c14dfa331dec8f8a1dd672b351dc801d0730",
       "Requirements": [
         "R",
         "cli",
@@ -5122,7 +5120,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "2e0f19dc01c04254caba15bbe286cfc8"
+      "Hash": "1672ed413923f22a5ac180489dfb962a"
     },
     "r2databus": {
       "Package": "r2databus",
@@ -6209,7 +6207,7 @@
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.8-21",
+      "Version": "1.8-29",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6217,7 +6215,7 @@
         "Rcpp",
         "methods"
       ],
-      "Hash": "ee46c9428db7a1bbc03b3c2f55016f94"
+      "Hash": "10321b092e16e7c5c02a3bf22727ef39"
     },
     "testthat": {
       "Package": "testthat",
@@ -6426,13 +6424,13 @@
     },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.55",
+      "Version": "0.56",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "xfun"
       ],
-      "Hash": "96cb024d1c628148e2056918fe5f1354"
+      "Hash": "68e6032b8c16f33fab8756e40a0dca1a"
     },
     "trafficlight": {
       "Package": "trafficlight",

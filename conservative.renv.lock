@@ -3891,11 +3891,11 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "0.16.0",
+      "Version": "0.17.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrindustry",
-      "RemoteSha": "149b45b1d08bc9eabe496fd8122dc458de397f1a",
+      "RemoteSha": "e041b667b31bf5c3b0a4d55212fd88c3d93b3ae1",
       "Requirements": [
         "GDPuc",
         "Hmisc",
@@ -3921,7 +3921,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "d9425d0585c5f16bb28a45ad83870aee"
+      "Hash": "1d5413ab6912992febe371da6c70a606"
     },
     "mrland": {
       "Package": "mrland",
@@ -4043,11 +4043,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.219.1",
+      "Version": "0.220.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "3e6432d6f526482ad63d561d97810b770cf232ec",
+      "RemoteSha": "0b3707d020b14d1759ca616e2411e0fe7f9d8c4b",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4078,7 +4078,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "de62913486447b3c5c06619d0fb9519f"
+      "Hash": "a331607617753ff5eceebc238c916fcf"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -5103,11 +5103,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3141.0",
+      "Version": "0.3141.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
-      "RemoteSha": "3c527150b8ed7500d5e95ad31c4306e12ab1371a",
+      "RemoteSha": "5eb1c14dfa331dec8f8a1dd672b351dc801d0730",
       "Requirements": [
         "R",
         "cli",
@@ -5137,7 +5137,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "2e0f19dc01c04254caba15bbe286cfc8"
+      "Hash": "1672ed413923f22a5ac180489dfb962a"
     },
     "r2databus": {
       "Package": "r2databus",
