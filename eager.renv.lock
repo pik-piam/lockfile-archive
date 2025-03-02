@@ -4523,11 +4523,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.45.11",
+      "Version": "0.45.12",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "ed499ef577aa231ef696375b05ebe0b4ba485270",
+      "RemoteSha": "53e0e6f6152077b976635b6e18fd01f0caa35774",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4545,7 +4545,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "f616fbe3c894b49db5ab3ccf6a022b81"
+      "Hash": "0d29b4cf9cbbf4e23f40a8c59947e6e0"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
