@@ -5404,13 +5404,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.1.1",
+      "Version": "1.1.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
-      "Hash": "e660d5fdd4939225e5f13a0f7784d67c"
+      "Hash": "695c69bbeb715a0cdaa18b41d08347df"
     },
     "reportbrick": {
       "Package": "reportbrick",
