@@ -3432,11 +3432,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.18.2",
+      "Version": "2.18.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "9499e7774dcdca2e7b6042330bea7fd66bccab95",
+      "RemoteSha": "abdde7c46116e42891b32c0838fa8b3aa784ae59",
       "Requirements": [
         "R",
         "dplyr",
@@ -3457,7 +3457,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "38b488a343070ab0194a34c73cc00aee"
+      "Hash": "8e8e5b46de4e702fbcacab891ee4bcd9"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3887,11 +3887,11 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "0.18.0",
+      "Version": "0.18.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrindustry",
-      "RemoteSha": "69de4dcf9fa517ecf81dc92e677a81b3f9572713",
+      "RemoteSha": "2247ba4e256af5d286ed5a3707963a3f89dd86fb",
       "Requirements": [
         "GDPuc",
         "Hmisc",
@@ -3917,7 +3917,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "3466a55f9ae1cd441e6b264b61f26399"
+      "Hash": "273edc1291c669ab50919446c67548a6"
     },
     "mrland": {
       "Package": "mrland",
@@ -4037,11 +4037,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.220.4",
+      "Version": "0.220.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "90d2368a6bb7aee8d8b0c8b8c1925fb1785c87f5",
+      "RemoteSha": "a6fbedce6347f4c3d414f38f9def97aa5059072b",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4072,7 +4072,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "b9bdec1ad315f973ca23a0fe8e296a14"
+      "Hash": "f09cf717fcc8a438ae3f7536fa904d57"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4244,9 +4244,11 @@
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
-      "Version": "1.0.18",
+      "Version": "1.1.0",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "git@github.com:pik-piam/mrwaterplots",
+      "RemoteSha": "2508c9ed5a39fdb9567a887816cbc9c30238c19f",
       "Requirements": [
         "R",
         "dplyr",
@@ -4260,9 +4262,10 @@
         "terra",
         "tidyr",
         "tidyselect",
-        "utils"
+        "utils",
+        "withr"
       ],
-      "Hash": "092d8f4121fe68c9c17cc196b2a7545f"
+      "Hash": "29498b4891dd0fbdf77fb260606b3f1e"
     },
     "mstools": {
       "Package": "mstools",
@@ -4527,11 +4530,9 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.45.16",
+      "Version": "0.45.18",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "7633ce9b858428a7509cd36eb5dc00a2549ced55",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4549,7 +4550,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "a1e69d3d8b3e987b4bec1e5f2ef54fc7"
+      "Hash": "4103f9ab6a797fc427768c5b4752f82c"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5336,11 +5337,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.168.1",
+      "Version": "1.168.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "a266a10d5f73fc2a5f929c90e719454097e73691",
+      "RemoteSha": "c273e594f2bbadddd4ef08d3a7f379f839e861e0",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5373,7 +5374,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "3b4797c20fdbcebaf9365ec297d375e4"
+      "Hash": "8c9d0bc6621c9e05e1f9ceff81e3e0ab"
     },
     "remotes": {
       "Package": "remotes",
