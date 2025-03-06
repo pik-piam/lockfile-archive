@@ -3432,11 +3432,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.18.4",
+      "Version": "2.19.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "abdde7c46116e42891b32c0838fa8b3aa784ae59",
+      "RemoteSha": "3359d32c9f192d06ffd816a3e960b30d58683a97",
       "Requirements": [
         "R",
         "dplyr",
@@ -3457,7 +3457,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "8e8e5b46de4e702fbcacab891ee4bcd9"
+      "Hash": "15bec15cdca58327fee0eee2b742d511"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3764,11 +3764,11 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.8.6",
+      "Version": "0.8.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
-      "RemoteSha": "0e61f5ddc659f34b973155a0eea2ea63c5e9074a",
+      "RemoteSha": "e80daf0659a685dcf169040a044c17b0339acdf9",
       "Requirements": [
         "GDPuc",
         "brick",
@@ -3792,7 +3792,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "e0b1748e2668d892c2eab473fa7a49e4"
+      "Hash": "581208a7295e3800cc7df47274f0f758"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -4142,11 +4142,11 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.61.23",
+      "Version": "2.61.25",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
-      "RemoteSha": "9568086bef8f9ee194e69494ca42dee0e3a92b12",
+      "RemoteSha": "d6326521994e8abef924ab52e98d59ad3f3a60c8",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4174,7 +4174,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "fd172f1c07ae7b1c08a7bd50e4fb5940"
+      "Hash": "ef15952806d5ed91afd496e2cfd9fde0"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -5337,11 +5337,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.168.3",
+      "Version": "1.169.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "c273e594f2bbadddd4ef08d3a7f379f839e861e0",
+      "RemoteSha": "ff306a764584ac6266a0cd4f2956335fe5713af4",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5374,7 +5374,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "8c9d0bc6621c9e05e1f9ceff81e3e0ab"
+      "Hash": "b98f3e0c345d6ece4237239ab756c8d5"
     },
     "remotes": {
       "Package": "remotes",
