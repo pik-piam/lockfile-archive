@@ -548,7 +548,7 @@
     },
     "abind": {
       "Package": "abind",
-      "Version": "1.4-5",
+      "Version": "1.4-8",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -556,7 +556,7 @@
         "methods",
         "utils"
       ],
-      "Hash": "4f57884290cc75ab22f4af9e9d4ca862"
+      "Hash": "2288423bb0f20a457800d7fc47f6aa54"
     },
     "alabama": {
       "Package": "alabama",
@@ -3409,11 +3409,11 @@
     },
     "magclass": {
       "Package": "magclass",
-      "Version": "6.17.2",
+      "Version": "6.18.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magclass",
-      "RemoteSha": "0d865c02cd1a3850042247434381e85993200e09",
+      "RemoteSha": "0971e0dd211ae577efd345c2f3a74e16efc1a903",
       "Requirements": [
         "R",
         "abind",
@@ -3421,7 +3421,7 @@
         "methods",
         "stats"
       ],
-      "Hash": "91f515fc74fb632b723848ab6293822a"
+      "Hash": "a90f35ec05f0f1fdf5580299cdc8b960"
     },
     "magic": {
       "Package": "magic",
@@ -3687,11 +3687,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.50.5",
+      "Version": "1.50.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "d92843a6eb3d42b1218a35a3fb3fa17d89adb916",
+      "RemoteSha": "4f32b4c370a2fa9ce48c15f187ad39798c6a0d61",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3723,7 +3723,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "72f09af0cd719e946fbf95048e054cd9"
+      "Hash": "cdeb3c6d03e7c3bc8353d4884d4b04d2"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -4254,11 +4254,11 @@
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
-      "Version": "1.1.0",
+      "Version": "1.1.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/mrwaterplots",
-      "RemoteSha": "2508c9ed5a39fdb9567a887816cbc9c30238c19f",
+      "RemoteSha": "5e7dc65b1484484a2ebccd5b8dc3231939af4460",
       "Requirements": [
         "R",
         "dplyr",
@@ -4275,7 +4275,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "29498b4891dd0fbdf77fb260606b3f1e"
+      "Hash": "4ebab227562cba84ab6f145599a9dc82"
     },
     "mstools": {
       "Package": "mstools",
@@ -5106,11 +5106,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3141.2",
+      "Version": "0.3141.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
-      "RemoteSha": "5eb1c14dfa331dec8f8a1dd672b351dc801d0730",
+      "RemoteSha": "a6fce0c4747ad0a4ab99b71e93366d5824380df5",
       "Requirements": [
         "R",
         "cli",
@@ -5140,7 +5140,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "1672ed413923f22a5ac180489dfb962a"
+      "Hash": "95563ac6933e654c568a4bb4e1acc2dd"
     },
     "r2databus": {
       "Package": "r2databus",
