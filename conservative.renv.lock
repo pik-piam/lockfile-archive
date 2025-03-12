@@ -3840,11 +3840,11 @@
     },
     "mrfaocore": {
       "Package": "mrfaocore",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrfaocore",
-      "RemoteSha": "74c543d570d871b2bc4b5874c92e0c0d4baa80c4",
+      "RemoteSha": "0d881ff2ae875c3b0acc6b5b2b91fd5476598370",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3858,7 +3858,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "9c31a796c9e5c513d0216095b4fd1b8e"
+      "Hash": "2a699c2d0bb367d5961e5aab8cbe5dbc"
     },
     "mrfeed": {
       "Package": "mrfeed",
@@ -3987,11 +3987,11 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.55.0",
+      "Version": "1.55.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
-      "RemoteSha": "2df2b99c7987051a80ab744da503e9cb565fd7f9",
+      "RemoteSha": "ed81284d5175471c3c34f510d57eeb9b31738fa6",
       "Requirements": [
         "R",
         "abind",
@@ -4023,7 +4023,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "2ffc5f80ba42283b70168ffbdb12700d"
+      "Hash": "ac656b370c387def0c92ac6b4cb73d2a"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -4538,11 +4538,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.45.21",
+      "Version": "0.45.22",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "754e818c688fa2747eb2c3d21acde8c2c27b1eb0",
+      "RemoteSha": "431eac248298bfd82021261d5f7673da4e9b14a6",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4560,7 +4560,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "07b1af98649c0c9665d6bf7fd8681a4f"
+      "Hash": "bc45892a08a8d536c46b81eab51226c0"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
