@@ -1602,11 +1602,11 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.15.4",
+      "Version": "2.15.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "65df6172ceac3dff3f36480195e73d751c38ec7e",
+      "RemoteSha": "13a8628d030cc930d759d01dc20901339399207f",
       "Requirements": [
         "R",
         "data.table",
@@ -1623,7 +1623,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "0e69272f3ae27a15a7e3665a0dae5938"
+      "Hash": "666bd1b0187dd7039a0c6dc55e201dd9"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3384,11 +3384,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.17.0",
+      "Version": "3.17.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
-      "RemoteSha": "e6c9cd14c281d8db76dd51e6732233811b488a3f",
+      "RemoteSha": "65ca4b89da7a79f18b9cc5c55d8ab46a92733764",
       "Requirements": [
         "Matrix",
         "R",
@@ -3405,7 +3405,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "341498aeff832eb9cfbd5effd6144e1a"
+      "Hash": "25919a7631421cc9461ec7765a48c8ca"
     },
     "magclass": {
       "Package": "magclass",
@@ -3436,11 +3436,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.19.1",
+      "Version": "2.20.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "3359d32c9f192d06ffd816a3e960b30d58683a97",
+      "RemoteSha": "5670f21ddc5a9b0222ea7e16fa15cab4d1d36a10",
       "Requirements": [
         "R",
         "dplyr",
@@ -3461,7 +3461,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "15bec15cdca58327fee0eee2b742d511"
+      "Hash": "362cc7aea0ae18a748dada262d1fa451"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3687,11 +3687,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.50.8",
+      "Version": "1.50.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "e341247966ed563934a16e3614451ec329605be4",
+      "RemoteSha": "a9624ad9bf8550c670af8b6ae406064b205ed532",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3723,7 +3723,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "e200baaca61a9ce31e8d2a205697840f"
+      "Hash": "30aebec3007e5130fdf885195ae87eb1"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3840,11 +3840,11 @@
     },
     "mrfaocore": {
       "Package": "mrfaocore",
-      "Version": "1.2.3",
+      "Version": "1.2.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrfaocore",
-      "RemoteSha": "bd72da83281661a569c439ad45f6860f9a9dbc43",
+      "RemoteSha": "79b8a17ec5baeff27d8871e419e8ba763cbb76ef",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3858,7 +3858,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "21bbcc530c8552ff06df5322f27ca253"
+      "Hash": "eda51f47a15fec2632fd126247ca50f1"
     },
     "mrfeed": {
       "Package": "mrfeed",
@@ -3891,11 +3891,11 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "0.18.3",
+      "Version": "0.18.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrindustry",
-      "RemoteSha": "a1a6b82351fb9fda8a639d1675e126d78bebef7a",
+      "RemoteSha": "b9036ac11add780ce64747be040796f042bcc211",
       "Requirements": [
         "GDPuc",
         "Hmisc",
@@ -3921,7 +3921,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "d01a6351324a999ff12b7e0310e582c4"
+      "Hash": "8bc612e624673f1713f13ea6e26e9645"
     },
     "mrland": {
       "Package": "mrland",
@@ -4043,11 +4043,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.220.7",
+      "Version": "0.221.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "79c392f7501d3dfbad55e14ce4d801f22c16dbc2",
+      "RemoteSha": "28103dd1ea77a73d77b6a0a7acab69913f3cb204",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4078,7 +4078,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "64cc59d4b39b5555990c957a368f825c"
+      "Hash": "68995f1c3a098682a101a921f92ae401"
     },
     "mrsoil": {
       "Package": "mrsoil",
