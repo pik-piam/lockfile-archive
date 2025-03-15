@@ -1602,11 +1602,11 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.15.8",
+      "Version": "2.15.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "13a8628d030cc930d759d01dc20901339399207f",
+      "RemoteSha": "a7299a18567e23d61eb19ca46a70388439ea9187",
       "Requirements": [
         "R",
         "data.table",
@@ -1623,7 +1623,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "666bd1b0187dd7039a0c6dc55e201dd9"
+      "Hash": "48b995685745288fe4bd00097c94c092"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3384,11 +3384,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.17.1",
+      "Version": "3.18.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
-      "RemoteSha": "65ca4b89da7a79f18b9cc5c55d8ab46a92733764",
+      "RemoteSha": "f67bb979927ddc27ae8faf06fb1ee7a547e6a20b",
       "Requirements": [
         "Matrix",
         "R",
@@ -3405,7 +3405,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "25919a7631421cc9461ec7765a48c8ca"
+      "Hash": "80ab7910068d49a0ee97980cceb1ae53"
     },
     "magclass": {
       "Package": "magclass",
@@ -3436,11 +3436,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.20.2",
+      "Version": "2.21.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "5670f21ddc5a9b0222ea7e16fa15cab4d1d36a10",
+      "RemoteSha": "0506526f8bfffbf5d5481d170e9376a883f7a427",
       "Requirements": [
         "R",
         "dplyr",
@@ -3461,7 +3461,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "362cc7aea0ae18a748dada262d1fa451"
+      "Hash": "ecefe92806f81039271ee5d0a8a7158e"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3663,11 +3663,11 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.23.4",
+      "Version": "0.23.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
-      "RemoteSha": "c8a5342c679306f957befcb9f3e43848c4330adb",
+      "RemoteSha": "92e3f5be0e5b8a3c287d48f22bd209ab7c219197",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3683,7 +3683,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "7ff2ff309e42dd70219fe6c919e26997"
+      "Hash": "77bada69d5fe5b64afe2eef496311cbe"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -3768,11 +3768,11 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.8.7",
+      "Version": "0.8.8",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
-      "RemoteSha": "e80daf0659a685dcf169040a044c17b0339acdf9",
+      "RemoteSha": "487a26edc48daa7852f8f600c185128185a3c5bd",
       "Requirements": [
         "GDPuc",
         "brick",
@@ -3796,7 +3796,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "581208a7295e3800cc7df47274f0f758"
+      "Hash": "8c87d583f232d0ab2a80c89cb2dff4b4"
     },
     "mrfable": {
       "Package": "mrfable",
@@ -4538,11 +4538,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.45.23",
+      "Version": "0.46.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "ad77deddc10fbe04a6e0da33ee7d0a17aa4414e2",
+      "RemoteSha": "fbfd5c1745949fe67f0533c95c4af2221b59c416",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4560,7 +4560,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "b9de58c3b703f389eed306fb0c14d2dc"
+      "Hash": "66c34694cfd184610ba7b1db296f1537"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
