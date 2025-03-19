@@ -1602,11 +1602,11 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.15.9",
+      "Version": "2.15.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "a7299a18567e23d61eb19ca46a70388439ea9187",
+      "RemoteSha": "16a53c3ee1c456ad10cb919944a2d1ca3f981957",
       "Requirements": [
         "R",
         "data.table",
@@ -1623,7 +1623,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "48b995685745288fe4bd00097c94c092"
+      "Hash": "0f7df907947031c48ed8b630d9cc0b8b"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3743,11 +3743,11 @@
     },
     "mrdrivers": {
       "Package": "mrdrivers",
-      "Version": "7.1.0",
+      "Version": "7.1.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrdrivers",
-      "RemoteSha": "49ebdff808f6c9fae6d02a137da54b18b388315d",
+      "RemoteSha": "aafa94d91c88117963fc1360683cf165581e2a16",
       "Requirements": [
         "GDPuc",
         "countrycode",
@@ -3764,7 +3764,7 @@
         "tidyr",
         "tidyselect"
       ],
-      "Hash": "273c374644a6e25e3b14680baf21e651"
+      "Hash": "f1e7d7e573be8f4ea5e437aa0b78cba8"
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
@@ -3987,11 +3987,11 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.55.1",
+      "Version": "1.55.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
-      "RemoteSha": "ed81284d5175471c3c34f510d57eeb9b31738fa6",
+      "RemoteSha": "58a45556fa62274314f52d7c6c735b10352e0dc2",
       "Requirements": [
         "R",
         "abind",
@@ -4023,7 +4023,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "ac656b370c387def0c92ac6b4cb73d2a"
+      "Hash": "48d363e20d1dd3142d58789043dcfaf5"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -4634,18 +4634,18 @@
     },
     "piamenv": {
       "Package": "piamenv",
-      "Version": "0.6.0",
+      "Version": "0.6.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamenv",
-      "RemoteSha": "2d9ed814ae4fed749a833a516c6b7341a65288c1",
+      "RemoteSha": "c41da9739efcd4570beaaf5f783b6df251e16bbc",
       "Requirements": [
         "desc",
         "methods",
         "renv",
         "withr"
       ],
-      "Hash": "71629b25aa802972a58c17fcd2b39341"
+      "Hash": "2850ac85e5c5eac3299b183b2e411847"
     },
     "piamutils": {
       "Package": "piamutils",
