@@ -781,11 +781,11 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.6.1",
+      "Version": "0.6.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/brick",
-      "RemoteSha": "7f3df154405659b11b7a1022e62008484c720106",
+      "RemoteSha": "12aee0b2a45ced9d1126a81eecaef7a55534750c",
       "Requirements": [
         "dplyr",
         "gamstransfer",
@@ -803,7 +803,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "cf498cca55fd4dbabbefe598358c5532"
+      "Hash": "674a91317468f9bf073c19e05d4f2866"
     },
     "bridgesampling": {
       "Package": "bridgesampling",
@@ -3384,11 +3384,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.18.0",
+      "Version": "3.18.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
-      "RemoteSha": "f67bb979927ddc27ae8faf06fb1ee7a547e6a20b",
+      "RemoteSha": "c0cbd68571ba6dc90f7dfd8b8fad2c8ab13088ff",
       "Requirements": [
         "Matrix",
         "R",
@@ -3405,7 +3405,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "80ab7910068d49a0ee97980cceb1ae53"
+      "Hash": "df365e34601f104599f9755c5c476e35"
     },
     "magclass": {
       "Package": "magclass",
@@ -3687,11 +3687,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.51.0",
+      "Version": "1.51.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "512833632d5f3da871e3d6c37b53a264fdae59e8",
+      "RemoteSha": "2293ba94c913d1ff08b18117e0546a3ad8511dba",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3723,7 +3723,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "71fd91d6b3d8d1657ea779b6642ff1b7"
+      "Hash": "932e83c257261e33bb5d3c1d3bf6445e"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -4152,11 +4152,11 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.61.25",
+      "Version": "2.61.26",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
-      "RemoteSha": "d6326521994e8abef924ab52e98d59ad3f3a60c8",
+      "RemoteSha": "0e21e5d31a0fea7fba670a6a95ec32fb3c1b7377",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4184,7 +4184,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "ef15952806d5ed91afd496e2cfd9fde0"
+      "Hash": "50e7bb6c2f66232d445471b418d16c98"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -5106,11 +5106,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3141.3",
+      "Version": "0.3142.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
-      "RemoteSha": "a6fce0c4747ad0a4ab99b71e93366d5824380df5",
+      "RemoteSha": "f0bf79cc7b905ebbc3e022ccd2811bd33211bfcd",
       "Requirements": [
         "R",
         "cli",
@@ -5140,7 +5140,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "95563ac6933e654c568a4bb4e1acc2dd"
+      "Hash": "5be400d031c7cb23c266180b2cec1927"
     },
     "r2databus": {
       "Package": "r2databus",
