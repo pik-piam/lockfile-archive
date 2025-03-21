@@ -3382,11 +3382,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.18.1",
+      "Version": "3.18.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
-      "RemoteSha": "c0cbd68571ba6dc90f7dfd8b8fad2c8ab13088ff",
+      "RemoteSha": "dd1624e79684a4982ca4f4c95ed282ca29b4a18e",
       "Requirements": [
         "Matrix",
         "R",
@@ -3403,7 +3403,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "df365e34601f104599f9755c5c476e35"
+      "Hash": "b229708bc089ffef261e70586dd4d837"
     },
     "magclass": {
       "Package": "magclass",
@@ -3921,11 +3921,11 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.65.8",
+      "Version": "0.65.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
-      "RemoteSha": "d0cb9fbabf3586167d72dd5f6ca883b4002bc3d7",
+      "RemoteSha": "31b016e483bc309efacb61c40d202a5bcba951ce",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3950,7 +3950,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "0f3f5d9e5a69aaebe0d4a4711c938be3"
+      "Hash": "4b3e46b8b417851d7a2c0bd858b1218a"
     },
     "mrlandcore": {
       "Package": "mrlandcore",
@@ -4534,11 +4534,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.47.1",
+      "Version": "0.47.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "e09ed7efe211274d575f51c4594d180639028d77",
+      "RemoteSha": "24c0324e41c7fc96389fda4ba55eb6e88656c379",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4556,7 +4556,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "2bd7b31c700524b24e2ff3982ca36bb9"
+      "Hash": "085c6550b8a848633a37d31db7260afb"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -4630,18 +4630,18 @@
     },
     "piamenv": {
       "Package": "piamenv",
-      "Version": "0.6.1",
+      "Version": "0.7.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamenv",
-      "RemoteSha": "c41da9739efcd4570beaaf5f783b6df251e16bbc",
+      "RemoteSha": "7975ace0310c136ee7f6af82d02cd984283f760e",
       "Requirements": [
         "desc",
         "methods",
         "renv",
         "withr"
       ],
-      "Hash": "2850ac85e5c5eac3299b183b2e411847"
+      "Hash": "4c3274ba9fa9fd53afa6b7619a4d2501"
     },
     "piamutils": {
       "Package": "piamutils",
@@ -5415,13 +5415,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.1.3",
+      "Version": "1.1.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
-      "Hash": "c0d8c54dfb87bb37029065173a71f185"
+      "Hash": "dbe7cc815b478931d08fb48359811dec"
     },
     "reportbrick": {
       "Package": "reportbrick",
