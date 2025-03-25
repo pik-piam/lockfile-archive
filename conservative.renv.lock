@@ -4043,11 +4043,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.222.1",
+      "Version": "0.222.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "fba96a604707ae5125b379fcb40e57210af8fb3c",
+      "RemoteSha": "10422640f030078ed330fc52e2a0b811284d86eb",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4078,7 +4078,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "77496cf3a115a141d1697d965cf8fe6f"
+      "Hash": "d19275b05f9a865aba45f8b227a1c8b9"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4152,11 +4152,11 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.61.26",
+      "Version": "2.61.27",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
-      "RemoteSha": "0e21e5d31a0fea7fba670a6a95ec32fb3c1b7377",
+      "RemoteSha": "86d8aade203af7753bb7fc10f58962917b48b559",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4184,7 +4184,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "50e7bb6c2f66232d445471b418d16c98"
+      "Hash": "7847cefaf3d8ef93e604fb9db72c9daa"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
