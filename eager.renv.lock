@@ -1605,11 +1605,11 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.15.10",
+      "Version": "2.15.11",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "16a53c3ee1c456ad10cb919944a2d1ca3f981957",
+      "RemoteSha": "dd7f547fc7b2eec9ebc664d4f501e39a4df753be",
       "Requirements": [
         "R",
         "data.table",
@@ -1626,7 +1626,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "0f7df907947031c48ed8b630d9cc0b8b"
+      "Hash": "67b3868d80e1d2faab3341b431eeede5"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -1831,7 +1831,7 @@
     },
     "foreign": {
       "Package": "foreign",
-      "Version": "0.8-88",
+      "Version": "0.8-89",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1840,7 +1840,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "ffaf42daf543339d0961120cb1de57b8"
+      "Hash": "04b49afd23730c33abe32c9fc3ad9959"
     },
     "fs": {
       "Package": "fs",
@@ -3447,11 +3447,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.21.4",
+      "Version": "2.21.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "5209ccf9bd5994750fae0d1de5ebba99ff3eb45a",
+      "RemoteSha": "a678b551c86b8b23bc4edb09ffbe9f6fa707213f",
       "Requirements": [
         "R",
         "dplyr",
@@ -3472,7 +3472,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "4934aedef474ef949b08d7e990cd396d"
+      "Hash": "4528173d3a2d07602ed1aed1393a3235"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3617,11 +3617,11 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.153.1",
+      "Version": "0.154.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mip",
-      "RemoteSha": "b14a95c43f3132143b3e11bf24d79c1ffe7f7da6",
+      "RemoteSha": "49b6f23c47ee4dbde6c9eb6aa48d8d144b5e6868",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -3642,7 +3642,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "1ad73253380487af3f1d45e56109eeb3"
+      "Hash": "52139aeb4194977adf879da31f1dc455"
     },
     "mnormt": {
       "Package": "mnormt",
@@ -4052,11 +4052,9 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.222.2",
+      "Version": "0.222.3",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "10422640f030078ed330fc52e2a0b811284d86eb",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4087,7 +4085,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "d19275b05f9a865aba45f8b227a1c8b9"
+      "Hash": "7927c217f22d2e754dfe62d9ca3b24c9"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4323,10 +4321,10 @@
     },
     "ncdf4": {
       "Package": "ncdf4",
-      "Version": "1.23",
+      "Version": "1.24",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6418a4ba45fbcff589080e9cbea26677"
+      "Hash": "2e2f7c6faeb943039f9f5793eab83482"
     },
     "nleqslv": {
       "Package": "nleqslv",
@@ -4643,18 +4641,18 @@
     },
     "piamenv": {
       "Package": "piamenv",
-      "Version": "0.7.0",
+      "Version": "0.7.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamenv",
-      "RemoteSha": "7975ace0310c136ee7f6af82d02cd984283f760e",
+      "RemoteSha": "beef317354adb6d8e4d114f398ba82ed9e573ea0",
       "Requirements": [
         "desc",
         "methods",
         "renv",
         "withr"
       ],
-      "Hash": "4c3274ba9fa9fd53afa6b7619a4d2501"
+      "Hash": "f98355a22cf8ac0a3e9f16f7c83bd4a3"
     },
     "piamutils": {
       "Package": "piamutils",
@@ -5114,11 +5112,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3142.0",
+      "Version": "0.3142.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
-      "RemoteSha": "f0bf79cc7b905ebbc3e022ccd2811bd33211bfcd",
+      "RemoteSha": "378eacad9da763e46b0c6da069464f572b75e663",
       "Requirements": [
         "R",
         "cli",
@@ -5148,7 +5146,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "5be400d031c7cb23c266180b2cec1927"
+      "Hash": "64fcbfb264676758011b9a23d19cf162"
     },
     "r2databus": {
       "Package": "r2databus",
@@ -5529,7 +5527,7 @@
     },
     "reticulate": {
       "Package": "reticulate",
-      "Version": "1.41.0.1",
+      "Version": "1.42.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5547,7 +5545,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "43239d1c5749802890d904295dbdc4a8"
+      "Hash": "92bc19ed4057a728ddbe09b804a3d84d"
     },
     "rex": {
       "Package": "rex",
@@ -5977,11 +5975,11 @@
     },
     "shinyresults": {
       "Package": "shinyresults",
-      "Version": "0.32.0",
+      "Version": "0.33.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/shinyresults",
-      "RemoteSha": "db0d4a8786602182272289da512a5b42e360c1cc",
+      "RemoteSha": "9159eeb8c1ad66a8bbe28fa9a602c694c5047db3",
       "Requirements": [
         "curl",
         "data.table",
@@ -5998,7 +5996,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "388b6aa4647d5777ee9b8893d533fdc7"
+      "Hash": "ad7abca9d1fd53885e03cd5e54450ffb"
     },
     "slurmR": {
       "Package": "slurmR",
