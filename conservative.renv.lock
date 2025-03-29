@@ -1602,11 +1602,11 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.16.3",
+      "Version": "2.16.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "245fa77ee3ceec1d5cb3d86fad24667a18cb16ba",
+      "RemoteSha": "798dc620ab7df46ceef252ce8f18b3a2bc691e0d",
       "Requirements": [
         "R",
         "data.table",
@@ -1623,7 +1623,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "c860edb4295189a060090d8646480ae5"
+      "Hash": "5fe8f925975fe60ac7d5171ff2b921e1"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3436,11 +3436,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.21.5",
+      "Version": "2.21.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "a678b551c86b8b23bc4edb09ffbe9f6fa707213f",
+      "RemoteSha": "717d6d43ec82b438c99299b85ee21ee68b1d8149",
       "Requirements": [
         "R",
         "dplyr",
@@ -3461,7 +3461,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "4528173d3a2d07602ed1aed1393a3235"
+      "Hash": "d76345cc927af689af1c133b67bedbdf"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3687,11 +3687,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.51.5",
+      "Version": "1.51.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "3a8eabf1ffbddf30a9a3ae4373677a22cea89d06",
+      "RemoteSha": "23d951105590783c99a868363f87ce1f8a442ffb",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3723,7 +3723,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "dbd5e58ce9ca47400734435bac8b1c51"
+      "Hash": "a30f21238edaba801cfcdd02c9478023"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -4043,11 +4043,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.224.2",
+      "Version": "0.224.4",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "6cef1b868769fb1ddd4a5f94389b5e3b242d30e4",
+      "RemoteSha": "8015b8972f155caa1c0d844975bd493ab128df21",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4078,7 +4078,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "4a352de0f5d355c9c62fe6e7d03f012b"
+      "Hash": "6eadc66170cee9d22fd5887867645158"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4105,11 +4105,11 @@
     },
     "mrtransport": {
       "Package": "mrtransport",
-      "Version": "0.11.3",
+      "Version": "0.11.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrtransport",
-      "RemoteSha": "24d24a7e99ecd8abcb76ffcd4e4330d9c47a74b0",
+      "RemoteSha": "a153899fba76e8e5adaf2860d663a5a671362d78",
       "Requirements": [
         "GDPuc",
         "data.table",
@@ -4129,7 +4129,7 @@
         "utils",
         "zoo"
       ],
-      "Hash": "fd193a7c01ae62f90c4786f15049f252"
+      "Hash": "b83b059521b13b5d28853a7580958e50"
     },
     "mrtutorial": {
       "Package": "mrtutorial",
@@ -5347,11 +5347,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.172.0",
+      "Version": "1.172.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "e8194a2ad1770527b7bff44d54dc82b3d804a8e9",
+      "RemoteSha": "d2f5ad2d84137a98543828d899d11418031b4ad4",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5384,7 +5384,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "334ed810a0ac7c6e7d79b99c4fe026a3"
+      "Hash": "711edc367614a730886e37a868cf13f2"
     },
     "remotes": {
       "Package": "remotes",
