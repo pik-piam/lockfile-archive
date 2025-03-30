@@ -1606,11 +1606,11 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.16.5",
+      "Version": "2.16.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "798dc620ab7df46ceef252ce8f18b3a2bc691e0d",
+      "RemoteSha": "a9c46f61c07128343928cc7680e70e89098dba18",
       "Requirements": [
         "R",
         "data.table",
@@ -1627,7 +1627,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "5fe8f925975fe60ac7d5171ff2b921e1"
+      "Hash": "35ce4edc19c42877cb3cfe17839d16c9"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
