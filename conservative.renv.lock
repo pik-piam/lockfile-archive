@@ -2440,9 +2440,11 @@
     },
     "goxygen": {
       "Package": "goxygen",
-      "Version": "1.4.4",
+      "Version": "1.4.5",
       "Source": "Repository",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/goxygen",
+      "RemoteSha": "87fe9ecbce54326619d125c72deab6b6b573bdb4",
       "Requirements": [
         "citation",
         "gms",
@@ -2451,7 +2453,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "9ae9cbbcb712ef8b77de596b78cb0d59"
+      "Hash": "53f94310392dcb2c45b7eba19197aba2"
     },
     "gridExtra": {
       "Package": "gridExtra",
@@ -3436,11 +3438,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.21.8",
+      "Version": "2.21.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "c00b89a25384b0ca072eb9936230d6483dedfd77",
+      "RemoteSha": "17e942205441aa6d4aea6bd5862b9f405ec76310",
       "Requirements": [
         "R",
         "dplyr",
@@ -3461,7 +3463,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "3898a659f51f45c6b57b614159f8f424"
+      "Hash": "a6ca591153aa123da396fd9868d7ce76"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3606,11 +3608,11 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.154.0",
+      "Version": "0.154.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mip",
-      "RemoteSha": "49b6f23c47ee4dbde6c9eb6aa48d8d144b5e6868",
+      "RemoteSha": "fb6198866d45cd436fa60be9fa0f2a1ab82e4269",
       "Requirements": [
         "R",
         "RColorBrewer",
@@ -3631,7 +3633,7 @@
         "trafficlight",
         "withr"
       ],
-      "Hash": "52139aeb4194977adf879da31f1dc455"
+      "Hash": "88a7ed6e8d3d130b67894284b08478e3"
     },
     "mnormt": {
       "Package": "mnormt",
