@@ -3547,7 +3547,7 @@
     },
     "mgcv": {
       "Package": "mgcv",
-      "Version": "1.9-2",
+      "Version": "1.9-3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3560,7 +3560,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "e64a9a25ac07858d20179896bd5ae26a"
+      "Hash": "51fcbccd59569cdad6da6b8e49cdf4f2"
     },
     "microbenchmark": {
       "Package": "microbenchmark",
@@ -3937,11 +3937,11 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.65.10",
+      "Version": "0.65.11",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
-      "RemoteSha": "31b016e483bc309efacb61c40d202a5bcba951ce",
+      "RemoteSha": "fd9a737251b4155abe3034f9fc5d6aa4e6566ad7",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3966,7 +3966,7 @@
         "terra",
         "withr"
       ],
-      "Hash": "4b3e46b8b417851d7a2c0bd858b1218a"
+      "Hash": "40b3a777cc3a8f25747bcfb24e227698"
     },
     "mrlandcore": {
       "Package": "mrlandcore",
@@ -4055,11 +4055,9 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.226.0",
+      "Version": "0.226.1",
       "Source": "Repository",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "29ff5b5549a6eb23f15c0a785a20f55e252d4790",
+      "Repository": "pik",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4090,7 +4088,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "a82dfd7354d19b7b01e814b6cdf03300"
+      "Hash": "6166a90df7ee10b8e042f348907b4498"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -6213,7 +6211,7 @@
     },
     "systemfonts": {
       "Package": "systemfonts",
-      "Version": "1.2.1",
+      "Version": "1.2.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6225,7 +6223,7 @@
         "tools",
         "utils"
       ],
-      "Hash": "f8b2924480a2679e2bad9750646112fe"
+      "Hash": "904ca7d4100c0aa449e3d669d8df5fd1"
     },
     "tensorA": {
       "Package": "tensorA",
