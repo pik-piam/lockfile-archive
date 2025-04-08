@@ -3999,11 +3999,11 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.55.2",
+      "Version": "1.56.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
-      "RemoteSha": "58a45556fa62274314f52d7c6c735b10352e0dc2",
+      "RemoteSha": "e3895a20a45c91f6c91cbe2faa68a9c1d273c0ac",
       "Requirements": [
         "R",
         "abind",
@@ -4035,7 +4035,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "48d363e20d1dd3142d58789043dcfaf5"
+      "Hash": "8dd4ba2ab8b80c9f0ff312a7aa9d9d1b"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -5357,11 +5357,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.173.0",
+      "Version": "1.173.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "b953d19b1d8d288ecffbd9e1e999770429fcd55d",
+      "RemoteSha": "183061fc5d5c4da605a68765abd3fda83670bbb3",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5394,7 +5394,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "7d23e50d93843bfb2bebd67b2189b963"
+      "Hash": "f58480f1d0ee885f45cfacd8230462c1"
     },
     "remotes": {
       "Package": "remotes",
@@ -6353,7 +6353,7 @@
     },
     "tidyterra": {
       "Package": "tidyterra",
-      "Version": "0.7.0",
+      "Version": "0.7.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6370,7 +6370,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "5fbb9b971f3a93b53113828e097cd879"
+      "Hash": "86140c32fd64c9520f6d260a032f8f9e"
     },
     "tidyverse": {
       "Package": "tidyverse",
