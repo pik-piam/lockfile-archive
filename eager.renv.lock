@@ -422,7 +422,7 @@
     },
     "Rdpack": {
       "Package": "Rdpack",
-      "Version": "2.6.3",
+      "Version": "2.6.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -432,7 +432,7 @@
         "tools",
         "utils"
       ],
-      "Hash": "bf6104ba9f100ca37aee79bbed40b978"
+      "Hash": "1b2ca1972e3b00cd0bb5a98e16403028"
     },
     "Rilostat": {
       "Package": "Rilostat",
@@ -2944,14 +2944,14 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.4.1",
+      "Version": "1.4.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "Rcpp",
         "rlang"
       ],
-      "Hash": "501744395cac0bab0fbcfab9375ae92c"
+      "Hash": "9591aabef9cf988f05bde9324fd3ad99"
     },
     "lattice": {
       "Package": "lattice",
@@ -3093,7 +3093,7 @@
     },
     "litedown": {
       "Package": "litedown",
-      "Version": "0.6",
+      "Version": "0.7",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3102,7 +3102,7 @@
         "utils",
         "xfun"
       ],
-      "Hash": "b8f7c3c648c7aa429421b2cee22ed8b1"
+      "Hash": "6145ea7089736f7b6585243bd3992508"
     },
     "lme4": {
       "Package": "lme4",
@@ -3234,11 +3234,11 @@
     },
     "lpjmlstats": {
       "Package": "lpjmlstats",
-      "Version": "0.6.1",
+      "Version": "0.7.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlstats",
-      "RemoteSha": "ea0923bb9ea332c2e754992b01e5a4470f66d6b7",
+      "RemoteSha": "2285ecb300530f91ca85f82e8b741bc5006cccd3",
       "Requirements": [
         "Matrix",
         "R",
@@ -3263,7 +3263,7 @@
         "tidyselect",
         "units"
       ],
-      "Hash": "0df57bfd4c6e61dc7801701e8375c2a9"
+      "Hash": "614b48ad64bcd8e31739d4b9460c9f6a"
     },
     "lubridate": {
       "Package": "lubridate",
@@ -3699,11 +3699,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.52.0",
+      "Version": "1.53.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "14845f57f09a9b65c1f4167a5ca3dc5db02f154e",
+      "RemoteSha": "9b1007bfb2d0831ef038733153ed1065d02bf832",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3735,7 +3735,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "03265be9daedf71cc333cbdcaac473ee"
+      "Hash": "11180d29d2925089130087392458e427"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3970,11 +3970,11 @@
     },
     "mrlandcore": {
       "Package": "mrlandcore",
-      "Version": "1.2.1",
+      "Version": "1.2.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrlandcore",
-      "RemoteSha": "fc32ce8780af48a32d2cb76be672c6df5132836d",
+      "RemoteSha": "b1022c6c71561763444926e888dad0589b657bc6",
       "Requirements": [
         "R",
         "SPEI",
@@ -3995,15 +3995,15 @@
         "terra",
         "withr"
       ],
-      "Hash": "3e17193fdc32703a9ab3fa93591ac883"
+      "Hash": "c9f967b0b94bc14fcdded24a3bb368fc"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.56.0",
+      "Version": "1.56.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
-      "RemoteSha": "e3895a20a45c91f6c91cbe2faa68a9c1d273c0ac",
+      "RemoteSha": "c85acbae15296ad2f18e0a0c77aba284b6b4ef06",
       "Requirements": [
         "R",
         "abind",
@@ -4018,6 +4018,7 @@
         "magclass",
         "magpiesets",
         "mrcommons",
+        "mrdrivers",
         "mrland",
         "mrlandcore",
         "mrsoil",
@@ -4035,7 +4036,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "8dd4ba2ab8b80c9f0ff312a7aa9d9d1b"
+      "Hash": "d262701e2f6307049d9642e09168f091"
     },
     "mrorganic": {
       "Package": "mrorganic",
@@ -4160,11 +4161,11 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.61.27",
+      "Version": "2.61.28",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
-      "RemoteSha": "86d8aade203af7753bb7fc10f58962917b48b559",
+      "RemoteSha": "1cbf46440dfc2be29ca5e189d2f5d9b45c359e7d",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4192,7 +4193,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "7847cefaf3d8ef93e604fb9db72c9daa"
+      "Hash": "a71b6ed37ac4451d7c9f8c81bbbc7596"
     },
     "mrvalidnitrogen": {
       "Package": "mrvalidnitrogen",
@@ -5357,11 +5358,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.173.1",
+      "Version": "1.174.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "183061fc5d5c4da605a68765abd3fda83670bbb3",
+      "RemoteSha": "c2897d866c901294cf364770ae86dc8675c7e351",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5394,7 +5395,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "f58480f1d0ee885f45cfacd8230462c1"
+      "Hash": "e5cbb19227184c76de1773977ab09cd7"
     },
     "remotes": {
       "Package": "remotes",
@@ -5439,11 +5440,11 @@
     },
     "reportbrick": {
       "Package": "reportbrick",
-      "Version": "0.7.2",
+      "Version": "0.7.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reportbrick",
-      "RemoteSha": "4fb176ffa2f54f4697d46ee98ef0297eb3f55325",
+      "RemoteSha": "b17c8d81f4eab40954d75b56e5324c541e62fa94",
       "Requirements": [
         "dplyr",
         "gamstransfer",
@@ -5460,7 +5461,7 @@
         "tidyr",
         "yaml"
       ],
-      "Hash": "2c8a597128d5126243cd3058867951d8"
+      "Hash": "2d6c1bfbb0528e6e15771593cca3c84c"
     },
     "reporttransport": {
       "Package": "reporttransport",
