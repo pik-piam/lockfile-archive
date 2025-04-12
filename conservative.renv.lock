@@ -3467,15 +3467,15 @@
     },
     "magpiesets": {
       "Package": "magpiesets",
-      "Version": "0.46.2",
+      "Version": "0.46.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpiesets",
-      "RemoteSha": "666b2f22c85bebf3eaacf509781cee1d86b6e43c",
+      "RemoteSha": "fa5e06a4fb4bcb73b9643da51865ec5fa7837254",
       "Requirements": [
         "magclass"
       ],
-      "Hash": "8f8504d16ed40699a3059dd150e75b75"
+      "Hash": "865a54e680b521c641d4029bd9437420"
     },
     "magrittr": {
       "Package": "magrittr",
@@ -3689,11 +3689,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.54.0",
+      "Version": "1.55.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "4597b46d124b4a387792f99dfd076e19499497f4",
+      "RemoteSha": "f6437015fcb1b59afd2920ba01c39da0788d6993",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3725,7 +3725,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "a3e12d30e4ede28bd251e43e391aee54"
+      "Hash": "96fb59ce92990169d89e052700df5784"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -4046,11 +4046,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.227.0",
+      "Version": "0.228.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "1d88de517530882f4067014eeb7e2c087e2c8574",
+      "RemoteSha": "d4aa484bd01c6f6bfcf2e92a243b93ae7841e379",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4081,7 +4081,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "f9c9e5217ed97b5ab1c67e284f7895d8"
+      "Hash": "e67b9488463c225aff36697a7f5c250b"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4541,11 +4541,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.48.8",
+      "Version": "0.48.13",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "715ad911ed457192ead141c07367fd1cdb8a4218",
+      "RemoteSha": "0c2c9523a1e0dbb62b21dff879026e3ef5452710",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4563,7 +4563,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "0268cfaf0f995a5db2a08b7ca7b29251"
+      "Hash": "a22efacf2dbef003e49e001b4cf7d636"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5350,11 +5350,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.175.2",
+      "Version": "1.175.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "42b47ca637bf885025eb20d9ac2b373a58a413e5",
+      "RemoteSha": "cc09e07fffe9400ce12d807396521b1813c86a0c",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5387,7 +5387,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "6182d0e17acfb7ac3e0112aa9ab78b75"
+      "Hash": "d7460540dd2f8f1db98eb4658596fdb9"
     },
     "remotes": {
       "Package": "remotes",
