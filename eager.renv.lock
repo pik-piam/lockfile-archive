@@ -2514,14 +2514,14 @@
     },
     "gss": {
       "Package": "gss",
-      "Version": "2.2-8",
+      "Version": "2.2-9",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "stats"
       ],
-      "Hash": "9c6bd1c7545c3ec0b3c1c4d7c74abb5c"
+      "Hash": "2075b68f941577099674f9caafa1a82f"
     },
     "gstat": {
       "Package": "gstat",
