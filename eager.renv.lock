@@ -5366,11 +5366,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.175.3",
+      "Version": "1.177.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "cc09e07fffe9400ce12d807396521b1813c86a0c",
+      "RemoteSha": "6bcf10e0a4ae184f32c2b8d4c4955b99b460bb5b",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5403,15 +5403,15 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "d7460540dd2f8f1db98eb4658596fdb9"
+      "Hash": "b9cd227aaa9d287a908f75cd69ee38e1"
     },
     "remindClimateAssessment": {
       "Package": "remindClimateAssessment",
-      "Version": "0.0.7",
+      "Version": "0.0.9",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remindClimateAssessment",
-      "RemoteSha": "971ef3c714887b648a7da0edc14acda594d30f86",
+      "RemoteSha": "c5008ec83250bca85f12570e139a73a65d109901",
       "Requirements": [
         "dplyr",
         "gdxrrw",
@@ -5427,7 +5427,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "6f699dc2bb095e104f22e2ffedc199bd"
+      "Hash": "b8181f536b798dbc3cf03b9c59af6c87"
     },
     "remotes": {
       "Package": "remotes",
@@ -6488,13 +6488,13 @@
     },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.56",
+      "Version": "0.57",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "xfun"
       ],
-      "Hash": "68e6032b8c16f33fab8756e40a0dca1a"
+      "Hash": "02d65e0c0415bf36a7ddc0d2ba50a840"
     },
     "trafficlight": {
       "Package": "trafficlight",
@@ -6735,10 +6735,10 @@
     },
     "writexl": {
       "Package": "writexl",
-      "Version": "1.5.3",
+      "Version": "1.5.4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ccf0e70e89a37a687a7700f62f4a3a94"
+      "Hash": "c58dc41b898080efbe58558fe012852c"
     },
     "xfun": {
       "Package": "xfun",
