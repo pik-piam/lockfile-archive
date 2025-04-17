@@ -2341,14 +2341,14 @@
     },
     "globals": {
       "Package": "globals",
-      "Version": "0.16.3",
+      "Version": "0.17.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "codetools"
       ],
-      "Hash": "2580567908cafd4f187c1e5a91e98b7f"
+      "Hash": "b3789a625be4a9825af3f7aff4e85223"
     },
     "glue": {
       "Package": "glue",
@@ -2694,7 +2694,7 @@
     },
     "httpuv": {
       "Package": "httpuv",
-      "Version": "1.6.15",
+      "Version": "1.6.16",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -2705,7 +2705,7 @@
         "promises",
         "utils"
       ],
-      "Hash": "d55aa087c47a63ead0f6fc10f8fa1ee0"
+      "Hash": "6c3c8728e40326de6529a5c46e377e5c"
     },
     "httr": {
       "Package": "httr",
@@ -3832,11 +3832,11 @@
     },
     "mrfactors": {
       "Package": "mrfactors",
-      "Version": "0.7.5",
+      "Version": "0.7.6",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/mrfactors",
-      "RemoteSha": "daf8748a8b4394015069c53d2cb54f060d696613",
+      "RemoteSha": "6b342821081675400a97b1b7c84791d9147ecf17",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3852,7 +3852,7 @@
         "readxl",
         "stringr"
       ],
-      "Hash": "827f6807c7b8e57ec9fb999a2e30de2c"
+      "Hash": "637d2ca6a9b4687e3930ec2c6f78a5b7"
     },
     "mrfaocore": {
       "Package": "mrfaocore",
@@ -4557,11 +4557,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.49.0",
+      "Version": "0.49.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "8139fbb63080af186941bb1730effd80b4796599",
+      "RemoteSha": "7a1efe1e2147f79da1750af1c87192c3552477a3",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4579,7 +4579,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "76b6c760f3f5ff95db698bf6f2897680"
+      "Hash": "f73b35475f2eeb7fe266c64b06ed8325"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
