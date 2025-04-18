@@ -3454,11 +3454,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.22.3",
+      "Version": "2.22.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "9de677c3b1767460f5802cd6f1a5f65529810f8d",
+      "RemoteSha": "91fb8bd9a8ba97517cf6afc3b5b4201358bb8494",
       "Requirements": [
         "R",
         "dplyr",
@@ -3479,7 +3479,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "d97bf9cc67d8671bffc2aff38be7fd4a"
+      "Hash": "ab744bdae3e9fa7383825f075d9fb564"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3590,7 +3590,7 @@
     },
     "miniUI": {
       "Package": "miniUI",
-      "Version": "0.1.1.1",
+      "Version": "0.1.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -3598,7 +3598,7 @@
         "shiny",
         "utils"
       ],
-      "Hash": "fec5f52652d60615fdb3957b3d74324a"
+      "Hash": "96b7fedb0964cc6b86631fb2fee23afa"
     },
     "minqa": {
       "Package": "minqa",
@@ -3703,11 +3703,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.55.0",
+      "Version": "1.55.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "f6437015fcb1b59afd2920ba01c39da0788d6993",
+      "RemoteSha": "a4fd71dc2c55fa7668eade251d7d463a16cb8f04",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3739,7 +3739,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "96fb59ce92990169d89e052700df5784"
+      "Hash": "7e51244c17e8836e1983fa1e65d2c22c"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -4271,11 +4271,11 @@
     },
     "mrwaterplots": {
       "Package": "mrwaterplots",
-      "Version": "1.1.1",
+      "Version": "1.1.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/mrwaterplots",
-      "RemoteSha": "5e7dc65b1484484a2ebccd5b8dc3231939af4460",
+      "RemoteSha": "6d68cb83de532bfdad41512033c889a655a76b58",
       "Requirements": [
         "R",
         "dplyr",
@@ -4292,7 +4292,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "4ebab227562cba84ab6f145599a9dc82"
+      "Hash": "96ea7145c05aa98d619554c795b23e52"
     },
     "mstools": {
       "Package": "mstools",
@@ -4557,11 +4557,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.49.1",
+      "Version": "0.49.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
-      "RemoteSha": "7a1efe1e2147f79da1750af1c87192c3552477a3",
+      "RemoteSha": "73c7ad64123ebbc9529b73a9d0403fb38cbf8f14",
       "Requirements": [
         "GDPuc",
         "dplyr",
@@ -4579,7 +4579,7 @@
         "tidyselect",
         "yaml"
       ],
-      "Hash": "f73b35475f2eeb7fe266c64b06ed8325"
+      "Hash": "34046771e3a3cd7b542b3227e528bacf"
     },
     "piamModelTests": {
       "Package": "piamModelTests",
@@ -5124,11 +5124,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3142.1",
+      "Version": "0.3143.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
-      "RemoteSha": "378eacad9da763e46b0c6da069464f572b75e663",
+      "RemoteSha": "9b8f7c4ba816ced993bac8052c0bc9d61b5d7d6a",
       "Requirements": [
         "R",
         "cli",
@@ -5158,7 +5158,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "64fcbfb264676758011b9a23d19cf162"
+      "Hash": "449d73c4ced16119cbe3b6ef613ef8b9"
     },
     "r2databus": {
       "Package": "r2databus",
@@ -5366,11 +5366,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.177.0",
+      "Version": "1.177.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "6bcf10e0a4ae184f32c2b8d4c4955b99b460bb5b",
+      "RemoteSha": "a28daa1a561d83552d9d881918c575fc3d57efcb",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5403,7 +5403,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "b9cd227aaa9d287a908f75cd69ee38e1"
+      "Hash": "40fce351184e4283d709e2f9a05a071d"
     },
     "remindClimateAssessment": {
       "Package": "remindClimateAssessment",
