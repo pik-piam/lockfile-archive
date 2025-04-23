@@ -4637,18 +4637,18 @@
     },
     "piamenv": {
       "Package": "piamenv",
-      "Version": "0.7.1",
+      "Version": "0.7.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamenv",
-      "RemoteSha": "beef317354adb6d8e4d114f398ba82ed9e573ea0",
+      "RemoteSha": "b540807252ac35cde55657346fdf093cc89f3bf7",
       "Requirements": [
         "desc",
         "methods",
         "renv",
         "withr"
       ],
-      "Hash": "f98355a22cf8ac0a3e9f16f7c83bd4a3"
+      "Hash": "35b1993d7c3505c83f55fa352855a815"
     },
     "piamutils": {
       "Package": "piamutils",
