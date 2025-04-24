@@ -1075,14 +1075,14 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "3.6.4",
+      "Version": "3.6.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "491c34d3d9dd0d2fe13d9f278bb90795"
+      "Hash": "16850760556401a2eeb27d39bd11c9cb"
     },
     "clipr": {
       "Package": "clipr",
@@ -3402,11 +3402,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.20.0",
+      "Version": "3.20.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
-      "RemoteSha": "86ed53df7a47c72dd0aaaf5bcd2aa1185a54fea1",
+      "RemoteSha": "c4a6ccb59a409bad7afdef5362a64843cd8ea241",
       "Requirements": [
         "Matrix",
         "R",
@@ -3423,7 +3423,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "29dcb1c0f6db974b5dbf0feafdd84dcc"
+      "Hash": "785ff0f32dcd26e24d73babcf717cc7a"
     },
     "magclass": {
       "Package": "magclass",
@@ -3681,9 +3681,11 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.23.7",
+      "Version": "0.23.9",
       "Source": "Repository",
-      "Repository": "pik",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/modelstats",
+      "RemoteSha": "57428bb965057ca6589d4971677b40b36f8ad6bb",
       "Requirements": [
         "crayon",
         "dplyr",
@@ -3699,7 +3701,7 @@
         "utils",
         "withr"
       ],
-      "Hash": "0e658ab47734a932c055ad8a9103b9a7"
+      "Hash": "0fd1f0379d4c5ef7f007939de237cace"
     },
     "mrcommons": {
       "Package": "mrcommons",
@@ -4060,11 +4062,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.228.2",
+      "Version": "0.229.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "e0920522872c1346befa78dd8a50accea3816094",
+      "RemoteSha": "8c04b51174ba2af0d21a443354459be7a67093ec",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4095,7 +4097,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "ca5f330333de92018f5f524d4d5b8189"
+      "Hash": "73f7137ed966c92a7333fc6e541bdaa7"
     },
     "mrsoil": {
       "Package": "mrsoil",
