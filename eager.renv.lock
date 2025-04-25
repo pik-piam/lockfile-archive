@@ -2295,14 +2295,14 @@
       "RemoteUsername": "yjunechoe",
       "RemoteRepo": "ggtrace",
       "RemoteRef": "main",
-      "RemoteSha": "20269a576f7d5819a0316320d969b9e6e4ed6c5b",
+      "RemoteSha": "7a175f4d832d02f4ad99efd156b15f9ca86db4de",
       "RemoteHost": "api.github.com",
       "Requirements": [
         "R",
         "cli",
         "rlang"
       ],
-      "Hash": "30025a54e43e492ee2eed603afa83eb7"
+      "Hash": "878fe35d3889e97d8fdc316734478132"
     },
     "gh": {
       "Package": "gh",
@@ -3858,11 +3858,11 @@
     },
     "mrfaocore": {
       "Package": "mrfaocore",
-      "Version": "1.2.4",
+      "Version": "1.2.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrfaocore",
-      "RemoteSha": "79b8a17ec5baeff27d8871e419e8ba763cbb76ef",
+      "RemoteSha": "936d595824778a4cfcdda5bd0b03e3b652ad95ab",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3876,7 +3876,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "eda51f47a15fec2632fd126247ca50f1"
+      "Hash": "5baeb50c856e27839b3a2cfd8a7e2183"
     },
     "mrfeed": {
       "Package": "mrfeed",
@@ -4310,17 +4310,6 @@
         "stringr"
       ],
       "Hash": "b3f72c081e6fbc34b0e4126416fe0bf2"
-    },
-    "munsell": {
-      "Package": "munsell",
-      "Version": "0.5.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "colorspace",
-        "methods"
-      ],
-      "Hash": "4fd8900853b746af55b81fda99da7695"
     },
     "mvtnorm": {
       "Package": "mvtnorm",
@@ -5126,11 +5115,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3143.0",
+      "Version": "0.3144.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
-      "RemoteSha": "9b8f7c4ba816ced993bac8052c0bc9d61b5d7d6a",
+      "RemoteSha": "f65223f99d5e1cf162c08f3e28545f2d12c6442f",
       "Requirements": [
         "R",
         "cli",
@@ -5160,7 +5149,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "449d73c4ced16119cbe3b6ef613ef8b9"
+      "Hash": "20a0c6d3160067fd20b6e24b971f290b"
     },
     "r2databus": {
       "Package": "r2databus",
@@ -5409,11 +5398,11 @@
     },
     "remindClimateAssessment": {
       "Package": "remindClimateAssessment",
-      "Version": "0.0.9",
+      "Version": "0.0.10",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remindClimateAssessment",
-      "RemoteSha": "c5008ec83250bca85f12570e139a73a65d109901",
+      "RemoteSha": "c54da0d101b93b9c3bba7b287d1e2e2dc07046af",
       "Requirements": [
         "dplyr",
         "gdxrrw",
@@ -5429,7 +5418,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "b8181f536b798dbc3cf03b9c59af6c87"
+      "Hash": "16f1f3da6baf155bfd72102429fa6a87"
     },
     "remotes": {
       "Package": "remotes",
@@ -5887,7 +5876,7 @@
     },
     "scales": {
       "Package": "scales",
-      "Version": "1.3.0",
+      "Version": "1.4.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5899,11 +5888,10 @@
         "glue",
         "labeling",
         "lifecycle",
-        "munsell",
         "rlang",
         "viridisLite"
       ],
-      "Hash": "c19df082ba346b0ffa6f833e92de34d1"
+      "Hash": "c5bba8f0d1df8c4b9538a40570798d9b"
     },
     "selectr": {
       "Package": "selectr",

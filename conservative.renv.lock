@@ -3842,11 +3842,11 @@
     },
     "mrfaocore": {
       "Package": "mrfaocore",
-      "Version": "1.2.4",
+      "Version": "1.2.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrfaocore",
-      "RemoteSha": "79b8a17ec5baeff27d8871e419e8ba763cbb76ef",
+      "RemoteSha": "936d595824778a4cfcdda5bd0b03e3b652ad95ab",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3860,7 +3860,7 @@
         "tidyr",
         "withr"
       ],
-      "Hash": "eda51f47a15fec2632fd126247ca50f1"
+      "Hash": "5baeb50c856e27839b3a2cfd8a7e2183"
     },
     "mrfeed": {
       "Package": "mrfeed",
@@ -5109,11 +5109,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3143.0",
+      "Version": "0.3144.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
-      "RemoteSha": "9b8f7c4ba816ced993bac8052c0bc9d61b5d7d6a",
+      "RemoteSha": "f65223f99d5e1cf162c08f3e28545f2d12c6442f",
       "Requirements": [
         "R",
         "cli",
@@ -5143,7 +5143,7 @@
         "writexl",
         "zoo"
       ],
-      "Hash": "449d73c4ced16119cbe3b6ef613ef8b9"
+      "Hash": "20a0c6d3160067fd20b6e24b971f290b"
     },
     "r2databus": {
       "Package": "r2databus",
