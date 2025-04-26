@@ -367,7 +367,7 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "14.4.1-1",
+      "Version": "14.4.2-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -377,7 +377,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "d2db71ca6fcb649bdc599391d0687b48"
+      "Hash": "a59e0967c6e2cc96f0131683502ef45e"
     },
     "RcppEigen": {
       "Package": "RcppEigen",
@@ -5357,11 +5357,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.177.1",
+      "Version": "1.178.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
-      "RemoteSha": "a28daa1a561d83552d9d881918c575fc3d57efcb",
+      "RemoteSha": "72b2e0dd10b52def2a9486b5b50a068400861074",
       "Requirements": [
         "GDPuc",
         "abind",
@@ -5394,7 +5394,7 @@
         "tidyselect",
         "withr"
       ],
-      "Hash": "40fce351184e4283d709e2f9a05a071d"
+      "Hash": "b16d109de1e5b3a692a20f74e29aeb9f"
     },
     "remindClimateAssessment": {
       "Package": "remindClimateAssessment",
