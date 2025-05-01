@@ -5303,7 +5303,7 @@
     },
     "reformulas": {
       "Package": "reformulas",
-      "Version": "0.4.0",
+      "Version": "0.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5312,7 +5312,7 @@
         "methods",
         "stats"
       ],
-      "Hash": "d23beb08dca526d22ff47ce399260ba4"
+      "Hash": "697a42ea989da568a0251101f36a7632"
     },
     "regressionworlddata": {
       "Package": "regressionworlddata",
@@ -6233,11 +6233,12 @@
     },
     "systemfonts": {
       "Package": "systemfonts",
-      "Version": "1.2.2",
+      "Version": "1.2.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
+        "base64enc",
         "cpp11",
         "grid",
         "jsonlite",
@@ -6245,7 +6246,7 @@
         "tools",
         "utils"
       ],
-      "Hash": "904ca7d4100c0aa449e3d669d8df5fd1"
+      "Hash": "fe31683d2c6fd9a5724bcdf8ed44ded9"
     },
     "tensorA": {
       "Package": "tensorA",
