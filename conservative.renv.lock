@@ -3818,11 +3818,11 @@
     },
     "mrfactors": {
       "Package": "mrfactors",
-      "Version": "0.7.6",
+      "Version": "0.7.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/mrfactors",
-      "RemoteSha": "6b342821081675400a97b1b7c84791d9147ecf17",
+      "RemoteSha": "d505aa6f117ca7b44ab317cff866b082893afbc8",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3838,7 +3838,7 @@
         "readxl",
         "stringr"
       ],
-      "Hash": "637d2ca6a9b4687e3930ec2c6f78a5b7"
+      "Hash": "2dfd343a4db93076670ccdbfe7b362c0"
     },
     "mrfaocore": {
       "Package": "mrfaocore",

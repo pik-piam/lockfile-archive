@@ -3834,11 +3834,11 @@
     },
     "mrfactors": {
       "Package": "mrfactors",
-      "Version": "0.7.6",
+      "Version": "0.7.7",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/mrfactors",
-      "RemoteSha": "6b342821081675400a97b1b7c84791d9147ecf17",
+      "RemoteSha": "d505aa6f117ca7b44ab317cff866b082893afbc8",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3854,7 +3854,7 @@
         "readxl",
         "stringr"
       ],
-      "Hash": "637d2ca6a9b4687e3930ec2c6f78a5b7"
+      "Hash": "2dfd343a4db93076670ccdbfe7b362c0"
     },
     "mrfaocore": {
       "Package": "mrfaocore",
@@ -6302,7 +6302,7 @@
     },
     "textshaping": {
       "Package": "textshaping",
-      "Version": "1.0.0",
+      "Version": "1.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6314,7 +6314,7 @@
         "systemfonts",
         "utils"
       ],
-      "Hash": "5d44adc8145c718066b0bc374d142ca1"
+      "Hash": "75b5813527f4154cb467e4cf60911333"
     },
     "tibble": {
       "Package": "tibble",
@@ -6586,13 +6586,13 @@
     },
     "utf8": {
       "Package": "utf8",
-      "Version": "1.2.4",
+      "Version": "1.2.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "62b65c52671e6665f803ff02954446e9"
+      "Hash": "ed553a57e9eb21f4d0298fbc1ad7b4df"
     },
     "uuid": {
       "Package": "uuid",
