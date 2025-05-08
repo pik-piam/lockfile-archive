@@ -2295,14 +2295,14 @@
       "RemoteUsername": "yjunechoe",
       "RemoteRepo": "ggtrace",
       "RemoteRef": "main",
-      "RemoteSha": "afe23a07a6303e2d19f03255258a8bec7925b35e",
+      "RemoteSha": "118941ba358d6051fb68a32ebc328bef6700e05e",
       "RemoteHost": "api.github.com",
       "Requirements": [
         "R",
         "cli",
         "rlang"
       ],
-      "Hash": "3a3a785164edf4242d4ee4ef69ff1294"
+      "Hash": "8056b7ae951e75bce6215ebecb7b4cc4"
     },
     "gh": {
       "Package": "gh",
@@ -3759,6 +3759,27 @@
       ],
       "Hash": "bbddb8bea0e381e543f23ea18f6ff4b5"
     },
+    "mrdownscale": {
+      "Package": "mrdownscale",
+      "Version": "0.33.0",
+      "Source": "Repository",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "git@github.com:pik-piam/mrdownscale",
+      "RemoteSha": "f4e08e1ec54478a9e1c7c9c7650bb235888ba286",
+      "Requirements": [
+        "R",
+        "luscale",
+        "madrat",
+        "magclass",
+        "magpie4",
+        "mip",
+        "mstools",
+        "ncdf4",
+        "terra",
+        "withr"
+      ],
+      "Hash": "1c48867436eab21359e04d5d8ae76a9a"
+    },
     "mrdrivers": {
       "Package": "mrdrivers",
       "Version": "7.1.2",
@@ -4062,11 +4083,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.229.2",
+      "Version": "0.229.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "e4b30e3c6904fa3f420247a052a3bccd1dc53c56",
+      "RemoteSha": "6855925696f6bad835dcda3e40b2096fc29dd21b",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4097,7 +4118,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "2dcdbde0fcaadc459003eb7970fc3e6d"
+      "Hash": "ebcc6229d8738155bbdbd9d9903ce88b"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -4470,7 +4491,7 @@
     },
     "parallelly": {
       "Package": "parallelly",
-      "Version": "1.43.0",
+      "Version": "1.44.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -4478,7 +4499,7 @@
         "tools",
         "utils"
       ],
-      "Hash": "ca40f736e4d2dc6981c1dc9d14ea3dcf"
+      "Hash": "b086ce058cec94982442e6d6be4aa14f"
     },
     "patchwork": {
       "Package": "patchwork",
@@ -4619,11 +4640,11 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.7.2",
+      "Version": "0.7.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamValidation",
-      "RemoteSha": "af0570892e06d717191dbb43bd7f86896a48a5a4",
+      "RemoteSha": "a4fd07a325109a2f82f720b30115045de9ce0614",
       "Requirements": [
         "R",
         "devtools",
@@ -4640,7 +4661,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "000066a404745f5ac832e8a68760b46a"
+      "Hash": "4184f0969ec7b7477e3ff2cf000d9f91"
     },
     "piamenv": {
       "Package": "piamenv",
@@ -6214,15 +6235,20 @@
     },
     "svglite": {
       "Package": "svglite",
-      "Version": "2.1.3",
+      "Version": "2.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
+        "base64enc",
+        "cli",
         "cpp11",
-        "systemfonts"
+        "lifecycle",
+        "rlang",
+        "systemfonts",
+        "textshaping"
       ],
-      "Hash": "124a41fdfa23e8691cb744c762f10516"
+      "Hash": "cb49ff1590080d6700ffbfa23a3691c5"
     },
     "sys": {
       "Package": "sys",
