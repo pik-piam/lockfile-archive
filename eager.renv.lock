@@ -1131,10 +1131,10 @@
     },
     "collections": {
       "Package": "collections",
-      "Version": "0.3.7",
+      "Version": "0.3.8",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "90a0eda114ab0bef170ddbf5ef0cd93f"
+      "Hash": "e1fbd5d2747818b5e9e621d114b8ed48"
     },
     "colorspace": {
       "Package": "colorspace",
@@ -1887,7 +1887,7 @@
     },
     "gamstransfer": {
       "Package": "gamstransfer",
-      "Version": "3.0.4",
+      "Version": "3.0.5",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1896,7 +1896,7 @@
         "Rcpp",
         "collections"
       ],
-      "Hash": "c403beff7d50a998a7f1444ca0941f54"
+      "Hash": "558364f933aefb987dbbe91f04e69848"
     },
     "gargle": {
       "Package": "gargle",
@@ -2341,14 +2341,14 @@
     },
     "globals": {
       "Package": "globals",
-      "Version": "0.17.0",
+      "Version": "0.18.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "codetools"
       ],
-      "Hash": "b3789a625be4a9825af3f7aff4e85223"
+      "Hash": "0e0c37bd3108b8835c99eaa4d83cf6f5"
     },
     "glue": {
       "Package": "glue",
@@ -3454,11 +3454,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.22.9",
+      "Version": "2.23.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "780bed8ae666c56d5951e675dac69ef7e0c14da6",
+      "RemoteSha": "aa87b33b0439efa7e21f5818ea788dc41746dfb9",
       "Requirements": [
         "R",
         "dplyr",
@@ -3479,7 +3479,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "7fc4c779d709c590f57f5f47480558ad"
+      "Hash": "5b768cf7355fe266648182d4d80ac852"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3705,11 +3705,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.55.3",
+      "Version": "1.55.5",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "bfeaff6e2c9e103becf49f0e72395c80a11a1b2a",
+      "RemoteSha": "094bc39141f49b38572c70d703546f7ef32d9786",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3741,7 +3741,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "bb5fe4f25b9e9602ebb66dd67dc2299d"
+      "Hash": "7ebf0fb3ffa946a66f78742548a728d1"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -3930,11 +3930,11 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "0.22.0",
+      "Version": "0.23.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrindustry",
-      "RemoteSha": "b2e4580ff648a8f8947ea18b814e354f061268e4",
+      "RemoteSha": "0de6ccd628fb31f872431d4f913542e0fd83d91f",
       "Requirements": [
         "GDPuc",
         "Hmisc",
@@ -3960,7 +3960,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "6067d5f0d5680a15d0ba74e1dc543c9a"
+      "Hash": "4dc042918c6ad301010cedd1240917c2"
     },
     "mrland": {
       "Package": "mrland",
