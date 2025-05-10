@@ -4067,11 +4067,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.229.3",
+      "Version": "0.230.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "6855925696f6bad835dcda3e40b2096fc29dd21b",
+      "RemoteSha": "e956d97fcb3ad225708012077a315e7c1ecf60f7",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4102,7 +4102,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "ebcc6229d8738155bbdbd9d9903ce88b"
+      "Hash": "c0b1125cd8b120d69632b8080777c49d"
     },
     "mrsoil": {
       "Package": "mrsoil",

@@ -1857,7 +1857,7 @@
     },
     "future": {
       "Package": "future",
-      "Version": "1.40.0",
+      "Version": "1.49.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1869,7 +1869,7 @@
         "parallelly",
         "utils"
       ],
-      "Hash": "b70fbf0e3cfb7efcdfde3643365aee7e"
+      "Hash": "cc19672e849529f5d112fa4fde291625"
     },
     "future.apply": {
       "Package": "future.apply",
@@ -1967,14 +1967,14 @@
     },
     "generics": {
       "Package": "generics",
-      "Version": "0.1.3",
+      "Version": "0.1.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "15e9634c0fcd294799e9b2e929ed1b86"
+      "Hash": "4b29bf698d0c7bdb9f1e4976e7ade41d"
     },
     "geodata": {
       "Package": "geodata",
@@ -4083,11 +4083,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.229.3",
+      "Version": "0.230.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteSha": "6855925696f6bad835dcda3e40b2096fc29dd21b",
+      "RemoteSha": "e956d97fcb3ad225708012077a315e7c1ecf60f7",
       "Requirements": [
         "GDPuc",
         "R",
@@ -4118,7 +4118,7 @@
         "tidyselect",
         "zoo"
       ],
-      "Hash": "ebcc6229d8738155bbdbd9d9903ce88b"
+      "Hash": "c0b1125cd8b120d69632b8080777c49d"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -6287,7 +6287,7 @@
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.8-42",
+      "Version": "1.8-50",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -6295,7 +6295,7 @@
         "Rcpp",
         "methods"
       ],
-      "Hash": "e52c0fabedf6cbaf41e7e9c625a0fbd3"
+      "Hash": "057783c6c0f092168a8fef1efbb3adb8"
     },
     "testthat": {
       "Package": "testthat",
