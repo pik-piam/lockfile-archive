@@ -3442,11 +3442,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.27.1",
+      "Version": "2.27.2",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
-      "RemoteSha": "7b8f7eec5722e90326337951206cd537b345429a",
+      "RemoteSha": "520c288bca1ee7a89245e88394cb2bbfd15f3153",
       "Requirements": [
         "R",
         "dplyr",
@@ -3467,7 +3467,7 @@
         "stringr",
         "utils"
       ],
-      "Hash": "aff6fd5b30d9b73982db979dcbfe57fc"
+      "Hash": "cf3f5ef5ee352779e638b4d0534c4c02"
     },
     "magpiesets": {
       "Package": "magpiesets",
@@ -3795,11 +3795,11 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.9.0",
+      "Version": "0.10.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
-      "RemoteSha": "5050c327346be1455714befbb6303cccf079d3e0",
+      "RemoteSha": "d2519cd5c7fce37693d4a96a25447c7336d06632",
       "Requirements": [
         "GDPuc",
         "brick",
@@ -3825,7 +3825,7 @@
         "tidyr",
         "zoo"
       ],
-      "Hash": "bec86b503161cda8bf253af48e05b99d"
+      "Hash": "5e68e0e6c5bf32d4aba1cbcb3ff30aa5"
     },
     "mrfable": {
       "Package": "mrfable",
