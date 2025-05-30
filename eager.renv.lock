@@ -1641,11 +1641,11 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.18.1",
+      "Version": "2.20.0",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
-      "RemoteSha": "b578eec87cfc7e285a5eac632437e9240e557356",
+      "RemoteSha": "e3c17ce93db9b5330b4cbdd10f374843bd5b2c2e",
       "Requirements": [
         "R",
         "data.table",
@@ -1662,7 +1662,7 @@
         "rootSolve",
         "zoo"
       ],
-      "Hash": "d536b50858f42717a9da25beed56f889"
+      "Hash": "2daf579fd32180e89f4f269beea1d7c2"
     },
     "edgeTrpLib": {
       "Package": "edgeTrpLib",
@@ -3741,11 +3741,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.56.0",
+      "Version": "1.56.1",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
-      "RemoteSha": "4608dbf01fa49938003e5e38fccf271f24cf3fc8",
+      "RemoteSha": "89ed792f7279cbaa11f0b29a59aa38b40d89075d",
       "Requirements": [
         "GDPuc",
         "R",
@@ -3777,7 +3777,7 @@
         "withr",
         "zoo"
       ],
-      "Hash": "bfd163da52645fff55c9d8e92e32e233"
+      "Hash": "d128f490836b44a09cb86ccb7daff4eb"
     },
     "mrdieter": {
       "Package": "mrdieter",
@@ -4358,18 +4358,18 @@
     },
     "mstools": {
       "Package": "mstools",
-      "Version": "0.11.1",
+      "Version": "0.11.3",
       "Source": "Repository",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mstools",
-      "RemoteSha": "5b741252683951194b70f64835da05faa91c950e",
+      "RemoteSha": "f750fa6a4939f591af1e253425c60d592196e6be",
       "Requirements": [
         "madrat",
         "magclass",
         "magpiesets",
         "stringr"
       ],
-      "Hash": "b3f72c081e6fbc34b0e4126416fe0bf2"
+      "Hash": "77b1462d52902f364d5d07de6b3f3df9"
     },
     "mvtnorm": {
       "Package": "mvtnorm",
@@ -5016,7 +5016,7 @@
     },
     "promises": {
       "Package": "promises",
-      "Version": "1.3.2",
+      "Version": "1.3.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -5028,7 +5028,7 @@
         "rlang",
         "stats"
       ],
-      "Hash": "c84fd4f75ea1f5434735e08b7f50fbca"
+      "Hash": "70157a4a73963da5779f9c67f4d31fd1"
     },
     "proxy": {
       "Package": "proxy",
