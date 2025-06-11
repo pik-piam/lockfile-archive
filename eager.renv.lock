@@ -1835,11 +1835,11 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.8.3",
+      "Version": "0.8.4",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Building sector model with heterogeneous renovation and construction of the stock",
-      "Date": "2025-05-30",
+      "Date": "2025-06-05",
       "Authors@R": "c( person(\"Robin\", \"Hasse\", , \"robin.hasse@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-1818-3186\")), person(\"Ricarda\", \"Rosemann\", , \"ricarda.rosemann@pik-potsdam.de\", role = \"aut\", comment = c(ORCID = \"0009-0006-5939-3197\")) )",
       "Description": "This building stock model represents residential and commercial buildings at customisable regional and temporal resolution. The building stock is quantified in floor area and distinguished by building type (SFH/MFH) and location (rural/urban). In each building category, construction cohorts are tracked explicitly. This allows to characterise buildings specifically for each subset of buildings. The evolution of the building stock follows from the flows of constructed, renovated and demolished buildings and is optimised under cost minimisation with a benefit for heterogeneity in the choice of construction and renovation alternatives. This benefit captures heterogeneity in the preferences of the agents and the building structure.",
       "License": "LGPL-3",
@@ -1877,7 +1877,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/brick",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b38ac3240ede7c245c5a7f7ea92a9961a0ab31c0",
+      "RemoteSha": "754918c946ee5e082023c8a1438fcdf812d12e57",
       "NeedsCompilation": "no",
       "Author": "Robin Hasse [aut, cre] (<https://orcid.org/0000-0003-1818-3186>), Ricarda Rosemann [aut] (<https://orcid.org/0009-0006-5939-3197>)",
       "Maintainer": "Robin Hasse <robin.hasse@pik-potsdam.de>"
@@ -8386,11 +8386,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.30.0",
+      "Version": "2.30.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x",
-      "Date": "2025-06-09",
+      "Date": "2025-06-10",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", , \"weindl@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Jannes\", \"Breier\", , \"breier@pik-potsdam.de\", role = \"aut\"), person(\"Amsalu Woldie\", \"Yalew\", , \"yalew@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", , \"David.Chen@pik-potsdam.de\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Marcos\", \"Alves\", , \"pedrosa@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"ctb\"), person(\"Singh\", \"Vartika\", role = \"ctb\") )",
       "Description": "Common output routines for extracting results from the MAgPIE framework (versions 4.x).",
       "License": "LGPL-3 | file LICENSE",
@@ -8432,7 +8432,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a895f1150b18e3dbb198129d1814c9cd26e77456",
+      "RemoteSha": "5fb123c9360da3d4e1c8afefd273b40d3aa314fa",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Florian Humpenoeder [aut], Jan Philipp Dietrich [aut], Miodrag Stevanovic [aut], Isabelle Weindl [aut], Kristine Karstens [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Felicitas Beier [aut], Jannes Breier [aut], Amsalu Woldie Yalew [aut], David Chen [aut], Anne Biewald [aut], Stephen Wirth [aut], Patrick von Jeetze [aut], Debbora Leip [aut], Michael Crawford [aut], Marcos Alves [aut], Pascal Sauer [aut], Markus Bonsch [ctb], Singh Vartika [ctb]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -10781,11 +10781,11 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.7.4",
+      "Version": "0.8.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Validation Tools for PIK-PIAM",
-      "Date": "2025-05-14",
+      "Date": "2025-06-10",
       "Authors@R": "c(person(\"Pascal\", \"Weigmann\",, \"pascal.weigmann@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\",, role = \"aut\"), person(\"Fabrice\", \"Lécuyer\",, role = \"aut\"))",
       "Description": "The piamValidation package provides validation tools for the Potsdam Integrated Assessment Modelling environment.",
       "License": "LGPL-3",
@@ -10793,6 +10793,7 @@
       "Imports": [
         "devtools",
         "dplyr (>= 1.1.1)",
+        "DT",
         "ggplot2",
         "ggthemes",
         "htmltools",
@@ -10801,14 +10802,20 @@
         "piamutils",
         "plotly",
         "quitte (>= 0.3123.0)",
+        "readr",
         "readxl",
         "tibble",
         "tidyr"
       ],
       "Suggests": [
+        "htmlwidgets",
+        "madrat",
+        "magclass",
         "testthat (>= 3.0.0)",
         "remind2",
-        "rmarkdown"
+        "rmarkdown",
+        "rprojroot",
+        "scales"
       ],
       "Encoding": "UTF-8",
       "RoxygenNote": "7.3.2",
@@ -10820,7 +10827,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamValidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3e9afa685ed90c9ecce14f82998f6b4dab5262b8",
+      "RemoteSha": "a984fdccbadcc7ab526cccded91ce8ee827e4f4a",
       "NeedsCompilation": "no",
       "Author": "Pascal Weigmann [aut, cre], Oliver Richters [aut], Fabrice Lécuyer [aut]",
       "Maintainer": "Pascal Weigmann <pascal.weigmann@pik-potsdam.de>"
