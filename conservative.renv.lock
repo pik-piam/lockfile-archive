@@ -7312,11 +7312,11 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.77.1",
+      "Version": "2.78.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "The liMES R package",
-      "Date": "2025-06-03",
+      "Date": "2025-06-17",
       "Authors@R": "person(\"Sebastian\", \"Osorio\", , \"sebastian.osorio@pik-potsdam.de\", role = c(\"aut\", \"cre\"))",
       "Description": "Contains the LIMES-specific routines for data and model output manipulation.",
       "License": "LGPL-3",
@@ -7345,7 +7345,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9a5c62ad77d3a05a89f4ffb8a517769d899d5428",
+      "RemoteSha": "b3c0e264882d5cccf7b53a150c72f3f8fcf00b85",
       "NeedsCompilation": "no",
       "Author": "Sebastian Osorio [aut, cre]",
       "Maintainer": "Sebastian Osorio <sebastian.osorio@pik-potsdam.de>"
@@ -9431,11 +9431,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.232.2",
+      "Version": "0.232.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2025-06-13",
+      "Date": "2025-06-16",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -9484,7 +9484,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b66f98c339d8d72ac3b4e6dfc1f145d245970b7c",
+      "RemoteSha": "f0fb05b439081d60bfaa5b3f4a6802fd1718aacd",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -10468,11 +10468,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.52.2",
+      "Version": "0.52.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project specific interfaces to REMIND / MAgPIE",
-      "Date": "2025-06-02",
+      "Date": "2025-06-16",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "Project specific interfaces to REMIND / MAgPIE.",
       "License": "LGPL-3",
@@ -10508,7 +10508,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1248185acc55a1f4a3751720dd7ea4d39817e86d",
+      "RemoteSha": "578ba1cd358012e015b8d35e50891a2507dcb642",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
@@ -10681,19 +10681,22 @@
     },
     "piamutils": {
       "Package": "piamutils",
-      "Version": "0.0.13",
+      "Version": "0.1.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Utilities for the piam-verse",
-      "Date": "2025-01-24",
+      "Date": "2025-06-16",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Christof\", \"Schötz\", role = \"aut\") )",
       "Description": "This package contains utilities and helpers needed in various piam libraries.",
       "License": "LGPL-3",
       "URL": "https://github.com/pik-piam/piamutils",
       "Imports": [
+        "dplyr",
         "magclass",
+        "magrittr",
         "pkgload",
-        "quitte"
+        "quitte",
+        "rlang"
       ],
       "Suggests": [
         "testthat"
@@ -10703,7 +10706,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamutils",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d8b6674ad92dc373b415aff4365796df58627ce8",
+      "RemoteSha": "5756dd08ac4605f75ee4b53eadee389cbcbd0dfd",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Christof Schötz [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
