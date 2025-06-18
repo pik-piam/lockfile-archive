@@ -3297,7 +3297,7 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.17.4",
+      "Version": "1.17.6",
       "Source": "Repository",
       "Title": "Extension of `data.frame`",
       "Depends": [
@@ -5698,7 +5698,7 @@
       "RemoteUsername": "yjunechoe",
       "RemoteRepo": "ggtrace",
       "RemoteRef": "main",
-      "RemoteSha": "216199360c62127da6d51821ba9bc9f2b383fdf6",
+      "RemoteSha": "e0717838321eacc6a74896f59c53ae96c0106775",
       "RemoteHost": "api.github.com"
     },
     "gh": {
@@ -8902,11 +8902,11 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.23.9",
+      "Version": "0.24.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Run Analysis Tools",
-      "Date": "2025-04-23",
+      "Date": "2025-06-17",
       "Authors@R": "c( person(\"Anastasis\", \"Giannousakis\", email = \"giannou@pik-potsdam.de\", role = c(\"aut\",\"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "A collection of tools to analyze model runs.",
       "Imports": [
@@ -8938,7 +8938,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "57428bb965057ca6589d4971677b40b36f8ad6bb",
+      "RemoteSha": "5d229e067c9f54421a0835216418927a3bf6a236",
       "NeedsCompilation": "no",
       "Author": "Anastasis Giannousakis [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Anastasis Giannousakis <giannou@pik-potsdam.de>"
@@ -10652,11 +10652,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.52.6",
+      "Version": "0.52.7",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project specific interfaces to REMIND / MAgPIE",
-      "Date": "2025-06-16",
+      "Date": "2025-06-17",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "Project specific interfaces to REMIND / MAgPIE.",
       "License": "LGPL-3",
@@ -10692,7 +10692,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "578ba1cd358012e015b8d35e50891a2507dcb642",
+      "RemoteSha": "2ed736722e8718646b570e21bfddd6d86769ab7f",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
