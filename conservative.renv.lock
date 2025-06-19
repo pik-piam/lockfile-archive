@@ -8706,11 +8706,11 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.24.0",
+      "Version": "0.25.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Run Analysis Tools",
-      "Date": "2025-06-17",
+      "Date": "2025-06-18",
       "Authors@R": "c( person(\"Anastasis\", \"Giannousakis\", email = \"giannou@pik-potsdam.de\", role = c(\"aut\",\"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "A collection of tools to analyze model runs.",
       "Imports": [
@@ -8742,7 +8742,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5d229e067c9f54421a0835216418927a3bf6a236",
+      "RemoteSha": "3742baa6885bef5d0dd27451e79df010c9b45974",
       "NeedsCompilation": "no",
       "Author": "Anastasis Giannousakis [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Anastasis Giannousakis <giannou@pik-potsdam.de>"
@@ -10468,11 +10468,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.52.7",
+      "Version": "0.52.8",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project specific interfaces to REMIND / MAgPIE",
-      "Date": "2025-06-17",
+      "Date": "2025-06-18",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "Project specific interfaces to REMIND / MAgPIE.",
       "License": "LGPL-3",
@@ -10508,7 +10508,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2ed736722e8718646b570e21bfddd6d86769ab7f",
+      "RemoteSha": "9b05f269d16590b6c5cdd7c0fd348fc3fcbfc22b",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
@@ -12325,11 +12325,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.180.5",
+      "Version": "1.181.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "The REMIND R package (2nd generation)",
-      "Date": "2025-06-12",
+      "Date": "2025-06-16",
       "Authors@R": "c( person(\"Renato\", \"Rodrigues\", , \"renato.rodrigues@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\"), person(\"Jakob\", \"Duerrwaechter\", role = \"aut\"), person(\"Pascal\", \"Führlich\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Jérome\", \"Hilaire\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Katarzyna\", \"Kowalczyk\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Anne\", \"Merfort\", role = \"aut\"), person(\"Leon\", \"Merfort\", role = \"aut\"), person(\"Simón\", \"Morena-Leiva\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Robert\", \"Pietzcker\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Christof\", \"Schötz\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Kais\", \"Siala\", role = \"aut\"), person(\"Björn\", \"Sörgel\", role = \"aut\"), person(\"Mike\", \"Spahr\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Philipp\", \"Verpoort\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Contains the REMIND-specific routines for data and model output manipulation.",
       "License": "LGPL-3",
@@ -12385,7 +12385,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5e53d72086585a1432eab4b276ea31a71ab09515",
+      "RemoteSha": "e7be43ea4839d2904ac2029ae10e25eedf582d4a",
       "NeedsCompilation": "no",
       "Author": "Renato Rodrigues [aut, cre], Lavinia Baumstark [aut], Falk Benke [aut], Jan Philipp Dietrich [aut], Alois Dirnaichner [aut], Tabea Dorndorf [aut], Jakob Duerrwaechter [aut], Pascal Führlich [aut], Anastasis Giannousakis [aut], Robin Hasse [aut], Jérome Hilaire [aut], David Klein [aut], Johannes Koch [aut], Katarzyna Kowalczyk [aut], Antoine Levesque [aut], Aman Malik [aut], Anne Merfort [aut], Leon Merfort [aut], Simón Morena-Leiva [aut], Michaja Pehl [aut], Robert Pietzcker [aut], Sebastian Rauner [aut], Oliver Richters [aut], Marianna Rottoli [aut], Christof Schötz [aut], Felix Schreyer [aut], Kais Siala [aut], Björn Sörgel [aut], Mike Spahr [aut], Jessica Strefler [aut], Philipp Verpoort [aut], Pascal Weigmann [aut], Tonn Rüter [aut]",
       "Maintainer": "Renato Rodrigues <renato.rodrigues@pik-potsdam.de>"
