@@ -7465,11 +7465,11 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.78.0",
+      "Version": "2.79.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "The liMES R package",
-      "Date": "2025-06-17",
+      "Date": "2025-06-24",
       "Authors@R": "person(\"Sebastian\", \"Osorio\", , \"sebastian.osorio@pik-potsdam.de\", role = c(\"aut\", \"cre\"))",
       "Description": "Contains the LIMES-specific routines for data and model output manipulation.",
       "License": "LGPL-3",
@@ -7498,7 +7498,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b3c0e264882d5cccf7b53a150c72f3f8fcf00b85",
+      "RemoteSha": "ea2ccbd9d64b81c78c81d501fa628bd8cb7acc99",
       "NeedsCompilation": "no",
       "Author": "Sebastian Osorio [aut, cre]",
       "Maintainer": "Sebastian Osorio <sebastian.osorio@pik-potsdam.de>"
@@ -11712,9 +11712,9 @@
     },
     "psych": {
       "Package": "psych",
-      "Version": "2.5.3",
+      "Version": "2.5.6",
       "Source": "Repository",
-      "Date": "2025-03-18",
+      "Date": "2025-06-20",
       "Title": "Procedures for Psychological, Psychometric, and Personality Research",
       "Authors@R": "person(\"William\", \"Revelle\", role =c(\"aut\",\"cre\"), email=\"revelle@northwestern.edu\", comment=c(ORCID  = \"0000-0003-4880-9610\") )",
       "Description": "A general purpose toolbox developed originally for personality, psychometric theory and experimental psychology.  Functions are primarily for multivariate analysis and scale construction using factor analysis, principal component analysis, cluster analysis and reliability analysis, although others provide basic descriptive statistics. Item Response Theory is done using  factor analysis of tetrachoric and polychoric correlations. Functions for analyzing data at multiple levels include within and between group statistics, including correlations and factor analysis.  Validation and cross validation of scales developed using basic machine learning algorithms are provided, as are functions for simulating and testing particular item and test structures. Several functions  serve as a useful front end for structural equation modeling.  Graphical displays of path diagrams, including mediation models, factor analysis and structural equation models are created using basic graphics. Some of the functions are written to support a book on psychometric theory as well as publications in personality research. For more information, see the <https://personality-project.org/r/> web page.",
@@ -11744,7 +11744,7 @@
       "VignetteBuilder": "knitr",
       "URL": "https://personality-project.org/r/psych/ https://personality-project.org/r/psych-manual.pdf",
       "NeedsCompilation": "no",
-      "Author": "William Revelle [aut, cre] (<https://orcid.org/0000-0003-4880-9610>)",
+      "Author": "William Revelle [aut, cre] (ORCID: <https://orcid.org/0000-0003-4880-9610>)",
       "Maintainer": "William Revelle <revelle@northwestern.edu>",
       "Repository": "CRAN"
     },

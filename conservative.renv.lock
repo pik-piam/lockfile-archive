@@ -7312,11 +7312,11 @@
     },
     "limes": {
       "Package": "limes",
-      "Version": "2.78.0",
+      "Version": "2.79.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "The liMES R package",
-      "Date": "2025-06-17",
+      "Date": "2025-06-24",
       "Authors@R": "person(\"Sebastian\", \"Osorio\", , \"sebastian.osorio@pik-potsdam.de\", role = c(\"aut\", \"cre\"))",
       "Description": "Contains the LIMES-specific routines for data and model output manipulation.",
       "License": "LGPL-3",
@@ -7345,7 +7345,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/limes.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b3c0e264882d5cccf7b53a150c72f3f8fcf00b85",
+      "RemoteSha": "ea2ccbd9d64b81c78c81d501fa628bd8cb7acc99",
       "NeedsCompilation": "no",
       "Author": "Sebastian Osorio [aut, cre]",
       "Maintainer": "Sebastian Osorio <sebastian.osorio@pik-potsdam.de>"
