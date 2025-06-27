@@ -3994,7 +3994,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.22.3",
+      "Version": "2.23.1",
       "Source": "Repository",
       "Title": "Prepare EDGE Transport Data for the REMIND model",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", email = \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0004-6753-5090\")), person(\"Alois\", \"Dirnaichner\", email = \"dirnaichner@pik-potsdam.de\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", email = \"rottoli@pik-potsdam.de\", role = \"aut\"), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")), person(\"Robert P.\", \"Pietzcker\",email = \"pietzcker@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9403-6711\")))",
@@ -4009,7 +4009,7 @@
       "Encoding": "UTF-8",
       "RoxygenNote": "7.3.2",
       "VignetteBuilder": "knitr",
-      "Date": "2025-06-24",
+      "Date": "2025-06-26",
       "Config/testthat/edition": "3",
       "Imports": [
         "rmndt",
@@ -4035,7 +4035,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c96e5db7eef0cb0b543d4e4ba00fe7033dff3824",
+      "RemoteSha": "4039be4e278a3bb9f6d818ab35607fa566d65cb2",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre] (<https://orcid.org/0009-0004-6753-5090>), Alois Dirnaichner [aut], Marianna Rottoli [aut], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>), Robert P. Pietzcker [aut] (<https://orcid.org/0000-0002-9403-6711>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
@@ -12757,11 +12757,11 @@
     },
     "reportbrick": {
       "Package": "reportbrick",
-      "Version": "0.8.1",
+      "Version": "0.8.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Reporting package for BRICK",
-      "Date": "2025-06-01",
+      "Date": "2025-06-25",
       "Authors@R": "c( person(\"Robin\", \"Hasse\", , \"robin.hasse@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-1818-3186\")), person(\"Ricarda\", \"Rosemann\", , \"ricarda.rosemann@pik-potsdam.de\", role = \"aut\", comment = c(ORCID = \"0009-0006-5939-3197\")) )",
       "Description": "This package contains BRICK-specific routines to report model results. The main functionality is to generate a mif-file from a given BRICK model run folder.",
       "License": "LGPL-3",
@@ -12792,7 +12792,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reportbrick",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1420a7c13aec6bb4c4590debb1b0fabbf67810ba",
+      "RemoteSha": "ee9a748b11f86582b672d0142af513f2f50bc8d1",
       "NeedsCompilation": "no",
       "Author": "Robin Hasse [aut, cre] (<https://orcid.org/0000-0003-1818-3186>), Ricarda Rosemann [aut] (<https://orcid.org/0009-0006-5939-3197>)",
       "Maintainer": "Robin Hasse <robin.hasse@pik-potsdam.de>"
