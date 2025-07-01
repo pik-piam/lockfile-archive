@@ -5759,11 +5759,11 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.33.4",
+      "Version": "0.33.5",
       "Source": "Repository",
       "Type": "Package",
       "Title": "'GAMS' Modularization Support Package",
-      "Date": "2025-03-12",
+      "Date": "2025-06-23",
       "Authors@R": "c(person(\"Jan Philipp\", \"Dietrich\", email = \"dietrich@pik-potsdam.de\",  comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\"), role = c(\"aut\",\"cre\")), person(\"David\", \"Klein\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\"), role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Felicitas\", \"Beier\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\"), role = \"aut\"), person(\"Johannes\", \"Koch\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\"), role = \"aut\"), person(\"Lavinia\", \"Baumstark\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\"), role = \"aut\"), person(\"Mika\", \"Pflüger\", role = \"aut\"), person(\"Oliver\", \"Richters\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\"), role = \"aut\"))",
       "Description": "A collection of tools to create, use and maintain modularized model code written in the modeling  language 'GAMS' (<https://www.gams.com/>). Out-of-the-box 'GAMS' does not come with support for modularized model code. This package provides the tools necessary to convert a standard 'GAMS' model to a modularized one by introducing a modularized code structure together with a naming convention which emulates local environments. In addition, this package provides tools to monitor the compliance of the model code with modular coding guidelines.",
       "Imports": [
@@ -5792,7 +5792,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/gms",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c86e3a08ab30ed36f79d3cd826a46ac98c3de77f",
+      "RemoteSha": "b922de811a7a2f514db6299c538e26e65350b368",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), David Klein [aut] (Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Felicitas Beier [aut] (Potsdam Institute for Climate Impact Research), Johannes Koch [aut] (Potsdam Institute for Climate Impact Research), Lavinia Baumstark [aut] (Potsdam Institute for Climate Impact Research), Mika Pflüger [aut], Oliver Richters [aut] (Potsdam Institute for Climate Impact Research)",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -8232,11 +8232,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.31.3",
+      "Version": "2.31.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x",
-      "Date": "2025-06-27",
+      "Date": "2025-06-30",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", , \"weindl@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Jannes\", \"Breier\", , \"breier@pik-potsdam.de\", role = \"aut\"), person(\"Amsalu Woldie\", \"Yalew\", , \"yalew@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", , \"David.Chen@pik-potsdam.de\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Marcos\", \"Alves\", , \"pedrosa@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"ctb\"), person(\"Singh\", \"Vartika\", role = \"ctb\") )",
       "Description": "Common output routines for extracting results from the MAgPIE framework (versions 4.x).",
       "License": "LGPL-3 | file LICENSE",
@@ -8263,7 +8263,8 @@
         "stats",
         "stringr",
         "utils",
-        "tidyr"
+        "tidyr",
+        "GDPuc"
       ],
       "Suggests": [
         "covr",
@@ -8279,7 +8280,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c4114ce30a5bbd40e7fb95370292923bbb9c06e2",
+      "RemoteSha": "947f077142f917894f2a5cf2384caf1e28264a36",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Florian Humpenoeder [aut], Jan Philipp Dietrich [aut], Miodrag Stevanovic [aut], Isabelle Weindl [aut], Kristine Karstens [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Felicitas Beier [aut], Jannes Breier [aut], Amsalu Woldie Yalew [aut], David Chen [aut], Anne Biewald [aut], Stephen Wirth [aut], Patrick von Jeetze [aut], Debbora Leip [aut], Michael Crawford [aut], Marcos Alves [aut], Pascal Sauer [aut], Markus Bonsch [ctb], Singh Vartika [ctb]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -9464,11 +9465,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.232.4",
+      "Version": "0.232.5",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2025-06-23",
+      "Date": "2025-06-30",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -9517,7 +9518,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8fffff2abe3e82eb80b6bf9733833d58c0d01a7c",
+      "RemoteSha": "d1211d660232b5e3a47819f5096001b9dfc3ef16",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -9609,11 +9610,11 @@
     },
     "mrtutorial": {
       "Package": "mrtutorial",
-      "Version": "0.2.11",
+      "Version": "0.2.12",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Tutorial Package For Madrat Package Library",
-      "Date": "2024-04-10",
+      "Date": "2025-06-26",
       "Authors@R": "person(\"David Meng-Chuen\", \"Chen\", , \"david.chen@pik-potsdam.de\", role = c(\"aut\", \"cre\"))",
       "Description": "Example package of mr- world libraries, in conjunction with MAgPIE MADRat tutorial. For more information please see: https://github.com/magpiemodel/tutorials/tree/master/madrat .",
       "License": "GPL-3",
@@ -9636,8 +9637,11 @@
       ],
       "Encoding": "UTF-8",
       "Roxygen": "list(markdown = TRUE)",
-      "RoxygenNote": "7.2.3",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "RoxygenNote": "7.3.2",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mrtutorial",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "a577694b1ad9f683febb6da503d415652866591e",
       "NeedsCompilation": "no",
       "Author": "David Meng-Chuen Chen [aut, cre]",
       "Maintainer": "David Meng-Chuen Chen <david.chen@pik-potsdam.de>"
