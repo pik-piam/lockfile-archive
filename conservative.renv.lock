@@ -8074,11 +8074,11 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.58.6",
+      "Version": "0.58.7",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x to create outputs for FSDP project",
-      "Date": "2025-06-28",
+      "Date": "2025-07-10",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"David\", \"Chen\", , \"davidch@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Edna\", \"Molina Bacca\", , \"mbacca@pik-potsdan.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Output routines for extracting results from the MAgPIE framework (versions 4.x) for the FSDP project.",
       "License": "LGPL-3 | file LICENSE",
@@ -8129,19 +8129,19 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c0d76e2b572010dc25d351899e2b9bc2378d81df",
+      "RemoteSha": "c421dde815a53d63ff7784294aacd10f83c3f09e",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], David Chen [aut], Michael Crawford [aut], Debbora Leip [aut], Patrick von Jeetze [aut], Felicitas Beier [aut], Edna Molina Bacca [aut], Jan Philipp Dietrich [aut], Florian Humpenoeder [aut]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.21.0",
+      "Version": "3.22.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "May All Data be Reproducible and Transparent (MADRaT) *",
-      "Date": "2025-07-01",
-      "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anastasis\", \"Giannousakis\", , \"giannou@pik-potsdam.de\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", , \"Renato.Rodrigues@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Ulrich\", \"Kreidenweis\", , \"kreidenweis@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")) )",
+      "Date": "2025-07-10",
+      "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anastasis\", \"Giannousakis\", , \"giannou@pik-potsdam.de\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", , \"Renato.Rodrigues@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Ulrich\", \"Kreidenweis\", , \"kreidenweis@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0001-9454-8381\")) )",
       "Description": "Provides a framework which should improve reproducibility and transparency in data processing. It provides functionality such as automatic meta data creation and management, rudimentary quality management, data caching, work-flow management and data aggregation. * The title is a wish not a promise. By no means we expect this package to deliver everything what is needed to achieve full reproducibility and transparency, but we believe that it supports efforts in this direction.",
       "License": "BSD_2_clause + file LICENSE",
       "URL": "https://github.com/pik-piam/madrat, https://doi.org/10.5281/zenodo.1115490",
@@ -8182,9 +8182,9 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "204ef4a7fc92e879ac14132ce297581edd37df0a",
+      "RemoteSha": "0e09469b65fa296231be0ff897b5403d37280790",
       "NeedsCompilation": "no",
-      "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), Pascal Sauer [aut] (Potsdam Institute for Climate Impact Research), Lavinia Baumstark [aut] (Potsdam Institute for Climate Impact Research), Stephen Wirth [aut] (Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Renato Rodrigues [aut] (Potsdam Institute for Climate Impact Research), Benjamin Leon Bodirsky [aut] (Potsdam Institute for Climate Impact Research), Debbora Leip [aut] (Potsdam Institute for Climate Impact Research), Ulrich Kreidenweis [aut], David Klein [aut] (Potsdam Institute for Climate Impact Research)",
+      "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), Pascal Sauer [aut] (Potsdam Institute for Climate Impact Research), Lavinia Baumstark [aut] (Potsdam Institute for Climate Impact Research), Stephen Wirth [aut] (Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Renato Rodrigues [aut] (Potsdam Institute for Climate Impact Research), Benjamin Leon Bodirsky [aut] (Potsdam Institute for Climate Impact Research), Debbora Leip [aut] (Potsdam Institute for Climate Impact Research), Ulrich Kreidenweis [aut], David Klein [aut] (Potsdam Institute for Climate Impact Research), Patrick Rein [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0001-9454-8381>)",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
     },
     "magclass": {
@@ -8257,11 +8257,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.33.1",
+      "Version": "2.33.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x",
-      "Date": "2025-07-09",
+      "Date": "2025-07-10",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", , \"weindl@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Jannes\", \"Breier\", , \"breier@pik-potsdam.de\", role = \"aut\"), person(\"Amsalu Woldie\", \"Yalew\", , \"yalew@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", , \"David.Chen@pik-potsdam.de\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Marcos\", \"Alves\", , \"pedrosa@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"ctb\"), person(\"Singh\", \"Vartika\", role = \"ctb\") )",
       "Description": "Common output routines for extracting results from the MAgPIE framework (versions 4.x).",
       "License": "LGPL-3 | file LICENSE",
@@ -8305,7 +8305,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5f70dc1d16c2726864e57ec8c39f5fd72c1a82d2",
+      "RemoteSha": "ccff328b945fdd3b399b5dc4ed53f2ce86bdb6d6",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Florian Humpenoeder [aut], Jan Philipp Dietrich [aut], Miodrag Stevanovic [aut], Isabelle Weindl [aut], Kristine Karstens [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Felicitas Beier [aut], Jannes Breier [aut], Amsalu Woldie Yalew [aut], David Chen [aut], Anne Biewald [aut], Stephen Wirth [aut], Patrick von Jeetze [aut], Debbora Leip [aut], Michael Crawford [aut], Marcos Alves [aut], Pascal Sauer [aut], Markus Bonsch [ctb], Singh Vartika [ctb]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -8768,11 +8768,11 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.27.1",
+      "Version": "0.27.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Run Analysis Tools",
-      "Date": "2025-07-08",
+      "Date": "2025-07-10",
       "Authors@R": "c( person(\"Anastasis\", \"Giannousakis\", email = \"giannou@pik-potsdam.de\", role = c(\"aut\",\"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "A collection of tools to analyze model runs.",
       "Imports": [
@@ -8789,7 +8789,8 @@
         "gms",
         "withr",
         "rlang",
-        "optparse"
+        "optparse",
+        "cli"
       ],
       "Suggests": [
         "covr",
@@ -8805,7 +8806,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "29e6525ff21a8d40d31c1c1fd36eef68878617a7",
+      "RemoteSha": "5249aa7d5222b1072cee9ea1c3fdf21c64dc5af9",
       "NeedsCompilation": "no",
       "Author": "Anastasis Giannousakis [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Anastasis Giannousakis <giannou@pik-potsdam.de>"
@@ -10565,11 +10566,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.53.6",
+      "Version": "0.53.7",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project specific interfaces to REMIND / MAgPIE",
-      "Date": "2025-07-08",
+      "Date": "2025-07-10",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "Project specific interfaces to REMIND / MAgPIE.",
       "License": "LGPL-3",
@@ -10605,7 +10606,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3cc6e4df403dd3dc9fba7cdaf468fe610d5b16b9",
+      "RemoteSha": "d5f3cb2cdbc3f071d6bb1786d2ce8eead3ff182a",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
