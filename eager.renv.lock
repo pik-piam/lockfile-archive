@@ -5919,11 +5919,11 @@
     },
     "gms": {
       "Package": "gms",
-      "Version": "0.33.5",
+      "Version": "0.33.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "'GAMS' Modularization Support Package",
-      "Date": "2025-06-23",
+      "Date": "2025-07-15",
       "Authors@R": "c(person(\"Jan Philipp\", \"Dietrich\", email = \"dietrich@pik-potsdam.de\",  comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\"), role = c(\"aut\",\"cre\")), person(\"David\", \"Klein\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\"), role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Felicitas\", \"Beier\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\"), role = \"aut\"), person(\"Johannes\", \"Koch\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\"), role = \"aut\"), person(\"Lavinia\", \"Baumstark\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\"), role = \"aut\"), person(\"Mika\", \"Pflüger\", role = \"aut\"), person(\"Oliver\", \"Richters\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\"), role = \"aut\"))",
       "Description": "A collection of tools to create, use and maintain modularized model code written in the modeling  language 'GAMS' (<https://www.gams.com/>). Out-of-the-box 'GAMS' does not come with support for modularized model code. This package provides the tools necessary to convert a standard 'GAMS' model to a modularized one by introducing a modularized code structure together with a naming convention which emulates local environments. In addition, this package provides tools to monitor the compliance of the model code with modular coding guidelines.",
       "Imports": [
@@ -5952,7 +5952,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/gms",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b922de811a7a2f514db6299c538e26e65350b368",
+      "RemoteSha": "1df85e4c6301429c31bf81ec655d2f9c189143e0",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), David Klein [aut] (Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Felicitas Beier [aut] (Potsdam Institute for Climate Impact Research), Johannes Koch [aut] (Potsdam Institute for Climate Impact Research), Lavinia Baumstark [aut] (Potsdam Institute for Climate Impact Research), Mika Pflüger [aut], Oliver Richters [aut] (Potsdam Institute for Climate Impact Research)",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -8223,11 +8223,11 @@
     },
     "lusweave": {
       "Package": "lusweave",
-      "Version": "1.46.3",
+      "Version": "1.46.4",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Sweave/Knitr Utilities",
-      "Date": "2022-04-04",
+      "Date": "2025-07-14",
       "Authors@R": "c( person(\"Markus\", \"Bonsch\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Set of tools which simplify the usage of SWeave/Knitr in R and allow to easily create PDF files from within R.",
       "License": "BSD_2_clause + file LICENSE",
@@ -8239,28 +8239,28 @@
       ],
       "Imports": [
         "knitr (>= 1.38)",
+        "withr",
         "xtable"
       ],
       "Suggests": [
         "covr",
-        "testthat (>= 3.0.0)",
-        "withr"
+        "testthat (>= 3.0.0)"
       ],
       "Encoding": "UTF-8",
       "LazyData": "no",
-      "RoxygenNote": "7.2.3",
+      "RoxygenNote": "7.3.2",
       "Config/testthat/edition": "3",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lusweave",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5341ac98d084e5efcf2fb88bebe2b7ac7cd51087",
+      "RemoteSha": "763ecb751fb36baa840874d8ce548d2505ad8350",
       "NeedsCompilation": "no",
       "Author": "Markus Bonsch [aut], Jan Philipp Dietrich [aut, cre], David Klein [aut], Florian Humpenoeder [aut]",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.58.10",
+      "Version": "0.58.17",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x to create outputs for FSDP project",
@@ -8315,7 +8315,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f73078974b1fc07121bb9a4dcc553c9010a786b8",
+      "RemoteSha": "43e7eaf1aa7d02bff70959c97d92fadf03905fbc",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], David Chen [aut], Michael Crawford [aut], Debbora Leip [aut], Patrick von Jeetze [aut], Felicitas Beier [aut], Edna Molina Bacca [aut], Jan Philipp Dietrich [aut], Florian Humpenoeder [aut]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -8443,11 +8443,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.33.4",
+      "Version": "2.34.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x",
-      "Date": "2025-07-11",
+      "Date": "2025-07-15",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", , \"weindl@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Jannes\", \"Breier\", , \"breier@pik-potsdam.de\", role = \"aut\"), person(\"Amsalu Woldie\", \"Yalew\", , \"yalew@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", , \"David.Chen@pik-potsdam.de\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Marcos\", \"Alves\", , \"pedrosa@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"ctb\"), person(\"Singh\", \"Vartika\", role = \"ctb\") )",
       "Description": "Common output routines for extracting results from the MAgPIE framework (versions 4.x).",
       "License": "LGPL-3 | file LICENSE",
@@ -8461,6 +8461,7 @@
         "dplyr",
         "gdx2 (>= 0.1.6)",
         "gms",
+        "luplot",
         "luscale",
         "lusweave",
         "madrat (>= 3.10.0)",
@@ -8471,6 +8472,7 @@
         "nonparaeff",
         "reshape2",
         "rlang",
+        "rworldmap (>= 1.3.8)",
         "stats",
         "stringr",
         "utils",
@@ -8480,9 +8482,7 @@
       "Suggests": [
         "covr",
         "FRACTION",
-        "luplot",
         "ncdf4",
-        "rworldmap (>= 1.3.8)",
         "terra",
         "testthat"
       ],
@@ -8491,7 +8491,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9675f9a44075f7b646dd3b8e4a29fb9c7e6357e0",
+      "RemoteSha": "4b7e2c96a7c43a0e255b1167f0cc1c9f0e121377",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Florian Humpenoeder [aut], Jan Philipp Dietrich [aut], Miodrag Stevanovic [aut], Isabelle Weindl [aut], Kristine Karstens [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Felicitas Beier [aut], Jannes Breier [aut], Amsalu Woldie Yalew [aut], David Chen [aut], Anne Biewald [aut], Stephen Wirth [aut], Patrick von Jeetze [aut], Debbora Leip [aut], Michael Crawford [aut], Marcos Alves [aut], Pascal Sauer [aut], Markus Bonsch [ctb], Singh Vartika [ctb]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -8852,11 +8852,11 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.154.1",
+      "Version": "0.154.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Comparison of multi-model runs",
-      "Date": "2025-03-31",
+      "Date": "2025-07-15",
       "Authors@R": "c( person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Lavinia\", \"Baumstark\", , \"baumstark@pik-potsdam.de\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Führlich\", , \"pascal.fuehrlich@pik-potsdam.de\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Package contains generic functions to produce comparison plots of multi-model runs.",
       "License": "BSD_2_clause + file LICENSE",
@@ -8897,7 +8897,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mip",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fb6198866d45cd436fa60be9fa0f2a1ab82e4269",
+      "RemoteSha": "2e91a706f5376059778ebaf9abf46c46ebf65b6e",
       "NeedsCompilation": "no",
       "Author": "David Klein [aut, cre], Jan Philipp Dietrich [aut], Lavinia Baumstark [aut], Florian Humpenoeder [aut], Miodrag Stevanovic [aut], Stephen Wirth [aut], Pascal Führlich [aut], Oliver Richters [aut], Tonn Rüter [aut]",
       "Maintainer": "David Klein <dklein@pik-potsdam.de>"
