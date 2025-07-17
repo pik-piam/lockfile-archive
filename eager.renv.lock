@@ -3994,7 +3994,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "2.23.3",
+      "Version": "3.0.0",
       "Source": "Repository",
       "Title": "Prepare EDGE Transport Data for the REMIND model",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", email = \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0004-6753-5090\")), person(\"Alois\", \"Dirnaichner\", email = \"dirnaichner@pik-potsdam.de\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", email = \"rottoli@pik-potsdam.de\", role = \"aut\"), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")), person(\"Robert P.\", \"Pietzcker\",email = \"pietzcker@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9403-6711\")))",
@@ -4009,7 +4009,7 @@
       "Encoding": "UTF-8",
       "RoxygenNote": "7.3.2",
       "VignetteBuilder": "knitr",
-      "Date": "2025-07-02",
+      "Date": "2025-07-09",
       "Config/testthat/edition": "3",
       "Imports": [
         "rmndt",
@@ -4022,7 +4022,7 @@
         "zoo",
         "gdxdt",
         "mrdrivers",
-        "reporttransport (>= 0.0.13)"
+        "reporttransport (>= 1.0.0)"
       ],
       "Suggests": [
         "testthat (>= 3.0.0)",
@@ -4035,7 +4035,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "225a3ffbe1e516858c977c260c94cdb73d110993",
+      "RemoteSha": "63bdb612ba1c4fbe24dddc75b28f529efed8e99b",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre] (<https://orcid.org/0009-0004-6753-5090>), Alois Dirnaichner [aut], Marianna Rottoli [aut], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>), Robert P. Pietzcker [aut] (<https://orcid.org/0000-0002-9403-6711>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
@@ -8142,11 +8142,11 @@
     },
     "luplot": {
       "Package": "luplot",
-      "Version": "4.1.1",
+      "Version": "4.1.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Landuse Plot Library",
-      "Date": "2025-06-25",
+      "Date": "2025-07-16",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Krause\", , \"krause@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", , \"weindl@pik-potsdam.de\", role = \"aut\"), person(\"Lavinia\", \"Baumstark\", , \"baumstark@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Klein\", , \"klein@pik-potsdam.de\", role = \"aut\"), person(\"Susanne\", \"Rolinski\", , \"rolinski@pik-potsdam.de\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", , \"davidch@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\") )",
       "Maintainer": "Benjamin Bodirsky <bodirsky@pik-potsdam.de>",
       "Description": "Some useful functions to plot data such as a map plot function for MAgPIE objects.",
@@ -8181,7 +8181,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/luplot.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "81029a6a985adbb698e538866c76b13904e9658d",
+      "RemoteSha": "2757ead727ee66249bc58174231035955c8788b6",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Jan Philipp Dietrich [aut], Michael Krause [aut], Miodrag Stevanovic [aut], Florian Humpenoeder [aut], Isabelle Weindl [aut], Lavinia Baumstark [aut], David Klein [aut], Susanne Rolinski [aut], Xiaoxi Wang [aut], David Chen [aut], Pascal Sauer [aut]"
     },
@@ -8223,11 +8223,11 @@
     },
     "lusweave": {
       "Package": "lusweave",
-      "Version": "1.46.4",
+      "Version": "1.46.5",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Sweave/Knitr Utilities",
-      "Date": "2025-07-14",
+      "Date": "2025-07-16",
       "Authors@R": "c( person(\"Markus\", \"Bonsch\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Set of tools which simplify the usage of SWeave/Knitr in R and allow to easily create PDF files from within R.",
       "License": "BSD_2_clause + file LICENSE",
@@ -8253,7 +8253,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lusweave",
       "RemoteRef": "HEAD",
-      "RemoteSha": "763ecb751fb36baa840874d8ce548d2505ad8350",
+      "RemoteSha": "271ad4eda26c50e13b85e1bdd27a981327a73a1a",
       "NeedsCompilation": "no",
       "Author": "Markus Bonsch [aut], Jan Philipp Dietrich [aut, cre], David Klein [aut], Florian Humpenoeder [aut]",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -8961,11 +8961,11 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.27.8",
+      "Version": "0.27.9",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Run Analysis Tools",
-      "Date": "2025-07-14",
+      "Date": "2025-07-16",
       "Authors@R": "c( person(\"Anastasis\", \"Giannousakis\", email = \"giannou@pik-potsdam.de\", role = c(\"aut\",\"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "A collection of tools to analyze model runs.",
       "Imports": [
@@ -8999,7 +8999,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/modelstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a09cedd5aeca85eb9fe2df64f21a3708e5f428a2",
+      "RemoteSha": "a3f88159fa6ca30d4e2e34f0ec0606be00e53b91",
       "NeedsCompilation": "no",
       "Author": "Anastasis Giannousakis [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Anastasis Giannousakis <giannou@pik-potsdam.de>"
@@ -9685,11 +9685,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.233.3",
+      "Version": "0.234.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2025-07-14",
+      "Date": "2025-07-16",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -9738,7 +9738,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5ac1c17e2a76e5bccdf32358263aa15d1bb4d6ea",
+      "RemoteSha": "8aeb1aa9afc52c62f297a5a25c81ae279644cf69",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -9868,11 +9868,11 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.61.31",
+      "Version": "2.61.32",
       "Source": "Repository",
       "Type": "Package",
       "Title": "madrat data preparation for validation purposes",
-      "Date": "2025-07-11",
+      "Date": "2025-07-16",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Stephen\", \"Wirth\", role = \"aut\"), person(\"Kristine\", \"Karstens\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", role = \"aut\"), person(\"Mishko\", \"Stevanovic\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", role = \"aut\"), person(\"Felicitas\", \"Beier\", role = \"aut\"), person(\"David\", \"Chen\", role = \"aut\"), person(\"Michael\", \"Crawford\", role = \"aut\"), person(\"Debbora\", \"Leip\", role = \"aut\"), person(\"Edna\", \"Molina Bacca\", role = \"aut\"), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"Amsalu\", \"W. Yalew\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Marcos\", \"Alves\", role = \"aut\") )",
       "Description": "Package contains routines to prepare data for validation exercises.",
       "License": "LGPL-3 | file LICENSE",
@@ -9915,7 +9915,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4e2438e1f2ac0be8701ada625929cd078cd10d88",
+      "RemoteSha": "1adea05532a30332bb9e9c8918e924c644f72f82",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Stephen Wirth [aut], Kristine Karstens [aut], Florian Humpenoeder [aut], Mishko Stevanovic [aut], Abhijeet Mishra [aut], Anne Biewald [aut], Isabelle Weindl [aut], Felicitas Beier [aut], David Chen [aut], Michael Crawford [aut], Debbora Leip [aut], Edna Molina Bacca [aut], Ulrich Kreidenweis [aut], Amsalu W. Yalew [aut], Patrick von Jeetze [aut], Xiaoxi Wang [aut], Jan Philipp Dietrich [aut], Marcos Alves [aut]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -12614,11 +12614,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.184.1",
+      "Version": "1.185.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "The REMIND R package (2nd generation)",
-      "Date": "2025-07-02",
+      "Date": "2025-07-14",
       "Authors@R": "c( person(\"Renato\", \"Rodrigues\", , \"renato.rodrigues@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\"), person(\"Jakob\", \"Duerrwaechter\", role = \"aut\"), person(\"Pascal\", \"Führlich\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Jérome\", \"Hilaire\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Katarzyna\", \"Kowalczyk\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Anne\", \"Merfort\", role = \"aut\"), person(\"Leon\", \"Merfort\", role = \"aut\"), person(\"Simón\", \"Morena-Leiva\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Robert\", \"Pietzcker\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Christof\", \"Schötz\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Kais\", \"Siala\", role = \"aut\"), person(\"Björn\", \"Sörgel\", role = \"aut\"), person(\"Mike\", \"Spahr\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Philipp\", \"Verpoort\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Contains the REMIND-specific routines for data and model output manipulation.",
       "License": "LGPL-3",
@@ -12675,7 +12675,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d0bed57da9509652a9981198257c40bcabd21158",
+      "RemoteSha": "24de04a169777e154c63796c3adaafe786bf13bf",
       "NeedsCompilation": "no",
       "Author": "Renato Rodrigues [aut, cre], Lavinia Baumstark [aut], Falk Benke [aut], Jan Philipp Dietrich [aut], Alois Dirnaichner [aut], Tabea Dorndorf [aut], Jakob Duerrwaechter [aut], Pascal Führlich [aut], Anastasis Giannousakis [aut], Robin Hasse [aut], Jérome Hilaire [aut], David Klein [aut], Johannes Koch [aut], Katarzyna Kowalczyk [aut], Antoine Levesque [aut], Aman Malik [aut], Anne Merfort [aut], Leon Merfort [aut], Simón Morena-Leiva [aut], Michaja Pehl [aut], Robert Pietzcker [aut], Sebastian Rauner [aut], Oliver Richters [aut], Marianna Rottoli [aut], Christof Schötz [aut], Felix Schreyer [aut], Kais Siala [aut], Björn Sörgel [aut], Mike Spahr [aut], Jessica Strefler [aut], Philipp Verpoort [aut], Pascal Weigmann [aut], Tonn Rüter [aut]",
       "Maintainer": "Renato Rodrigues <renato.rodrigues@pik-potsdam.de>"
@@ -12903,11 +12903,11 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "0.9.0",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Reporting package for edgeTransport",
-      "Date": "2025-07-01",
+      "Date": "2025-07-09",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", , \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")))",
       "Description": "This package contains edgeTransport-specific routines to report model results. The main functionality is to generate transport reporting variables in MIF format from a given edgeTransport model run folder or REMIND input data.",
       "Depends": [
@@ -12921,7 +12921,6 @@
         "gdxrrw",
         "piamPlotComparison",
         "quitte",
-        "remind2",
         "rmndt",
         "utils"
       ],
@@ -12935,7 +12934,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reporttransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "771bd2f58c10a0b1b1ad4f1de342bc61b0cea364",
+      "RemoteSha": "945e518d2c6976ce1697d47c11ca45ed3ff47a86",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
