@@ -8167,11 +8167,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.22.2",
+      "Version": "3.23.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "May All Data be Reproducible and Transparent (MADRaT) *",
-      "Date": "2025-07-23",
+      "Date": "2025-07-31",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anastasis\", \"Giannousakis\", , \"giannou@pik-potsdam.de\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", , \"Renato.Rodrigues@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Ulrich\", \"Kreidenweis\", , \"kreidenweis@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0001-9454-8381\")) )",
       "Description": "Provides a framework which should improve reproducibility and transparency in data processing. It provides functionality such as automatic meta data creation and management, rudimentary quality management, data caching, work-flow management and data aggregation. * The title is a wish not a promise. By no means we expect this package to deliver everything what is needed to achieve full reproducibility and transparency, but we believe that it supports efforts in this direction.",
       "License": "BSD_2_clause + file LICENSE",
@@ -8213,7 +8213,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c1a627d2c518bb8a16d09008dcaabea47646f8fa",
+      "RemoteSha": "4967aad81b7aa472d1d82049d060883585583ae8",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), Pascal Sauer [aut] (Potsdam Institute for Climate Impact Research), Lavinia Baumstark [aut] (Potsdam Institute for Climate Impact Research), Stephen Wirth [aut] (Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Renato Rodrigues [aut] (Potsdam Institute for Climate Impact Research), Benjamin Leon Bodirsky [aut] (Potsdam Institute for Climate Impact Research), Debbora Leip [aut] (Potsdam Institute for Climate Impact Research), Ulrich Kreidenweis [aut], David Klein [aut] (Potsdam Institute for Climate Impact Research), Patrick Rein [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0001-9454-8381>)",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -8941,18 +8941,18 @@
     },
     "mrdownscale": {
       "Package": "mrdownscale",
-      "Version": "0.40.4",
+      "Version": "0.41.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Downscale and harmonize land use data using high resolution reference data",
-      "Date": "2025-07-31",
+      "Date": "2025-08-01",
       "Authors@R": "c( person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-6856-8239\")), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")) )",
-      "Description": "Downscale and harmonize land use data (e.g. MAgPIE) using high resolution reference data (e.g. LUH2v2h).",
+      "Description": "Downscale and harmonize land use data (e.g. MAgPIE or WITCH) using high resolution reference data (e.g. LUH2v2h or LUH3).",
       "License": "LGPL-3",
       "URL": "https://github.com/pik-piam/mrdownscale, https://doi.org/10.5281/zenodo.11244475",
       "BugReports": "https://github.com/pik-piam/mrdownscale/issues",
       "Depends": [
-        "madrat (>= 3.20.1)",
+        "madrat (>= 3.23.0)",
         "magclass (>= 6.19.1)",
         "mstools (>= 0.8.0)",
         "R (>= 4.0.0)"
@@ -8963,6 +8963,7 @@
         "mip",
         "ncdf4",
         "terra",
+        "utils",
         "withr"
       ],
       "Suggests": [
@@ -8979,7 +8980,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "git@github.com:pik-piam/mrdownscale",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b67c1b717a02a107b3f5fba3956681251f3dffa4",
+      "RemoteSha": "92f62d1d062a4c84ddc92c617829abe73667ebf4",
       "NeedsCompilation": "no",
       "Author": "Pascal Sauer [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-6856-8239>), Jan Philipp Dietrich [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>)",
       "Maintainer": "Pascal Sauer <pascal.sauer@pik-potsdam.de>"
@@ -9527,7 +9528,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.239.2",
+      "Version": "0.240.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
@@ -9580,7 +9581,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8da9c5848c28f0a8db2c1154295a41f933531b71",
+      "RemoteSha": "7c5d3785c7020efb58073f98502e21a5b48989de",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -10601,11 +10602,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.53.9",
+      "Version": "0.53.10",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project specific interfaces to REMIND / MAgPIE",
-      "Date": "2025-07-30",
+      "Date": "2025-08-01",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "Project specific interfaces to REMIND / MAgPIE.",
       "License": "LGPL-3",
@@ -10641,7 +10642,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "134ee7a90ab93cd8d3ee8053ecd0649949e4725e",
+      "RemoteSha": "cd0f15c3a36395faa9619d5de20723077f8e2c66",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
