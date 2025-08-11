@@ -10886,11 +10886,11 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.9.0",
+      "Version": "0.10.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Validation Tools for PIK-PIAM",
-      "Date": "2025-08-08",
+      "Date": "2025-08-10",
       "Authors@R": "c(person(\"Pascal\", \"Weigmann\",, \"pascal.weigmann@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\",, role = \"aut\"), person(\"Fabrice\", \"Lécuyer\",, role = \"aut\"))",
       "Description": "The piamValidation package provides validation tools for the Potsdam Integrated Assessment Modelling environment.",
       "License": "LGPL-3",
@@ -10932,7 +10932,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamValidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "cfcfb51ed491c85bc7a7528a683453e8b4faadcf",
+      "RemoteSha": "e43487956ccacca73cef0a776845483f9d82de31",
       "NeedsCompilation": "no",
       "Author": "Pascal Weigmann [aut, cre], Oliver Richters [aut], Fabrice Lécuyer [aut]",
       "Maintainer": "Pascal Weigmann <pascal.weigmann@pik-potsdam.de>"
