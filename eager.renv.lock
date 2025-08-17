@@ -9336,11 +9336,11 @@
     },
     "mrfaocore": {
       "Package": "mrfaocore",
-      "Version": "1.3.1",
+      "Version": "1.3.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "madrat-based package providing core FAO-related preprocessing functions",
-      "Date": "2025-08-15",
+      "Date": "2025-08-16",
       "Authors@R": "c( person(\"David\", \"Chen\", , \"david.chen@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Kristine\", \"Karstens\", role = \"aut\"), person(\"Benjamin\", \"Leon Bodirsky\", role = \"aut\"), person(\"Debbora\", \"Leip\", role = \"aut\"), person(\"Mishko\", \"Stevanovic\", role = \"aut\"), person(\"Benjamin\", \"Leon Bodrisky\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Edna\", \"Molina Bacca\", role = \"aut\") )",
       "Description": "This madrat-based package provides core FAO-related preprocessing functions.",
       "License": "LGPL-3",
@@ -9369,7 +9369,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrfaocore",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fd5902f3621227dc80d6848e72cdf53fda8a9309",
+      "RemoteSha": "231f878a9a60119af2c37c6164cb713dd6f5f031",
       "NeedsCompilation": "no",
       "Author": "David Chen [aut, cre], Ulrich Kreidenweis [aut], Abhijeet Mishra [aut], Kristine Karstens [aut], Benjamin Leon Bodirsky [aut], Debbora Leip [aut], Mishko Stevanovic [aut], Benjamin Leon Bodrisky [aut], David Klein [aut], Edna Molina Bacca [aut]",
       "Maintainer": "David Chen <david.chen@pik-potsdam.de>"
