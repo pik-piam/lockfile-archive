@@ -5572,7 +5572,7 @@
     },
     "ggspatial": {
       "Package": "ggspatial",
-      "Version": "1.1.9",
+      "Version": "1.1.10",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Spatial Data Framework for ggplot2",
@@ -5614,11 +5614,11 @@
       ],
       "URL": "https://paleolimbot.github.io/ggspatial/, https://github.com/paleolimbot/ggspatial",
       "BugReports": "https://github.com/paleolimbot/ggspatial/issues",
-      "RoxygenNote": "7.2.3",
+      "RoxygenNote": "7.3.2",
       "Encoding": "UTF-8",
       "Config/testthat/edition": "3",
       "NeedsCompilation": "no",
-      "Author": "Dewey Dunnington [aut, cre] (<https://orcid.org/0000-0002-9415-4582>), Brent Thorne [ctb] (<https://orcid.org/0000-0002-1099-3857>), Diego Hernangómez [ctb] (<https://orcid.org/0000-0001-8457-4658>)",
+      "Author": "Dewey Dunnington [aut, cre] (ORCID: <https://orcid.org/0000-0002-9415-4582>), Brent Thorne [ctb] (ORCID: <https://orcid.org/0000-0002-1099-3857>), Diego Hernangómez [ctb] (ORCID: <https://orcid.org/0000-0001-8457-4658>)",
       "Repository": "CRAN"
     },
     "ggtext": {
