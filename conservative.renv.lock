@@ -9835,14 +9835,14 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.13.7",
+      "Version": "1.13.8",
       "Source": "Repository",
       "Type": "Package",
       "Title": "madrat based MAgPIE water Input Data Library",
       "URL": "https://github.com/pik-piam/mrwater,",
       "https": "//doi.org/10.5281/zenodo.5801680",
       "License": "LGPL-3 | file LICENSE",
-      "Date": "2024-10-22",
+      "Date": "2025-08-26",
       "Authors@R": "c(person(\"Felicitas\", \"Beier\", email = \"beier@pik-potsdam.de\", role = c(\"aut\",\"cre\")), person(\"Jens\", \"Heinke\", email = \"heinke@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", email = \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Benjamin Leon\", \"Bodirsky\", email = \"bodirsky@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", email = \"dietrich@pik-potsdam.de\", role = \"aut\"))",
       "Description": "Provides functions for MAgPIE cellular input data generation  and stand-alone water calculations.",
       "Depends": [
@@ -9874,7 +9874,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ad79b0a221315d0fae5eb1278df3c8d01fbd7a58",
+      "RemoteSha": "23bb96f76ce04377be120bbb3024cb6ea8ab25f4",
       "NeedsCompilation": "no",
       "Author": "Felicitas Beier [aut, cre], Jens Heinke [aut], Kristine Karstens [aut], Benjamin Leon Bodirsky [aut], Jan Philipp Dietrich [aut]",
       "Maintainer": "Felicitas Beier <beier@pik-potsdam.de>"
@@ -9925,11 +9925,11 @@
     },
     "mstools": {
       "Package": "mstools",
-      "Version": "0.12.2",
+      "Version": "0.12.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Tool functions that can be used by several madrat-dependent or magpie4 output functions",
-      "Date": "2025-07-25",
+      "Date": "2025-08-20",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Kristine\", \"Karstens\", role = \"aut\"), person(\"Felicitas\", \"Beier\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Tool functions that can be used by several madrat-dependent or magpie4 output functions.",
       "License": "LGPL-3 | file LICENSE",
@@ -9953,7 +9953,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mstools",
       "RemoteRef": "HEAD",
-      "RemoteSha": "97fd03f6fbaa18576e700b568c2cf457504a691f",
+      "RemoteSha": "bdc71bc7ee6d0b0bc3e3e5663e98a5e340241186",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Kristine Karstens [aut], Felicitas Beier [aut], Jan Philipp Dietrich [aut]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
