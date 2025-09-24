@@ -3968,7 +3968,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "3.0.6",
+      "Version": "3.1.0",
       "Source": "Repository",
       "Title": "Prepare EDGE Transport Data for the REMIND model",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", email = \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0004-6753-5090\")), person(\"Alois\", \"Dirnaichner\", email = \"dirnaichner@pik-potsdam.de\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", email = \"rottoli@pik-potsdam.de\", role = \"aut\"), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")), person(\"Robert P.\", \"Pietzcker\",email = \"pietzcker@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9403-6711\")))",
@@ -3981,9 +3981,9 @@
       "License": "GPL-3",
       "URL": "https://github.com/pik-piam/edgeTransport",
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "VignetteBuilder": "knitr",
-      "Date": "2025-08-18",
+      "Date": "2025-09-04",
       "Config/testthat/edition": "3",
       "Imports": [
         "rmndt",
@@ -4009,7 +4009,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5b89abf6b6aec9d3b783184d7556461964118871",
+      "RemoteSha": "e1c0371760b07f9fea2951becf700e0c0c6a7558",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre] (<https://orcid.org/0009-0004-6753-5090>), Alois Dirnaichner [aut], Marianna Rottoli [aut], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>), Robert P. Pietzcker [aut] (<https://orcid.org/0000-0002-9403-6711>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
@@ -5455,11 +5455,11 @@
     },
     "ggsci": {
       "Package": "ggsci",
-      "Version": "3.2.0",
+      "Version": "4.0.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Scientific Journal and Sci-Fi Themed Color Palettes for 'ggplot2'",
-      "Authors@R": "c( person(\"Nan\", \"Xiao\", email = \"me@nanx.me\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-0250-5673\")), person(\"Joshua\", \"Cook\", email = \"joshuacook0023@gmail.com\", role = \"ctb\"), person(\"Clara\", \"Jégousse\", email = \"cat3@hi.is\", role = \"ctb\"), person(\"Hui\", \"Chen\", email = \"huichen@zju.edu.cn\", role = \"ctb\"), person(\"Miaozhu\", \"Li\", email = \"miaozhu.li@duke.edu\", role = \"ctb\") )",
+      "Authors@R": "c( person(\"Nan\", \"Xiao\", email = \"me@nanx.me\", role = c(\"aut\", \"cre\", \"cph\"), comment = c(ORCID = \"0000-0002-0250-5673\")), person(\"Joshua\", \"Cook\", email = \"joshuacook0023@gmail.com\", role = \"ctb\"), person(\"Clara\", \"Jégousse\", email = \"cat3@hi.is\", role = \"ctb\"), person(\"Hui\", \"Chen\", email = \"huichen@zju.edu.cn\", role = \"ctb\"), person(\"Miaozhu\", \"Li\", email = \"miaozhu.li@duke.edu\", role = \"ctb\"), person(\"iTerm2-Color-Schemes contributors\", role = c(\"ctb\", \"cph\"), comment = \"iTerm2-Color-Schemes project\"), person(\"Winston\", \"Chang\", role = c(\"ctb\", \"cph\"), comment = \"staticimports.R\") )",
       "Maintainer": "Nan Xiao <me@nanx.me>",
       "Description": "A collection of 'ggplot2' color palettes inspired by plots in scientific journals, data visualization libraries, science fiction movies, and TV shows.",
       "License": "GPL (>= 3)",
@@ -5471,6 +5471,7 @@
       "Imports": [
         "ggplot2 (>= 2.0.0)",
         "grDevices",
+        "rlang",
         "scales"
       ],
       "Suggests": [
@@ -5481,9 +5482,9 @@
       ],
       "VignetteBuilder": "knitr",
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.1",
+      "RoxygenNote": "7.3.3",
       "NeedsCompilation": "no",
-      "Author": "Nan Xiao [aut, cre] (<https://orcid.org/0000-0002-0250-5673>), Joshua Cook [ctb], Clara Jégousse [ctb], Hui Chen [ctb], Miaozhu Li [ctb]",
+      "Author": "Nan Xiao [aut, cre, cph] (ORCID: <https://orcid.org/0000-0002-0250-5673>), Joshua Cook [ctb], Clara Jégousse [ctb], Hui Chen [ctb], Miaozhu Li [ctb], iTerm2-Color-Schemes contributors [ctb, cph] (iTerm2-Color-Schemes project), Winston Chang [ctb, cph] (staticimports.R)",
       "Repository": "CRAN"
     },
     "ggsignif": {
@@ -9759,7 +9760,7 @@
     },
     "mrtransport": {
       "Package": "mrtransport",
-      "Version": "0.11.7",
+      "Version": "0.12.0",
       "Source": "Repository",
       "Title": "Input data generation for the EDGE-Transport model",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", , \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0004-6753-5090\")), person(\"Jarusch\", \"Muessel\", , \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\", , \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")), person(\"Alois\", \"Dirnaichner\", role = \"aut\"))",
@@ -9768,7 +9769,7 @@
       "URL": "https://github.com/pik-piam/mrtransport",
       "Encoding": "UTF-8",
       "Roxygen": "list(markdown = TRUE)",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "Depends": [
         "madrat (>= 3.7.1)",
         "mrcommons",
@@ -9790,11 +9791,11 @@
         "utils",
         "zoo"
       ],
-      "Date": "2025-07-24",
+      "Date": "2025-09-04",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrtransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "eb94e1c9d9842d9605d25e8407516693a8383653",
+      "RemoteSha": "d204b8ef45281622fdf0501b50c368724bb1257a",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre] (<https://orcid.org/0009-0004-6753-5090>), Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>), Alois Dirnaichner [aut]",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
@@ -10719,11 +10720,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.53.13",
+      "Version": "0.54.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project specific interfaces to REMIND / MAgPIE",
-      "Date": "2025-09-17",
+      "Date": "2025-09-23",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "Project specific interfaces to REMIND / MAgPIE.",
       "License": "LGPL-3",
@@ -10759,7 +10760,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a769f69bf2f91083361d79e54b0323e95e14d1db",
+      "RemoteSha": "78a99898cb9173b45584f7bf2fc306692cbb8437",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
@@ -10848,11 +10849,11 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.10.1",
+      "Version": "0.11.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Validation Tools for PIK-PIAM",
-      "Date": "2025-08-12",
+      "Date": "2025-09-23",
       "Authors@R": "c(person(\"Pascal\", \"Weigmann\",, \"pascal.weigmann@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\",, role = \"aut\"), person(\"Fabrice\", \"Lécuyer\",, role = \"aut\"))",
       "Description": "The piamValidation package provides validation tools for the Potsdam Integrated Assessment Modelling environment.",
       "License": "LGPL-3",
@@ -10885,7 +10886,7 @@
         "scales"
       ],
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "Depends": [
         "R (>= 3.5.0)"
       ],
@@ -10894,7 +10895,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamValidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d4882ad305a0d6c5af31caa924e9b05d8588a21f",
+      "RemoteSha": "6f75750ec27c5dc4b79060ca49a3a1dabe1f6f4d",
       "NeedsCompilation": "no",
       "Author": "Pascal Weigmann [aut, cre], Oliver Richters [aut], Fabrice Lécuyer [aut]",
       "Maintainer": "Pascal Weigmann <pascal.weigmann@pik-potsdam.de>"
@@ -11187,12 +11188,12 @@
     },
     "pkgload": {
       "Package": "pkgload",
-      "Version": "1.4.0",
+      "Version": "1.4.1",
       "Source": "Repository",
       "Title": "Simulate Package Installation and Attach",
       "Authors@R": "c( person(\"Hadley\", \"Wickham\", role = \"aut\"), person(\"Winston\", \"Chang\", role = \"aut\"), person(\"Jim\", \"Hester\", role = \"aut\"), person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = c(\"aut\", \"cre\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")), person(\"R Core team\", role = \"ctb\", comment = \"Some namespace and vignette code extracted from base R\") )",
       "Description": "Simulates the process of installing a package and then attaching it. This is a key part of the 'devtools' package as it allows you to rapidly iterate while developing a package.",
-      "License": "GPL-3",
+      "License": "MIT + file LICENSE",
       "URL": "https://github.com/r-lib/pkgload, https://pkgload.r-lib.org",
       "BugReports": "https://github.com/r-lib/pkgload/issues",
       "Depends": [
@@ -11209,8 +11210,7 @@
         "processx",
         "rlang (>= 1.1.1)",
         "rprojroot",
-        "utils",
-        "withr (>= 2.4.3)"
+        "utils"
       ],
       "Suggests": [
         "bitops",
@@ -11221,14 +11221,15 @@
         "remotes",
         "rstudioapi",
         "testthat (>= 3.2.1.1)",
-        "usethis"
+        "usethis",
+        "withr"
       ],
       "Config/Needs/website": "tidyverse/tidytemplate, ggplot2",
       "Config/testthat/edition": "3",
       "Config/testthat/parallel": "TRUE",
       "Config/testthat/start-first": "dll",
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.1",
+      "RoxygenNote": "7.3.2",
       "NeedsCompilation": "no",
       "Author": "Hadley Wickham [aut], Winston Chang [aut], Jim Hester [aut], Lionel Henry [aut, cre], Posit Software, PBC [cph, fnd], R Core team [ctb] (Some namespace and vignette code extracted from base R)",
       "Maintainer": "Lionel Henry <lionel@posit.co>",
@@ -12587,11 +12588,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "1.186.9",
+      "Version": "1.187.5",
       "Source": "Repository",
       "Type": "Package",
       "Title": "The REMIND R package (2nd generation)",
-      "Date": "2025-09-19",
+      "Date": "2025-09-23",
       "Authors@R": "c( person(\"Renato\", \"Rodrigues\", , \"renato.rodrigues@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\"), person(\"Jakob\", \"Duerrwaechter\", role = \"aut\"), person(\"Pascal\", \"Führlich\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Jérome\", \"Hilaire\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Katarzyna\", \"Kowalczyk\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Anne\", \"Merfort\", role = \"aut\"), person(\"Leon\", \"Merfort\", role = \"aut\"), person(\"Simón\", \"Morena-Leiva\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Robert\", \"Pietzcker\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Christof\", \"Schötz\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Kais\", \"Siala\", role = \"aut\"), person(\"Björn\", \"Sörgel\", role = \"aut\"), person(\"Mike\", \"Spahr\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Philipp\", \"Verpoort\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Contains the REMIND-specific routines for data and model output manipulation.",
       "License": "LGPL-3",
@@ -12648,7 +12649,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "10a8eb28e7bf63c7ff0e166d16f255ac3f919514",
+      "RemoteSha": "57f6062f6769624ce5d7c419bd14a6b7672fb0db",
       "NeedsCompilation": "no",
       "Author": "Renato Rodrigues [aut, cre], Lavinia Baumstark [aut], Falk Benke [aut], Jan Philipp Dietrich [aut], Alois Dirnaichner [aut], Tabea Dorndorf [aut], Jakob Duerrwaechter [aut], Pascal Führlich [aut], Anastasis Giannousakis [aut], Robin Hasse [aut], Jérome Hilaire [aut], David Klein [aut], Johannes Koch [aut], Katarzyna Kowalczyk [aut], Antoine Levesque [aut], Aman Malik [aut], Anne Merfort [aut], Leon Merfort [aut], Simón Morena-Leiva [aut], Michaja Pehl [aut], Robert Pietzcker [aut], Sebastian Rauner [aut], Oliver Richters [aut], Marianna Rottoli [aut], Christof Schötz [aut], Felix Schreyer [aut], Kais Siala [aut], Björn Sörgel [aut], Mike Spahr [aut], Jessica Strefler [aut], Philipp Verpoort [aut], Pascal Weigmann [aut], Tonn Rüter [aut]",
       "Maintainer": "Renato Rodrigues <renato.rodrigues@pik-potsdam.de>"
@@ -12832,11 +12833,11 @@
     },
     "reportbrick": {
       "Package": "reportbrick",
-      "Version": "0.12.0",
+      "Version": "0.12.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Reporting package for BRICK",
-      "Date": "2025-09-17",
+      "Date": "2025-09-22",
       "Authors@R": "c( person(\"Robin\", \"Hasse\", , \"robin.hasse@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-1818-3186\")), person(\"Ricarda\", \"Rosemann\", , \"ricarda.rosemann@pik-potsdam.de\", role = \"aut\", comment = c(ORCID = \"0009-0006-5939-3197\")) )",
       "Description": "This package contains BRICK-specific routines to report model results. The main functionality is to generate a mif-file from a given BRICK model run folder.",
       "License": "LGPL-3",
@@ -12870,18 +12871,18 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reportbrick",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ea215e984ef3007a1a19da837f4f066556952b56",
+      "RemoteSha": "9d51d2366c946618c3d3b6ca949cab82fa3e239a",
       "NeedsCompilation": "no",
       "Author": "Robin Hasse [aut, cre] (<https://orcid.org/0000-0003-1818-3186>), Ricarda Rosemann [aut] (<https://orcid.org/0009-0006-5939-3197>)",
       "Maintainer": "Robin Hasse <robin.hasse@pik-potsdam.de>"
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "1.0.1",
+      "Version": "1.1.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Reporting package for edgeTransport",
-      "Date": "2025-08-13",
+      "Date": "2025-09-09",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", , \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")))",
       "Description": "This package contains edgeTransport-specific routines to report model results. The main functionality is to generate transport reporting variables in MIF format from a given edgeTransport model run folder or REMIND input data.",
       "Depends": [
@@ -12904,11 +12905,11 @@
         "testthat"
       ],
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reporttransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "87ac1cc0f887cac6617cb4d522034f53ebdb92c4",
+      "RemoteSha": "d6f7422bd1b543cc8550462a6b219cecb50d5250",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
