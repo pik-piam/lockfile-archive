@@ -1839,11 +1839,11 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.10.2",
+      "Version": "0.10.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Building sector model with heterogeneous renovation and construction of the stock",
-      "Date": "2025-09-15",
+      "Date": "2025-09-24",
       "Authors@R": "c( person(\"Robin\", \"Hasse\", , \"robin.hasse@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-1818-3186\")), person(\"Ricarda\", \"Rosemann\", , \"ricarda.rosemann@pik-potsdam.de\", role = \"aut\", comment = c(ORCID = \"0009-0006-5939-3197\")) )",
       "Description": "This building stock model represents residential and commercial buildings at customisable regional and temporal resolution. The building stock is quantified in floor area and distinguished by building type (SFH/MFH) and location (rural/urban). In each building category, construction cohorts are tracked explicitly. This allows to characterise buildings specifically for each subset of buildings. The evolution of the building stock follows from the flows of constructed, renovated and demolished buildings and is optimised under cost minimisation with a benefit for heterogeneity in the choice of construction and renovation alternatives. This benefit captures heterogeneity in the preferences of the agents and the building structure.",
       "License": "LGPL-3",
@@ -1881,7 +1881,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/brick",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a47a91cdffe95e9be548d68914dff76bf8907799",
+      "RemoteSha": "f3a262de62daba7e23d85e97d193a97b5cf993e8",
       "NeedsCompilation": "no",
       "Author": "Robin Hasse [aut, cre] (<https://orcid.org/0000-0003-1818-3186>), Ricarda Rosemann [aut] (<https://orcid.org/0009-0006-5939-3197>)",
       "Maintainer": "Robin Hasse <robin.hasse@pik-potsdam.de>"
@@ -7731,7 +7731,7 @@
     },
     "lmomco": {
       "Package": "lmomco",
-      "Version": "2.5.1",
+      "Version": "2.5.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "L-Moments, Censored L-Moments, Trimmed L-Moments, L-Comoments, and Many Distributions",
@@ -7747,15 +7747,16 @@
       "Suggests": [
         "copBasic"
       ],
-      "Date": "2024-05-02",
-      "Author": "William Asquith",
+      "Date": "2025-09-21",
+      "Authors@R": "person(given = \"William\", family = \"Asquith\", role = c(\"aut\", \"cre\"), email = \"william.asquith@ttu.edu\", comment = c(ORCID = \"0000-0002-7400-1861\"))",
       "Description": "Extensive functions for Lmoments (LMs) and probability-weighted moments (PWMs), distribution parameter estimation, LMs for distributions, LM ratio diagrams, multivariate Lcomoments, and asymmetric (asy) trimmed LMs (TLMs). Maximum likelihood and maximum product spacings estimation are available. Right-tail and left-tail LM censoring by threshold or indicator variable are available. LMs of residual (resid) and reversed (rev) residual life are implemented along with 13 quantile operators for reliability analyses. Exact analytical bootstrap estimates of order statistics, LMs, and LM var-covars are available. Harri-Coble Tau34-squared Normality Test is available. Distributions with L, TL, and added (+) support for right-tail censoring (RC) encompass: Asy Exponential (Exp) Power [L], Asy Triangular [L], Cauchy [TL], Eta-Mu [L], Exp. [L], Gamma [L], Generalized (Gen) Exp Poisson [L], Gen Extreme Value [L], Gen Lambda [L, TL], Gen Logistic [L], Gen Normal [L], Gen Pareto [L+RC, TL], Govindarajulu [L], Gumbel [L], Kappa [L], Kappa-Mu [L], Kumaraswamy [L], Laplace [L], Linear Mean Residual Quantile Function [L], Normal [L], 3p log-Normal [L], Pearson Type III [L], Polynomial Density-Quantile 3 and 4 [L], Rayleigh [L], Rev-Gumbel [L+RC], Rice [L], Singh Maddala [L], Slash [TL], 3p Student t [L], Truncated Exponential [L], Wakeby [L], and Weibull [L].",
       "Maintainer": "William Asquith <william.asquith@ttu.edu>",
       "Repository": "CRAN",
       "License": "GPL",
       "URL": "https://www.amazon.com/dp/1463508417/",
       "NeedsCompilation": "no",
-      "LazyData": "true"
+      "LazyData": "true",
+      "Author": "William Asquith [aut, cre] (ORCID: <https://orcid.org/0000-0002-7400-1861>)"
     },
     "lmtest": {
       "Package": "lmtest",
@@ -9657,11 +9658,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.242.5",
+      "Version": "0.242.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2025-09-19",
+      "Date": "2025-09-24",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -9710,7 +9711,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "73c0281d211c3de1da8cfe9cbbc3f377866339b7",
+      "RemoteSha": "4ca0f6e58a40fec0a6a6f2e7fe3bcd9a3ea3ce2e",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -10720,11 +10721,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.54.0",
+      "Version": "0.55.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project specific interfaces to REMIND / MAgPIE",
-      "Date": "2025-09-23",
+      "Date": "2025-09-24",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "Project specific interfaces to REMIND / MAgPIE.",
       "License": "LGPL-3",
@@ -10760,7 +10761,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "78a99898cb9173b45584f7bf2fc306692cbb8437",
+      "RemoteSha": "02c723ef85acd3a96e03dae31a227e1b1b74ad83",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
@@ -10849,11 +10850,11 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.11.0",
+      "Version": "0.11.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Validation Tools for PIK-PIAM",
-      "Date": "2025-09-23",
+      "Date": "2025-09-24",
       "Authors@R": "c(person(\"Pascal\", \"Weigmann\",, \"pascal.weigmann@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\",, role = \"aut\"), person(\"Fabrice\", \"Lécuyer\",, role = \"aut\"))",
       "Description": "The piamValidation package provides validation tools for the Potsdam Integrated Assessment Modelling environment.",
       "License": "LGPL-3",
@@ -10895,7 +10896,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamValidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "6f75750ec27c5dc4b79060ca49a3a1dabe1f6f4d",
+      "RemoteSha": "5b7d36192a5ad9ae4fca43193d79d1f00519c728",
       "NeedsCompilation": "no",
       "Author": "Pascal Weigmann [aut, cre], Oliver Richters [aut], Fabrice Lécuyer [aut]",
       "Maintainer": "Pascal Weigmann <pascal.weigmann@pik-potsdam.de>"
@@ -12026,11 +12027,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3146.0",
+      "Version": "0.3146.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Bits and pieces of code to use with quitte-style data frames",
-      "Date": "2025-09-17",
+      "Date": "2025-09-23",
       "Authors@R": "c( person(\"Michaja\", \"Pehl\", , \"pehl@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Nico\", \"Bauer\", , \"nicolasb@pik-potsdam.de\", role = \"aut\"), person(\"Jérôme\", \"Hilaire\", , \"jeromehilaire@pik-potsdam.de\", role = \"aut\"), person(\"Antoine\", \"Levesque\", , \"levesque@pik-potsdam.de\", role = \"aut\"), person(\"Gunnar\", \"Luderer\", , \"luderer@pik-potsdam.de\", role = \"aut\"), person(\"Anselm\", \"Schultes\", , \"schultes@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\") )",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>",
       "Description": "A collection of functions for easily dealing with quitte-style data frames, doing multi-model comparisons and plots.",
@@ -12087,7 +12088,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
       "RemoteRef": "HEAD",
-      "RemoteSha": "896264c556305ba23cedf6bf249014c9494c49ab",
+      "RemoteSha": "09bff3dcad18a0f3d2f5b8f0bc888c4e09009b0e",
       "NeedsCompilation": "no",
       "Author": "Michaja Pehl [aut, cre], Nico Bauer [aut], Jérôme Hilaire [aut], Antoine Levesque [aut], Gunnar Luderer [aut], Anselm Schultes [aut], Jan Philipp Dietrich [aut], Oliver Richters [aut], Tonn Rüter [aut]"
     },
