@@ -14880,11 +14880,11 @@
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.8-60",
+      "Version": "1.8-70",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Spatial Data Analysis",
-      "Date": "2025-07-18",
+      "Date": "2025-09-26",
       "Depends": [
         "R (>= 3.5.0)"
       ],
