@@ -3910,7 +3910,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "3.1.1",
+      "Version": "3.1.2",
       "Source": "Repository",
       "Title": "Prepare EDGE Transport Data for the REMIND model",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", email = \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0004-6753-5090\")), person(\"Alois\", \"Dirnaichner\", email = \"dirnaichner@pik-potsdam.de\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", email = \"rottoli@pik-potsdam.de\", role = \"aut\"), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")), person(\"Robert P.\", \"Pietzcker\",email = \"pietzcker@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9403-6711\")))",
@@ -3918,14 +3918,14 @@
       "Depends": [
         "R (>= 3.5.0)",
         "data.table (>= 1.11.0)",
-        "mrtransport (>= 0.10.5)"
+        "mrtransport (>= 0.12.0)"
       ],
       "License": "GPL-3",
       "URL": "https://github.com/pik-piam/edgeTransport",
       "Encoding": "UTF-8",
       "RoxygenNote": "7.3.3",
       "VignetteBuilder": "knitr",
-      "Date": "2025-09-25",
+      "Date": "2025-09-26",
       "Config/testthat/edition": "3",
       "Imports": [
         "rmndt",
@@ -3938,7 +3938,7 @@
         "zoo",
         "gdxdt",
         "mrdrivers",
-        "reporttransport (>= 1.0.0)"
+        "reporttransport (>= 1.1.0)"
       ],
       "Suggests": [
         "testthat (>= 3.0.0)",
@@ -3951,7 +3951,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c2394cb15367524219bb056faf2e700a7fe1a535",
+      "RemoteSha": "e1a758016ffc5c85c95bc279b03175c42dd24d8e",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre] (<https://orcid.org/0009-0004-6753-5090>), Alois Dirnaichner [aut], Marianna Rottoli [aut], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>), Robert P. Pietzcker [aut] (<https://orcid.org/0000-0002-9403-6711>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
@@ -10566,11 +10566,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.55.0",
+      "Version": "0.55.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project specific interfaces to REMIND / MAgPIE",
-      "Date": "2025-09-24",
+      "Date": "2025-09-30",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "Project specific interfaces to REMIND / MAgPIE.",
       "License": "LGPL-3",
@@ -10606,7 +10606,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "02c723ef85acd3a96e03dae31a227e1b1b74ad83",
+      "RemoteSha": "962c6923c4b98a00983ea00526391dc69b49105c",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
