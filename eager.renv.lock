@@ -8327,11 +8327,11 @@
     },
     "m4fsdp": {
       "Package": "m4fsdp",
-      "Version": "0.58.26",
+      "Version": "0.58.27",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x to create outputs for FSDP project",
-      "Date": "2025-08-07",
+      "Date": "2025-10-09",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"David\", \"Chen\", , \"davidch@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Edna\", \"Molina Bacca\", , \"mbacca@pik-potsdan.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Output routines for extracting results from the MAgPIE framework (versions 4.x) for the FSDP project.",
       "License": "LGPL-3 | file LICENSE",
@@ -8378,22 +8378,22 @@
         "testthat"
       ],
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/m4fsdp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c077ab9118e2aca6ab54e41c6f1bf8b9f5cdd75b",
+      "RemoteSha": "509889d0ee05ddde3177024833e3ce550bca8a2f",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], David Chen [aut], Michael Crawford [aut], Debbora Leip [aut], Patrick von Jeetze [aut], Felicitas Beier [aut], Edna Molina Bacca [aut], Jan Philipp Dietrich [aut], Florian Humpenoeder [aut]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.24.1",
+      "Version": "3.24.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "May All Data be Reproducible and Transparent (MADRaT) *",
-      "Date": "2025-09-16",
+      "Date": "2025-10-08",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anastasis\", \"Giannousakis\", , \"giannou@pik-potsdam.de\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", , \"Renato.Rodrigues@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Ulrich\", \"Kreidenweis\", , \"kreidenweis@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0001-9454-8381\")) )",
       "Description": "Provides a framework which should improve reproducibility and transparency in data processing. It provides functionality such as automatic meta data creation and management, rudimentary quality management, data caching, work-flow management and data aggregation. * The title is a wish not a promise. By no means we expect this package to deliver everything what is needed to achieve full reproducibility and transparency, but we believe that it supports efforts in this direction.",
       "License": "BSD_2_clause + file LICENSE",
@@ -8435,7 +8435,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4e7e9c91b2bed5dbefbc69294d54b423e0c7f4e5",
+      "RemoteSha": "31090ec912995011fbce725537674fc813618baf",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), Pascal Sauer [aut] (Potsdam Institute for Climate Impact Research), Lavinia Baumstark [aut] (Potsdam Institute for Climate Impact Research), Stephen Wirth [aut] (Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Renato Rodrigues [aut] (Potsdam Institute for Climate Impact Research), Benjamin Leon Bodirsky [aut] (Potsdam Institute for Climate Impact Research), Debbora Leip [aut] (Potsdam Institute for Climate Impact Research), Ulrich Kreidenweis [aut], David Klein [aut] (Potsdam Institute for Climate Impact Research), Patrick Rein [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0001-9454-8381>)",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -9679,11 +9679,11 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.62.0",
+      "Version": "1.63.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "madrat based MAgPIE Input Data Library",
-      "Date": "2025-10-07",
+      "Date": "2025-10-09",
       "Authors@R": "c( person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", role = \"aut\"), person(\"Michael\", \"Windisch\", role = \"aut\"), person(\"Marcos\", \"Alves\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Alexandre\", \"Köberle\", , \"alexkob@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"v. Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Provides functions for MAgPIE country and cellular input data generation.",
       "License": "LGPL-3 | file LICENSE",
@@ -9729,7 +9729,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
       "RemoteRef": "HEAD",
-      "RemoteSha": "23f482c453595a15550b9e235ca2afb27e2206dd",
+      "RemoteSha": "27386a59203f34e0f832a4867419145ec3c1dcad",
       "NeedsCompilation": "no",
       "Author": "Kristine Karstens [aut, cre], Jan Philipp Dietrich [aut], David Chen [aut], Michael Windisch [aut], Marcos Alves [aut], Felicitas Beier [aut], Alexandre Köberle [aut], Patrick v. Jeetze [aut], Abhijeet Mishra [aut], Florian Humpenoeder [aut], Pascal Sauer [aut], Patrick Rein [aut]",
       "Maintainer": "Kristine Karstens <karstens@pik-potsdam.de>"
@@ -13757,28 +13757,28 @@
     },
     "rversions": {
       "Package": "rversions",
-      "Version": "2.1.2",
+      "Version": "3.0.0",
       "Source": "Repository",
       "Title": "Query 'R' Versions, Including 'r-release' and 'r-oldrel'",
-      "Authors@R": "c(person(given = \"Gábor\", family = \"Csárdi\", role = c(\"aut\", \"cre\"), email = \"csardi.gabor@gmail.com\"), person(given = \"Jeroen\", family = \"Ooms\", role = \"ctb\", email = \"jeroen.ooms@stat.ucla.edu\"), person(given = \"R Consortium\", role = \"fnd\"))",
+      "Authors@R": "c(person(given = \"Gábor\", family = \"Csárdi\", role = c(\"aut\", \"cre\"), email = \"csardi.gabor@gmail.com\"), person(given = \"Jeroen\", family = \"Ooms\", role = \"ctb\", email = \"jeroen.ooms@stat.ucla.edu\"), person(given = \"R Consortium\", role = \"fnd\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"03wc8by49\")))",
       "Description": "Query the main 'R' 'SVN' repository to find the versions 'r-release' and 'r-oldrel' refer to, and also all previous 'R' versions and their release dates.",
       "License": "MIT + file LICENSE",
       "URL": "https://github.com/r-hub/rversions, https://r-hub.github.io/rversions/",
       "BugReports": "https://github.com/r-hub/rversions/issues",
       "Imports": [
-        "curl",
-        "utils",
-        "xml2 (>= 1.0.0)"
+        "curl"
       ],
       "Suggests": [
-        "covr",
-        "mockery",
-        "testthat"
+        "pillar",
+        "testthat (>= 3.0.0)",
+        "webfakes",
+        "withr"
       ],
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.2.1.9000",
+      "RoxygenNote": "7.3.3",
+      "Config/testthat/edition": "3",
       "NeedsCompilation": "no",
-      "Author": "Gábor Csárdi [aut, cre], Jeroen Ooms [ctb], R Consortium [fnd]",
+      "Author": "Gábor Csárdi [aut, cre], Jeroen Ooms [ctb], R Consortium [fnd], Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
       "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
       "Repository": "CRAN"
     },
@@ -15619,12 +15619,12 @@
     },
     "units": {
       "Package": "units",
-      "Version": "0.8-7",
+      "Version": "1.0-0",
       "Source": "Repository",
       "Title": "Measurement Units for R Vectors",
       "Authors@R": "c(person(\"Edzer\", \"Pebesma\", role = c(\"aut\", \"cre\"), email = \"edzer.pebesma@uni-muenster.de\", comment = c(ORCID = \"0000-0001-8049-7069\")), person(\"Thomas\", \"Mailund\", role = \"aut\", email = \"mailund@birc.au.dk\"), person(\"Tomasz\", \"Kalinowski\", role = \"aut\"), person(\"James\", \"Hiebert\", role = \"ctb\"), person(\"Iñaki\", \"Ucar\", role = \"aut\", email = \"iucar@fedoraproject.org\", comment = c(ORCID = \"0000-0001-6403-5550\")), person(\"Thomas Lin\", \"Pedersen\", role = \"ctb\") )",
       "Depends": [
-        "R (>= 3.0.2)"
+        "R (>= 3.5.0)"
       ],
       "Imports": [
         "Rcpp"
@@ -15653,11 +15653,11 @@
       "License": "GPL-2",
       "URL": "https://r-quantities.github.io/units/, https://github.com/r-quantities/units",
       "BugReports": "https://github.com/r-quantities/units/issues",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "Encoding": "UTF-8",
       "Config/testthat/edition": "3",
       "NeedsCompilation": "yes",
-      "Author": "Edzer Pebesma [aut, cre] (<https://orcid.org/0000-0001-8049-7069>), Thomas Mailund [aut], Tomasz Kalinowski [aut], James Hiebert [ctb], Iñaki Ucar [aut] (<https://orcid.org/0000-0001-6403-5550>), Thomas Lin Pedersen [ctb]",
+      "Author": "Edzer Pebesma [aut, cre] (ORCID: <https://orcid.org/0000-0001-8049-7069>), Thomas Mailund [aut], Tomasz Kalinowski [aut], James Hiebert [ctb], Iñaki Ucar [aut] (ORCID: <https://orcid.org/0000-0001-6403-5550>), Thomas Lin Pedersen [ctb]",
       "Maintainer": "Edzer Pebesma <edzer.pebesma@uni-muenster.de>",
       "Repository": "CRAN"
     },
