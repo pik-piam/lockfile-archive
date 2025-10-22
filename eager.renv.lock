@@ -5815,7 +5815,7 @@
       "RemoteUsername": "yjunechoe",
       "RemoteRepo": "ggtrace",
       "RemoteRef": "main",
-      "RemoteSha": "e0717838321eacc6a74896f59c53ae96c0106775",
+      "RemoteSha": "4534d885e005ac028b10781ec1397bf0517e835e",
       "RemoteHost": "api.github.com"
     },
     "gh": {
@@ -8514,11 +8514,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.42.2",
+      "Version": "2.42.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x",
-      "Date": "2025-10-14",
+      "Date": "2025-10-21",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", , \"weindl@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Jannes\", \"Breier\", , \"breier@pik-potsdam.de\", role = \"aut\"), person(\"Amsalu Woldie\", \"Yalew\", , \"yalew@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", , \"David.Chen@pik-potsdam.de\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Marcos\", \"Alves\", , \"pedrosa@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"ctb\"), person(\"Singh\", \"Vartika\", role = \"ctb\") )",
       "Description": "Common output routines for extracting results from the MAgPIE framework (versions 4.x).",
       "License": "LGPL-3 | file LICENSE",
@@ -8563,7 +8563,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "1849770e9c0c432d86028acf1754c98040492ec3",
+      "RemoteSha": "cda968969be423629074d7191df62e9c2c79c53d",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Florian Humpenoeder [aut], Jan Philipp Dietrich [aut], Miodrag Stevanovic [aut], Isabelle Weindl [aut], Kristine Karstens [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Felicitas Beier [aut], Jannes Breier [aut], Amsalu Woldie Yalew [aut], David Chen [aut], Anne Biewald [aut], Stephen Wirth [aut], Patrick von Jeetze [aut], Debbora Leip [aut], Michael Crawford [aut], Marcos Alves [aut], Pascal Sauer [aut], Markus Bonsch [ctb], Singh Vartika [ctb]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -10964,11 +10964,11 @@
     },
     "piamValidation": {
       "Package": "piamValidation",
-      "Version": "0.13.0",
+      "Version": "0.14.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Validation Tools for PIK-PIAM",
-      "Date": "2025-10-14",
+      "Date": "2025-10-21",
       "Authors@R": "c(person(\"Pascal\", \"Weigmann\",, \"pascal.weigmann@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\",, role = \"aut\"), person(\"Fabrice\", \"Lécuyer\",, role = \"aut\"))",
       "Description": "The piamValidation package provides validation tools for the Potsdam Integrated Assessment Modelling environment.",
       "License": "LGPL-3",
@@ -11010,7 +11010,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamValidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e80d07fb55b50d3dfba8090dc825042c18d72b14",
+      "RemoteSha": "2e9eb63ae4febecd8f3648b9d7e77000f4aad9d4",
       "NeedsCompilation": "no",
       "Author": "Pascal Weigmann [aut, cre], Oliver Richters [aut], Fabrice Lécuyer [aut]",
       "Maintainer": "Pascal Weigmann <pascal.weigmann@pik-potsdam.de>"
@@ -14858,7 +14858,7 @@
     },
     "svglite": {
       "Package": "svglite",
-      "Version": "2.2.1",
+      "Version": "2.2.2",
       "Source": "Repository",
       "Title": "An 'SVG' Graphics Device",
       "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"), person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"aut\"), person(\"Thomas Lin\", \"Pedersen\", , \"thomas.pedersen@posit.co\", role = c(\"cre\", \"aut\"), comment = c(ORCID = \"0000-0002-5147-4711\")), person(\"T Jake\", \"Luciani\", , \"jake@apache.org\", role = \"aut\"), person(\"Matthieu\", \"Decorde\", , \"matthieu.decorde@ens-lyon.fr\", role = \"aut\"), person(\"Vaudor\", \"Lise\", , \"lise.vaudor@ens-lyon.fr\", role = \"aut\"), person(\"Tony\", \"Plate\", role = \"ctb\", comment = \"Early line dashing code\"), person(\"David\", \"Gohel\", role = \"ctb\", comment = \"Line dashing code and early raster code\"), person(\"Yixuan\", \"Qiu\", role = \"ctb\", comment = \"Improved styles; polypath implementation\"), person(\"Håkon\", \"Malmedal\", role = \"ctb\", comment = \"Opacity code\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"03wc8by49\")) )",
@@ -14874,7 +14874,7 @@
         "cli",
         "lifecycle",
         "rlang (>= 1.1.0)",
-        "systemfonts (>= 1.2.3)",
+        "systemfonts (>= 1.3.0)",
         "textshaping (>= 0.3.0)"
       ],
       "Suggests": [
