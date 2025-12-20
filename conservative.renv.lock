@@ -1858,11 +1858,11 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.13.1",
+      "Version": "0.13.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Building sector model with heterogeneous renovation and construction of the stock",
-      "Date": "2025-12-16",
+      "Date": "2025-12-18",
       "Authors@R": "c( person(\"Robin\", \"Hasse\", , \"robin.hasse@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-1818-3186\")), person(\"Ricarda\", \"Rosemann\", , \"ricarda.rosemann@pik-potsdam.de\", role = \"aut\", comment = c(ORCID = \"0009-0006-5939-3197\")) )",
       "Description": "This building stock model represents residential and commercial buildings at customisable regional and temporal resolution. The building stock is quantified in floor area and distinguished by building type (SFH/MFH) and location (rural/urban). In each building category, construction cohorts are tracked explicitly. This allows to characterise buildings specifically for each subset of buildings. The evolution of the building stock follows from the flows of constructed, renovated and demolished buildings and is optimised under cost minimisation with a benefit for heterogeneity in the choice of construction and renovation alternatives. This benefit captures heterogeneity in the preferences of the agents and the building structure.",
       "License": "LGPL-3",
@@ -1900,7 +1900,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/brick",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a805ac579c0e95f09e9d2610633a7cd5fda6935e",
+      "RemoteSha": "9b3d143ccf856ef9ffc3466850fe0c221ded9db6",
       "NeedsCompilation": "no",
       "Author": "Robin Hasse [aut, cre] (<https://orcid.org/0000-0003-1818-3186>), Ricarda Rosemann [aut] (<https://orcid.org/0009-0006-5939-3197>)",
       "Maintainer": "Robin Hasse <robin.hasse@pik-potsdam.de>"
@@ -9047,11 +9047,11 @@
     },
     "mip": {
       "Package": "mip",
-      "Version": "0.155.6",
+      "Version": "0.155.7",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Comparison of multi-model runs",
-      "Date": "2025-12-17",
+      "Date": "2025-12-18",
       "Authors@R": "c( person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Lavinia\", \"Baumstark\", , \"baumstark@pik-potsdam.de\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Führlich\", , \"pascal.fuehrlich@pik-potsdam.de\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\"), person(\"Robert\", \"Salzwedel\", , \"robert.salzwedel@pik-potsdam.de\", role = \"aut\"), person(\"Fabrice\", \"Lécuyer\", , \"fabrice.lecuyer@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Package contains generic functions to produce comparison plots of multi-model runs.",
       "License": "BSD_2_clause + file LICENSE",
@@ -9092,7 +9092,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mip",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ab10510fe4c2e20353ce41ba76354dc88c63b10d",
+      "RemoteSha": "3724debec75fc19a7809a2ceda00f0ec23427df7",
       "NeedsCompilation": "no",
       "Author": "David Klein [aut, cre], Jan Philipp Dietrich [aut], Lavinia Baumstark [aut], Florian Humpenoeder [aut], Miodrag Stevanovic [aut], Stephen Wirth [aut], Pascal Führlich [aut], Oliver Richters [aut], Tonn Rüter [aut], Robert Salzwedel [aut], Fabrice Lécuyer [aut]",
       "Maintainer": "David Klein <dklein@pik-potsdam.de>"
@@ -9396,11 +9396,11 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.11.2",
+      "Version": "0.11.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Prepare data to be used by the EDGE-Buildings model",
-      "Date": "2025-12-14",
+      "Date": "2025-12-19",
       "Authors@R": "c( person(\"Robin\", \"Hasse\", , \"robin.hasse@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-1818-3186\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Hagen\", \"Tockhorn\", role = \"aut\") )",
       "Description": "Prepare data to be used by the EDGE-Buildings model.",
       "License": "MIT + file LICENSE",
@@ -9435,6 +9435,7 @@
       "Suggests": [
         "covr",
         "lucode2",
+        "piamutils",
         "pdftools",
         "testthat"
       ],
@@ -9444,7 +9445,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "da235a8ec0cecdd1609c048a59cd2188b99d5c49",
+      "RemoteSha": "5d556b7ef6b7d0cac4bd85cf3dc9e0db5a91546e",
       "NeedsCompilation": "no",
       "Author": "Robin Hasse [aut, cre] (<https://orcid.org/0000-0003-1818-3186>), Pascal Sauer [aut], Antoine Levesque [aut], Hagen Tockhorn [aut]",
       "Maintainer": "Robin Hasse <robin.hasse@pik-potsdam.de>"
@@ -13138,11 +13139,11 @@
     },
     "reportbrick": {
       "Package": "reportbrick",
-      "Version": "0.13.0",
+      "Version": "0.14.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Reporting package for BRICK",
-      "Date": "2025-12-09",
+      "Date": "2025-12-17",
       "Authors@R": "c( person(\"Robin\", \"Hasse\", , \"robin.hasse@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-1818-3186\")), person(\"Ricarda\", \"Rosemann\", , \"ricarda.rosemann@pik-potsdam.de\", role = \"aut\", comment = c(ORCID = \"0009-0006-5939-3197\")) )",
       "Description": "This package contains BRICK-specific routines to report model results. The main functionality is to generate a mif-file from a given BRICK model run folder.",
       "License": "LGPL-3",
@@ -13157,7 +13158,7 @@
         "knitr",
         "madrat",
         "magclass",
-        "mip (>= 0.148.19)",
+        "mip (>= 0.155.6)",
         "piamPlotComparison",
         "piamutils (>= 0.0.9)",
         "purrr",
@@ -13176,7 +13177,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reportbrick",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7c50785e833ef44ec5159b0bbe1425d9ee8e0609",
+      "RemoteSha": "ba4039d85e8d0da9e0de4d71c3f570b27d890b85",
       "NeedsCompilation": "no",
       "Author": "Robin Hasse [aut, cre] (<https://orcid.org/0000-0003-1818-3186>), Ricarda Rosemann [aut] (<https://orcid.org/0009-0006-5939-3197>)",
       "Maintainer": "Robin Hasse <robin.hasse@pik-potsdam.de>"
@@ -14494,11 +14495,11 @@
     },
     "shinyresults": {
       "Package": "shinyresults",
-      "Version": "0.33.1",
+      "Version": "0.34.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "A collection of shiny apps and modules to visualize/handle model results",
-      "Date": "2025-03-26",
+      "Date": "2025-12-18",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\") )",
       "Description": "A collection of tools which allow to manipulate and analyze code.",
       "License": "BSD_2_clause + file LICENSE",
@@ -14508,6 +14509,7 @@
         "shiny"
       ],
       "Imports": [
+        "base64enc",
         "curl",
         "data.table",
         "doSNOW",
@@ -14520,7 +14522,8 @@
         "reshape2",
         "snow",
         "trafficlight",
-        "withr"
+        "withr",
+        "yaml"
       ],
       "Suggests": [
         "covr",
@@ -14528,11 +14531,11 @@
         "quitte (>= 0.3072)"
       ],
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/shinyresults",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f22cc98c31e3639a7bc6d0981e25cde5d9f3a65a",
+      "RemoteSha": "476b9f25e0fe0222ed78482cd9ef3234dac4a62d",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre], Florian Humpenoeder [aut], Pascal Sauer [aut]",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
