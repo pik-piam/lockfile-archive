@@ -5160,7 +5160,7 @@
     },
     "gert": {
       "Package": "gert",
-      "Version": "2.2.0",
+      "Version": "2.3.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Simple Git Client for R",
@@ -5185,7 +5185,7 @@
       ],
       "VignetteBuilder": "knitr",
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2.9000",
+      "RoxygenNote": "7.3.3",
       "SystemRequirements": "libgit2 (>= 1.0): libgit2-devel (rpm) or libgit2-dev (deb)",
       "Language": "en-US",
       "NeedsCompilation": "yes",
@@ -7525,22 +7525,26 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.4.4",
+      "Version": "1.4.5",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Utilities for Scheduling Functions to Execute Later with Event Loops",
-      "Authors@R": "c( person(\"Winston\", \"Chang\", , \"winston@posit.co\", role = \"aut\"), person(\"Joe\", \"Cheng\", , \"joe@posit.co\", role = \"aut\"), person(\"Charlie\", \"Gao\", , \"charlie.gao@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-0750-061X\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"03wc8by49\")), person(\"Marcus\", \"Geelnard\", role = c(\"ctb\", \"cph\"), comment = \"TinyCThread library, https://tinycthread.github.io/\"), person(\"Evan\", \"Nemerson\", role = c(\"ctb\", \"cph\"), comment = \"TinyCThread library, https://tinycthread.github.io/\") )",
+      "Authors@R": "c( person(\"Winston\", \"Chang\", , \"winston@posit.co\", role = \"aut\", comment = c(ORCID = \"0000-0002-1576-2126\")), person(\"Joe\", \"Cheng\", , \"joe@posit.co\", role = \"aut\"), person(\"Charlie\", \"Gao\", , \"charlie.gao@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-0750-061X\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"03wc8by49\")), person(\"Marcus\", \"Geelnard\", role = c(\"ctb\", \"cph\"), comment = \"TinyCThread library, https://tinycthread.github.io/\"), person(\"Evan\", \"Nemerson\", role = c(\"ctb\", \"cph\"), comment = \"TinyCThread library, https://tinycthread.github.io/\") )",
       "Description": "Executes arbitrary R or C functions some time after the current time, after the R execution stack has emptied. The functions are scheduled in an event loop.",
       "License": "MIT + file LICENSE",
       "URL": "https://later.r-lib.org, https://github.com/r-lib/later",
       "BugReports": "https://github.com/r-lib/later/issues",
+      "Depends": [
+        "R (>= 3.5)"
+      ],
       "Imports": [
-        "Rcpp (>= 0.12.9)",
+        "Rcpp (>= 1.0.10)",
         "rlang"
       ],
       "Suggests": [
         "knitr",
         "nanonext",
+        "promises",
         "rmarkdown",
         "testthat (>= 3.0.0)"
       ],
@@ -7548,13 +7552,14 @@
         "Rcpp"
       ],
       "VignetteBuilder": "knitr",
+      "Config/build/compilation-database": "true",
       "Config/Needs/website": "tidyverse/tidytemplate",
       "Config/testthat/edition": "3",
       "Config/usethis/last-upkeep": "2025-07-18",
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "NeedsCompilation": "yes",
-      "Author": "Winston Chang [aut], Joe Cheng [aut], Charlie Gao [aut, cre] (ORCID: <https://orcid.org/0000-0002-0750-061X>), Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>), Marcus Geelnard [ctb, cph] (TinyCThread library, https://tinycthread.github.io/), Evan Nemerson [ctb, cph] (TinyCThread library, https://tinycthread.github.io/)",
+      "Author": "Winston Chang [aut] (ORCID: <https://orcid.org/0000-0002-1576-2126>), Joe Cheng [aut], Charlie Gao [aut, cre] (ORCID: <https://orcid.org/0000-0002-0750-061X>), Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>), Marcus Geelnard [ctb, cph] (TinyCThread library, https://tinycthread.github.io/), Evan Nemerson [ctb, cph] (TinyCThread library, https://tinycthread.github.io/)",
       "Maintainer": "Charlie Gao <charlie.gao@posit.co>",
       "Repository": "CRAN"
     },
@@ -7698,7 +7703,7 @@
     },
     "lifecycle": {
       "Package": "lifecycle",
-      "Version": "1.0.4",
+      "Version": "1.0.5",
       "Source": "Repository",
       "Title": "Manage the Life Cycle of your Package Functions",
       "Authors@R": "c( person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = c(\"aut\", \"cre\")), person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\", comment = c(ORCID = \"0000-0003-4757-117X\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")) )",
@@ -7711,29 +7716,28 @@
       ],
       "Imports": [
         "cli (>= 3.4.0)",
-        "glue",
         "rlang (>= 1.1.0)"
       ],
       "Suggests": [
         "covr",
-        "crayon",
         "knitr",
-        "lintr",
+        "lintr (>= 3.1.0)",
         "rmarkdown",
         "testthat (>= 3.0.1)",
         "tibble",
         "tidyverse",
         "tools",
         "vctrs",
-        "withr"
+        "withr",
+        "xml2"
       ],
       "VignetteBuilder": "knitr",
       "Config/Needs/website": "tidyverse/tidytemplate, usethis",
       "Config/testthat/edition": "3",
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.2.1",
+      "RoxygenNote": "7.3.3",
       "NeedsCompilation": "no",
-      "Author": "Lionel Henry [aut, cre], Hadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>), Posit Software, PBC [cph, fnd]",
+      "Author": "Lionel Henry [aut, cre], Hadley Wickham [aut] (ORCID: <https://orcid.org/0000-0003-4757-117X>), Posit Software, PBC [cph, fnd]",
       "Maintainer": "Lionel Henry <lionel@posit.co>",
       "Repository": "CRAN"
     },
@@ -8675,11 +8679,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.56.1",
+      "Version": "2.57.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x",
-      "Date": "2026-01-07",
+      "Date": "2026-01-08",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", , \"weindl@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Jannes\", \"Breier\", , \"breier@pik-potsdam.de\", role = \"aut\"), person(\"Amsalu Woldie\", \"Yalew\", , \"yalew@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", , \"David.Chen@pik-potsdam.de\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Marcos\", \"Alves\", , \"pedrosa@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"ctb\"), person(\"Singh\", \"Vartika\", role = \"ctb\"), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Common output routines for extracting results from the MAgPIE framework (versions 4.x).",
       "License": "LGPL-3 | file LICENSE",
@@ -8726,7 +8730,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3f4fc9a04bb62a6948ea46ed92b28ff6c84416af",
+      "RemoteSha": "af4488d238ace4f442a859524b7ec4a7cc695bfa",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Florian Humpenoeder [aut], Jan Philipp Dietrich [aut], Miodrag Stevanovic [aut], Isabelle Weindl [aut], Kristine Karstens [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Felicitas Beier [aut], Jannes Breier [aut], Amsalu Woldie Yalew [aut], David Chen [aut], Anne Biewald [aut], Stephen Wirth [aut], Patrick von Jeetze [aut], Debbora Leip [aut], Michael Crawford [aut], Marcos Alves [aut], Pascal Sauer [aut], Markus Bonsch [ctb], Singh Vartika [ctb], Patrick Rein [aut]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -9751,11 +9755,11 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.69.12",
+      "Version": "0.69.13",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRaT land data package",
-      "Date": "2025-12-16",
+      "Date": "2026-01-08",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", role = \"aut\"), person(\"Benjamin Leon\", \"Bodirsky\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", role = \"aut\"), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Nele\", \"Steinmetz\", role = \"aut\"), person(\"David\", \"Chen\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", role = \"aut\"), person(\"Stephen\", \"Wirth\", role = \"aut\"), person(\"Felicitas\", \"Beier\", role = \"aut\"), person(\"David\", \"Hoetten\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Jake\", \"Tommey\", role = \"aut\") )",
       "Description": "The package provides land related data via the madrat framework.",
       "License": "LGPL-3 | file LICENSE",
@@ -9800,7 +9804,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f04b8627988b1655bbee432787a723b2fe7d7edb",
+      "RemoteSha": "2b431b896294e5f1e1079c4972109194b1a2c1a2",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre], Abhijeet Mishra [aut], Isabelle Weindl [aut], Benjamin Leon Bodirsky [aut], Xiaoxi Wang [aut], Lavinia Baumstark [aut], Ulrich Kreidenweis [aut], David Klein [aut], Nele Steinmetz [aut], David Chen [aut], Florian Humpenoeder [aut], Patrick von Jeetze [aut], Stephen Wirth [aut], Felicitas Beier [aut], David Hoetten [aut], Pascal Sauer [aut], Jake Tommey [aut]",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -10859,7 +10863,7 @@
     },
     "parallelly": {
       "Package": "parallelly",
-      "Version": "1.46.0",
+      "Version": "1.46.1",
       "Source": "Repository",
       "Title": "Enhancing the 'parallel' Package",
       "Imports": [
@@ -12840,7 +12844,7 @@
     },
     "reformulas": {
       "Package": "reformulas",
-      "Version": "0.4.3",
+      "Version": "0.4.3.1",
       "Source": "Repository",
       "Title": "Machinery for Processing Random Effect Formulas",
       "Authors@R": "c( person(given = \"Ben\", family = \"Bolker\", role = c(\"aut\", \"cre\"), email = \"bolker@mcmaster.ca\", comment=c(ORCID=\"0000-0002-2127-0443\")), person(\"Anna\", \"Ly\", role = \"ctb\", comment = c(ORCID = \"0000-0002-0210-0342\")) )",
@@ -12858,9 +12862,11 @@
       "Suggests": [
         "lme4",
         "tinytest",
-        "glmmTMB"
+        "glmmTMB",
+        "testthat (>= 3.0.0)"
       ],
       "RoxygenNote": "7.3.3",
+      "Config/testthat/edition": "3",
       "NeedsCompilation": "no",
       "Author": "Ben Bolker [aut, cre] (ORCID: <https://orcid.org/0000-0002-2127-0443>), Anna Ly [ctb] (ORCID: <https://orcid.org/0000-0002-0210-0342>)",
       "Maintainer": "Ben Bolker <bolker@mcmaster.ca>",
@@ -14782,11 +14788,11 @@
     },
     "spam": {
       "Package": "spam",
-      "Version": "2.11-1",
+      "Version": "2.11-3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "SPArse Matrix",
-      "Date": "2025-01-20",
+      "Date": "2026-01-05",
       "Authors@R": "c(person(\"Reinhard\", \"Furrer\", role = c(\"aut\", \"cre\"), email = \"reinhard.furrer@math.uzh.ch\", comment = c(ORCID = \"0000-0002-6319-2332\")), person(\"Florian\", \"Gerber\", role = c(\"aut\"), email = \"florian.gerber@math.uzh.ch\", comment = c(ORCID = \"0000-0001-8545-5263\")), person(\"Roman\", \"Flury\", role = c(\"aut\"), email = \"roman.flury@math.uzh.ch\", comment = c(ORCID = \"0000-0002-0349-8698\")), person(\"Daniel\", \"Gerber\", role = \"ctb\", email = \"daniel_gerber_2222@hotmail.com\"), person(\"Kaspar\", \"Moesinger\", role = \"ctb\", email = \"kaspar.moesinger@gmail.com\"), person(\"Annina\", \"Cincera\", email = \"annina.cincera@math.uzh.ch\", role = \"ctb\"), person(\"Youcef\", \"Saad\", role = \"ctb\", comment = \"SPARSEKIT http://www-users.cs.umn.edu/~saad/software/SPARSKIT/\"), person(c(\"Esmond\", \"G.\"), \"Ng\", role = \"ctb\", comment = \"Fortran Cholesky routines\"), person(c(\"Barry\", \"W.\"), \"Peyton\", role = \"ctb\", comment = \"Fortran Cholesky routines\"), person(c(\"Joseph\", \"W.H.\"), \"Liu\", role = \"ctb\", comment = \"Fortran Cholesky routines\"), person(c(\"Alan\", \"D.\"), \"George\", role = \"ctb\", comment = \"Fortran Cholesky routines\"), person(c(\"Lehoucq\", \"B.\"), \"Rich\", role = \"ctb\", comment = \"ARPACK\"), person(c(\"Maschhoff\"), \"Kristi\", role = \"ctb\", comment = \"ARPACK\"), person(c(\"Sorensen\", \"C.\"), \"Danny\", role = \"ctb\", comment = \"ARPACK\"), person(c(\"Yang\"), \"Chao\", role = \"ctb\", comment = \"ARPACK\"))",
       "Depends": [
         "R (>= 4.0)"
@@ -14817,7 +14823,7 @@
       "URL": "https://www.math.uzh.ch/pages/spam/",
       "BugReports": "https://git.math.uzh.ch/reinhard.furrer/spam/-/issues",
       "NeedsCompilation": "yes",
-      "Author": "Reinhard Furrer [aut, cre] (<https://orcid.org/0000-0002-6319-2332>), Florian Gerber [aut] (<https://orcid.org/0000-0001-8545-5263>), Roman Flury [aut] (<https://orcid.org/0000-0002-0349-8698>), Daniel Gerber [ctb], Kaspar Moesinger [ctb], Annina Cincera [ctb], Youcef Saad [ctb] (SPARSEKIT http://www-users.cs.umn.edu/~saad/software/SPARSKIT/), Esmond G. Ng [ctb] (Fortran Cholesky routines), Barry W. Peyton [ctb] (Fortran Cholesky routines), Joseph W.H. Liu [ctb] (Fortran Cholesky routines), Alan D. George [ctb] (Fortran Cholesky routines), Lehoucq B. Rich [ctb] (ARPACK), Maschhoff Kristi [ctb] (ARPACK), Sorensen C. Danny [ctb] (ARPACK), Yang Chao [ctb] (ARPACK)",
+      "Author": "Reinhard Furrer [aut, cre] (ORCID: <https://orcid.org/0000-0002-6319-2332>), Florian Gerber [aut] (ORCID: <https://orcid.org/0000-0001-8545-5263>), Roman Flury [aut] (ORCID: <https://orcid.org/0000-0002-0349-8698>), Daniel Gerber [ctb], Kaspar Moesinger [ctb], Annina Cincera [ctb], Youcef Saad [ctb] (SPARSEKIT http://www-users.cs.umn.edu/~saad/software/SPARSKIT/), Esmond G. Ng [ctb] (Fortran Cholesky routines), Barry W. Peyton [ctb] (Fortran Cholesky routines), Joseph W.H. Liu [ctb] (Fortran Cholesky routines), Alan D. George [ctb] (Fortran Cholesky routines), Lehoucq B. Rich [ctb] (ARPACK), Maschhoff Kristi [ctb] (ARPACK), Sorensen C. Danny [ctb] (ARPACK), Yang Chao [ctb] (ARPACK)",
       "Maintainer": "Reinhard Furrer <reinhard.furrer@math.uzh.ch>",
       "Repository": "CRAN"
     },
