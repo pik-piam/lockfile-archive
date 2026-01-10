@@ -343,9 +343,9 @@
     },
     "Hmisc": {
       "Package": "Hmisc",
-      "Version": "5.2-4",
+      "Version": "5.2-5",
       "Source": "Repository",
-      "Date": "2025-10-02",
+      "Date": "2026-01-08",
       "Title": "Harrell Miscellaneous",
       "Authors@R": "c(person(given   = \"Frank E\", family  = \"Harrell Jr\", role    = c(\"aut\", \"cre\"), email   = \"fh@fharrell.com\", comment = c(ORCID = \"0000-0002-8271-5493\")), person(given   = \"Cole\", family  = \"Beck\", role    = c(\"ctb\"), email   = \"cole.beck@vumc.org\" ), person(given   = \"Charles\", family  = \"Dupont\", role    = \"ctb\") )",
       "Depends": [
@@ -4829,11 +4829,11 @@
     },
     "gamstransfer": {
       "Package": "gamstransfer",
-      "Version": "3.0.7",
+      "Version": "3.0.8",
       "Source": "Repository",
       "Type": "Package",
       "Title": "A Data Interface Between 'GAMS' and R",
-      "Date": "2025-09-02",
+      "Date": "2026-01-05",
       "Authors@R": "c( person(\"Atharv\", \"Bhosekar\", email = \"abhosekar@gams.com\", role = c(\"aut\", \"cre\")), person(\"GAMS Development Corp.\", email = \"support@gams.com\", role=c(\"cph\", \"fnd\")), person(\"GAMS Software GmbH\", email = \"support@gams.com\", role=c(\"cph\", \"fnd\")) )",
       "Maintainer": "Atharv Bhosekar <abhosekar@gams.com>",
       "Description": "Read, analyze, modify, and write 'GAMS' (General Algebraic Modeling System) data. The main focus of 'gamstransfer' is the highly efficient transfer of data with 'GAMS' <https://www.gams.com/>, while keeping these operations as simple as possible for the user. The transfer of data usually takes place via an intermediate GDX (GAMS Data Exchange) file. Additionally, 'gamstransfer' provides utility functions to get an overview of 'GAMS' data and to check its validity.",
@@ -9702,11 +9702,11 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "1.1.1",
+      "Version": "1.1.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "input data generation for the REMIND industry module",
-      "Date": "2025-11-05",
+      "Date": "2026-01-06",
       "Authors@R": "c( person(given = \"Falk\", family = \"Benke\", email = \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(given = \"Jakob\", family = \"Dürrwächter\", email = \"jakobdu@pik-potsdam.de\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", email = \"renato.rodrigues@pik-potsdam.de\", role = \"aut\"), person(given = \"Simón\", family = \"Moreno-Leiva\", email = \"simon.moreno@pik-potsdam.de\", role = \"aut\"), person(given = \"Lavinia\", family = \"Baumstark\", email = \"lavinia.baumstark@pik-potsdam.de\", role = \"aut\"), person(given = \"Michaja\", family = \"Pehl\", email = \"michaja.pehl@pik-potsdam.de\", role = \"aut\"), person(given = \"Bennet\", family = \"Weiss\", email = \"bennet.weiss@pik-potsdam.de\", role = \"aut\") )",
       "Description": "The mrindustry packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3",
@@ -9748,7 +9748,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrindustry",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b9eaa902cf5ed92eb6955a97cb72e62583f22186",
+      "RemoteSha": "f2ee76d4d1e905ffe2463116c7969df8fecc4446",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Jakob Dürrwächter [aut], Renato Rodrigues [aut], Simón Moreno-Leiva [aut], Lavinia Baumstark [aut], Michaja Pehl [aut], Bennet Weiss [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
@@ -9950,11 +9950,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.251.0",
+      "Version": "0.251.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2025-12-22",
+      "Date": "2026-01-09",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -10001,7 +10001,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "22169e7d365b8ec117ac32fda9d911f2bc70de2d",
+      "RemoteSha": "b9e0a249344cc1d00502958ad570c63452c44dff",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut], Tabea Dorndorf [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -12149,7 +12149,7 @@
     },
     "purrr": {
       "Package": "purrr",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Source": "Repository",
       "Title": "Functional Programming Tools",
       "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-4757-117X\")), person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"aut\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"https://ror.org/03wc8by49\")) )",
@@ -13480,7 +13480,7 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "1.1.6",
+      "Version": "1.1.7",
       "Source": "Repository",
       "Title": "Functions for Base Types and Core R and 'Tidyverse' Features",
       "Description": "A toolbox for working with base types, core R features like the condition system, and core 'Tidyverse' features like tidy evaluation.",
@@ -13489,7 +13489,7 @@
       "ByteCompile": "true",
       "Biarch": "true",
       "Depends": [
-        "R (>= 3.5.0)"
+        "R (>= 4.0.0)"
       ],
       "Imports": [
         "utils"
@@ -13518,7 +13518,7 @@
         "winch"
       ],
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "URL": "https://rlang.r-lib.org, https://github.com/r-lib/rlang",
       "BugReports": "https://github.com/r-lib/rlang/issues",
       "Config/build/compilation-database": "true",
@@ -15821,7 +15821,7 @@
     },
     "tseries": {
       "Package": "tseries",
-      "Version": "0.10-58",
+      "Version": "0.10-59",
       "Source": "Repository",
       "Title": "Time Series Analysis and Computational Finance",
       "Authors@R": "c(person(\"Adrian\", \"Trapletti\", role = \"aut\", email = \"adrian@trapletti.org\"), person(\"Kurt\", \"Hornik\", role = c(\"aut\", \"cre\"), email = \"Kurt.Hornik@R-project.org\", comment = c(ORCID = \"0000-0003-4198-9911\")), person(\"Blake\", \"LeBaron\", role = \"ctb\", comment = \"BDS test code\"))",
@@ -15840,7 +15840,7 @@
       ],
       "License": "GPL-2 | GPL-3",
       "NeedsCompilation": "yes",
-      "Author": "Adrian Trapletti [aut], Kurt Hornik [aut, cre] (<https://orcid.org/0000-0003-4198-9911>), Blake LeBaron [ctb] (BDS test code)",
+      "Author": "Adrian Trapletti [aut], Kurt Hornik [aut, cre] (ORCID: <https://orcid.org/0000-0003-4198-9911>), Blake LeBaron [ctb] (BDS test code)",
       "Maintainer": "Kurt Hornik <Kurt.Hornik@R-project.org>",
       "Repository": "CRAN"
     },
