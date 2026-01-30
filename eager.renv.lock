@@ -4669,10 +4669,10 @@
     },
     "foreign": {
       "Package": "foreign",
-      "Version": "0.8-90",
+      "Version": "0.8-91",
       "Source": "Repository",
       "Priority": "recommended",
-      "Date": "2025-03-31",
+      "Date": "2026-01-29",
       "Title": "Read Data Stored by 'Minitab', 'S', 'SAS', 'SPSS', 'Stata', 'Systat', 'Weka', 'dBase', ...",
       "Depends": [
         "R (>= 4.0.0)"
@@ -4693,7 +4693,7 @@
       "MailingList": "R-help@r-project.org",
       "URL": "https://svn.r-project.org/R-packages/trunk/foreign/",
       "NeedsCompilation": "yes",
-      "Author": "R Core Team [aut, cph, cre] (02zz1nj61), Roger Bivand [ctb, cph], Vincent J. Carey [ctb, cph], Saikat DebRoy [ctb, cph], Stephen Eglen [ctb, cph], Rajarshi Guha [ctb, cph], Swetlana Herbrandt [ctb], Nicholas Lewin-Koh [ctb, cph], Mark Myatt [ctb, cph], Michael Nelson [ctb], Ben Pfaff [ctb], Brian Quistorff [ctb], Frank Warmerdam [ctb, cph], Stephen Weigand [ctb, cph], Free Software Foundation, Inc. [cph]",
+      "Author": "R Core Team [aut, cph, cre] (ROR: <https://ror.org/02zz1nj61>), Roger Bivand [ctb, cph], Vincent J. Carey [ctb, cph], Saikat DebRoy [ctb, cph], Stephen Eglen [ctb, cph], Rajarshi Guha [ctb, cph], Swetlana Herbrandt [ctb], Nicholas Lewin-Koh [ctb, cph], Mark Myatt [ctb, cph], Michael Nelson [ctb], Ben Pfaff [ctb], Brian Quistorff [ctb], Frank Warmerdam [ctb, cph], Stephen Weigand [ctb, cph], Free Software Foundation, Inc. [cph]",
       "Maintainer": "R Core Team <R-core@R-project.org>",
       "Repository": "CRAN"
     },
@@ -4877,7 +4877,7 @@
     },
     "gargle": {
       "Package": "gargle",
-      "Version": "1.6.0",
+      "Version": "1.6.1",
       "Source": "Repository",
       "Title": "Utilities for Working with Google APIs",
       "Authors@R": "c( person(\"Jennifer\", \"Bryan\", , \"jenny@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-6983-2759\")), person(\"Craig\", \"Citro\", , \"craigcitro@google.com\", role = \"aut\"), person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\", comment = c(ORCID = \"0000-0003-4757-117X\")), person(\"Google Inc\", role = \"cph\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")) )",
@@ -4886,7 +4886,7 @@
       "URL": "https://gargle.r-lib.org, https://github.com/r-lib/gargle",
       "BugReports": "https://github.com/r-lib/gargle/issues",
       "Depends": [
-        "R (>= 3.6)"
+        "R (>= 4.1)"
       ],
       "Imports": [
         "cli (>= 3.0.1)",
@@ -4918,7 +4918,7 @@
       "Config/testthat/edition": "3",
       "Encoding": "UTF-8",
       "Language": "en-US",
-      "RoxygenNote": "7.3.2.9000",
+      "RoxygenNote": "7.3.3",
       "NeedsCompilation": "no",
       "Author": "Jennifer Bryan [aut, cre] (ORCID: <https://orcid.org/0000-0002-6983-2759>), Craig Citro [aut], Hadley Wickham [aut] (ORCID: <https://orcid.org/0000-0003-4757-117X>), Google Inc [cph], Posit Software, PBC [cph, fnd]",
       "Maintainer": "Jennifer Bryan <jenny@posit.co>",
@@ -8235,7 +8235,7 @@
     },
     "lpjmlstats": {
       "Package": "lpjmlstats",
-      "Version": "0.9.0",
+      "Version": "0.9.1",
       "Source": "Repository",
       "Title": "Statistical tools for LPJmL data analysis",
       "Authors@R": "c( person(\"David\",\"Hötten\", , \"davidho@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jannes\",\"Breier\", , \"jannes.breier@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9055-6904\")), person(\"Christoph\",\"Müller\", , \"cmueller@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9491-3550\")), person(\"Stephen B.\",\"Wirth\", , \"stephen.wirth@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-3090-3318\")) )",
@@ -8280,12 +8280,12 @@
       "Depends": [
         "R (>= 3.5.0)"
       ],
-      "Date": "2025-11-06",
+      "Date": "2026-01-12",
       "BinaryFiles": "inst/bin2cdf",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9369a867707d01af6fce2d7abd796fb0da8cd9d7",
+      "RemoteSha": "f17d6fa8b88d305e3a317982fdcb98d2a13cab9f",
       "NeedsCompilation": "no",
       "Author": "David Hötten [aut, cre], Jannes Breier [aut] (<https://orcid.org/0000-0002-9055-6904>), Christoph Müller [aut] (<https://orcid.org/0000-0002-9491-3550>), Stephen B. Wirth [aut] (<https://orcid.org/0000-0003-3090-3318>)",
       "Maintainer": "David Hötten <davidho@pik-potsdam.de>"
@@ -8338,11 +8338,11 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.52.1",
+      "Version": "0.52.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Code Manipulation and Analysis Tools",
-      "Date": "2025-12-05",
+      "Date": "2026-01-29",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Pascal\", \"Sauer\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"David\", \"Klein\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"aut\"), person(\"Benjamin Leon\", \"Bodirsky\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Lavinia\", \"Baumstark\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Oliver\", \"Richters\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Mika\", \"Pflüger\", role = \"aut\") )",
       "Description": "A collection of tools which allow to manipulate and analyze code.",
       "License": "BSD_2_clause + file LICENSE",
@@ -8386,7 +8386,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
       "RemoteRef": "HEAD",
-      "RemoteSha": "54267f8278441e636b6ca9ace3980f7d71449a8c",
+      "RemoteSha": "dac92f814bd28802c861171292732c96fe7cbad3",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), Pascal Sauer [aut] (Potsdam Institute for Climate Impact Research), David Klein [aut] (Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Markus Bonsch [aut], Benjamin Leon Bodirsky [aut] (Potsdam Institute for Climate Impact Research), Lavinia Baumstark [aut] (Potsdam Institute for Climate Impact Research), Oliver Richters [aut] (Potsdam Institute for Climate Impact Research), Mika Pflüger [aut]",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -8698,11 +8698,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.62.0",
+      "Version": "2.62.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x",
-      "Date": "2026-01-27",
+      "Date": "2026-01-29",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", , \"weindl@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Jannes\", \"Breier\", , \"breier@pik-potsdam.de\", role = \"aut\"), person(\"Amsalu Woldie\", \"Yalew\", , \"yalew@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", , \"David.Chen@pik-potsdam.de\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Marcos\", \"Alves\", , \"pedrosa@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"ctb\"), person(\"Singh\", \"Vartika\", role = \"ctb\"), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Common output routines for extracting results from the MAgPIE framework (versions 4.x).",
       "License": "LGPL-3 | file LICENSE",
@@ -8753,7 +8753,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "bcda10bdad3570e0df739f851c063700ea27c6af",
+      "RemoteSha": "96f7912a65e2c707b39d0f89d969ea6ae971f572",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Florian Humpenoeder [aut], Jan Philipp Dietrich [aut], Miodrag Stevanovic [aut], Isabelle Weindl [aut], Kristine Karstens [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Felicitas Beier [aut], Jannes Breier [aut], Amsalu Woldie Yalew [aut], David Chen [aut], Anne Biewald [aut], Stephen Wirth [aut], Patrick von Jeetze [aut], Debbora Leip [aut], Michael Crawford [aut], Marcos Alves [aut], Pascal Sauer [aut], Markus Bonsch [ctb], Singh Vartika [ctb], Patrick Rein [aut]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -9978,11 +9978,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.252.0",
+      "Version": "0.253.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2026-01-15",
+      "Date": "2026-01-29",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -10029,7 +10029,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8a41d09ba0bf5e7a5bb34cfc9b5bced0c3d212b1",
+      "RemoteSha": "939412271e0b345849572a89de947d90815f7b89",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut], Tabea Dorndorf [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -15777,7 +15777,7 @@
     },
     "timechange": {
       "Package": "timechange",
-      "Version": "0.3.0",
+      "Version": "0.4.0",
       "Source": "Repository",
       "Title": "Efficient Manipulation of Date-Times",
       "Authors@R": "c(person(\"Vitalie\", \"Spinu\", email = \"spinuvit@gmail.com\", role = c(\"aut\", \"cre\")), person(\"Google Inc.\", role = c(\"ctb\", \"cph\")))",
@@ -15794,7 +15794,7 @@
         "testthat (>= 0.7.1.99)",
         "knitr"
       ],
-      "SystemRequirements": "A system with zoneinfo data (e.g. /usr/share/zoneinfo) as well as a recent-enough C++11 compiler (such as g++-4.8 or later). On Windows the zoneinfo included with R is used.",
+      "SystemRequirements": "A system with zoneinfo data (e.g. /usr/share/zoneinfo). On Windows the zoneinfo included with R is used.",
       "BugReports": "https://github.com/vspinu/timechange/issues",
       "URL": "https://github.com/vspinu/timechange/",
       "RoxygenNote": "7.2.1",
