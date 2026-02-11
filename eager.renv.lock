@@ -1327,9 +1327,9 @@
     },
     "XML": {
       "Package": "XML",
-      "Version": "3.99-0.20",
+      "Version": "3.99-0.22",
       "Source": "Repository",
-      "Authors@R": "c(person(\"CRAN Team\", role = c('ctb', 'cre'), email = \"CRAN@r-project.org\", comment = \"de facto maintainer since 2013\"), person(\"Duncan\", \"Temple Lang\", role = c(\"aut\"), email = \"duncan@r-project.org\", comment = c(ORCID = \"0000-0003-0159-1546\")), person(\"Tomas\", \"Kalibera\", role = \"ctb\"), person(\"Ivan\", \"Krylov\", role = \"ctb\"))",
+      "Authors@R": "c(person(\"CRAN Team\", role = \"ctb\", email = \"CRAN@r-project.org\", comment = \"de facto maintainer in 2013-2026\"), person(\"Duncan\", \"Temple Lang\", role = \"aut\", email = \"duncan@r-project.org\", comment = c(ORCID = \"0000-0003-0159-1546\")), person(\"Tomas\", \"Kalibera\", role = \"ctb\"), person(\"Ivan\", \"Krylov\", email = \"ikrylov@disroot.org\", role = \"cre\"))",
       "Title": "Tools for Parsing and Generating XML Within R and S-Plus",
       "Depends": [
         "R (>= 4.0.0)",
@@ -1342,12 +1342,12 @@
       ],
       "SystemRequirements": "libxml2 (>= 2.6.3)",
       "Description": "Many approaches for both reading and creating XML (and HTML) documents (including DTDs), both local and accessible via HTTP or FTP.  Also offers access to an 'XPath' \"interpreter\".",
-      "URL": "https://www.omegahat.net/RSXML/",
+      "BugReports": "https://codeberg.org/aitap/XML/issues",
       "License": "BSD_3_clause + file LICENSE",
       "Collate": "AAA.R DTD.R DTDClasses.R DTDRef.R SAXMethods.R XMLClasses.R applyDOM.R assignChild.R catalog.R createNode.R dynSupports.R error.R flatTree.R nodeAccessors.R parseDTD.R schema.R summary.R tangle.R toString.R tree.R version.R xmlErrorEnums.R xmlEventHandler.R xmlEventParse.R xmlHandler.R xmlInternalSource.R xmlOutputDOM.R xmlNodes.R xmlOutputBuffer.R xmlTree.R xmlTreeParse.R htmlParse.R hashTree.R zzz.R supports.R parser.R libxmlFeatures.R xmlString.R saveXML.R namespaces.R readHTMLTable.R reflection.R xmlToDataFrame.R bitList.R compare.R encoding.R fixNS.R xmlRoot.R serialize.R xmlMemoryMgmt.R keyValueDB.R solrDocs.R XMLRErrorInfo.R xincludes.R namespaceHandlers.R tangle1.R htmlLinks.R htmlLists.R getDependencies.R getRelativeURL.R xmlIncludes.R simplifyPath.R",
       "NeedsCompilation": "yes",
-      "Author": "CRAN Team [ctb, cre] (de facto maintainer since 2013), Duncan Temple Lang [aut] (ORCID: <https://orcid.org/0000-0003-0159-1546>), Tomas Kalibera [ctb], Ivan Krylov [ctb]",
-      "Maintainer": "CRAN Team <CRAN@r-project.org>",
+      "Author": "CRAN Team [ctb] (de facto maintainer in 2013-2026), Duncan Temple Lang [aut] (ORCID: <https://orcid.org/0000-0003-0159-1546>), Tomas Kalibera [ctb], Ivan Krylov [cre]",
+      "Maintainer": "Ivan Krylov <ikrylov@disroot.org>",
       "Repository": "CRAN"
     },
     "abind": {
@@ -8179,7 +8179,7 @@
     },
     "lpjmlstats": {
       "Package": "lpjmlstats",
-      "Version": "0.9.3",
+      "Version": "0.9.4",
       "Source": "Repository",
       "Title": "Statistical tools for LPJmL data analysis",
       "Authors@R": "c( person(\"David\",\"Hötten\", , \"davidho@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jannes\",\"Breier\", , \"jannes.breier@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9055-6904\")), person(\"Christoph\",\"Müller\", , \"cmueller@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9491-3550\")), person(\"Stephen B.\",\"Wirth\", , \"stephen.wirth@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-3090-3318\")) )",
@@ -8224,12 +8224,12 @@
       "Depends": [
         "R (>= 3.5.0)"
       ],
-      "Date": "2026-02-09",
+      "Date": "2026-02-10",
       "BinaryFiles": "inst/bin2cdf",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d7f3f20d4c7300c2c852c30065cd0c33ad9066fb",
+      "RemoteSha": "eedf99287b3192bff27bdfb8d0e16cecb027cce5",
       "NeedsCompilation": "no",
       "Author": "David Hötten [aut, cre], Jannes Breier [aut] (<https://orcid.org/0000-0002-9055-6904>), Christoph Müller [aut] (<https://orcid.org/0000-0002-9491-3550>), Stephen B. Wirth [aut] (<https://orcid.org/0000-0003-3090-3318>)",
       "Maintainer": "David Hötten <davidho@pik-potsdam.de>"
@@ -8642,11 +8642,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.63.4",
+      "Version": "2.64.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x",
-      "Date": "2026-02-09",
+      "Date": "2026-02-10",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", , \"weindl@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Jannes\", \"Breier\", , \"breier@pik-potsdam.de\", role = \"aut\"), person(\"Amsalu Woldie\", \"Yalew\", , \"yalew@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", , \"David.Chen@pik-potsdam.de\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Marcos\", \"Alves\", , \"pedrosa@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"ctb\"), person(\"Singh\", \"Vartika\", role = \"ctb\"), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Common output routines for extracting results from the MAgPIE framework (versions 4.x).",
       "License": "LGPL-3 | file LICENSE",
@@ -8686,7 +8686,7 @@
         "FRACTION",
         "ncdf4",
         "terra",
-        "testthat (>= 3.2.0)",
+        "testthat (>= 3.3.2)",
         "withr"
       ],
       "Encoding": "UTF-8",
@@ -8697,7 +8697,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e7c183696c60f7f2abbfa28f6c95e40f3ae08c6b",
+      "RemoteSha": "30cba26c806e9d46e5c1ae88b130e86540ebadcd",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Florian Humpenoeder [aut], Jan Philipp Dietrich [aut], Miodrag Stevanovic [aut], Isabelle Weindl [aut], Kristine Karstens [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Felicitas Beier [aut], Jannes Breier [aut], Amsalu Woldie Yalew [aut], David Chen [aut], Anne Biewald [aut], Stephen Wirth [aut], Patrick von Jeetze [aut], Debbora Leip [aut], Michael Crawford [aut], Marcos Alves [aut], Pascal Sauer [aut], Markus Bonsch [ctb], Singh Vartika [ctb], Patrick Rein [aut]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
