@@ -3391,7 +3391,7 @@
     },
     "dbplyr": {
       "Package": "dbplyr",
-      "Version": "2.5.1",
+      "Version": "2.5.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "A 'dplyr' Back End for Databases",
@@ -6402,7 +6402,7 @@
     },
     "gstat": {
       "Package": "gstat",
-      "Version": "2.1-4",
+      "Version": "2.1-5",
       "Source": "Repository",
       "Title": "Spatial and Spatio-Temporal Geostatistical Modelling, Prediction and Simulation",
       "Authors@R": "c(person(given = \"Edzer\",  family = \"Pebesma\",  role = c(\"aut\", \"cre\"), email = \"edzer.pebesma@uni-muenster.de\", comment = c(ORCID = \"0000-0001-8049-7069\")), person(\"Benedikt\", \"Graeler\", role = \"aut\"))",
@@ -6874,19 +6874,19 @@
     },
     "httr": {
       "Package": "httr",
-      "Version": "1.4.7",
+      "Version": "1.4.8",
       "Source": "Repository",
       "Title": "Tools for Working with URLs and HTTP",
-      "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\")), person(\"Posit, PBC\", role = c(\"cph\", \"fnd\")) )",
+      "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\")), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")) )",
       "Description": "Useful tools for working with HTTP organised by HTTP verbs (GET(), POST(), etc). Configuration functions make it easy to control additional request components (authenticate(), add_headers() and so on).",
       "License": "MIT + file LICENSE",
       "URL": "https://httr.r-lib.org/, https://github.com/r-lib/httr",
       "BugReports": "https://github.com/r-lib/httr/issues",
       "Depends": [
-        "R (>= 3.5)"
+        "R (>= 3.6)"
       ],
       "Imports": [
-        "curl (>= 5.0.2)",
+        "curl (>= 5.1.0)",
         "jsonlite",
         "mime",
         "openssl (>= 0.8)",
@@ -6906,9 +6906,9 @@
       "VignetteBuilder": "knitr",
       "Config/Needs/website": "tidyverse/tidytemplate",
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.2.3",
+      "RoxygenNote": "7.3.3",
       "NeedsCompilation": "no",
-      "Author": "Hadley Wickham [aut, cre], Posit, PBC [cph, fnd]",
+      "Author": "Hadley Wickham [aut, cre], Posit Software, PBC [cph, fnd]",
       "Maintainer": "Hadley Wickham <hadley@posit.co>",
       "Repository": "CRAN"
     },
@@ -7483,7 +7483,7 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.4.5",
+      "Version": "1.4.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Utilities for Scheduling Functions to Execute Later with Event Loops",
@@ -9426,11 +9426,11 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.14.1",
+      "Version": "0.15.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Prepare data to be used by the EDGE-Buildings model",
-      "Date": "2026-02-05",
+      "Date": "2026-02-11",
       "Authors@R": "c( person(\"Robin\", \"Hasse\", , \"robin.hasse@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-1818-3186\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Hagen\", \"Tockhorn\", role = \"aut\") )",
       "Description": "Prepare data to be used by the EDGE-Buildings model.",
       "License": "MIT + file LICENSE",
@@ -9475,7 +9475,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "af94d7d9125aee927e899f60f3c03c65cf9ce503",
+      "RemoteSha": "4638143dcbf75003c1a1490a146aec0d14aa9743",
       "NeedsCompilation": "no",
       "Author": "Robin Hasse [aut, cre] (<https://orcid.org/0000-0003-1818-3186>), Pascal Sauer [aut], Antoine Levesque [aut], Hagen Tockhorn [aut]",
       "Maintainer": "Robin Hasse <robin.hasse@pik-potsdam.de>"
@@ -9923,18 +9923,18 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.256.1",
+      "Version": "0.257.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2026-02-12",
+      "Date": "2026-02-13",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
       "URL": "https://github.com/pik-piam/mrremind",
       "Depends": [
         "R (>= 4.0)",
-        "edgeTransport (>= 2.14.0)",
+        "edgeTransport (>= 3.5.0)",
         "GDPuc (>= 1.3.0)",
         "madrat (>= 3.7.1)",
         "magclass (>= 6.16.1)",
@@ -9974,7 +9974,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3e4f30acaa85c073b3ff6d98b046158d3d9a841d",
+      "RemoteSha": "4e92b0c4dade81326995fb7f0dbf089ed9dd6cde",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut], Tabea Dorndorf [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -11021,11 +11021,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.57.0",
+      "Version": "0.57.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project specific interfaces to REMIND / MAgPIE",
-      "Date": "2026-02-07",
+      "Date": "2026-02-13",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "Project specific interfaces to REMIND / MAgPIE.",
       "License": "LGPL-3",
@@ -11061,7 +11061,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fbe980fa29950ae2d3d5128e3623b6eb3ee74099",
+      "RemoteSha": "0e38f181f9efa34e7fc46d3b1894e297cd1b31f8",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
@@ -13349,7 +13349,7 @@
     },
     "reticulate": {
       "Package": "reticulate",
-      "Version": "1.44.1",
+      "Version": "1.45.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Interface to 'Python'",
@@ -14653,10 +14653,10 @@
     },
     "sp": {
       "Package": "sp",
-      "Version": "2.2-0",
+      "Version": "2.2-1",
       "Source": "Repository",
       "Title": "Classes and Methods for Spatial Data",
-      "Authors@R": "c(person(\"Edzer\", \"Pebesma\", role = c(\"aut\", \"cre\"), email = \"edzer.pebesma@uni-muenster.de\"), person(\"Roger\", \"Bivand\", role = \"aut\", email = \"Roger.Bivand@nhh.no\"), person(\"Barry\", \"Rowlingson\", role = \"ctb\"), person(\"Virgilio\", \"Gomez-Rubio\", role = \"ctb\"), person(\"Robert\", \"Hijmans\", role = \"ctb\"), person(\"Michael\", \"Sumner\", role = \"ctb\"), person(\"Don\", \"MacQueen\", role = \"ctb\"), person(\"Jim\", \"Lemon\", role = \"ctb\"), person(\"Finn\", \"Lindgren\", role = \"ctb\"), person(\"Josh\", \"O'Brien\", role = \"ctb\"), person(\"Joseph\", \"O'Rourke\", role = \"ctb\"), person(\"Patrick\", \"Hausmann\", role = \"ctb\"))",
+      "Authors@R": "c(person(\"Edzer\", \"Pebesma\", role = c(\"aut\", \"cre\"), email = \"edzer.pebesma@uni-muenster.de\"), person(\"Roger\", \"Bivand\", role = \"aut\", email = \"Roger.Bivand@nhh.no\"), person(\"Barry\", \"Rowlingson\", role = \"ctb\"), person(\"Virgilio\", \"Gomez-Rubio\", role = \"ctb\"), person(\"Robert\", \"Hijmans\", role = \"ctb\"), person(\"Michael\", \"Sumner\", role = \"ctb\"), person(\"Don\", \"MacQueen\", role = \"ctb\"), person(\"Jim\", \"Lemon\", role = \"ctb\"), person(\"Finn\", \"Lindgren\", role = \"ctb\"), person(\"Josh\", \"O'Brien\", role = \"ctb\"), person(\"Joseph\", \"O'Rourke\", role = \"ctb\"), person(\"Patrick\", \"Hausmann\", role = \"ctb\"), person(\"Sebastian\", \"Meyer\", role = \"ctb\"))",
       "Depends": [
         "R (>= 3.5.0)",
         "methods"
@@ -14688,7 +14688,7 @@
       "Collate": "bpy.colors.R AAA.R Class-CRS.R CRS-methods.R Class-Spatial.R Spatial-methods.R projected.R Class-SpatialPoints.R SpatialPoints-methods.R Class-SpatialPointsDataFrame.R SpatialPointsDataFrame-methods.R Class-SpatialMultiPoints.R SpatialMultiPoints-methods.R Class-SpatialMultiPointsDataFrame.R SpatialMultiPointsDataFrame-methods.R Class-GridTopology.R Class-SpatialGrid.R Class-SpatialGridDataFrame.R Class-SpatialLines.R SpatialLines-methods.R Class-SpatialLinesDataFrame.R SpatialLinesDataFrame-methods.R Class-SpatialPolygons.R Class-SpatialPolygonsDataFrame.R SpatialPolygons-methods.R SpatialPolygonsDataFrame-methods.R GridTopology-methods.R SpatialGrid-methods.R SpatialGridDataFrame-methods.R SpatialPolygons-internals.R point.in.polygon.R SpatialPolygons-displayMethods.R zerodist.R image.R stack.R bubble.R mapasp.R select.spatial.R gridded.R asciigrid.R spplot.R over.R spsample.R recenter.R dms.R gridlines.R spdists.R rbind.R flipSGDF.R chfids.R loadmeuse.R compassRose.R surfaceArea.R spOptions.R subset.R disaggregate.R sp_spat1.R merge.R aggregate.R elide.R sp2Mondrian.R",
       "VignetteBuilder": "knitr",
       "NeedsCompilation": "yes",
-      "Author": "Edzer Pebesma [aut, cre], Roger Bivand [aut], Barry Rowlingson [ctb], Virgilio Gomez-Rubio [ctb], Robert Hijmans [ctb], Michael Sumner [ctb], Don MacQueen [ctb], Jim Lemon [ctb], Finn Lindgren [ctb], Josh O'Brien [ctb], Joseph O'Rourke [ctb], Patrick Hausmann [ctb]",
+      "Author": "Edzer Pebesma [aut, cre], Roger Bivand [aut], Barry Rowlingson [ctb], Virgilio Gomez-Rubio [ctb], Robert Hijmans [ctb], Michael Sumner [ctb], Don MacQueen [ctb], Jim Lemon [ctb], Finn Lindgren [ctb], Josh O'Brien [ctb], Joseph O'Rourke [ctb], Patrick Hausmann [ctb], Sebastian Meyer [ctb]",
       "Maintainer": "Edzer Pebesma <edzer.pebesma@uni-muenster.de>",
       "Repository": "CRAN"
     },
@@ -14846,7 +14846,7 @@
     },
     "stars": {
       "Package": "stars",
-      "Version": "0.7-0",
+      "Version": "0.7-1",
       "Source": "Repository",
       "Title": "Spatiotemporal Arrays, Raster and Vector Data Cubes",
       "Authors@R": "c(person(given = \"Edzer\", family = \"Pebesma\", role = c(\"aut\", \"cre\"), email = \"edzer.pebesma@uni-muenster.de\", comment = c(ORCID = \"0000-0001-8049-7069\")), person(given = \"Michael\", family = \"Sumner\", role = \"ctb\",  comment=c(ORCID = \"0000-0002-2471-7511\")), person(given = \"Etienne\", family = \"Racine\", role = \"ctb\"), person(given = \"Adriano\", family = \"Fantini\", role = \"ctb\"),  person(given = \"David\",  family = \"Blodgett\",  role = \"ctb\"),  person(given = \"Krzysztof\",  family = \"Dyba\",  role = \"ctb\", comment=c(ORCID = \"0000-0002-8614-3816\")))",
