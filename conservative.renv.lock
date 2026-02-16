@@ -12900,11 +12900,11 @@
     },
     "remindClimateAssessment": {
       "Package": "remindClimateAssessment",
-      "Version": "0.0.11",
+      "Version": "0.1.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "REMIND integration of IIASA's `climate-assessment` package",
-      "Date": "2025-07-03",
+      "Date": "2026-02-16",
       "Authors@R": "person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = c(\"aut\", \"cre\"))",
       "Description": "The REMIND integration of IIASA's `climate-assessment` provides a standardized interface to simple climate models such as MAGICC7.",
       "License": "LGPL-3",
@@ -12928,11 +12928,11 @@
         "testthat"
       ],
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remindClimateAssessment",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8c04efbfe0053bc75b1e97ab1bf8aa80b600bcba",
+      "RemoteSha": "d074736f796a91982ceba51d99615acda9292e10",
       "NeedsCompilation": "no",
       "Author": "Tonn Rüter [aut, cre]",
       "Maintainer": "Tonn Rüter <tonn.rueter@pik-potsdam.de>"
