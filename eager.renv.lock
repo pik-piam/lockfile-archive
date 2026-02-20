@@ -1852,11 +1852,11 @@
     },
     "brick": {
       "Package": "brick",
-      "Version": "0.13.2",
+      "Version": "0.13.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Building sector model with heterogeneous renovation and construction of the stock",
-      "Date": "2025-12-18",
+      "Date": "2026-02-19",
       "Authors@R": "c( person(\"Robin\", \"Hasse\", , \"robin.hasse@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-1818-3186\")), person(\"Ricarda\", \"Rosemann\", , \"ricarda.rosemann@pik-potsdam.de\", role = \"aut\", comment = c(ORCID = \"0009-0006-5939-3197\")) )",
       "Description": "This building stock model represents residential and commercial buildings at customisable regional and temporal resolution. The building stock is quantified in floor area and distinguished by building type (SFH/MFH) and location (rural/urban). In each building category, construction cohorts are tracked explicitly. This allows to characterise buildings specifically for each subset of buildings. The evolution of the building stock follows from the flows of constructed, renovated and demolished buildings and is optimised under cost minimisation with a benefit for heterogeneity in the choice of construction and renovation alternatives. This benefit captures heterogeneity in the preferences of the agents and the building structure.",
       "License": "LGPL-3",
@@ -1894,7 +1894,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/brick",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9b3d143ccf856ef9ffc3466850fe0c221ded9db6",
+      "RemoteSha": "d538e1516a8cb83a7898955e693ece53ef4e80ba",
       "NeedsCompilation": "no",
       "Author": "Robin Hasse [aut, cre] (<https://orcid.org/0000-0003-1818-3186>), Ricarda Rosemann [aut] (<https://orcid.org/0009-0006-5939-3197>)",
       "Maintainer": "Robin Hasse <robin.hasse@pik-potsdam.de>"
@@ -6309,7 +6309,7 @@
     },
     "gridtext": {
       "Package": "gridtext",
-      "Version": "0.1.5",
+      "Version": "0.1.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Improved Text Rendering Support for 'Grid' Graphics",
@@ -6345,9 +6345,8 @@
       ],
       "Encoding": "UTF-8",
       "RoxygenNote": "7.1.1",
-      "SystemRequirements": "C++11",
       "NeedsCompilation": "yes",
-      "Author": "Claus O. Wilke [aut] (<https://orcid.org/0000-0002-7470-9261>), Brenton M. Wiernik [aut, cre] (<https://orcid.org/0000-0001-9560-6336>, @bmwiernik)",
+      "Author": "Claus O. Wilke [aut] (ORCID: <https://orcid.org/0000-0002-7470-9261>), Brenton M. Wiernik [aut, cre] (ORCID: <https://orcid.org/0000-0001-9560-6336>, Twitter: @bmwiernik)",
       "Maintainer": "Brenton M. Wiernik <brenton@wiernik.org>",
       "Repository": "CRAN"
     },
@@ -9532,11 +9531,11 @@
     },
     "mrfaocore": {
       "Package": "mrfaocore",
-      "Version": "1.5.0",
+      "Version": "1.6.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "madrat-based package providing core FAO-related preprocessing functions",
-      "Date": "2026-02-02",
+      "Date": "2026-02-19",
       "Authors@R": "c( person(\"David\", \"Chen\", , \"david.chen@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Kristine\", \"Karstens\", role = \"aut\"), person(\"Benjamin\", \"Leon Bodirsky\", role = \"aut\"), person(\"Debbora\", \"Leip\", role = \"aut\"), person(\"Mishko\", \"Stevanovic\", role = \"aut\"), person(\"Benjamin\", \"Leon Bodrisky\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Edna\", \"Molina Bacca\", role = \"aut\") )",
       "Description": "This madrat-based package provides core FAO-related preprocessing functions.",
       "License": "LGPL-3",
@@ -9565,7 +9564,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrfaocore",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d86871c1d26e44aa8835b8566ff10ba81064455a",
+      "RemoteSha": "3ff508578d794e98399bf6adc7682c47c4d0f433",
       "NeedsCompilation": "no",
       "Author": "David Chen [aut, cre], Ulrich Kreidenweis [aut], Abhijeet Mishra [aut], Kristine Karstens [aut], Benjamin Leon Bodirsky [aut], Debbora Leip [aut], Mishko Stevanovic [aut], Benjamin Leon Bodrisky [aut], David Klein [aut], Edna Molina Bacca [aut]",
       "Maintainer": "David Chen <david.chen@pik-potsdam.de>"
@@ -10202,14 +10201,14 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.13.8",
+      "Version": "1.14.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "madrat based MAgPIE water Input Data Library",
       "URL": "https://github.com/pik-piam/mrwater,",
       "https": "//doi.org/10.5281/zenodo.5801680",
       "License": "LGPL-3 | file LICENSE",
-      "Date": "2025-08-26",
+      "Date": "2026-02-19",
       "Authors@R": "c(person(\"Felicitas\", \"Beier\", email = \"beier@pik-potsdam.de\", role = c(\"aut\",\"cre\")), person(\"Jens\", \"Heinke\", email = \"heinke@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", email = \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Benjamin Leon\", \"Bodirsky\", email = \"bodirsky@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", email = \"dietrich@pik-potsdam.de\", role = \"aut\"))",
       "Description": "Provides functions for MAgPIE cellular input data generation  and stand-alone water calculations.",
       "Depends": [
@@ -10237,11 +10236,11 @@
       ],
       "VignetteBuilder": "knitr",
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "23bb96f76ce04377be120bbb3024cb6ea8ab25f4",
+      "RemoteSha": "b959aacf966287a33e490f3660c2a189b7eb47b7",
       "NeedsCompilation": "no",
       "Author": "Felicitas Beier [aut, cre], Jens Heinke [aut], Kristine Karstens [aut], Benjamin Leon Bodirsky [aut], Jan Philipp Dietrich [aut]",
       "Maintainer": "Felicitas Beier <beier@pik-potsdam.de>"
@@ -12634,29 +12633,31 @@
     },
     "readr": {
       "Package": "readr",
-      "Version": "2.1.6",
+      "Version": "2.2.0",
       "Source": "Repository",
       "Title": "Read Rectangular Text Data",
-      "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"), person(\"Jim\", \"Hester\", role = \"aut\"), person(\"Romain\", \"Francois\", role = \"ctb\"), person(\"Jennifer\", \"Bryan\", , \"jenny@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-6983-2759\")), person(\"Shelby\", \"Bearrows\", role = \"ctb\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")), person(\"https://github.com/mandreyel/\", role = \"cph\", comment = \"mio library\"), person(\"Jukka\", \"Jylänki\", role = c(\"ctb\", \"cph\"), comment = \"grisu3 implementation\"), person(\"Mikkel\", \"Jørgensen\", role = c(\"ctb\", \"cph\"), comment = \"grisu3 implementation\") )",
+      "Authors@R": "c( person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"), person(\"Jim\", \"Hester\", role = \"aut\"), person(\"Romain\", \"Francois\", role = \"ctb\"), person(\"Jennifer\", \"Bryan\", , \"jenny@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-6983-2759\")), person(\"Shelby\", \"Bearrows\", role = \"ctb\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"03wc8by49\")), person(\"https://github.com/mandreyel/\", role = \"cph\", comment = \"mio library\"), person(\"Jukka\", \"Jylänki\", role = c(\"ctb\", \"cph\"), comment = \"grisu3 implementation\"), person(\"Mikkel\", \"Jørgensen\", role = c(\"ctb\", \"cph\"), comment = \"grisu3 implementation\") )",
       "Description": "The goal of 'readr' is to provide a fast and friendly way to read rectangular data (like 'csv', 'tsv', and 'fwf').  It is designed to flexibly parse many types of data found in the wild, while still cleanly failing when data unexpectedly changes.",
       "License": "MIT + file LICENSE",
       "URL": "https://readr.tidyverse.org, https://github.com/tidyverse/readr",
       "BugReports": "https://github.com/tidyverse/readr/issues",
       "Depends": [
-        "R (>= 3.6)"
+        "R (>= 4.1)"
       ],
       "Imports": [
-        "cli (>= 3.2.0)",
+        "cli",
         "clipr",
         "crayon",
+        "glue",
         "hms (>= 0.4.1)",
-        "lifecycle (>= 0.2.0)",
+        "lifecycle",
         "methods",
         "R6",
         "rlang",
         "tibble",
         "utils",
-        "vroom (>= 1.6.0)"
+        "vroom (>= 1.7.0)",
+        "withr"
       ],
       "Suggests": [
         "covr",
@@ -12669,7 +12670,6 @@
         "testthat (>= 3.2.0)",
         "tzdb (>= 0.1.1)",
         "waldo",
-        "withr",
         "xml2"
       ],
       "LinkingTo": [
@@ -12680,11 +12680,12 @@
       "Config/Needs/website": "tidyverse, tidyverse/tidytemplate",
       "Config/testthat/edition": "3",
       "Config/testthat/parallel": "false",
+      "Config/usethis/last-upkeep": "2025-11-14",
       "Encoding": "UTF-8",
       "Language": "en-US",
       "RoxygenNote": "7.3.3",
       "NeedsCompilation": "yes",
-      "Author": "Hadley Wickham [aut], Jim Hester [aut], Romain Francois [ctb], Jennifer Bryan [aut, cre] (ORCID: <https://orcid.org/0000-0002-6983-2759>), Shelby Bearrows [ctb], Posit Software, PBC [cph, fnd], https://github.com/mandreyel/ [cph] (mio library), Jukka Jylänki [ctb, cph] (grisu3 implementation), Mikkel Jørgensen [ctb, cph] (grisu3 implementation)",
+      "Author": "Hadley Wickham [aut], Jim Hester [aut], Romain Francois [ctb], Jennifer Bryan [aut, cre] (ORCID: <https://orcid.org/0000-0002-6983-2759>), Shelby Bearrows [ctb], Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>), https://github.com/mandreyel/ [cph] (mio library), Jukka Jylänki [ctb, cph] (grisu3 implementation), Mikkel Jørgensen [ctb, cph] (grisu3 implementation)",
       "Maintainer": "Jennifer Bryan <jenny@posit.co>",
       "Repository": "CRAN"
     },
