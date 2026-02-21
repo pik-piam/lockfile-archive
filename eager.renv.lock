@@ -4771,7 +4771,7 @@
     },
     "future.apply": {
       "Package": "future.apply",
-      "Version": "1.20.1",
+      "Version": "1.20.2",
       "Source": "Repository",
       "Title": "Apply Function to Elements in Parallel using Futures",
       "Depends": [
@@ -8147,7 +8147,7 @@
     },
     "lpjmlstats": {
       "Package": "lpjmlstats",
-      "Version": "0.9.4",
+      "Version": "0.9.5",
       "Source": "Repository",
       "Title": "Statistical tools for LPJmL data analysis",
       "Authors@R": "c( person(\"David\",\"Hötten\", , \"davidho@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jannes\",\"Breier\", , \"jannes.breier@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9055-6904\")), person(\"Christoph\",\"Müller\", , \"cmueller@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9491-3550\")), person(\"Stephen B.\",\"Wirth\", , \"stephen.wirth@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-3090-3318\")) )",
@@ -8185,19 +8185,19 @@
         "testthat (>= 3.0.0)",
         "maps",
         "sf",
-        "covr"
+        "covr",
+        "ncdf4"
       ],
       "Config/testthat/edition": "3",
       "VignetteBuilder": "knitr",
       "Depends": [
         "R (>= 3.5.0)"
       ],
-      "Date": "2026-02-10",
-      "BinaryFiles": "inst/bin2cdf",
+      "Date": "2026-02-20",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "eedf99287b3192bff27bdfb8d0e16cecb027cce5",
+      "RemoteSha": "1132adec7b7f90ddb16c5b932a2d96f623408754",
       "NeedsCompilation": "no",
       "Author": "David Hötten [aut, cre], Jannes Breier [aut] (<https://orcid.org/0000-0002-9055-6904>), Christoph Müller [aut] (<https://orcid.org/0000-0002-9491-3550>), Stephen B. Wirth [aut] (<https://orcid.org/0000-0003-3090-3318>)",
       "Maintainer": "David Hötten <davidho@pik-potsdam.de>"
@@ -8610,11 +8610,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.66.2",
+      "Version": "2.66.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x",
-      "Date": "2026-02-12",
+      "Date": "2026-02-20",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", , \"weindl@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Jannes\", \"Breier\", , \"breier@pik-potsdam.de\", role = \"aut\"), person(\"Amsalu Woldie\", \"Yalew\", , \"yalew@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", , \"David.Chen@pik-potsdam.de\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Marcos\", \"Alves\", , \"pedrosa@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"ctb\"), person(\"Singh\", \"Vartika\", role = \"ctb\"), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Common output routines for extracting results from the MAgPIE framework (versions 4.x).",
       "License": "LGPL-3 | file LICENSE",
@@ -8665,7 +8665,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c776326c3d175b8dbf9db4710f44f0c35f3ff3ec",
+      "RemoteSha": "b81bb0d58fc390585b9bc640a7f2b0f83ab2ebf6",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Florian Humpenoeder [aut], Jan Philipp Dietrich [aut], Miodrag Stevanovic [aut], Isabelle Weindl [aut], Kristine Karstens [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Felicitas Beier [aut], Jannes Breier [aut], Amsalu Woldie Yalew [aut], David Chen [aut], Anne Biewald [aut], Stephen Wirth [aut], Patrick von Jeetze [aut], Debbora Leip [aut], Michael Crawford [aut], Marcos Alves [aut], Pascal Sauer [aut], Markus Bonsch [ctb], Singh Vartika [ctb], Patrick Rein [aut]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -9531,11 +9531,11 @@
     },
     "mrfaocore": {
       "Package": "mrfaocore",
-      "Version": "1.6.0",
+      "Version": "1.6.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "madrat-based package providing core FAO-related preprocessing functions",
-      "Date": "2026-02-19",
+      "Date": "2026-02-20",
       "Authors@R": "c( person(\"David\", \"Chen\", , \"david.chen@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Kristine\", \"Karstens\", role = \"aut\"), person(\"Benjamin\", \"Leon Bodirsky\", role = \"aut\"), person(\"Debbora\", \"Leip\", role = \"aut\"), person(\"Mishko\", \"Stevanovic\", role = \"aut\"), person(\"Benjamin\", \"Leon Bodrisky\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Edna\", \"Molina Bacca\", role = \"aut\") )",
       "Description": "This madrat-based package provides core FAO-related preprocessing functions.",
       "License": "LGPL-3",
@@ -9564,7 +9564,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrfaocore",
       "RemoteRef": "HEAD",
-      "RemoteSha": "3ff508578d794e98399bf6adc7682c47c4d0f433",
+      "RemoteSha": "81e1019a0eec9116cb7db2c4077b5679eb606209",
       "NeedsCompilation": "no",
       "Author": "David Chen [aut, cre], Ulrich Kreidenweis [aut], Abhijeet Mishra [aut], Kristine Karstens [aut], Benjamin Leon Bodirsky [aut], Debbora Leip [aut], Mishko Stevanovic [aut], Benjamin Leon Bodrisky [aut], David Klein [aut], Edna Molina Bacca [aut]",
       "Maintainer": "David Chen <david.chen@pik-potsdam.de>"
@@ -9642,11 +9642,11 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "1.1.3",
+      "Version": "1.1.5",
       "Source": "Repository",
       "Type": "Package",
       "Title": "input data generation for the REMIND industry module",
-      "Date": "2026-01-09",
+      "Date": "2026-02-18",
       "Authors@R": "c( person(given = \"Falk\", family = \"Benke\", email = \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(given = \"Jakob\", family = \"Dürrwächter\", email = \"jakobdu@pik-potsdam.de\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", email = \"renato.rodrigues@pik-potsdam.de\", role = \"aut\"), person(given = \"Simón\", family = \"Moreno-Leiva\", email = \"simon.moreno@pik-potsdam.de\", role = \"aut\"), person(given = \"Lavinia\", family = \"Baumstark\", email = \"lavinia.baumstark@pik-potsdam.de\", role = \"aut\"), person(given = \"Michaja\", family = \"Pehl\", email = \"michaja.pehl@pik-potsdam.de\", role = \"aut\"), person(given = \"Bennet\", family = \"Weiss\", email = \"bennet.weiss@pik-potsdam.de\", role = \"aut\") )",
       "Description": "The mrindustry packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3",
@@ -9688,7 +9688,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrindustry",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7a4f3527c8b5f63420aa2a01ad456bcfb0734a0e",
+      "RemoteSha": "1fc436d310d4010c8bc2affdca6799803deab252",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Jakob Dürrwächter [aut], Renato Rodrigues [aut], Simón Moreno-Leiva [aut], Lavinia Baumstark [aut], Michaja Pehl [aut], Bennet Weiss [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
@@ -14389,18 +14389,18 @@
     },
     "shiny": {
       "Package": "shiny",
-      "Version": "1.12.1",
+      "Version": "1.13.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Web Application Framework for R",
       "Authors@R": "c( person(\"Winston\", \"Chang\", , \"winston@posit.co\", role = \"aut\", comment = c(ORCID = \"0000-0002-1576-2126\")), person(\"Joe\", \"Cheng\", , \"joe@posit.co\", role = \"aut\"), person(\"JJ\", \"Allaire\", , \"jj@posit.co\", role = \"aut\"), person(\"Carson\", \"Sievert\", , \"carson@posit.co\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-4958-2844\")), person(\"Barret\", \"Schloerke\", , \"barret@posit.co\", role = \"aut\", comment = c(ORCID = \"0000-0001-9986-114X\")), person(\"Garrick\", \"Aden-Buie\", , \"garrick@adenbuie.com\", role = \"aut\", comment = c(ORCID = \"0000-0002-7111-0077\")), person(\"Yihui\", \"Xie\", , \"yihui@posit.co\", role = \"aut\"), person(\"Jeff\", \"Allen\", role = \"aut\"), person(\"Jonathan\", \"McPherson\", , \"jonathan@posit.co\", role = \"aut\"), person(\"Alan\", \"Dipert\", role = \"aut\"), person(\"Barbara\", \"Borges\", role = \"aut\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"), comment = c(ROR = \"03wc8by49\")), person(, \"jQuery Foundation\", role = \"cph\", comment = \"jQuery library and jQuery UI library\"), person(, \"jQuery contributors\", role = c(\"ctb\", \"cph\"), comment = \"jQuery library; authors listed in inst/www/shared/jquery-AUTHORS.txt\"), person(, \"jQuery UI contributors\", role = c(\"ctb\", \"cph\"), comment = \"jQuery UI library; authors listed in inst/www/shared/jqueryui/AUTHORS.txt\"), person(\"Mark\", \"Otto\", role = \"ctb\", comment = \"Bootstrap library\"), person(\"Jacob\", \"Thornton\", role = \"ctb\", comment = \"Bootstrap library\"), person(, \"Bootstrap contributors\", role = \"ctb\", comment = \"Bootstrap library\"), person(, \"Twitter, Inc\", role = \"cph\", comment = \"Bootstrap library\"), person(\"Prem Nawaz\", \"Khan\", role = \"ctb\", comment = \"Bootstrap accessibility plugin\"), person(\"Victor\", \"Tsaran\", role = \"ctb\", comment = \"Bootstrap accessibility plugin\"), person(\"Dennis\", \"Lembree\", role = \"ctb\", comment = \"Bootstrap accessibility plugin\"), person(\"Srinivasu\", \"Chakravarthula\", role = \"ctb\", comment = \"Bootstrap accessibility plugin\"), person(\"Cathy\", \"O'Connor\", role = \"ctb\", comment = \"Bootstrap accessibility plugin\"), person(, \"PayPal, Inc\", role = \"cph\", comment = \"Bootstrap accessibility plugin\"), person(\"Stefan\", \"Petre\", role = c(\"ctb\", \"cph\"), comment = \"Bootstrap-datepicker library\"), person(\"Andrew\", \"Rowls\", role = c(\"ctb\", \"cph\"), comment = \"Bootstrap-datepicker library\"), person(\"Brian\", \"Reavis\", role = c(\"ctb\", \"cph\"), comment = \"selectize.js library\"), person(\"Salmen\", \"Bejaoui\", role = c(\"ctb\", \"cph\"), comment = \"selectize-plugin-a11y library\"), person(\"Denis\", \"Ineshin\", role = c(\"ctb\", \"cph\"), comment = \"ion.rangeSlider library\"), person(\"Sami\", \"Samhuri\", role = c(\"ctb\", \"cph\"), comment = \"Javascript strftime library\"), person(, \"SpryMedia Limited\", role = c(\"ctb\", \"cph\"), comment = \"DataTables library\"), person(\"Ivan\", \"Sagalaev\", role = c(\"ctb\", \"cph\"), comment = \"highlight.js library\"), person(\"R Core Team\", role = c(\"ctb\", \"cph\"), comment = \"tar implementation from R\") )",
       "Description": "Makes it incredibly easy to build interactive web applications with R. Automatic \"reactive\" binding between inputs and outputs and extensive prebuilt widgets make it possible to build beautiful, responsive, and powerful applications with minimal effort.",
-      "License": "GPL-3 | file LICENSE",
+      "License": "MIT + file LICENSE",
       "URL": "https://shiny.posit.co/, https://github.com/rstudio/shiny",
       "BugReports": "https://github.com/rstudio/shiny/issues",
       "Depends": [
         "methods",
-        "R (>= 3.0.2)"
+        "R (>= 3.1.2)"
       ],
       "Imports": [
         "bslib (>= 0.6.0)",
