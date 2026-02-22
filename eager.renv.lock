@@ -5244,7 +5244,7 @@
     },
     "ggiraph": {
       "Package": "ggiraph",
-      "Version": "0.9.5",
+      "Version": "0.9.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Make 'ggplot2' Graphics Interactive",
@@ -5261,6 +5261,7 @@
         "grid",
         "htmltools",
         "htmlwidgets (>= 1.5)",
+        "MASS",
         "purrr",
         "Rcpp (>= 1.1.0)",
         "rlang",
