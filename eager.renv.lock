@@ -54,6 +54,34 @@
       "NeedsCompilation": "no",
       "Author": "Robin K. S. Hankin [aut, cre] (<https://orcid.org/0000-0001-5982-0415>)"
     },
+    "CFtime": {
+      "Package": "CFtime",
+      "Version": "1.7.2",
+      "Source": "Repository",
+      "Title": "Using CF-Compliant Calendars with Climate Projection Data",
+      "Authors@R": "person(\"Patrick\", \"Van Laake\", , \"patrick@vanlaake.net\", role = c(\"aut\", \"cre\", \"cph\"))",
+      "Description": "Support for all calendars as specified in the Climate and Forecast  (CF) Metadata Conventions for climate and forecasting data. The CF Metadata  Conventions is widely used for distributing files with climate observations  or projections, including the Coupled Model Intercomparison Project (CMIP)  data used by climate change scientists and the Intergovernmental Panel on Climate Change (IPCC). This package specifically allows the user to work  with any of the CF-compliant calendars (many of which are not compliant with  POSIXt). The CF time coordinate is formally defined in the CF Metadata  Conventions document available at <https://cfconventions.org/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html#time-coordinate>.",
+      "License": "MIT + file LICENSE",
+      "Encoding": "UTF-8",
+      "RoxygenNote": "7.3.3",
+      "Imports": [
+        "R6"
+      ],
+      "Suggests": [
+        "rmarkdown",
+        "testthat (>= 3.0.0)",
+        "stringr"
+      ],
+      "URL": "https://r-cf.github.io/CFtime/, https://github.com/R-CF/CFtime",
+      "BugReports": "https://github.com/R-CF/CFtime/issues",
+      "Config/testthat/edition": "3",
+      "Collate": "'api.R' 'CFCalendar.R' 'CFCalendar360.R' 'CFCalendar365.R' 'CFCalendar366.R' 'CFCalendarJulian.R' 'CFCalendarNone.R' 'CFCalendarProleptic.R' 'CFCalendarStandard.R' 'CFCalendarTAI.R' 'CFCalendarUTC.R' 'CFClimatology.R' 'CFtime-package.R' 'CFtime.R' 'helpers.R' 'zzz.R'",
+      "Config/Needs/website": "rmarkdown",
+      "NeedsCompilation": "no",
+      "Author": "Patrick Van Laake [aut, cre, cph]",
+      "Maintainer": "Patrick Van Laake <patrick@vanlaake.net>",
+      "Repository": "CRAN"
+    },
     "DBI": {
       "Package": "DBI",
       "Version": "1.2.3",
@@ -5447,18 +5475,17 @@
     },
     "ggpubr": {
       "Package": "ggpubr",
-      "Version": "0.6.2",
+      "Version": "0.6.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "'ggplot2' Based Publication Ready Plots",
-      "Date": "2025-10-17",
-      "Authors@R": "c( person(\"Alboukadel\", \"Kassambara\", role = c(\"aut\", \"cre\"), email = \"alboukadel.kassambara@gmail.com\"))",
+      "Authors@R": "c( person(\"Alboukadel\", \"Kassambara\", role = c(\"aut\", \"cre\"), email = \"alboukadel.kassambara@gmail.com\"), person(\"Laszlo\", \"Erdey\", role = \"ctb\", email = \"erdey.laszlo@econ.unideb.hu\", comment = \"Faculty of Economics and Business, University of Debrecen, Hungary\"))",
       "Description": "The 'ggplot2' package is excellent and flexible for elegant data visualization in R. However the default generated plots requires some formatting before we can send them for publication. Furthermore, to customize a 'ggplot', the syntax is opaque and this raises the level of difficulty for researchers with no advanced R programming skills. 'ggpubr' provides some easy-to-use functions for creating and customizing 'ggplot2'- based publication ready plots.",
       "License": "GPL (>= 2)",
       "LazyData": "TRUE",
       "Encoding": "UTF-8",
       "Depends": [
-        "R (>= 3.1.0)",
+        "R (>= 4.1.0)",
         "ggplot2 (>= 3.5.2)"
       ],
       "Imports": [
@@ -5469,7 +5496,7 @@
         "utils",
         "tidyr (>= 1.3.0)",
         "purrr",
-        "dplyr (>= 0.7.1)",
+        "dplyr (>= 1.1.0)",
         "cowplot (>= 1.1.1)",
         "ggsignif",
         "scales",
@@ -5490,10 +5517,10 @@
       ],
       "URL": "https://rpkgs.datanovia.com/ggpubr/",
       "BugReports": "https://github.com/kassambara/ggpubr/issues",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "Collate": "'utilities_color.R' 'utilities_base.R' 'desc_statby.R' 'utilities.R' 'add_summary.R' 'annotate_figure.R' 'as_ggplot.R' 'as_npc.R' 'axis_scale.R' 'background_image.R' 'bgcolor.R' 'border.R' 'compare_means.R' 'create_aes.R' 'diff_express.R' 'facet.R' 'font.R' 'gene_citation.R' 'gene_expression.R' 'geom_bracket.R' 'geom_exec.R' 'utils-aes.R' 'utils_stat_test_label.R' 'geom_pwc.R' 'get_breaks.R' 'get_coord.R' 'get_legend.R' 'get_palette.R' 'ggadd.R' 'ggadjust_pvalue.R' 'ggarrange.R' 'ggballoonplot.R' 'ggpar.R' 'ggbarplot.R' 'ggboxplot.R' 'ggdensity.R' 'ggpie.R' 'ggdonutchart.R' 'stat_conf_ellipse.R' 'stat_chull.R' 'ggdotchart.R' 'ggdotplot.R' 'ggecdf.R' 'ggerrorplot.R' 'ggexport.R' 'gghistogram.R' 'ggline.R' 'ggmaplot.R' 'ggpaired.R' 'ggparagraph.R' 'ggpubr-package.R' 'ggpubr_args.R' 'ggpubr_options.R' 'ggqqplot.R' 'utilities_label.R' 'stat_cor.R' 'stat_stars.R' 'ggscatter.R' 'ggscatterhist.R' 'ggstripchart.R' 'ggsummarystats.R' 'ggtext.R' 'ggtexttable.R' 'ggviolin.R' 'gradient_color.R' 'grids.R' 'npc_to_data_coord.R' 'reexports.R' 'rotate.R' 'rotate_axis_text.R' 'rremove.R' 'set_palette.R' 'shared_docs.R' 'show_line_types.R' 'show_point_shapes.R' 'stat_anova_test.R' 'stat_central_tendency.R' 'stat_compare_means.R' 'stat_friedman_test.R' 'stat_kruskal_test.R' 'stat_mean.R' 'stat_overlay_normal_density.R' 'stat_pvalue_manual.R' 'stat_regline_equation.R' 'stat_welch_anova_test.R' 'text_grob.R' 'theme_pubr.R' 'theme_transparent.R' 'utils-geom-signif.R' 'utils-pipe.R' 'utils-tidyr.R'",
       "NeedsCompilation": "no",
-      "Author": "Alboukadel Kassambara [aut, cre]",
+      "Author": "Alboukadel Kassambara [aut, cre], Laszlo Erdey [ctb] (Faculty of Economics and Business, University of Debrecen, Hungary)",
       "Maintainer": "Alboukadel Kassambara <alboukadel.kassambara@gmail.com>",
       "Repository": "CRAN"
     },
@@ -7452,7 +7479,7 @@
     },
     "later": {
       "Package": "later",
-      "Version": "1.4.6",
+      "Version": "1.4.7",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Utilities for Scheduling Functions to Execute Later with Event Loops",
@@ -8092,7 +8119,7 @@
     },
     "lpjmlkit": {
       "Package": "lpjmlkit",
-      "Version": "1.7.11",
+      "Version": "1.8.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Toolkit for Basic LPJmL Handling",
@@ -8133,15 +8160,17 @@
         "reshape2",
         "maps",
         "sf",
+        "ncdf4",
+        "CFtime",
         "R6"
       ],
       "Config/testthat/edition": "3",
       "VignetteBuilder": "knitr",
-      "Date": "2025-10-15",
+      "Date": "2026-02-24",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlkit",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7b90c60862891675919afba9aa8f69b2fc0570dd",
+      "RemoteSha": "c2ca8e1206b58586068d869972cfe0a1336ceb86",
       "NeedsCompilation": "no",
       "Author": "Jannes Breier [aut, cre] (<https://orcid.org/0000-0002-9055-6904>), Sebastian Ostberg [aut] (<https://orcid.org/0000-0002-2368-7015>), Stephen Björn Wirth [aut] (<https://orcid.org/0000-0003-3090-3318>), Sara Minoli [aut] (<https://orcid.org/0000-0001-7920-3107>), Fabian Stenzel [aut] (<https://orcid.org/0000-0002-5109-0048>), David Hötten [aut], Christoph Müller [aut] (<https://orcid.org/0000-0002-9491-3550>)",
       "Maintainer": "Jannes Breier <jannesbr@pik-potsdam.de>"
@@ -9696,11 +9725,11 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.71.2",
+      "Version": "0.71.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRaT land data package",
-      "Date": "2026-02-23",
+      "Date": "2026-02-24",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", role = \"aut\"), person(\"Benjamin Leon\", \"Bodirsky\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", role = \"aut\"), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Nele\", \"Steinmetz\", role = \"aut\"), person(\"David\", \"Chen\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", role = \"aut\"), person(\"Stephen\", \"Wirth\", role = \"aut\"), person(\"Felicitas\", \"Beier\", role = \"aut\"), person(\"David\", \"Hoetten\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Jake\", \"Tommey\", role = \"aut\") )",
       "Description": "The package provides land related data via the madrat framework.",
       "License": "LGPL-3 | file LICENSE",
@@ -9746,7 +9775,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrland",
       "RemoteRef": "HEAD",
-      "RemoteSha": "154ce08d1f7f204cdbd07244016af4885bd1a7a1",
+      "RemoteSha": "b85fb7a3edb20e0220215d1d47bcddfa8c1b8cdf",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre], Abhijeet Mishra [aut], Isabelle Weindl [aut], Benjamin Leon Bodirsky [aut], Xiaoxi Wang [aut], Lavinia Baumstark [aut], Ulrich Kreidenweis [aut], David Klein [aut], Nele Steinmetz [aut], David Chen [aut], Florian Humpenoeder [aut], Patrick von Jeetze [aut], Stephen Wirth [aut], Felicitas Beier [aut], David Hoetten [aut], Pascal Sauer [aut], Jake Tommey [aut]",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -9892,11 +9921,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.257.1",
+      "Version": "0.258.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2026-02-16",
+      "Date": "2026-02-23",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -9943,7 +9972,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7481561eaab4bff87663e2ca58debcef721e135b",
+      "RemoteSha": "ae41e4195c28229dd34046a89bc503f2b1fba42f",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut], Tabea Dorndorf [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -14245,7 +14274,7 @@
     },
     "sf": {
       "Package": "sf",
-      "Version": "1.0-24",
+      "Version": "1.1-0",
       "Source": "Repository",
       "Title": "Simple Features for R",
       "Authors@R": "c(person(given = \"Edzer\", family = \"Pebesma\", role = c(\"aut\", \"cre\"), email = \"edzer.pebesma@uni-muenster.de\", comment = c(ORCID = \"0000-0001-8049-7069\")), person(given = \"Roger\", family = \"Bivand\", role = \"ctb\", comment = c(ORCID = \"0000-0003-2392-6140\")), person(given = \"Etienne\", family = \"Racine\", role = \"ctb\"), person(given = \"Michael\", family = \"Sumner\", role = \"ctb\"), person(given = \"Ian\", family = \"Cook\", role = \"ctb\"), person(given = \"Tim\", family = \"Keitt\", role = \"ctb\"), person(given = \"Robin\", family = \"Lovelace\", role = \"ctb\"), person(given = \"Hadley\", family = \"Wickham\", role = \"ctb\"), person(given = \"Jeroen\", family = \"Ooms\", role = \"ctb\", comment = c(ORCID = \"0000-0002-4035-0289\")), person(given = \"Kirill\", family = \"M\\u00fcller\", role = \"ctb\"), person(given = \"Thomas Lin\", family = \"Pedersen\", role = \"ctb\"), person(given = \"Dan\", family = \"Baston\", role = \"ctb\"), person(given = \"Dewey\", family = \"Dunnington\", role = \"ctb\", comment = c(ORCID = \"0000-0002-9415-4582\")) )",
