@@ -10188,14 +10188,14 @@
     },
     "mrwater": {
       "Package": "mrwater",
-      "Version": "1.14.0",
+      "Version": "1.14.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "madrat based MAgPIE water Input Data Library",
       "URL": "https://github.com/pik-piam/mrwater,",
       "https": "//doi.org/10.5281/zenodo.5801680",
       "License": "LGPL-3 | file LICENSE",
-      "Date": "2026-02-19",
+      "Date": "2026-03-06",
       "Authors@R": "c(person(\"Felicitas\", \"Beier\", email = \"beier@pik-potsdam.de\", role = c(\"aut\",\"cre\")), person(\"Jens\", \"Heinke\", email = \"heinke@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", email = \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Benjamin Leon\", \"Bodirsky\", email = \"bodirsky@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", email = \"dietrich@pik-potsdam.de\", role = \"aut\"))",
       "Description": "Provides functions for MAgPIE cellular input data generation  and stand-alone water calculations.",
       "Depends": [
@@ -10227,7 +10227,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrwater",
       "RemoteRef": "HEAD",
-      "RemoteSha": "b959aacf966287a33e490f3660c2a189b7eb47b7",
+      "RemoteSha": "6136275695ca050f84f580daad29e547c952dfaf",
       "NeedsCompilation": "no",
       "Author": "Felicitas Beier [aut, cre], Jens Heinke [aut], Kristine Karstens [aut], Benjamin Leon Bodirsky [aut], Jan Philipp Dietrich [aut]",
       "Maintainer": "Felicitas Beier <beier@pik-potsdam.de>"
@@ -13153,11 +13153,11 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Reporting package for edgeTransport",
-      "Date": "2026-01-13",
+      "Date": "2026-02-10",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", , \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")))",
       "Description": "This package contains edgeTransport-specific routines to report model results. The main functionality is to generate transport reporting variables in MIF format from a given edgeTransport model run folder or REMIND input data.",
       "Depends": [
@@ -13184,7 +13184,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reporttransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9215638aee378137b433f1b1a687e3c06c4234c3",
+      "RemoteSha": "ded63724df341ae267a3bfa89cde49e9efcc9ea7",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
