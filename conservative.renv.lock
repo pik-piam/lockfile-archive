@@ -4008,7 +4008,7 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "3.13.1",
+      "Version": "3.13.2",
       "Source": "Repository",
       "Title": "Prepare EDGE Transport Data for the REMIND model",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", email = \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0004-6753-5090\")), person(\"Alois\", \"Dirnaichner\", email = \"dirnaichner@pik-potsdam.de\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", email = \"rottoli@pik-potsdam.de\", role = \"aut\"), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")), person(\"Robert P.\", \"Pietzcker\",email = \"pietzcker@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9403-6711\")))",
@@ -4023,7 +4023,7 @@
       "Encoding": "UTF-8",
       "RoxygenNote": "7.3.3",
       "VignetteBuilder": "knitr",
-      "Date": "2026-03-20",
+      "Date": "2026-03-23",
       "Config/testthat/edition": "3",
       "Imports": [
         "rmndt",
@@ -4049,7 +4049,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "83e380b2453a913388dc839da39a1a44b17096c5",
+      "RemoteSha": "b32d0cf9e1545a288ceadb68a58f397e7077bbf4",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre] (<https://orcid.org/0009-0004-6753-5090>), Alois Dirnaichner [aut], Marianna Rottoli [aut], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>), Robert P. Pietzcker [aut] (<https://orcid.org/0000-0002-9403-6711>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
@@ -9883,7 +9883,7 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.264.2",
+      "Version": "0.264.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
@@ -9934,7 +9934,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "36cd61dbebfda9b5d36aa40d7da863dbf7273b9d",
+      "RemoteSha": "49dad95d225ef37de1fab6bfbcf911a55e066221",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut], Tabea Dorndorf [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -11038,11 +11038,11 @@
     },
     "piamInterfaces": {
       "Package": "piamInterfaces",
-      "Version": "0.58.1",
+      "Version": "0.58.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Project specific interfaces to REMIND / MAgPIE",
-      "Date": "2026-03-18",
+      "Date": "2026-03-24",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "Project specific interfaces to REMIND / MAgPIE.",
       "License": "LGPL-3",
@@ -11078,7 +11078,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/piamInterfaces.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "66b549ef129ea786e39042d2b35d58a282242dc4",
+      "RemoteSha": "93506ba741e581fc723555109b6f544fddba6e82",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
