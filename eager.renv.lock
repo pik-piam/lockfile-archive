@@ -13864,11 +13864,12 @@
     },
     "sftime": {
       "Package": "sftime",
-      "Version": "0.3.1",
+      "Version": "0.3.2",
       "Source": "Repository",
       "Title": "Classes and Methods for Simple Feature Objects that Have a Time Column",
       "Description": "Classes and methods for spatial objects that have a registered time  column, in particular for irregular spatiotemporal data. The time column can  be of any type, but needs to be ordinal. Regularly laid out spatiotemporal  data (vector or raster data cubes) are handled by package 'stars'.",
       "Depends": [
+        "R (>= 4.1.0)",
         "sf (>= 1.0.9)"
       ],
       "Imports": [
@@ -13884,7 +13885,6 @@
         "ncmeta",
         "tidyr",
         "ggplot2",
-        "magrittr",
         "sp",
         "rlang",
         "vctrs",
@@ -13898,7 +13898,7 @@
       "Type": "Package",
       "Encoding": "UTF-8",
       "VignetteBuilder": "knitr",
-      "RoxygenNote": "7.3.2",
+      "RoxygenNote": "7.3.3",
       "URL": "https://r-spatial.github.io/sftime/, https://github.com/r-spatial/sftime",
       "BugReports": "https://github.com/r-spatial/sftime/issues/",
       "Collate": "sftime.R init.R join.R plot.R st_cast.R st_geometry.R st_time.R tidyverse.R bind.R crop.R geom-transformers.R",
