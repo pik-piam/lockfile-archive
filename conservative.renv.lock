@@ -322,6 +322,35 @@
       "Maintainer": "Coen Bernaards <cab.gparotation@gmail.com>",
       "Repository": "CRAN"
     },
+    "GlobalOptions": {
+      "Package": "GlobalOptions",
+      "Version": "0.1.2",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Generate Functions to Get or Set Global Options",
+      "Date": "2020-06-06",
+      "Author": "Zuguang Gu",
+      "Maintainer": "Zuguang Gu <z.gu@dkfz.de>",
+      "Depends": [
+        "R (>= 3.3.0)",
+        "methods"
+      ],
+      "Imports": [
+        "utils"
+      ],
+      "Suggests": [
+        "testthat (>= 1.0.0)",
+        "knitr",
+        "markdown",
+        "GetoptLong"
+      ],
+      "VignetteBuilder": "knitr",
+      "Description": "It provides more configurations on the option values such as validation and filtering on the values, making options invisible or private.",
+      "URL": "https://github.com/jokergoo/GlobalOptions",
+      "License": "MIT + file LICENSE",
+      "Repository": "CRAN",
+      "NeedsCompilation": "no"
+    },
     "HARr": {
       "Package": "HARr",
       "Version": "1.1.0",
@@ -1540,6 +1569,53 @@
       "Author": "Jonah Gabry [aut, cre], Tristan Mahr [aut] (ORCID: <https://orcid.org/0000-0002-8890-5116>), Paul-Christian Bürkner [ctb], Martin Modrák [ctb], Malcolm Barrett [ctb], Frank Weber [ctb], Eduardo Coronado Sroka [ctb], Teemu Sailynoja [ctb], Aki Vehtari [ctb], Behram Ulukır [ctb]",
       "Repository": "CRAN"
     },
+    "biospheremetrics": {
+      "Package": "biospheremetrics",
+      "Version": "1.0.2",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Biosphere integrity metrics for LPJmL",
+      "Authors@R": "c( person(\"Fabian\", \"Stenzel\", , \"stenzel@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-5109-0048\")), person(\"Jannes\", \"Breier\", , \"jannesbr@pik-potsdam.de\", role = \"aut\", comment = c(ORCID = \"0000-0002-9055-6904\")), person(\"Johanna\", \"Braun\", , \"jobraun@pik-potsdam.de\", role = \"aut\", comment = c(ORCID = \"0000-0002-8809-1044\")) )",
+      "Maintainer": "Fabian Stenzel <stenzel@pik-potsdam.de>",
+      "Description": "Functions to compute Biosphere integrity metrics BioCol and EcoRisk based on output from LPJmL.",
+      "License": "GPL-3",
+      "Encoding": "UTF-8",
+      "URL": "https://github.com/stenzelf/biospheremetrics",
+      "RoxygenNote": "7.3.1",
+      "Imports": [
+        "lpjmlkit",
+        "rlang",
+        "tidyr",
+        "dplyr",
+        "readr",
+        "magrittr",
+        "yaml",
+        "stats",
+        "zoo",
+        "utils",
+        "abind",
+        "fields",
+        "fBasics",
+        "RColorBrewer",
+        "circlize",
+        "graphics",
+        "grDevices",
+        "maps",
+        "methods"
+      ],
+      "Suggests": [
+        "testthat (>= 3.0.0)",
+        "knitr"
+      ],
+      "VignetteBuilder": "knitr",
+      "Date": "2024-02-23",
+      "NeedsCompilation": "no",
+      "Author": "Fabian Stenzel [aut, cre] (<https://orcid.org/0000-0002-5109-0048>), Jannes Breier [aut] (<https://orcid.org/0000-0002-9055-6904>), Johanna Braun [aut] (<https://orcid.org/0000-0002-8809-1044>)",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Repository": "pik"
+    },
     "bit": {
       "Package": "bit",
       "Version": "4.6.0",
@@ -1722,6 +1798,71 @@
       "NeedsCompilation": "no",
       "Author": "Angelo Canty [aut] (author of original code for S), Brian Ripley [aut, trl] (conversion to R, maintainer 1999--2022, author of parallel support), Alessandra R. Brazzale [ctb, cre] (minor bug fixes)",
       "Repository": "CRAN"
+    },
+    "boundaries": {
+      "Package": "boundaries",
+      "Version": "1.3.2",
+      "Source": "Repository",
+      "Title": "Planetary Boundary Status based on LPJmL simulations",
+      "Authors@R": "c( person(\"Johanna\", \"Braun\", , \"braun@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-8809-1044\")), person(\"Jannes\", \"Breier\", , \"jannesbr@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9055-6904\")), person(\"Fabian\", \"Stenzel\", , \"stenzel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-5109-0048\")), person(\"Caterina\", \"Vanelli\", , \"caterina@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0001-6552-0320\")) )",
+      "Description": "A systematic approach to quantify the status of the terrestrial planetary boundaries based on the Dynamic Global Vegetation Model (DGVM) Lund-Potsdam-Jena managed Land (LPJmL) hosted at the Potsdam Institute for Climate Impact Research (PIK). The supported planetary boundaries are \"biosphere integrity\", \"land-system change\", \"bluewater\", \"greenwater\" and \"nitrogen flows\".",
+      "License": "AGPL-3",
+      "RoxygenNote": "7.3.3",
+      "Roxygen": "list(markdown = TRUE)",
+      "Encoding": "UTF-8",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "URL": "https://github.com/PIK-tess/boundaries, https://doi.org/10.5281/zenodo.11550559",
+      "BugReports": "https://github.com/PIK-tessLPJmL/boundaries/issues",
+      "Imports": [
+        "tibble",
+        "dplyr",
+        "future",
+        "sf",
+        "terra",
+        "reshape2",
+        "lpjmlkit",
+        "readr",
+        "tidyr",
+        "rlang",
+        "yaml",
+        "abind",
+        "methods",
+        "tidyselect",
+        "matrixStats",
+        "biospheremetrics"
+      ],
+      "Suggests": [
+        "testthat (>= 3.0.0)",
+        "cowplot",
+        "ggh4x",
+        "ggnewscale",
+        "ggplot2",
+        "ggspatial",
+        "ggpattern",
+        "gridExtra",
+        "purrr",
+        "rnaturalearth",
+        "ggpubr",
+        "ggrepel",
+        "scales",
+        "tidyterra",
+        "knitr",
+        "rmarkdown",
+        "jsonlite"
+      ],
+      "Remotes": "github::stenzelf/biospheremetrics",
+      "Config/testthat/edition": "3",
+      "VignetteBuilder": "knitr",
+      "Date": "2026-04-10",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-tess/boundaries",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "90e1eac2a12b934e43bf59d58ee7902e1e29456e",
+      "NeedsCompilation": "no",
+      "Author": "Johanna Braun [aut, cre] (<https://orcid.org/0000-0002-8809-1044>), Jannes Breier [aut] (<https://orcid.org/0000-0002-9055-6904>), Fabian Stenzel [aut] (<https://orcid.org/0000-0002-5109-0048>), Caterina Vanelli [aut] (<https://orcid.org/0000-0001-6552-0320>)",
+      "Maintainer": "Johanna Braun <braun@pik-potsdam.de>"
     },
     "brew": {
       "Package": "brew",
@@ -2378,6 +2519,48 @@
       "Collate": "'AssertCollection.R' 'allMissing.R' 'anyInfinite.R' 'anyMissing.R' 'anyNaN.R' 'asInteger.R' 'assert.R' 'helper.R' 'makeExpectation.R' 'makeTest.R' 'makeAssertion.R' 'checkAccess.R' 'checkArray.R' 'checkAtomic.R' 'checkAtomicVector.R' 'checkCharacter.R' 'checkChoice.R' 'checkClass.R' 'checkComplex.R' 'checkCount.R' 'checkDataFrame.R' 'checkDataTable.R' 'checkDate.R' 'checkDirectoryExists.R' 'checkDisjunct.R' 'checkDouble.R' 'checkEnvironment.R' 'checkFALSE.R' 'checkFactor.R' 'checkFileExists.R' 'checkFlag.R' 'checkFormula.R' 'checkFunction.R' 'checkInt.R' 'checkInteger.R' 'checkIntegerish.R' 'checkList.R' 'checkLogical.R' 'checkMatrix.R' 'checkMultiClass.R' 'checkNamed.R' 'checkNames.R' 'checkNull.R' 'checkNumber.R' 'checkNumeric.R' 'checkOS.R' 'checkPOSIXct.R' 'checkPathForOutput.R' 'checkPermutation.R' 'checkR6.R' 'checkRaw.R' 'checkScalar.R' 'checkScalarNA.R' 'checkSetEqual.R' 'checkString.R' 'checkSubset.R' 'checkTRUE.R' 'checkTibble.R' 'checkVector.R' 'coalesce.R' 'isIntegerish.R' 'matchArg.R' 'qassert.R' 'qassertr.R' 'vname.R' 'wfwl.R' 'zzz.R'",
       "Author": "Michel Lang [cre, aut] (ORCID: <https://orcid.org/0000-0001-9754-0393>), Bernd Bischl [ctb], Dénes Tóth [ctb] (ORCID: <https://orcid.org/0000-0003-4262-3217>)",
       "Maintainer": "Michel Lang <michellang@gmail.com>",
+      "Repository": "CRAN"
+    },
+    "circlize": {
+      "Package": "circlize",
+      "Version": "0.4.16",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Circular Visualization",
+      "Date": "2024-02-20",
+      "Authors@R": "person(\"Zuguang\", \"Gu\", email = \"z.gu@dkfz.de\", role = c(\"aut\", \"cre\"), comment = c('ORCID'=\"0000-0002-7395-8709\"))",
+      "Depends": [
+        "R (>= 4.0.0)",
+        "graphics"
+      ],
+      "Imports": [
+        "GlobalOptions (>= 0.1.2)",
+        "shape",
+        "grDevices",
+        "utils",
+        "stats",
+        "colorspace",
+        "methods",
+        "grid"
+      ],
+      "Suggests": [
+        "knitr",
+        "dendextend (>= 1.0.1)",
+        "ComplexHeatmap (>= 2.0.0)",
+        "gridBase",
+        "png",
+        "markdown",
+        "bezier",
+        "covr",
+        "rmarkdown"
+      ],
+      "VignetteBuilder": "knitr",
+      "Description": "Circular layout is an efficient way for the visualization of huge  amounts of information. Here this package provides an implementation  of circular layout generation in R as well as an enhancement of available  software. The flexibility of the package is based on the usage of low-level  graphics functions such that self-defined high-level graphics can be easily  implemented by users for specific purposes. Together with the seamless  connection between the powerful computational and visual environment in R,  it gives users more convenience and freedom to design figures for  better understanding complex patterns behind multiple dimensional data.  The package is described in Gu et al. 2014 <doi:10.1093/bioinformatics/btu393>.",
+      "URL": "https://github.com/jokergoo/circlize, https://jokergoo.github.io/circlize_book/book/",
+      "License": "MIT + file LICENSE",
+      "NeedsCompilation": "no",
+      "Author": "Zuguang Gu [aut, cre] (<https://orcid.org/0000-0002-7395-8709>)",
+      "Maintainer": "Zuguang Gu <z.gu@dkfz.de>",
       "Repository": "CRAN"
     },
     "citation": {
@@ -3880,43 +4063,6 @@
       "Author": "Johanna Hoppe [aut, cre] (<https://orcid.org/0009-0004-6753-5090>), Alois Dirnaichner [aut], Marianna Rottoli [aut], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>), Robert P. Pietzcker [aut] (<https://orcid.org/0000-0002-9403-6711>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
     },
-    "edgeTrpLib": {
-      "Package": "edgeTrpLib",
-      "Version": "1.6.3",
-      "Source": "Repository",
-      "Title": "Helper functions for EDGE transport calculations",
-      "Authors@R": "c( person(\"Alois\", \"Dirnaichner\", email = \"dirnaichner@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Marianna\", \"Rottoli\", email = \"rottoli@pik-potsdam.de\", role = \"aut\"))",
-      "Description": "This package is highly specialized and created solely to not duplicate helper functions.",
-      "Depends": [
-        "R (>= 3.3.1)"
-      ],
-      "Imports": [
-        "magclass",
-        "data.table",
-        "rmndt",
-        "gdx",
-        "magrittr",
-        "quitte",
-        "gdxdt",
-        "remind2",
-        "rlang",
-        "rmarkdown",
-        "yaml",
-        "ymlthis"
-      ],
-      "License": "GPL-3",
-      "Encoding": "UTF-8",
-      "LazyData": "true",
-      "RoxygenNote": "7.2.0",
-      "Date": "2022-06-01",
-      "Suggests": [
-        "covr"
-      ],
-      "Repository": "https://pik-piam.r-universe.dev",
-      "NeedsCompilation": "no",
-      "Author": "Alois Dirnaichner [aut, cre], Marianna Rottoli [aut]",
-      "Maintainer": "Alois Dirnaichner <dirnaichner@pik-potsdam.de>"
-    },
     "ellipsis": {
       "Package": "ellipsis",
       "Version": "0.3.3",
@@ -4006,6 +4152,44 @@
       "NeedsCompilation": "no",
       "Author": "Hadley Wickham [aut, cre], Yihui Xie [aut] (ORCID: <https://orcid.org/0000-0003-0645-5666>), Michael Lawrence [ctb], Thomas Kluyver [ctb], Jeroen Ooms [ctb], Barret Schloerke [ctb], Adam Ryczkowski [ctb], Hiroaki Yutani [ctb], Michel Lang [ctb], Karolis Koncevičius [ctb], Posit Software, PBC [cph, fnd]",
       "Maintainer": "Hadley Wickham <hadley@posit.co>",
+      "Repository": "CRAN"
+    },
+    "fBasics": {
+      "Package": "fBasics",
+      "Version": "4041.97",
+      "Source": "Repository",
+      "Title": "Rmetrics - Markets and Basic Statistics",
+      "Authors@R": "c(person(\"Diethelm\", \"Wuertz\", role=\"aut\", comment = \"original code\") , person(\"Tobias\", \"Setz\", role = c(\"aut\"), email = \"tobias.setz@live.com\") , person(\"Yohan\", \"Chalabi\", role = \"aut\") , person(\"Martin\",\"Maechler\", role=\"ctb\", email=\"maechler@stat.math.ethz.ch\", comment = c(ORCID = \"0000-0002-8685-9910\")) , person(\"CRAN Team\", role = \"ctb\") , person(given = c(\"Georgi\", \"N.\"), family = \"Boshnakov\",  role = c(\"cre\", \"aut\"), email = \"georgi.boshnakov@manchester.ac.uk\") )",
+      "Description": "Provides a collection of functions to  explore and to investigate basic properties of financial returns  and related quantities. The covered fields include techniques of explorative data analysis and the investigation of distributional properties, including parameter estimation and hypothesis testing. Even more there are several utility functions for data handling and management.",
+      "Depends": [
+        "R (>= 2.15.1)"
+      ],
+      "Imports": [
+        "timeDate",
+        "timeSeries (>= 4021.105)",
+        "stats",
+        "grDevices",
+        "graphics",
+        "methods",
+        "utils",
+        "MASS",
+        "spatial",
+        "gss",
+        "stabledist"
+      ],
+      "Suggests": [
+        "interp",
+        "RUnit",
+        "tcltk"
+      ],
+      "LazyData": "yes",
+      "License": "GPL (>= 2)",
+      "Encoding": "UTF-8",
+      "URL": "https://geobosh.github.io/fBasicsDoc/ (doc), https://r-forge.r-project.org/scm/viewvc.php/pkg/fBasics/?root=rmetrics (devel), https://www.rmetrics.org",
+      "BugReports": "https://r-forge.r-project.org/projects/rmetrics",
+      "NeedsCompilation": "yes",
+      "Author": "Diethelm Wuertz [aut] (original code), Tobias Setz [aut], Yohan Chalabi [aut], Martin Maechler [ctb] (<https://orcid.org/0000-0002-8685-9910>), CRAN Team [ctb], Georgi N. Boshnakov [cre, aut]",
+      "Maintainer": "Georgi N. Boshnakov <georgi.boshnakov@manchester.ac.uk>",
       "Repository": "CRAN"
     },
     "fansi": {
@@ -5108,6 +5292,80 @@
       "Maintainer": "David Gohel <david.gohel@ardata.fr>",
       "Repository": "CRAN"
     },
+    "ggnewscale": {
+      "Package": "ggnewscale",
+      "Version": "0.5.2",
+      "Source": "Repository",
+      "Language": "en-GB",
+      "Title": "Multiple Fill and Colour Scales in 'ggplot2'",
+      "Authors@R": "person(given = \"Elio\", family = \"Campitelli\", role = c(\"cre\", \"aut\"), email = \"eliocampitelli@gmail.com\", comment = c(ORCID = \"0000-0002-7742-9230\"))",
+      "Description": "Use multiple fill and colour scales in 'ggplot2'.",
+      "License": "GPL-3",
+      "URL": "https://eliocamp.github.io/ggnewscale/, https://github.com/eliocamp/ggnewscale",
+      "BugReports": "https://github.com/eliocamp/ggnewscale/issues",
+      "Encoding": "UTF-8",
+      "Imports": [
+        "ggplot2 (>= 3.5.0)"
+      ],
+      "RoxygenNote": "7.3.2",
+      "Suggests": [
+        "testthat",
+        "vdiffr",
+        "covr"
+      ],
+      "NeedsCompilation": "no",
+      "Author": "Elio Campitelli [cre, aut] (ORCID: <https://orcid.org/0000-0002-7742-9230>)",
+      "Maintainer": "Elio Campitelli <eliocampitelli@gmail.com>",
+      "Repository": "CRAN"
+    },
+    "ggpattern": {
+      "Package": "ggpattern",
+      "Version": "1.2.1",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "'ggplot2' Pattern Geoms",
+      "Authors@R": "c(person(\"Mike\", \"FC\", role = \"aut\"), person(\"Trevor L.\", \"Davis\", role = c(\"aut\", \"cre\"), email = \"trevor.l.davis@gmail.com\", comment = c(ORCID = \"0000-0001-6341-4639\")), person(\"ggplot2 authors\", role = \"aut\"))",
+      "Description": "Provides 'ggplot2' geoms filled with various patterns.  Includes a patterned version of every 'ggplot2' geom that has a region that can be filled with a pattern.  Provides a suite of 'ggplot2' aesthetics and scales for controlling pattern appearances.  Supports over a dozen builtin patterns (every pattern implemented by 'gridpattern') as well as allowing custom user-defined patterns.",
+      "URL": "https://github.com/trevorld/ggpattern, https://trevorldavis.com/R/ggpattern/",
+      "BugReports": "https://github.com/trevorld/ggpattern/issues",
+      "License": "MIT + file LICENSE",
+      "Encoding": "UTF-8",
+      "RoxygenNote": "7.3.2",
+      "Imports": [
+        "cli",
+        "ggplot2 (>= 3.5.1)",
+        "glue",
+        "grid",
+        "gridpattern (>= 1.2.2)",
+        "lifecycle",
+        "rlang (>= 1.1.3)",
+        "scales",
+        "vctrs"
+      ],
+      "Suggests": [
+        "ambient",
+        "dplyr",
+        "gganimate",
+        "knitr (>= 1.47)",
+        "magick",
+        "mapproj",
+        "maps",
+        "png",
+        "ragg (>= 1.2.0)",
+        "readr",
+        "rmarkdown (>= 2.27)",
+        "sf (>= 0.7-3)",
+        "svglite (>= 2.1.3)",
+        "testthat (>= 2.1.0)",
+        "vdiffr (>= 1.0.6)"
+      ],
+      "VignetteBuilder": "knitr, ragg, rmarkdown",
+      "Collate": "'a-geom-docs.R' 'aaa-ggplot2-compat-plyr.R' 'aaa-ggplot2-ggplot-global.R' 'aaa-ggplot2-performance.R' 'aaa-ggplot2-scale-manual.R' 'aaa-ggplot2-utilities-grid.R' 'aaa-ggplot2-utilities.R' 'geom-.R' 'geom-rect.R' 'geom-bar.R' 'geom-bin2d.R' 'geom-boxplot.R' 'geom-col.R' 'geom-crossbar.R' 'geom-ribbon.R' 'geom-density.R' 'geom-histogram.R' 'geom-polygon.R' 'geom-map.R' 'geom-sf.R' 'geom-tile.R' 'geom-violin.R' 'ggpattern-defunct.R' 'ggpattern-deprecated.R' 'ggpattern-package.R' 'pattern.R' 'polygon_df.R' 'scale-pattern-alpha.R' 'scale-pattern-auto.R' 'scale-pattern-brewer.R' 'scale-pattern-colour.R' 'scale-pattern-gradient.R' 'scale-pattern-grey.R' 'scale-pattern-hue.R' 'scale-pattern-linetype.R' 'scale-pattern-shape.R' 'scale-pattern-size.R' 'scale-pattern-viridis.R' 'scale-pattern.R' 'zxx.r' 'zzz.R'",
+      "NeedsCompilation": "no",
+      "Author": "Mike FC [aut], Trevor L. Davis [aut, cre] (ORCID: <https://orcid.org/0000-0001-6341-4639>), ggplot2 authors [aut]",
+      "Maintainer": "Trevor L. Davis <trevor.l.davis@gmail.com>",
+      "Repository": "CRAN"
+    },
     "ggplot2": {
       "Package": "ggplot2",
       "Version": "4.0.0",
@@ -5414,6 +5672,57 @@
       "NeedsCompilation": "no",
       "Author": "Constantin Ahlmann-Eltze [aut, cre, ctb] (<https://orcid.org/0000-0002-3762-068X>, @const_ae), Indrajeet Patil [aut, ctb] (<https://orcid.org/0000-0003-1995-6531>, @patilindrajeets)",
       "Maintainer": "Constantin Ahlmann-Eltze <artjom31415@googlemail.com>",
+      "Repository": "CRAN"
+    },
+    "ggspatial": {
+      "Package": "ggspatial",
+      "Version": "1.1.10",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Spatial Data Framework for ggplot2",
+      "Authors@R": "c( person(\"Dewey\", \"Dunnington\", email = \"dewey@fishandwhistle.net\",  role = c(\"aut\", \"cre\"),  comment = c(ORCID = \"0000-0002-9415-4582\") ), person(\"Brent\", \"Thorne\", role = \"ctb\", comment = c(ORCID = \"0000-0002-1099-3857\")), person(\"Diego\", \"Hernangómez\", role = \"ctb\", comment = c(ORCID = \"0000-0001-8457-4658\")) )",
+      "Maintainer": "Dewey Dunnington <dewey@fishandwhistle.net>",
+      "Description": "Spatial data plus the power of the ggplot2 framework means easier mapping when input  data are already in the form of spatial objects.",
+      "License": "GPL-3",
+      "Depends": [
+        "R (>= 2.10)"
+      ],
+      "Imports": [
+        "sf",
+        "ggplot2 (>= 3.0.0)",
+        "rosm (>= 0.2)",
+        "abind",
+        "methods",
+        "tibble",
+        "scales",
+        "tidyr",
+        "rlang",
+        "grid",
+        "glue"
+      ],
+      "Suggests": [
+        "prettymapr",
+        "knitr",
+        "rmarkdown",
+        "sp",
+        "raster",
+        "terra",
+        "testthat (>= 3.0.0)",
+        "dplyr",
+        "withr",
+        "ggrepel",
+        "stars",
+        "covr",
+        "vdiffr",
+        "lwgeom"
+      ],
+      "URL": "https://paleolimbot.github.io/ggspatial/, https://github.com/paleolimbot/ggspatial",
+      "BugReports": "https://github.com/paleolimbot/ggspatial/issues",
+      "RoxygenNote": "7.3.2",
+      "Encoding": "UTF-8",
+      "Config/testthat/edition": "3",
+      "NeedsCompilation": "no",
+      "Author": "Dewey Dunnington [aut, cre] (ORCID: <https://orcid.org/0000-0002-9415-4582>), Brent Thorne [ctb] (ORCID: <https://orcid.org/0000-0002-1099-3857>), Diego Hernangómez [ctb] (ORCID: <https://orcid.org/0000-0001-8457-4658>)",
       "Repository": "CRAN"
     },
     "ggtext": {
@@ -5899,6 +6208,52 @@
       "Maintainer": "Baptiste Auguie <baptiste.auguie@gmail.com>",
       "Repository": "CRAN"
     },
+    "gridpattern": {
+      "Package": "gridpattern",
+      "Version": "1.3.1",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "'grid' Pattern Grobs",
+      "Authors@R": "c( person(\"Trevor L.\", \"Davis\", role=c(\"aut\", \"cre\"), email=\"trevor.l.davis@gmail.com\", comment = c(ORCID = \"0000-0001-6341-4639\")), person(\"Mike\", \"FC\", role = \"aut\", comment = \"Code/docs adapted from ggpattern\"), person(\"ggplot2 authors\", role = \"ctb\", comment = \"some utility functions copied from ggplot2\"))",
+      "Description": "Provides 'grid' grobs that fill in a user-defined area with various patterns.  Includes enhanced versions of the geometric and image-based patterns originally contained in the 'ggpattern' package as well as original 'pch', 'polygon_tiling', 'regular_polygon', 'rose', 'text', 'wave', and 'weave' patterns plus support for custom user-defined patterns.",
+      "URL": "https://trevorldavis.com/R/gridpattern/, https://github.com/trevorld/gridpattern",
+      "BugReports": "https://github.com/trevorld/gridpattern/issues",
+      "License": "MIT + file LICENSE",
+      "Encoding": "UTF-8",
+      "RoxygenNote": "7.3.1",
+      "Depends": [
+        "R (>= 3.4.0)"
+      ],
+      "Imports": [
+        "glue",
+        "grDevices",
+        "grid",
+        "memoise",
+        "png",
+        "rlang",
+        "sf",
+        "utils"
+      ],
+      "Suggests": [
+        "ambient",
+        "aRtsy",
+        "ggplot2 (>= 3.5.0)",
+        "gtable",
+        "knitr",
+        "magick (>= 2.7.4)",
+        "ragg (>= 1.2.0)",
+        "rmarkdown",
+        "scales",
+        "svglite (>= 2.1.0)",
+        "testthat",
+        "vdiffr (>= 1.0.6)"
+      ],
+      "VignetteBuilder": "knitr, rmarkdown",
+      "NeedsCompilation": "no",
+      "Author": "Trevor L. Davis [aut, cre] (<https://orcid.org/0000-0001-6341-4639>), Mike FC [aut] (Code/docs adapted from ggpattern), ggplot2 authors [ctb] (some utility functions copied from ggplot2)",
+      "Maintainer": "Trevor L. Davis <trevor.l.davis@gmail.com>",
+      "Repository": "CRAN"
+    },
     "gridtext": {
       "Package": "gridtext",
       "Version": "0.1.5",
@@ -5941,6 +6296,24 @@
       "NeedsCompilation": "yes",
       "Author": "Claus O. Wilke [aut] (<https://orcid.org/0000-0002-7470-9261>), Brenton M. Wiernik [aut, cre] (<https://orcid.org/0000-0001-9560-6336>, @bmwiernik)",
       "Maintainer": "Brenton M. Wiernik <brenton@wiernik.org>",
+      "Repository": "CRAN"
+    },
+    "gss": {
+      "Package": "gss",
+      "Version": "2.2-9",
+      "Source": "Repository",
+      "Date": "2025-04-13",
+      "Title": "General Smoothing Splines",
+      "Authors@R": "c(person(\"Chong\",\"Gu\",role=c(\"aut\",\"cre\"), email=\"chong@purdue.edu\"))",
+      "Author": "Chong Gu [aut, cre]",
+      "Maintainer": "Chong Gu <chong@purdue.edu>",
+      "Depends": [
+        "R (>= 3.0.0)",
+        "stats"
+      ],
+      "Description": "A comprehensive package for structural multivariate function estimation using smoothing splines.",
+      "License": "GPL (>= 2)",
+      "NeedsCompilation": "yes",
       "Repository": "CRAN"
     },
     "gstat": {
@@ -6533,48 +6906,6 @@
       "NeedsCompilation": "no",
       "Repository": "CRAN",
       "Author": "Robin K. S. Hankin [aut, cre] (<https://orcid.org/0000-0001-5982-0415>)"
-    },
-    "iamc": {
-      "Package": "iamc",
-      "Version": "0.29.8",
-      "Source": "Repository",
-      "Type": "Package",
-      "Title": "IAMC Tools",
-      "Date": "2023-07-06",
-      "Authors@R": "c(person(\"Jan Philipp\", \"Dietrich\", email = \"dietrich@pik-potsdam.de\", role = c(\"aut\",\"cre\")), person(\"Cornelia\", \"Auer\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", role = \"aut\"), person(\"Lavinia\", \"Baumstark\", role = \"aut\"))",
-      "Description": "A collection of R tools provided by the Integrated Assessment Modeling Consortium (IAMC) for data analysis and diagnostics.",
-      "License": "MIT + file LICENSE",
-      "Depends": [
-        "R(>= 2.10.0)"
-      ],
-      "Imports": [
-        "quitte(>= 0.3066)",
-        "magclass(>= 4.40)",
-        "mip(>= 0.97)",
-        "lusweave",
-        "dplyr",
-        "utils",
-        "methods",
-        "reshape2",
-        "readxl",
-        "writexl"
-      ],
-      "Encoding": "UTF-8",
-      "LazyData": "true",
-      "RoxygenNote": "7.2.3",
-      "Suggests": [
-        "covr",
-        "knitr",
-        "rmarkdown"
-      ],
-      "VignetteBuilder": "knitr",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/IAMconsortium/iamc",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "c418a3d89b0a2fbf8b095d7653ce108b19fb2b09",
-      "NeedsCompilation": "no",
-      "Author": "Jan Philipp Dietrich [aut, cre], Cornelia Auer [aut], Anastasis Giannousakis [aut], Christoph Bertram [aut], Falk Benke [aut], Florian Humpenoeder [aut], Lavinia Baumstark [aut]",
-      "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
     },
     "ids": {
       "Package": "ids",
@@ -8163,11 +8494,11 @@
     },
     "magpie4": {
       "Package": "magpie4",
-      "Version": "2.75.2",
+      "Version": "2.75.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MAgPIE outputs R package for MAgPIE version 4.x",
-      "Date": "2026-05-13",
+      "Date": "2026-05-26",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", , \"weindl@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Jannes\", \"Breier\", , \"breier@pik-potsdam.de\", role = \"aut\"), person(\"Amsalu Woldie\", \"Yalew\", , \"yalew@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", , \"David.Chen@pik-potsdam.de\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\"), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\"), person(\"Marcos\", \"Alves\", , \"pedrosa@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"ctb\"), person(\"Singh\", \"Vartika\", role = \"ctb\"), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Common output routines for extracting results from the MAgPIE framework (versions 4.x).",
       "License": "LGPL-3 | file LICENSE",
@@ -8220,7 +8551,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magpie4",
       "RemoteRef": "HEAD",
-      "RemoteSha": "8c4e01f7e24664776d253830049237981a201b9d",
+      "RemoteSha": "003a9c89a23df4c1c3b6df0b460e5f0074a9cf63",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Florian Humpenoeder [aut], Jan Philipp Dietrich [aut], Miodrag Stevanovic [aut], Isabelle Weindl [aut], Kristine Karstens [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Felicitas Beier [aut], Jannes Breier [aut], Amsalu Woldie Yalew [aut], David Chen [aut], Anne Biewald [aut], Stephen Wirth [aut], Patrick von Jeetze [aut], Debbora Leip [aut], Michael Crawford [aut], Marcos Alves [aut], Pascal Sauer [aut], Markus Bonsch [ctb], Singh Vartika [ctb], Patrick Rein [aut]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -8755,11 +9086,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.68.0",
+      "Version": "1.68.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat commons Input Data Library",
-      "Date": "2026-05-20",
+      "Date": "2026-05-26",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", role = \"aut\"), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Stephen\", \"Wirth\", role = \"aut\"), person(\"Mishko\", \"Stevanovic\", role = \"aut\"), person(\"Nele\", \"Steinmetz\", role = \"aut\"), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Roman\", \"Popov\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Ewerton\", \"Araujo\", role = \"aut\"), person(\"Eva\", \"Bleidorn\", role = \"aut\"), person(\"Felicitas\", \"Beier\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Debbora\", \"Leip\", role = \"aut\"), person(\"Michael\", \"Crawford\", role = \"aut\"), person(\"Edna\", \"Molina Bacca\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", role = \"aut\"), person(\"Eleonora\", \"Martinelli\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"David\", \"Hötten\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Gabriel\", \"Abrahão\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\")) )",
       "Description": "Provides useful functions and a common structure to all the input data required to run models like MAgPIE and REMIND of model input data.",
       "License": "LGPL-3 | file LICENSE",
@@ -8813,7 +9144,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommons",
       "RemoteRef": "HEAD",
-      "RemoteSha": "97e4875b38ca67d2d8c2469afc7bd3d22c62c925",
+      "RemoteSha": "0ed92e39f2c66a20d45ffc78fa786564d3a28ac1",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut], Kristine Karstens [aut], Lavinia Baumstark [aut], Isabelle Weindl [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Stephen Wirth [aut], Mishko Stevanovic [aut], Nele Steinmetz [aut], Ulrich Kreidenweis [aut], Renato Rodrigues [aut], Roman Popov [aut], Florian Humpenoeder [aut], Anastasis Giannousakis [aut], Antoine Levesque [aut], David Klein [aut], Ewerton Araujo [aut], Eva Bleidorn [aut], Felicitas Beier [aut], Julian Oeser [aut], Michaja Pehl [aut], Debbora Leip [aut], Michael Crawford [aut], Edna Molina Bacca [aut], Patrick von Jeetze [aut], Eleonora Martinelli [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Pascal Sauer [aut], David Hötten [aut], Robin Hasse [aut], Gabriel Abrahão [aut], Pascal Weigmann [aut], Jan Philipp Dietrich [aut, cre]",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -9455,11 +9786,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.267.0",
+      "Version": "0.267.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2026-05-20",
+      "Date": "2026-05-26",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -9506,7 +9837,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "42d6966d077fa208b9475d29634daf08bb955387",
+      "RemoteSha": "7d871acfc83ad10ee7f126cefeff39a432a321f7",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut], Tabea Dorndorf [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -12470,11 +12801,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "2.0.19",
+      "Version": "2.1.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "The REMIND R package (2nd generation)",
-      "Date": "2026-05-21",
+      "Date": "2026-05-26",
       "Authors@R": "c( person(\"Renato\", \"Rodrigues\", , \"renato.rodrigues@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"David\", \"Bantje\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\"), person(\"Jakob\", \"Duerrwaechter\", role = \"aut\"), person(\"Pascal\", \"Führlich\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Jérome\", \"Hilaire\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Katarzyna\", \"Kowalczyk\", role = \"aut\"), person(\"Fabrice\", \"Lécuyer\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Anne\", \"Merfort\", role = \"aut\"), person(\"Leon\", \"Merfort\", role = \"aut\"), person(\"Simón\", \"Morena-Leiva\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Robert\", \"Pietzcker\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\"), person(\"Robert\", \"Salzwedel\", role = \"aut\"), person(\"Christof\", \"Schötz\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Kais\", \"Siala\", role = \"aut\"), person(\"Björn\", \"Sörgel\", role = \"aut\"), person(\"Mike\", \"Spahr\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Philipp\", \"Verpoort\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\") )",
       "Description": "Contains the REMIND-specific routines for data and model output manipulation.",
       "License": "LGPL-3",
@@ -12532,7 +12863,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9949db73ee1e5ccd49d2e1a5215e2142671ade1e",
+      "RemoteSha": "225ef066076b3aec363b3bd2ab0c7244f724ae48",
       "NeedsCompilation": "no",
       "Author": "Renato Rodrigues [aut, cre], Lavinia Baumstark [aut], Falk Benke [aut], David Bantje [aut], Jan Philipp Dietrich [aut], Alois Dirnaichner [aut], Tabea Dorndorf [aut], Jakob Duerrwaechter [aut], Pascal Führlich [aut], Anastasis Giannousakis [aut], Robin Hasse [aut], Jérome Hilaire [aut], David Klein [aut], Johannes Koch [aut], Katarzyna Kowalczyk [aut], Fabrice Lécuyer [aut], Antoine Levesque [aut], Aman Malik [aut], Anne Merfort [aut], Leon Merfort [aut], Simón Morena-Leiva [aut], Michaja Pehl [aut], Robert Pietzcker [aut], Sebastian Rauner [aut], Oliver Richters [aut], Marianna Rottoli [aut], Tonn Rüter [aut], Robert Salzwedel [aut], Christof Schötz [aut], Felix Schreyer [aut], Kais Siala [aut], Björn Sörgel [aut], Mike Spahr [aut], Jessica Strefler [aut], Philipp Verpoort [aut], Pascal Weigmann [aut]",
       "Maintainer": "Renato Rodrigues <renato.rodrigues@pik-potsdam.de>"
@@ -13192,6 +13523,48 @@
       "Description": "Routines to find the root of nonlinear functions, and to perform steady-state and equilibrium analysis of ordinary differential equations (ODE).  Includes routines that: (1) generate gradient and jacobian matrices (full and banded), (2) find roots of non-linear equations by the 'Newton-Raphson' method,  (3) estimate steady-state conditions of a system of (differential) equations in full, banded or sparse form, using the 'Newton-Raphson' method, or by dynamically running, (4) solve the steady-state conditions for uni-and multicomponent 1-D, 2-D, and 3-D partial differential equations, that have been converted to ordinary differential equations by numerical differencing (using the method-of-lines approach). Includes fortran code.",
       "License": "GPL (>= 2)",
       "NeedsCompilation": "yes",
+      "Repository": "CRAN"
+    },
+    "rosm": {
+      "Package": "rosm",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Plot Raster Map Tiles from Open Street Map and Other Sources",
+      "Encoding": "UTF-8",
+      "Authors@R": "c(person(\"Dewey\", \"Dunnington\", role = c(\"aut\", \"cre\"), email = \"dewey@fishandwhistle.net\", comment = c(ORCID = \"0000-0002-9415-4582\")), person(\"Timothée\", \"Giraud\", role = \"ctb\"))",
+      "Maintainer": "Dewey Dunnington <dewey@fishandwhistle.net>",
+      "Description": "Download and plot Open Street Map <https://www.openstreetmap.org/>, Bing Maps <https://www.bing.com/maps> and other tiled map sources. Use to create  basemaps quickly and add hillshade to vector-based maps.",
+      "License": "GPL-2",
+      "Imports": [
+        "curl",
+        "jpeg",
+        "png",
+        "wk",
+        "glue",
+        "progress",
+        "rlang"
+      ],
+      "Suggests": [
+        "sp",
+        "plyr",
+        "raster",
+        "testthat (>= 3.0.0)",
+        "withr",
+        "sf",
+        "terra",
+        "abind",
+        "methods",
+        "jsonlite",
+        "tiff",
+        "vdiffr"
+      ],
+      "URL": "https://github.com/paleolimbot/rosm",
+      "BugReports": "https://github.com/paleolimbot/rosm/issues",
+      "RoxygenNote": "7.2.3",
+      "Config/testthat/edition": "3",
+      "NeedsCompilation": "no",
+      "Author": "Dewey Dunnington [aut, cre] (<https://orcid.org/0000-0002-9415-4582>), Timothée Giraud [ctb]",
       "Repository": "CRAN"
     },
     "roxygen2": {
@@ -13943,6 +14316,26 @@
       "Maintainer": "Henning Teickner <henning.teickner@uni-muenster.de>",
       "Repository": "CRAN"
     },
+    "shape": {
+      "Package": "shape",
+      "Version": "1.4.6.1",
+      "Source": "Repository",
+      "Title": "Functions for Plotting Graphical Shapes, Colors",
+      "Author": "Karline Soetaert <karline.soetaert@nioz.nl>",
+      "Maintainer": "Karline Soetaert <karline.soetaert@nioz.nl>",
+      "Depends": [
+        "R (>= 2.01)"
+      ],
+      "Imports": [
+        "stats",
+        "graphics",
+        "grDevices"
+      ],
+      "Description": "Functions for plotting graphical shapes such as ellipses, circles, cylinders, arrows, ...",
+      "License": "GPL (>= 3)",
+      "NeedsCompilation": "no",
+      "Repository": "CRAN"
+    },
     "shiny": {
       "Package": "shiny",
       "Version": "1.11.1",
@@ -14242,6 +14635,64 @@
       "NeedsCompilation": "yes",
       "Author": "Reinhard Furrer [aut, cre] (<https://orcid.org/0000-0002-6319-2332>), Florian Gerber [aut] (<https://orcid.org/0000-0001-8545-5263>), Roman Flury [aut] (<https://orcid.org/0000-0002-0349-8698>), Daniel Gerber [ctb], Kaspar Moesinger [ctb], Annina Cincera [ctb], Youcef Saad [ctb] (SPARSEKIT http://www-users.cs.umn.edu/~saad/software/SPARSKIT/), Esmond G. Ng [ctb] (Fortran Cholesky routines), Barry W. Peyton [ctb] (Fortran Cholesky routines), Joseph W.H. Liu [ctb] (Fortran Cholesky routines), Alan D. George [ctb] (Fortran Cholesky routines), Lehoucq B. Rich [ctb] (ARPACK), Maschhoff Kristi [ctb] (ARPACK), Sorensen C. Danny [ctb] (ARPACK), Yang Chao [ctb] (ARPACK)",
       "Maintainer": "Reinhard Furrer <reinhard.furrer@math.uzh.ch>",
+      "Repository": "CRAN"
+    },
+    "spatial": {
+      "Package": "spatial",
+      "Version": "7.3-18",
+      "Source": "Repository",
+      "Priority": "recommended",
+      "Date": "2025-01-01",
+      "Depends": [
+        "R (>= 3.0.0)",
+        "graphics",
+        "stats",
+        "utils"
+      ],
+      "Suggests": [
+        "MASS"
+      ],
+      "Authors@R": "c(person(\"Brian\", \"Ripley\", role = c(\"aut\", \"cre\", \"cph\"), email = \"Brian.Ripley@R-project.org\"), person(\"Roger\", \"Bivand\", role = \"ctb\"), person(\"William\", \"Venables\", role = \"cph\"))",
+      "Description": "Functions for kriging and point pattern analysis.",
+      "Title": "Functions for Kriging and Point Pattern Analysis",
+      "LazyLoad": "yes",
+      "ByteCompile": "yes",
+      "License": "GPL-2 | GPL-3",
+      "URL": "http://www.stats.ox.ac.uk/pub/MASS4/",
+      "NeedsCompilation": "yes",
+      "Author": "Brian Ripley [aut, cre, cph], Roger Bivand [ctb], William Venables [cph]",
+      "Maintainer": "Brian Ripley <Brian.Ripley@R-project.org>",
+      "Repository": "CRAN"
+    },
+    "stabledist": {
+      "Package": "stabledist",
+      "Version": "0.7-2",
+      "Source": "Repository",
+      "Date": "2024-08-14",
+      "Title": "Stable Distribution Functions",
+      "Authors@R": "c( person(\"Diethelm\", \"Wuertz\", role=\"aut\", comment = \"original code\"), person(\"Martin\",\"Maechler\", role=c(\"aut\",\"cre\"), email=\"maechler@stat.math.ethz.ch\", comment = c(\"checks/tests; fixes, ..\", ORCID = \"0000-0002-8685-9910\")), person(\"Yohan\", \"Chalabi\", role=\"ctb\", comment= \"namespace; admin\"))",
+      "Maintainer": "Martin Maechler <maechler@stat.math.ethz.ch>",
+      "Depends": [
+        "R (>= 3.1.0)"
+      ],
+      "Imports": [
+        "stats"
+      ],
+      "Suggests": [
+        "Matrix",
+        "fBasics",
+        "FMStable",
+        "RUnit",
+        "Rmpfr",
+        "sfsmisc",
+        "libstable4u"
+      ],
+      "SuggestsNote": "'libstable4u', based on 'libstableR', is said to be uniformly better both accuracy and speed wise, at least in parts.",
+      "Description": "Density, Probability and Quantile functions, and random number generation for (skew) stable distributions, using the parametrizations of Nolan.",
+      "License": "GPL (>= 2)",
+      "URL": "https://r-forge.r-project.org/scm/viewvc.php/pkg/stabledist/?root=rmetrics",
+      "NeedsCompilation": "no",
+      "Author": "Diethelm Wuertz [aut] (original code), Martin Maechler [aut, cre] (checks/tests; fixes, .., <https://orcid.org/0000-0002-8685-9910>), Yohan Chalabi [ctb] (namespace; admin)",
       "Repository": "CRAN"
     },
     "stars": {
@@ -14917,6 +15368,58 @@
       "Maintainer": "Lionel Henry <lionel@posit.co>",
       "Repository": "CRAN"
     },
+    "tidyterra": {
+      "Package": "tidyterra",
+      "Version": "0.7.2",
+      "Source": "Repository",
+      "Title": "'tidyverse' Methods and 'ggplot2' Helpers for 'terra' Objects",
+      "Authors@R": "c( person(\"Diego\", \"Hernangómez\", , \"diego.hernangomezherrero@gmail.com\", role = c(\"aut\", \"cre\", \"cph\"), comment = c(ORCID = \"0000-0001-8457-4658\")), person(\"Dewey\", \"Dunnington\", role = \"ctb\", comment = c(ORCID = \"0000-0002-9415-4582\", \"for ggspatial code\")), person(\"ggplot2 authors\", role = \"cph\", comment = \"for contour code\"), person(\"Andrea\", \"Manica\", role = \"ctb\") )",
+      "Description": "Extension of the 'tidyverse' for 'SpatRaster' and 'SpatVector' objects of the 'terra' package. It includes also new 'geom_' functions that provide a convenient way of visualizing 'terra' objects with 'ggplot2'.",
+      "License": "MIT + file LICENSE",
+      "URL": "https://dieghernan.github.io/tidyterra/, https://github.com/dieghernan/tidyterra",
+      "BugReports": "https://github.com/dieghernan/tidyterra/issues",
+      "Depends": [
+        "R (>= 3.6.0)"
+      ],
+      "Imports": [
+        "cli (>= 3.0.0)",
+        "data.table",
+        "dplyr (>= 1.0.0)",
+        "ggplot2 (>= 3.5.0)",
+        "magrittr",
+        "rlang",
+        "scales",
+        "sf (>= 1.0.0)",
+        "terra (>= 1.8-10)",
+        "tibble (>= 3.0.0)",
+        "tidyr (>= 1.0.0)"
+      ],
+      "Suggests": [
+        "hexbin",
+        "isoband",
+        "knitr",
+        "lifecycle",
+        "maptiles",
+        "rmarkdown",
+        "s2",
+        "testthat (>= 3.0.0)",
+        "vctrs",
+        "vdiffr"
+      ],
+      "VignetteBuilder": "knitr",
+      "Config/Needs/coverage": "covr",
+      "Config/Needs/website": "geodata, dieghernan/gitdevr, ragg, styler, metR, ggspatial, cpp11, remotes, gganimate, gifski",
+      "Config/testthat/edition": "3",
+      "Config/testthat/parallel": "false",
+      "Encoding": "UTF-8",
+      "LazyData": "true",
+      "RoxygenNote": "7.3.2",
+      "X-schema.org-keywords": "r, terra, ggplot-extension, r-spatial, rspatial, cran, cran-r, r-package, rstats, rstats-package",
+      "NeedsCompilation": "no",
+      "Author": "Diego Hernangómez [aut, cre, cph] (<https://orcid.org/0000-0001-8457-4658>), Dewey Dunnington [ctb] (<https://orcid.org/0000-0002-9415-4582>, for ggspatial code), ggplot2 authors [cph] (for contour code), Andrea Manica [ctb]",
+      "Maintainer": "Diego Hernangómez <diego.hernangomezherrero@gmail.com>",
+      "Repository": "CRAN"
+    },
     "tidyverse": {
       "Package": "tidyverse",
       "Version": "2.0.0",
@@ -15006,6 +15509,41 @@
       "BugReports": "https://r-forge.r-project.org/projects/rmetrics",
       "NeedsCompilation": "no",
       "Author": "Diethelm Wuertz [aut] (original code), Tobias Setz [aut], Yohan Chalabi [aut], Martin Maechler [ctb] (ORCID: <https://orcid.org/0000-0002-8685-9910>), Joe W. Byers [ctb], Georgi N. Boshnakov [cre, aut] (ORCID: <https://orcid.org/0000-0003-2839-346X>)",
+      "Maintainer": "Georgi N. Boshnakov <georgi.boshnakov@manchester.ac.uk>",
+      "Repository": "CRAN"
+    },
+    "timeSeries": {
+      "Package": "timeSeries",
+      "Version": "4041.111",
+      "Source": "Repository",
+      "Title": "Financial Time Series Objects (Rmetrics)",
+      "Authors@R": "c(person(\"Diethelm\", \"Wuertz\", role=\"aut\", comment = \"original code\") , person(\"Tobias\", \"Setz\", role = c(\"aut\"), email = \"tobias.setz@live.com\") , person(\"Yohan\", \"Chalabi\", role = \"aut\") , person(\"Martin\",\"Maechler\", role=\"ctb\", email=\"maechler@stat.math.ethz.ch\", comment = c(ORCID = \"0000-0002-8685-9910\")) , person(given = c(\"Georgi\", \"N.\"), family = \"Boshnakov\",  role = c(\"cre\", \"aut\"), email = \"georgi.boshnakov@manchester.ac.uk\") )",
+      "Description": "'S4' classes and various tools for financial time series: Basic functions such as scaling and sorting, subsetting, mathematical operations and statistical functions.",
+      "Depends": [
+        "R (>= 2.10)",
+        "timeDate (>= 4041.110)",
+        "methods"
+      ],
+      "Imports": [
+        "graphics",
+        "grDevices",
+        "stats",
+        "utils"
+      ],
+      "Suggests": [
+        "RUnit",
+        "robustbase",
+        "xts",
+        "zoo",
+        "PerformanceAnalytics",
+        "fTrading"
+      ],
+      "LazyData": "yes",
+      "License": "GPL (>= 2)",
+      "URL": "https://geobosh.github.io/timeSeriesDoc/ (doc), https://r-forge.r-project.org/scm/viewvc.php/pkg/timeSeries/?root=rmetrics (devel), https://www.rmetrics.org",
+      "BugReports": "https://r-forge.r-project.org/projects/rmetrics",
+      "NeedsCompilation": "no",
+      "Author": "Diethelm Wuertz [aut] (original code), Tobias Setz [aut], Yohan Chalabi [aut], Martin Maechler [ctb] (<https://orcid.org/0000-0002-8685-9910>), Georgi N. Boshnakov [cre, aut]",
       "Maintainer": "Georgi N. Boshnakov <georgi.boshnakov@manchester.ac.uk>",
       "Repository": "CRAN"
     },
