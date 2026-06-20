@@ -9535,11 +9535,11 @@
     },
     "mrindustry": {
       "Package": "mrindustry",
-      "Version": "1.1.7",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "input data generation for the REMIND industry module",
-      "Date": "2026-06-17",
+      "Date": "2026-06-19",
       "Authors@R": "c( person(given = \"Falk\", family = \"Benke\", email = \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(given = \"Jakob\", family = \"Dürrwächter\", email = \"jakobdu@pik-potsdam.de\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", email = \"renato.rodrigues@pik-potsdam.de\", role = \"aut\"), person(given = \"Simón\", family = \"Moreno-Leiva\", email = \"simon.moreno@pik-potsdam.de\", role = \"aut\"), person(given = \"Lavinia\", family = \"Baumstark\", email = \"lavinia.baumstark@pik-potsdam.de\", role = \"aut\"), person(given = \"Michaja\", family = \"Pehl\", email = \"michaja.pehl@pik-potsdam.de\", role = \"aut\"), person(given = \"Bennet\", family = \"Weiss\", email = \"bennet.weiss@pik-potsdam.de\", role = \"aut\") )",
       "Description": "The mrindustry packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3",
@@ -9581,7 +9581,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrindustry",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a7b591f7783c84f3a3c9d6a2b289c421fffe9f85",
+      "RemoteSha": "74e13326532fd69260e7b015662abe79c00953fb",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre], Jakob Dürrwächter [aut], Renato Rodrigues [aut], Simón Moreno-Leiva [aut], Lavinia Baumstark [aut], Michaja Pehl [aut], Bennet Weiss [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
@@ -9787,11 +9787,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.271.4",
+      "Version": "0.271.8",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2026-06-15",
+      "Date": "2026-06-19",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -9836,13 +9836,10 @@
       "Roxygen": "list(markdown = TRUE)",
       "Config/roxygen2/version": "8.0.0",
       "RoxygenNote": "7.3.3",
-      "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrremind",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "9ed1aa3ae0bd9e95f71e015d73582cbb6bec39d9",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut], Tabea Dorndorf [aut]",
-      "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
+      "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>",
+      "Repository": "pik"
     },
     "mrsoil": {
       "Package": "mrsoil",
