@@ -9889,7 +9889,7 @@
     },
     "mrtransport": {
       "Package": "mrtransport",
-      "Version": "0.16.0",
+      "Version": "0.16.1",
       "Source": "Repository",
       "Title": "Input data generation for the EDGE-Transport model",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", , \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0004-6753-5090\")), person(\"Jarusch\", \"Muessel\", , \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\", , \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")), person(\"Alois\", \"Dirnaichner\", role = \"aut\"))",
@@ -9919,12 +9919,12 @@
         "utils",
         "zoo"
       ],
-      "Date": "2026-05-08",
+      "Date": "2026-06-13",
       "Config/roxygen2/version": "8.0.0",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrtransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "dd7057974299504cbd160f98e9aa649f4449c977",
+      "RemoteSha": "2a08fe2d2f8c74dcf84d3730876a3c24cc366fc1",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre] (<https://orcid.org/0009-0004-6753-5090>), Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>), Alois Dirnaichner [aut]",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
@@ -12242,11 +12242,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3149.0",
+      "Version": "0.3150.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Bits and pieces of code to use with quitte-style data frames",
-      "Date": "2026-05-13",
+      "Date": "2026-06-23",
       "Authors@R": "c( person(\"Michaja\", \"Pehl\", , \"pehl@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Nico\", \"Bauer\", , \"nicolasb@pik-potsdam.de\", role = \"aut\"), person(\"Jérôme\", \"Hilaire\", , \"jeromehilaire@pik-potsdam.de\", role = \"aut\"), person(\"Antoine\", \"Levesque\", , \"levesque@pik-potsdam.de\", role = \"aut\"), person(\"Gunnar\", \"Luderer\", , \"luderer@pik-potsdam.de\", role = \"aut\"), person(\"Anselm\", \"Schultes\", , \"schultes@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\") )",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>",
       "Description": "A collection of functions for easily dealing with quitte-style data frames, doing multi-model comparisons and plots.",
@@ -12304,7 +12304,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ebc36330519415a0ab3969a99225c734c593744f",
+      "RemoteSha": "0c7e3a07132c74c1bf329e7b8244dd30744d285c",
       "NeedsCompilation": "no",
       "Author": "Michaja Pehl [aut, cre], Nico Bauer [aut], Jérôme Hilaire [aut], Antoine Levesque [aut], Gunnar Luderer [aut], Anselm Schultes [aut], Jan Philipp Dietrich [aut], Oliver Richters [aut], Tonn Rüter [aut]"
     },
