@@ -5007,13 +5007,13 @@
     },
     "gdxrrw": {
       "Package": "gdxrrw",
-      "Version": "1.0.10.9003",
+      "Version": "1.0.11",
       "Source": "Repository",
       "Title": "An Interface Between 'GAMS' and R",
       "Depends": [
         "R (>= 3.0)"
       ],
-      "Date": "2021-04-02",
+      "Date": "2026-06-25",
       "SystemRequirements": "GAMS (>= 33.0.0)",
       "Authors@R": "c(person(\"Steve\",\"Dirkse\", role=c(\"aut\",\"cre\"), email=\"R@gams.com\"), person(\"Michael\",\"Ferris\", role=c(\"aut\")), person(\"Rishabh\",\"Jain\", role=c(\"aut\")) )",
       "Description": "A data interface between 'GAMS' and R.  The 'GAMS' (General Algebraic Modeling System) software includes a data specification called 'GDX' that is the preferred way to store and exchange 'GAMS' data.  This package includes several functions to transfer data between 'GDX' and R, and some related utility functions.",
@@ -5023,10 +5023,14 @@
         "reshape2"
       ],
       "LazyData": "no",
+      "Config/roxygen2/version": "8.0.0",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/gdxrrw",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "2ab26a2e780e63706ab5e2a69786ca7f11ee6b7c",
       "NeedsCompilation": "yes",
       "Author": "Steve Dirkse [aut, cre], Michael Ferris [aut], Rishabh Jain [aut]",
-      "Maintainer": "Steve Dirkse <R@gams.com>",
-      "Repository": "pik"
+      "Maintainer": "Steve Dirkse <R@gams.com>"
     },
     "generics": {
       "Package": "generics",
@@ -8126,11 +8130,11 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.55.4",
+      "Version": "0.56.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Code Manipulation and Analysis Tools",
-      "Date": "2026-06-10",
+      "Date": "2026-06-24",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Pascal\", \"Sauer\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"David\", \"Klein\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"aut\"), person(\"Benjamin Leon\", \"Bodirsky\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Lavinia\", \"Baumstark\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Oliver\", \"Richters\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Mika\", \"Pflüger\", role = \"aut\"), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0001-9454-8381\")) )",
       "Description": "A collection of tools which allow to manipulate and analyze code.",
       "License": "BSD_2_clause + file LICENSE",
@@ -8154,7 +8158,6 @@
       "Suggests": [
         "covr",
         "gdx",
-        "gdxrrw",
         "gert",
         "ggplot2",
         "knitr",
@@ -8176,7 +8179,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/lucode2",
       "RemoteRef": "HEAD",
-      "RemoteSha": "bded7728d07eb535e449b0a741f3c4d643aa2f40",
+      "RemoteSha": "031dc206156fd85dc0a0bd103078ffe82398a5bd",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), Pascal Sauer [aut] (Potsdam Institute for Climate Impact Research), David Klein [aut] (Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Markus Bonsch [aut], Benjamin Leon Bodirsky [aut] (Potsdam Institute for Climate Impact Research), Lavinia Baumstark [aut] (Potsdam Institute for Climate Impact Research), Oliver Richters [aut] (Potsdam Institute for Climate Impact Research), Mika Pflüger [aut], Patrick Rein [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0001-9454-8381>)",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -9784,11 +9787,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.271.9",
+      "Version": "0.271.11",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2026-06-22",
+      "Date": "2026-06-25",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -9836,7 +9839,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d9f4384fcdb3ca1cfd3ce0a0aae4eb274f081df1",
+      "RemoteSha": "667492dbd541dbde0b9ff6b6c745d3165e1498b0",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut], Tabea Dorndorf [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
