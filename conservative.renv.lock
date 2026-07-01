@@ -7384,12 +7384,12 @@
     },
     "lattice": {
       "Package": "lattice",
-      "Version": "0.21-9",
+      "Version": "0.22-9",
       "Source": "Repository",
-      "Date": "2023-09-30",
+      "Date": "2026-02-03",
       "Priority": "recommended",
       "Title": "Trellis Graphics for R",
-      "Authors@R": "c(person(\"Deepayan\", \"Sarkar\", role = c(\"aut\", \"cre\"), email = \"deepayan.sarkar@r-project.org\", comment = c(ORCID = \"0000-0003-4107-1553\")), person(\"Felix\", \"Andrews\", role = \"ctb\"), person(\"Kevin\", \"Wright\", role = \"ctb\", comment = \"documentation\"), person(\"Neil\", \"Klepeis\", role = \"ctb\"), person(\"Johan\", \"Larsson\", role = \"ctb\", comment = \"miscellaneous improvements\"), person(\"Zhijian (Jason)\", \"Wen\", role = \"cph\", comment = \"filled contour code\"), person(\"Paul\", \"Murrell\", role = \"ctb\", email = \"paul@stat.auckland.ac.nz\"), person(\"Stefan\", \"Eng\", role = \"ctb\", comment = \"violin plot improvements\"), person(\"Achim\", \"Zeileis\", role = \"ctb\", comment = \"modern colors\") )",
+      "Authors@R": "c(person(\"Deepayan\", \"Sarkar\", role = c(\"aut\", \"cre\"), email = \"deepayan.sarkar@r-project.org\", comment = c(ORCID = \"0000-0003-4107-1553\")), person(\"Felix\", \"Andrews\", role = \"ctb\"), person(\"Kevin\", \"Wright\", role = \"ctb\", comment = \"documentation\"), person(\"Neil\", \"Klepeis\", role = \"ctb\"), person(\"Johan\", \"Larsson\", role = \"ctb\", comment = \"miscellaneous improvements\"), person(\"Zhijian (Jason)\", \"Wen\", role = \"cph\", comment = \"filled contour code\"), person(\"Paul\", \"Murrell\", role = \"ctb\", email = \"paul@stat.auckland.ac.nz\"), person(\"Stefan\", \"Eng\", role = \"ctb\", comment = \"violin plot improvements\"), person(\"Achim\", \"Zeileis\", role = \"ctb\", comment = \"modern colors\"), person(\"Alexandre\", \"Courtiol\", role = \"ctb\", comment = \"generics for larrows, lpolygon, lrect and lsegments\") )",
       "Description": "A powerful and elegant high-level data visualization system inspired by Trellis graphics, with an emphasis on multivariate data. Lattice is sufficient for typical graphics needs, and is also flexible enough to handle most nonstandard requirements. See ?Lattice for an introduction.",
       "Depends": [
         "R (>= 4.0.0)"
@@ -7408,7 +7408,8 @@
         "utils"
       ],
       "Enhances": [
-        "chron"
+        "chron",
+        "zoo"
       ],
       "LazyLoad": "yes",
       "LazyData": "yes",
@@ -7416,7 +7417,7 @@
       "URL": "https://lattice.r-forge.r-project.org/",
       "BugReports": "https://github.com/deepayan/lattice/issues",
       "NeedsCompilation": "yes",
-      "Author": "Deepayan Sarkar [aut, cre] (<https://orcid.org/0000-0003-4107-1553>), Felix Andrews [ctb], Kevin Wright [ctb] (documentation), Neil Klepeis [ctb], Johan Larsson [ctb] (miscellaneous improvements), Zhijian (Jason) Wen [cph] (filled contour code), Paul Murrell [ctb], Stefan Eng [ctb] (violin plot improvements), Achim Zeileis [ctb] (modern colors)",
+      "Author": "Deepayan Sarkar [aut, cre] (ORCID: <https://orcid.org/0000-0003-4107-1553>), Felix Andrews [ctb], Kevin Wright [ctb] (documentation), Neil Klepeis [ctb], Johan Larsson [ctb] (miscellaneous improvements), Zhijian (Jason) Wen [cph] (filled contour code), Paul Murrell [ctb], Stefan Eng [ctb] (violin plot improvements), Achim Zeileis [ctb] (modern colors), Alexandre Courtiol [ctb] (generics for larrows, lpolygon, lrect and lsegments)",
       "Maintainer": "Deepayan Sarkar <deepayan.sarkar@r-project.org>",
       "Repository": "CRAN"
     },
@@ -8423,11 +8424,11 @@
     },
     "magclass": {
       "Package": "magclass",
-      "Version": "7.4.3",
+      "Version": "7.5.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Data Class and Tools for Handling Spatial-Temporal Data",
-      "Date": "2026-03-25",
+      "Date": "2026-06-25",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Markus\", \"Bonsch\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-6856-8239\")), person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Christoph\", \"Bertram\", , \"bertram@pik-potsdam.de\", role = \"ctb\"), person(\"Anastasis\", \"Giannousakis\", , \"giannou@pik-potsdam.de\", role = \"ctb\"), person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Ina\", \"Neher\", role = \"ctb\"), person(\"Michaja\", \"Pehl\", , \"pehl@pik-potsdam.de\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anselm\", \"Schultes\", role = \"ctb\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"ctb\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Mika\", \"Pflüger\", role = \"ctb\"), person(\"Oliver\", \"Richters\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0001-9454-8381\")) )",
       "Description": "Data class for increased interoperability working with spatial-temporal data together with corresponding functions and methods (conversions, basic calculations and basic data manipulation). The class distinguishes between spatial, temporal and other dimensions to facilitate the development and interoperability of tools build for it. Additional features are name-based addressing of data and internal consistency checks (e.g. checking for the right data order in calculations).",
       "License": "LGPL-3 | file LICENSE",
@@ -8463,12 +8464,12 @@
       "Config/Keywords": "tool",
       "Encoding": "UTF-8",
       "LazyData": "true",
-      "RoxygenNote": "7.3.3",
       "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/roxygen2/version": "8.0.0",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magclass",
       "RemoteRef": "HEAD",
-      "RemoteSha": "0891831e1935fb877eeb32463082cda7e0acf98b",
+      "RemoteSha": "3b5165be1b34fd83b38dc4e55bcbde7c2443e007",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), Benjamin Leon Bodirsky [aut] (Potsdam Institute for Climate Impact Research), Markus Bonsch [aut], Florian Humpenoeder [aut] (Potsdam Institute for Climate Impact Research), Stephen Bi [aut], Kristine Karstens [aut] (Potsdam Institute for Climate Impact Research), Debbora Leip [aut] (Potsdam Institute for Climate Impact Research), Pascal Sauer [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-6856-8239>), Lavinia Baumstark [ctb] (Potsdam Institute for Climate Impact Research), Christoph Bertram [ctb], Anastasis Giannousakis [ctb], David Klein [ctb] (Potsdam Institute for Climate Impact Research), Ina Neher [ctb], Michaja Pehl [ctb] (Potsdam Institute for Climate Impact Research), Anselm Schultes [ctb], Miodrag Stevanovic [ctb] (Potsdam Institute for Climate Impact Research), Xiaoxi Wang [ctb], Felicitas Beier [ctb] (Potsdam Institute for Climate Impact Research), Mika Pflüger [ctb], Oliver Richters [ctb] (Potsdam Institute for Climate Impact Research), Patrick Rein [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0001-9454-8381>)",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -9802,17 +9803,17 @@
     },
     "mrorganic": {
       "Package": "mrorganic",
-      "Version": "0.5.6",
+      "Version": "0.5.7",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Provide soil organic carbon and biomass data",
-      "Date": "2023-06-02",
-      "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Pascal\", \"Führlich\", , \"pascal.fuehrlich@pik-potsdam.de\", role = \"aut\"), person(\"Hugo\", \"Valin\", , , role = \"ctb\") )",
+      "Date": "2026-06-23",
+      "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\"), person(\"Hugo\", \"Valin\", , , role = \"ctb\") )",
       "Description": "mrorganic supports downloading and preparing soil organic carbon and biomass data for further scientific work.",
       "License": "LGPL-3 | file LICENSE",
       "URL": "https://github.com/tscheypidi/mrorganic",
       "Depends": [
-        "madrat(>= 3.1.1)",
+        "madrat(>= 3.3.4)",
         "magclass(>= 3.17)",
         "R(>= 2.10.0)"
       ],
@@ -9829,19 +9830,22 @@
       ],
       "VignetteBuilder": "knitr",
       "Encoding": "UTF-8",
-      "RoxygenNote": "7.2.3",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Config/roxygen2/version": "8.0.0",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/tscheypidi/mrorganic",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "07a53e9a148224c72b67d1fa0f7e408c68dc67e4",
       "NeedsCompilation": "no",
-      "Author": "Jan Philipp Dietrich [aut, cre], Pascal Führlich [aut], Hugo Valin [ctb]",
+      "Author": "Jan Philipp Dietrich [aut, cre], Pascal Sauer [aut], Hugo Valin [ctb]",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.272.2",
+      "Version": "0.272.4",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2026-06-27",
+      "Date": "2026-06-30",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -9887,10 +9891,13 @@
       "Roxygen": "list(markdown = TRUE)",
       "Config/roxygen2/version": "8.0.0",
       "RoxygenNote": "7.3.3",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mrremind",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "034d6c6a58b33faa47c910e464960007ba1c5034",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut], Tabea Dorndorf [aut]",
-      "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>",
-      "Repository": "pik"
+      "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
     },
     "mrsoil": {
       "Package": "mrsoil",
