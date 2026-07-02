@@ -8369,11 +8369,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.37.0",
+      "Version": "3.37.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "May All Data be Reproducible and Transparent (MADRaT) *",
-      "Date": "2026-06-26",
+      "Date": "2026-07-01",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-6856-8239\")), person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anastasis\", \"Giannousakis\", , \"giannou@pik-potsdam.de\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", , \"Renato.Rodrigues@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Ulrich\", \"Kreidenweis\", , \"kreidenweis@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0001-9454-8381\")) )",
       "Description": "Provides a framework which should improve reproducibility and transparency in data processing. It provides functionality such as automatic meta data creation and management, rudimentary quality management, data caching, work-flow management and data aggregation. * The title is a wish not a promise. By no means we expect this package to deliver everything what is needed to achieve full reproducibility and transparency, but we believe that it supports efforts in this direction.",
       "License": "BSD_2_clause + file LICENSE",
@@ -8417,7 +8417,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "22fa963f1e5f4a6c97b78f0f0bd6bc4cfaa40ce2",
+      "RemoteSha": "5114c50910b4a8fbdccbefb93f2f47b8f1a06a1c",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), Pascal Sauer [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-6856-8239>), Lavinia Baumstark [aut] (Potsdam Institute for Climate Impact Research), Stephen Wirth [aut] (Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Renato Rodrigues [aut] (Potsdam Institute for Climate Impact Research), Benjamin Leon Bodirsky [aut] (Potsdam Institute for Climate Impact Research), Debbora Leip [aut] (Potsdam Institute for Climate Impact Research), Michael Crawford [aut] (Potsdam Institute for Climate Impact Research), Ulrich Kreidenweis [aut], David Klein [aut] (Potsdam Institute for Climate Impact Research), Patrick Rein [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0001-9454-8381>)",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
@@ -9088,11 +9088,11 @@
     },
     "mrcommons": {
       "Package": "mrcommons",
-      "Version": "1.70.1",
+      "Version": "1.70.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat commons Input Data Library",
-      "Date": "2026-06-26",
+      "Date": "2026-07-01",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = \"aut\"), person(\"Kristine\", \"Karstens\", role = \"aut\"), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Stephen\", \"Wirth\", role = \"aut\"), person(\"Mishko\", \"Stevanovic\", role = \"aut\"), person(\"Nele\", \"Steinmetz\", role = \"aut\"), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Roman\", \"Popov\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Ewerton\", \"Araujo\", role = \"aut\"), person(\"Eva\", \"Bleidorn\", role = \"aut\"), person(\"Felicitas\", \"Beier\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Debbora\", \"Leip\", role = \"aut\"), person(\"Michael\", \"Crawford\", role = \"aut\"), person(\"Edna\", \"Molina Bacca\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", role = \"aut\"), person(\"Eleonora\", \"Martinelli\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"David\", \"Hötten\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Gabriel\", \"Abrahão\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\")) )",
       "Description": "Provides useful functions and a common structure to all the input data required to run models like MAgPIE and REMIND of model input data.",
       "License": "LGPL-3 | file LICENSE",
@@ -9107,7 +9107,7 @@
         "mrfaocore (>= 1.0.0)",
         "mrlandcore (>= 1.0.0)",
         "mstools (>= 0.6.0)",
-        "R (>= 2.10.0)"
+        "R (>= 4.1.0)"
       ],
       "Imports": [
         "countrycode",
@@ -9143,18 +9143,21 @@
       "Config/Needs/website": "tidyverse/tidytemplate",
       "Config/roxygen2/version": "8.0.0",
       "RoxygenNote": "7.3.3",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mrcommons",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "4864b56392df5374eaa567ad08bf2892b136ea58",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut], Kristine Karstens [aut], Lavinia Baumstark [aut], Isabelle Weindl [aut], Xiaoxi Wang [aut], Abhijeet Mishra [aut], Stephen Wirth [aut], Mishko Stevanovic [aut], Nele Steinmetz [aut], Ulrich Kreidenweis [aut], Renato Rodrigues [aut], Roman Popov [aut], Florian Humpenoeder [aut], Anastasis Giannousakis [aut], Antoine Levesque [aut], David Klein [aut], Ewerton Araujo [aut], Eva Bleidorn [aut], Felicitas Beier [aut], Julian Oeser [aut], Michaja Pehl [aut], Debbora Leip [aut], Michael Crawford [aut], Edna Molina Bacca [aut], Patrick von Jeetze [aut], Eleonora Martinelli [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Pascal Sauer [aut], David Hötten [aut], Robin Hasse [aut], Gabriel Abrahão [aut], Pascal Weigmann [aut], Jan Philipp Dietrich [aut, cre]",
-      "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>",
-      "Repository": "pik"
+      "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
     },
     "mrcommonsenergy": {
       "Package": "mrcommonsenergy",
-      "Version": "0.3.3",
+      "Version": "0.3.4",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Preprocessing functions for REMIND and other energy models (no landuse data)",
-      "Date": "2026-06-27",
+      "Date": "2026-06-29",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")) )",
       "Description": "Preprocessing functions for REMIND and other energy models (buildings, transport, industry) not using landuse data.",
       "License": "LGPL-3",
@@ -9170,8 +9173,10 @@
       "Imports": [
         "data.table",
         "dplyr",
+        "glue",
         "magrittr",
         "openxlsx",
+        "purrr",
         "quitte",
         "tibble",
         "tidyr",
@@ -9188,7 +9193,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommonsenergy.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9ffd8f34cc180bdcf6e9cec12ea2a212bc2a000e",
+      "RemoteSha": "273171e9a26c883947d8b61d357b4828e7182c2c",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
@@ -9297,11 +9302,11 @@
     },
     "mredgebuildings": {
       "Package": "mredgebuildings",
-      "Version": "0.15.9",
+      "Version": "0.15.10",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Prepare data to be used by the EDGE-Buildings model",
-      "Date": "2026-06-24",
+      "Date": "2026-07-01",
       "Authors@R": "c( person(\"Robin\", \"Hasse\", , \"robin.hasse@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-1818-3186\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Hagen\", \"Tockhorn\", role = \"aut\") )",
       "Description": "Prepare data to be used by the EDGE-Buildings model.",
       "License": "MIT + file LICENSE",
@@ -9343,10 +9348,13 @@
       "Encoding": "UTF-8",
       "Roxygen": "list(markdown = TRUE)",
       "Config/roxygen2/version": "8.0.0",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mredgebuildings.git",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "889dd9bc6bc47371563303260d36fc6c10ab5a5e",
       "NeedsCompilation": "no",
       "Author": "Robin Hasse [aut, cre] (<https://orcid.org/0000-0003-1818-3186>), Pascal Sauer [aut], Antoine Levesque [aut], Hagen Tockhorn [aut]",
-      "Maintainer": "Robin Hasse <robin.hasse@pik-potsdam.de>",
-      "Repository": "pik"
+      "Maintainer": "Robin Hasse <robin.hasse@pik-potsdam.de>"
     },
     "mrenergy": {
       "Package": "mrenergy",
@@ -9841,11 +9849,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.272.4",
+      "Version": "0.272.5",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2026-06-30",
+      "Date": "2026-07-01",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -9894,7 +9902,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "034d6c6a58b33faa47c910e464960007ba1c5034",
+      "RemoteSha": "204507d7b4cc66108769cc87a3a3b1167c5808b6",
       "NeedsCompilation": "no",
       "Author": "Lavinia Baumstark [aut, cre], Renato Rodrigues [aut], Antoine Levesque [aut], Julian Oeser [aut], Christoph Bertram [aut], Ioanna Mouratiadou [aut], Aman Malik [aut], Felix Schreyer [aut], Bjoern Soergel [aut], Marianna Rottoli [aut], Abhijeet Mishra [aut], Alois Dirnaichner [aut], Michaja Pehl [aut], Anastasis Giannousakis [aut], David Klein [aut], Jessica Strefler [aut], Lukas Feldhaus [aut], Regina Brecha [aut], Sebastian Rauner [aut], Jan Philipp Dietrich [aut], Stephen Bi [aut], Falk Benke [aut], Pascal Weigmann [aut], Oliver Richters [aut], Robin Hasse [aut], Sophie Fuchs [aut], Rahel Mandaroux [aut], Johannes Koch [aut], Gabriel Abrahao [aut], Tabea Dorndorf [aut]",
       "Maintainer": "Lavinia Baumstark <lavinia@pik-potsdam.de>"
@@ -9944,7 +9952,7 @@
     },
     "mrtransport": {
       "Package": "mrtransport",
-      "Version": "0.16.1",
+      "Version": "0.16.2",
       "Source": "Repository",
       "Title": "Input data generation for the EDGE-Transport model",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", , \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0004-6753-5090\")), person(\"Jarusch\", \"Muessel\", , \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\", , \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")), person(\"Alois\", \"Dirnaichner\", role = \"aut\"))",
@@ -9955,8 +9963,8 @@
       "Roxygen": "list(markdown = TRUE)",
       "Depends": [
         "madrat (>= 3.7.1)",
-        "mrcommons",
-        "mrdrivers (>= 2.0.0)"
+        "mrdrivers (>= 2.0.0)",
+        "mrcommonsenergy (>= 0.3.3)"
       ],
       "Imports": [
         "data.table",
@@ -9974,12 +9982,12 @@
         "utils",
         "zoo"
       ],
-      "Date": "2026-06-13",
+      "Date": "2026-06-27",
       "Config/roxygen2/version": "8.0.0",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrtransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2a08fe2d2f8c74dcf84d3730876a3c24cc366fc1",
+      "RemoteSha": "53ae9c87f612bf3e2c0e89dc15076fb321e92a32",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre] (<https://orcid.org/0009-0004-6753-5090>), Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>), Alois Dirnaichner [aut]",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
