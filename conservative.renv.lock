@@ -9762,11 +9762,11 @@
     },
     "mrmagpie": {
       "Package": "mrmagpie",
-      "Version": "1.65.3",
+      "Version": "1.66.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "madrat based MAgPIE Input Data Library",
-      "Date": "2026-05-20",
+      "Date": "2026-07-14",
       "Authors@R": "c( person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Chen\", role = \"aut\"), person(\"Michael\", \"Windisch\", role = \"aut\"), person(\"Marcos\", \"Alves\", role = \"aut\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"aut\"), person(\"Alexandre\", \"Köberle\", , \"alexkob@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"v. Jeetze\", , \"vjeetze@pik-potsdam.de\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", , \"mishra@pik-potsdam.de\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\"), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\"), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\") )",
       "Description": "Provides functions for MAgPIE country and cellular input data generation.",
       "License": "LGPL-3 | file LICENSE",
@@ -9813,7 +9813,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrmagpie",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7e4f07c41054c3bfea88cb3bdd380d15783b2d3c",
+      "RemoteSha": "6a28b08d24d000451d6b6364c6160359c3f2b0fe",
       "NeedsCompilation": "no",
       "Author": "Kristine Karstens [aut, cre], Jan Philipp Dietrich [aut], David Chen [aut], Michael Windisch [aut], Marcos Alves [aut], Felicitas Beier [aut], Alexandre Köberle [aut], Patrick v. Jeetze [aut], Abhijeet Mishra [aut], Florian Humpenoeder [aut], Pascal Sauer [aut], Patrick Rein [aut]",
       "Maintainer": "Kristine Karstens <karstens@pik-potsdam.de>"
