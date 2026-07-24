@@ -12315,11 +12315,11 @@
     },
     "quitte": {
       "Package": "quitte",
-      "Version": "0.3150.0",
+      "Version": "0.3151.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Bits and pieces of code to use with quitte-style data frames",
-      "Date": "2026-06-23",
+      "Date": "2026-07-23",
       "Authors@R": "c( person(\"Michaja\", \"Pehl\", , \"pehl@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Nico\", \"Bauer\", , \"nicolasb@pik-potsdam.de\", role = \"aut\"), person(\"Jérôme\", \"Hilaire\", , \"jeromehilaire@pik-potsdam.de\", role = \"aut\"), person(\"Antoine\", \"Levesque\", , \"levesque@pik-potsdam.de\", role = \"aut\"), person(\"Gunnar\", \"Luderer\", , \"luderer@pik-potsdam.de\", role = \"aut\"), person(\"Anselm\", \"Schultes\", , \"schultes@pik-potsdam.de\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\") )",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>",
       "Description": "A collection of functions for easily dealing with quitte-style data frames, doing multi-model comparisons and plots.",
@@ -12377,7 +12377,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/quitte",
       "RemoteRef": "HEAD",
-      "RemoteSha": "0c7e3a07132c74c1bf329e7b8244dd30744d285c",
+      "RemoteSha": "1d55e62e6d8ad6ed3884fa0e8348455a1700ea4a",
       "NeedsCompilation": "no",
       "Author": "Michaja Pehl [aut, cre], Nico Bauer [aut], Jérôme Hilaire [aut], Antoine Levesque [aut], Gunnar Luderer [aut], Anselm Schultes [aut], Jan Philipp Dietrich [aut], Oliver Richters [aut], Tonn Rüter [aut]"
     },
@@ -12878,11 +12878,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "2.4.1",
+      "Version": "2.4.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "The REMIND R package (2nd generation)",
-      "Date": "2026-07-20",
+      "Date": "2026-07-23",
       "Authors@R": "c( person(\"Renato\", \"Rodrigues\", , \"renato.rodrigues@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"David\", \"Bantje\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\"), person(\"Jakob\", \"Duerrwaechter\", role = \"aut\"), person(\"Pascal\", \"Führlich\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Jérome\", \"Hilaire\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Katarzyna\", \"Kowalczyk\", role = \"aut\"), person(\"Fabrice\", \"Lécuyer\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Anne\", \"Merfort\", role = \"aut\"), person(\"Leon\", \"Merfort\", role = \"aut\"), person(\"Simón\", \"Morena-Leiva\", role = \"aut\"), person(\"Adrian\", \"Odenweller\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Robert\", \"Pietzcker\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\"), person(\"Robert\", \"Salzwedel\", role = \"aut\"), person(\"Christof\", \"Schötz\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Kais\", \"Siala\", role = \"aut\"), person(\"Björn\", \"Sörgel\", role = \"aut\"), person(\"Mike\", \"Spahr\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Philipp\", \"Verpoort\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\") )",
       "Description": "Contains the REMIND-specific routines for data and model output manipulation.",
       "License": "LGPL-3",
@@ -12939,7 +12939,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c5bbfc133963e5dd9e7946d55ec47ba7b5798ee6",
+      "RemoteSha": "fbb2a23e804ad91132ad1c5b50c1ec864d1f6818",
       "NeedsCompilation": "no",
       "Author": "Renato Rodrigues [aut, cre], Lavinia Baumstark [aut], Falk Benke [aut], David Bantje [aut], Jan Philipp Dietrich [aut], Alois Dirnaichner [aut], Tabea Dorndorf [aut], Jakob Duerrwaechter [aut], Pascal Führlich [aut], Anastasis Giannousakis [aut], Robin Hasse [aut], Jérome Hilaire [aut], David Klein [aut], Johannes Koch [aut], Katarzyna Kowalczyk [aut], Fabrice Lécuyer [aut], Antoine Levesque [aut], Aman Malik [aut], Anne Merfort [aut], Leon Merfort [aut], Simón Morena-Leiva [aut], Adrian Odenweller [aut], Michaja Pehl [aut], Robert Pietzcker [aut], Sebastian Rauner [aut], Oliver Richters [aut], Marianna Rottoli [aut], Tonn Rüter [aut], Robert Salzwedel [aut], Christof Schötz [aut], Felix Schreyer [aut], Kais Siala [aut], Björn Sörgel [aut], Mike Spahr [aut], Jessica Strefler [aut], Philipp Verpoort [aut], Pascal Weigmann [aut]",
       "Maintainer": "Renato Rodrigues <renato.rodrigues@pik-potsdam.de>"
@@ -13169,11 +13169,11 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "1.5.0",
+      "Version": "1.5.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Reporting package for edgeTransport",
-      "Date": "2026-07-21",
+      "Date": "2026-07-23",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", , \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")))",
       "Description": "This package contains edgeTransport-specific routines to report model results. The main functionality is to generate transport reporting variables in MIF format from a given edgeTransport model run folder or REMIND input data.",
       "Depends": [
@@ -13201,7 +13201,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reporttransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "6538482ddf074bdb1bd9b5ac10d9186370664501",
+      "RemoteSha": "5007c53c97ea7d7ab146953953b49a94a810653b",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
