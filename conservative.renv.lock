@@ -13169,11 +13169,11 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "1.5.1",
+      "Version": "1.5.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Reporting package for edgeTransport",
-      "Date": "2026-07-23",
+      "Date": "2026-07-24",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", , \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")))",
       "Description": "This package contains edgeTransport-specific routines to report model results. The main functionality is to generate transport reporting variables in MIF format from a given edgeTransport model run folder or REMIND input data.",
       "Depends": [
@@ -13201,7 +13201,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reporttransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5007c53c97ea7d7ab146953953b49a94a810653b",
+      "RemoteSha": "4923c6211a3a009b206ff082fd60de549f1b8c8d",
       "NeedsCompilation": "no",
       "Author": "Johanna Hoppe [aut, cre], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
