@@ -8036,7 +8036,7 @@
     },
     "lpjmlstats": {
       "Package": "lpjmlstats",
-      "Version": "0.10.1",
+      "Version": "0.10.2",
       "Source": "Repository",
       "Title": "Statistical tools for LPJmL data analysis",
       "Authors@R": "c( person(\"David\",\"Hötten\", , \"davidho@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jannes\",\"Breier\", , \"jannes.breier@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9055-6904\")), person(\"Christoph\",\"Müller\", , \"cmueller@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9491-3550\")), person(\"Stephen B.\",\"Wirth\", , \"stephen.wirth@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-3090-3318\")) )",
@@ -8081,12 +8081,12 @@
       "Depends": [
         "R (>= 3.5.0)"
       ],
-      "Date": "2026-06-22",
+      "Date": "2026-07-27",
       "Config/roxygen2/version": "8.0.0",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/PIK-LPJmL/lpjmlstats",
       "RemoteRef": "HEAD",
-      "RemoteSha": "599a27fa963226e85ea8cb52539b3e74b26f797f",
+      "RemoteSha": "eb5ec636bc1bb018511205d6007c738737c52f8b",
       "NeedsCompilation": "no",
       "Author": "David Hötten [aut, cre], Jannes Breier [aut] (<https://orcid.org/0000-0002-9055-6904>), Christoph Müller [aut] (<https://orcid.org/0000-0002-9491-3550>), Stephen B. Wirth [aut] (<https://orcid.org/0000-0003-3090-3318>)",
       "Maintainer": "David Hötten <davidho@pik-potsdam.de>"
@@ -9157,12 +9157,12 @@
     },
     "mrcommonsenergy": {
       "Package": "mrcommonsenergy",
-      "Version": "0.4.1",
+      "Version": "0.5.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Preprocessing functions for REMIND and other energy models (no landuse data)",
-      "Date": "2026-07-20",
-      "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\") )",
+      "Date": "2026-07-23",
+      "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Simon\", \"Krogmann\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\") )",
       "Description": "Preprocessing functions for REMIND and other energy models (buildings, transport, industry) not using landuse data.",
       "License": "LGPL-3",
       "URL": "https://github.com/pik-piam/mrcommonsenergy",
@@ -9197,9 +9197,9 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrcommonsenergy.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "7165d3574ac9388d4592119b78db343e3cea872c",
+      "RemoteSha": "ad0e5f5f51e628ebe48b8c168a8f5542e690d156",
       "NeedsCompilation": "no",
-      "Author": "Falk Benke [aut, cre], Robin Hasse [aut], Renato Rodrigues [aut], Felix Schreyer [aut]",
+      "Author": "Falk Benke [aut, cre], Robin Hasse [aut], Simon Krogmann [aut], Renato Rodrigues [aut], Felix Schreyer [aut]",
       "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
     },
     "mrdownscale": {
@@ -10042,11 +10042,11 @@
     },
     "mrvalidation": {
       "Package": "mrvalidation",
-      "Version": "2.69.3",
+      "Version": "2.70.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "madrat data preparation for validation purposes",
-      "Date": "2026-06-04",
+      "Date": "2026-07-27",
       "Authors@R": "c( person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Stephen\", \"Wirth\", role = \"aut\"), person(\"Kristine\", \"Karstens\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", role = \"aut\"), person(\"Mishko\", \"Stevanovic\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Anne\", \"Biewald\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", role = \"aut\"), person(\"Felicitas\", \"Beier\", role = \"aut\"), person(\"David\", \"Chen\", role = \"aut\"), person(\"Michael\", \"Crawford\", role = \"aut\"), person(\"Debbora\", \"Leip\", role = \"aut\"), person(\"Edna\", \"Molina Bacca\", role = \"aut\"), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"Amsalu\", \"W. Yalew\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Marcos\", \"Alves\", role = \"aut\") )",
       "Description": "Package contains routines to prepare data for validation exercises.",
       "License": "LGPL-3 | file LICENSE",
@@ -10091,7 +10091,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrvalidation",
       "RemoteRef": "HEAD",
-      "RemoteSha": "702d7e3f59edc17f5445d73f51f86493d23ac1fa",
+      "RemoteSha": "fc4e596cc97c908870cad056ec441f92e0374ee6",
       "NeedsCompilation": "no",
       "Author": "Benjamin Leon Bodirsky [aut, cre], Stephen Wirth [aut], Kristine Karstens [aut], Florian Humpenoeder [aut], Mishko Stevanovic [aut], Abhijeet Mishra [aut], Anne Biewald [aut], Isabelle Weindl [aut], Felicitas Beier [aut], David Chen [aut], Michael Crawford [aut], Debbora Leip [aut], Edna Molina Bacca [aut], Ulrich Kreidenweis [aut], Amsalu W. Yalew [aut], Patrick von Jeetze [aut], Xiaoxi Wang [aut], Jan Philipp Dietrich [aut], Marcos Alves [aut]",
       "Maintainer": "Benjamin Leon Bodirsky <bodirsky@pik-potsdam.de>"
@@ -12878,11 +12878,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "2.4.2",
+      "Version": "2.5.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "The REMIND R package (2nd generation)",
-      "Date": "2026-07-23",
+      "Date": "2026-07-25",
       "Authors@R": "c( person(\"Renato\", \"Rodrigues\", , \"renato.rodrigues@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"David\", \"Bantje\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\"), person(\"Jakob\", \"Duerrwaechter\", role = \"aut\"), person(\"Pascal\", \"Führlich\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Jérome\", \"Hilaire\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Katarzyna\", \"Kowalczyk\", role = \"aut\"), person(\"Fabrice\", \"Lécuyer\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Anne\", \"Merfort\", role = \"aut\"), person(\"Leon\", \"Merfort\", role = \"aut\"), person(\"Simón\", \"Morena-Leiva\", role = \"aut\"), person(\"Adrian\", \"Odenweller\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Robert\", \"Pietzcker\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\"), person(\"Robert\", \"Salzwedel\", role = \"aut\"), person(\"Christof\", \"Schötz\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Kais\", \"Siala\", role = \"aut\"), person(\"Björn\", \"Sörgel\", role = \"aut\"), person(\"Mike\", \"Spahr\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Philipp\", \"Verpoort\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\") )",
       "Description": "Contains the REMIND-specific routines for data and model output manipulation.",
       "License": "LGPL-3",
@@ -12939,7 +12939,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "fbb2a23e804ad91132ad1c5b50c1ec864d1f6818",
+      "RemoteSha": "fa9adabfd520a4438e0c5fbc5d3206b1e47b7610",
       "NeedsCompilation": "no",
       "Author": "Renato Rodrigues [aut, cre], Lavinia Baumstark [aut], Falk Benke [aut], David Bantje [aut], Jan Philipp Dietrich [aut], Alois Dirnaichner [aut], Tabea Dorndorf [aut], Jakob Duerrwaechter [aut], Pascal Führlich [aut], Anastasis Giannousakis [aut], Robin Hasse [aut], Jérome Hilaire [aut], David Klein [aut], Johannes Koch [aut], Katarzyna Kowalczyk [aut], Fabrice Lécuyer [aut], Antoine Levesque [aut], Aman Malik [aut], Anne Merfort [aut], Leon Merfort [aut], Simón Morena-Leiva [aut], Adrian Odenweller [aut], Michaja Pehl [aut], Robert Pietzcker [aut], Sebastian Rauner [aut], Oliver Richters [aut], Marianna Rottoli [aut], Tonn Rüter [aut], Robert Salzwedel [aut], Christof Schötz [aut], Felix Schreyer [aut], Kais Siala [aut], Björn Sörgel [aut], Mike Spahr [aut], Jessica Strefler [aut], Philipp Verpoort [aut], Pascal Weigmann [aut]",
       "Maintainer": "Renato Rodrigues <renato.rodrigues@pik-potsdam.de>"
