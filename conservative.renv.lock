@@ -4063,13 +4063,13 @@
     },
     "edgeTransport": {
       "Package": "edgeTransport",
-      "Version": "3.19.0",
+      "Version": "3.20.0",
       "Source": "Repository",
       "Title": "Prepare EDGE Transport Data for the REMIND model",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", email = \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0004-6753-5090\")), person(\"Alois\", \"Dirnaichner\", email = \"dirnaichner@pik-potsdam.de\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", email = \"rottoli@pik-potsdam.de\", role = \"aut\"), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")), person(\"Robert P.\", \"Pietzcker\",email = \"pietzcker@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9403-6711\")))",
       "Description": "EDGE-T is a fork of the GCAM transport module https://jgcri.github.io/gcam-doc/energy.html#transportation with a high level of detail in its representation of technological and modal options. It is a partial equilibrium model with a nested multinomial logit structure and relies on the modified logit formulation. Most of the sources are not publicly available. PIK-internal users can find the sources in the distributed file system in the folder `/p/projects/rd3mod/inputdata/sources/EDGE-Transport-Standalone`.",
       "Depends": [
-        "R (>= 3.5.0)",
+        "R (>= 4.1.0)",
         "data.table (>= 1.11.0)",
         "mrtransport (>= 0.12.0)"
       ],
@@ -4077,7 +4077,7 @@
       "URL": "https://github.com/pik-piam/edgeTransport",
       "Encoding": "UTF-8",
       "VignetteBuilder": "knitr",
-      "Date": "2026-07-29",
+      "Date": "2026-08-12",
       "Config/testthat/edition": "3",
       "Imports": [
         "rmndt",
@@ -4085,10 +4085,8 @@
         "rootSolve",
         "madrat",
         "magrittr",
-        "gdx",
-        "gdxrrw",
+        "gdx2",
         "zoo",
-        "gdxdt",
         "mrdrivers",
         "reporttransport (>= 1.1.0)"
       ],
@@ -4104,9 +4102,9 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/edgeTransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "45b6013b48498341c3b91c6103f320b22d604dbd",
+      "RemoteSha": "1efc66d77ff749668879128ff4fc1f2a98649569",
       "NeedsCompilation": "no",
-      "Author": "Johanna Hoppe [aut, cre] (<https://orcid.org/0009-0004-6753-5090>), Alois Dirnaichner [aut], Marianna Rottoli [aut], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>), Robert P. Pietzcker [aut] (<https://orcid.org/0000-0002-9403-6711>)",
+      "Author": "Johanna Hoppe [aut, cre] (ORCID: <https://orcid.org/0009-0004-6753-5090>), Alois Dirnaichner [aut], Marianna Rottoli [aut], Jarusch Muessel [aut] (ORCID: <https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (ORCID: <https://orcid.org/0000-0003-4793-8664>), Robert P. Pietzcker [aut] (ORCID: <https://orcid.org/0000-0002-9403-6711>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
     },
     "ellipsis": {
@@ -5027,30 +5025,6 @@
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>)",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
-    },
-    "gdxdt": {
-      "Package": "gdxdt",
-      "Version": "0.1.0",
-      "Source": "Repository",
-      "Title": "IO for GAMS GDX Files using 'data.table'",
-      "Authors@R": "person(\"Alois\", \"Dirnaichner\", email = \"alodi@directbox.com\", role = c(\"aut\", \"cre\"))",
-      "Author": "Alois Dirnaichner [aut, cre]",
-      "Maintainer": "Alois Dirnaichner <alodi@directbox.com>",
-      "Description": "Interfaces GAMS data (*.gdx) files with 'data.table's using the GAMS R package 'gdxrrw'. The 'gdxrrw' package is available on the GAMS wiki: <https://support.gams.com/doku.php?id=gdxrrw:interfacing_gams_and_r>.",
-      "Depends": [
-        "R (>= 3.1)",
-        "data.table (>= 1.11.0)"
-      ],
-      "License": "MIT + file LICENCE",
-      "Encoding": "UTF-8",
-      "LazyData": "true",
-      "RoxygenNote": "6.1.1",
-      "Suggests": [
-        "gdxrrw",
-        "testthat"
-      ],
-      "NeedsCompilation": "no",
-      "Repository": "CRAN"
     },
     "gdxrrw": {
       "Package": "gdxrrw",
@@ -9087,11 +9061,11 @@
     },
     "modelstats": {
       "Package": "modelstats",
-      "Version": "0.30.0",
+      "Version": "0.30.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Run Analysis Tools",
-      "Date": "2026-05-29",
+      "Date": "2026-08-11",
       "Authors@R": "c( person(\"Anastasis\", \"Giannousakis\", email = \"giannou@pik-potsdam.de\", role = c(\"aut\",\"cre\")), person(\"Oliver\", \"Richters\", role = \"aut\") )",
       "Description": "A collection of tools to analyze model runs.",
       "Imports": [
@@ -9122,9 +9096,11 @@
       "Encoding": "UTF-8",
       "License": "LGPL-3",
       "VignetteBuilder": "knitr",
-      "Config/roxygen2/version": "8.0.0",
-      "RoxygenNote": "7.3.3",
+      "Config/roxygen2/version": "8.1.0",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/modelstats",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "cbed9bc53777276f96496032f342f4713e95e0d2",
       "NeedsCompilation": "no",
       "Author": "Anastasis Giannousakis [aut, cre], Oliver Richters [aut]",
       "Maintainer": "Anastasis Giannousakis <giannou@pik-potsdam.de>"
@@ -13251,11 +13227,11 @@
     },
     "reporttransport": {
       "Package": "reporttransport",
-      "Version": "1.5.3",
+      "Version": "1.6.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Reporting package for edgeTransport",
-      "Date": "2026-07-30",
+      "Date": "2026-08-05",
       "Authors@R": "c( person(\"Johanna\", \"Hoppe\", , \"johanna.hoppe@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Jarusch\", \"Muessel\", email = \"jarusch.muessel@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-1857-7866\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")))",
       "Description": "This package contains edgeTransport-specific routines to report model results. The main functionality is to generate transport reporting variables in MIF format from a given edgeTransport model run folder or REMIND input data.",
       "Depends": [
@@ -13265,8 +13241,7 @@
       "URL": "https://github.com/pik-piam/reporttransport",
       "Imports": [
         "data.table",
-        "gdx",
-        "gdxrrw",
+        "gdx2",
         "piamPlotComparison",
         "quitte",
         "rmndt",
@@ -13283,9 +13258,9 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/reporttransport",
       "RemoteRef": "HEAD",
-      "RemoteSha": "2b4cf3df8e0eb87c02f6354c8e3d15e998151498",
+      "RemoteSha": "3830f811ce1a8e2b6ebcc34c2eef205a8bd56123",
       "NeedsCompilation": "no",
-      "Author": "Johanna Hoppe [aut, cre], Jarusch Muessel [aut] (<https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (<https://orcid.org/0000-0003-4793-8664>)",
+      "Author": "Johanna Hoppe [aut, cre], Jarusch Muessel [aut] (ORCID: <https://orcid.org/0000-0002-1857-7866>), Alex K. Hagen [aut] (ORCID: <https://orcid.org/0000-0003-4793-8664>)",
       "Maintainer": "Johanna Hoppe <johanna.hoppe@pik-potsdam.de>"
     },
     "reprex": {
@@ -13591,10 +13566,10 @@
     },
     "rmndt": {
       "Package": "rmndt",
-      "Version": "0.6.0",
+      "Version": "0.7.0",
       "Source": "Repository",
       "Title": "Tools for data.table objects in the REMIND context",
-      "Authors@R": "person(\"Alois\", \"Dirnaichner\", email = \"dirnaichner@pik-potsdam.de\", role = c(\"aut\", \"cre\"))",
+      "Authors@R": "c( person(\"Alois\", \"Dirnaichner\", email = \"dirnaichner@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Alex K.\", \"Hagen\",email = \"alex.hagen@pik-potsdam.de\", role = c(\"aut\"), comment = c(ORCID = \"0000-0003-4793-8664\")))",
       "Description": "Helper functions for REMIND-related tasks with data.table objects, e.g., interpolation and (dis-)aggregation.",
       "Depends": [
         "R (>= 3.1)",
@@ -13603,16 +13578,22 @@
       "License": "GPL-3",
       "Encoding": "UTF-8",
       "LazyData": "true",
-      "RoxygenNote": "7.2.3",
+      "Imports": [
+        "gamstransfer"
+      ],
       "Suggests": [
         "testthat",
         "magclass",
         "covr"
       ],
-      "Date": "2024-04-18",
-      "Repository": "https://pik-piam.r-universe.dev",
+      "Date": "2026-08-05",
+      "Config/roxygen2/version": "8.0.0",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/rmndt",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "f1059ea83177b1b8840f90053d9c08d12aa71aab",
       "NeedsCompilation": "no",
-      "Author": "Alois Dirnaichner [aut, cre]",
+      "Author": "Alois Dirnaichner [aut, cre], Alex K. Hagen [aut] (ORCID: <https://orcid.org/0000-0003-4793-8664>)",
       "Maintainer": "Alois Dirnaichner <dirnaichner@pik-potsdam.de>"
     },
     "rnaturalearth": {
