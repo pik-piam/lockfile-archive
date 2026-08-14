@@ -9376,11 +9376,11 @@
     },
     "mrenergy": {
       "Package": "mrenergy",
-      "Version": "0.1.4",
+      "Version": "0.1.5",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Preprocessing functions for REMIND and other energy models using landuse data",
-      "Date": "2026-06-27",
+      "Date": "2026-08-13",
       "Authors@R": "c( person(\"Falk\", \"Benke\", , \"benke@pik-potsdam.de\", role = c(\"aut\", \"cre\")) )",
       "Description": "Preprocessing functions for REMIND and other energy models (buildings, transport, industry) using landuse data.",
       "License": "LGPL-3",
@@ -9412,11 +9412,14 @@
       "Encoding": "UTF-8",
       "Roxygen": "list(markdown = TRUE)",
       "Config/Needs/website": "tidyverse/tidytemplate",
-      "Config/roxygen2/version": "8.0.0",
+      "Config/roxygen2/version": "8.1.0",
+      "Repository": "https://rse.pik-potsdam.de/r/packages",
+      "RemoteUrl": "https://github.com/pik-piam/mrenergy.git",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "c5a205876406c14029902242b3a014e8471ca40c",
       "NeedsCompilation": "no",
       "Author": "Falk Benke [aut, cre]",
-      "Maintainer": "Falk Benke <benke@pik-potsdam.de>",
-      "Repository": "pik"
+      "Maintainer": "Falk Benke <benke@pik-potsdam.de>"
     },
     "mrfable": {
       "Package": "mrfable",
