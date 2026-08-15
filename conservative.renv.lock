@@ -8445,11 +8445,11 @@
     },
     "magclass": {
       "Package": "magclass",
-      "Version": "7.5.1",
+      "Version": "7.5.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Data Class and Tools for Handling Spatial-Temporal Data",
-      "Date": "2026-08-03",
+      "Date": "2026-08-13",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Markus\", \"Bonsch\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", , \"humpenoeder@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Kristine\", \"Karstens\", , \"karstens@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-6856-8239\")), person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Christoph\", \"Bertram\", , \"bertram@pik-potsdam.de\", role = \"ctb\"), person(\"Anastasis\", \"Giannousakis\", , \"giannou@pik-potsdam.de\", role = \"ctb\"), person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Ina\", \"Neher\", role = \"ctb\"), person(\"Michaja\", \"Pehl\", , \"pehl@pik-potsdam.de\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anselm\", \"Schultes\", role = \"ctb\"), person(\"Miodrag\", \"Stevanovic\", , \"miodrag@pik-potsdam.de\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Xiaoxi\", \"Wang\", , \"wang@pik-potsdam.de\", role = \"ctb\"), person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Mika\", \"Pflüger\", role = \"ctb\"), person(\"Oliver\", \"Richters\", role = \"ctb\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0001-9454-8381\")) )",
       "Description": "Data class for increased interoperability working with spatial-temporal data together with corresponding functions and methods (conversions, basic calculations and basic data manipulation). The class distinguishes between spatial, temporal and other dimensions to facilitate the development and interoperability of tools build for it. Additional features are name-based addressing of data and internal consistency checks (e.g. checking for the right data order in calculations).",
       "License": "LGPL-3 | file LICENSE",
@@ -8490,9 +8490,9 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/magclass",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4bef66a0e3617dba8a859ad6f8b45240e13e0fd2",
+      "RemoteSha": "2979827166b377759274640623463d68a244ded9",
       "NeedsCompilation": "no",
-      "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), Benjamin Leon Bodirsky [aut] (Potsdam Institute for Climate Impact Research), Markus Bonsch [aut], Florian Humpenoeder [aut] (Potsdam Institute for Climate Impact Research), Stephen Bi [aut], Kristine Karstens [aut] (Potsdam Institute for Climate Impact Research), Debbora Leip [aut] (Potsdam Institute for Climate Impact Research), Pascal Sauer [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-6856-8239>), Lavinia Baumstark [ctb] (Potsdam Institute for Climate Impact Research), Christoph Bertram [ctb], Anastasis Giannousakis [ctb], David Klein [ctb] (Potsdam Institute for Climate Impact Research), Ina Neher [ctb], Michaja Pehl [ctb] (Potsdam Institute for Climate Impact Research), Anselm Schultes [ctb], Miodrag Stevanovic [ctb] (Potsdam Institute for Climate Impact Research), Xiaoxi Wang [ctb], Felicitas Beier [ctb] (Potsdam Institute for Climate Impact Research), Mika Pflüger [ctb], Oliver Richters [ctb] (Potsdam Institute for Climate Impact Research), Patrick Rein [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0001-9454-8381>)",
+      "Author": "Jan Philipp Dietrich [aut, cre] (affiliation: Potsdam Institute for Climate Impact Research, ORCID: <https://orcid.org/0000-0002-4309-6431>), Benjamin Leon Bodirsky [aut] (affiliation: Potsdam Institute for Climate Impact Research), Markus Bonsch [aut], Florian Humpenoeder [aut] (affiliation: Potsdam Institute for Climate Impact Research), Stephen Bi [aut], Kristine Karstens [aut] (affiliation: Potsdam Institute for Climate Impact Research), Debbora Leip [aut] (affiliation: Potsdam Institute for Climate Impact Research), Pascal Sauer [aut] (affiliation: Potsdam Institute for Climate Impact Research, ORCID: <https://orcid.org/0000-0002-6856-8239>), Lavinia Baumstark [ctb] (affiliation: Potsdam Institute for Climate Impact Research), Christoph Bertram [ctb], Anastasis Giannousakis [ctb], David Klein [ctb] (affiliation: Potsdam Institute for Climate Impact Research), Ina Neher [ctb], Michaja Pehl [ctb] (affiliation: Potsdam Institute for Climate Impact Research), Anselm Schultes [ctb], Miodrag Stevanovic [ctb] (affiliation: Potsdam Institute for Climate Impact Research), Xiaoxi Wang [ctb], Felicitas Beier [ctb] (affiliation: Potsdam Institute for Climate Impact Research), Mika Pflüger [ctb], Oliver Richters [ctb] (affiliation: Potsdam Institute for Climate Impact Research), Patrick Rein [aut] (affiliation: Potsdam Institute for Climate Impact Research, ORCID: <https://orcid.org/0000-0001-9454-8381>)",
       "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
     },
     "magic": {
@@ -9505,11 +9505,11 @@
     },
     "mrfaocore": {
       "Package": "mrfaocore",
-      "Version": "1.8.1",
+      "Version": "1.8.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "madrat-based package providing core FAO-related preprocessing functions",
-      "Date": "2026-07-30",
+      "Date": "2026-08-14",
       "Authors@R": "c( person(\"David\", \"Chen\", , \"david.chen@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Kristine\", \"Karstens\", role = \"aut\"), person(\"Benjamin\", \"Leon Bodirsky\", role = \"aut\"), person(\"Debbora\", \"Leip\", role = \"aut\"), person(\"Mishko\", \"Stevanovic\", role = \"aut\"), person(\"Benjamin\", \"Leon Bodrisky\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Edna\", \"Molina Bacca\", role = \"aut\") )",
       "Description": "This madrat-based package provides core FAO-related preprocessing functions.",
       "License": "LGPL-3",
@@ -9539,7 +9539,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrfaocore",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e43520d419fddf2fccf590413cd9aa2192dd8cb7",
+      "RemoteSha": "390d18797ca190502c24c4f1761994280b4d8dd9",
       "NeedsCompilation": "no",
       "Author": "David Chen [aut, cre], Ulrich Kreidenweis [aut], Abhijeet Mishra [aut], Kristine Karstens [aut], Benjamin Leon Bodirsky [aut], Debbora Leip [aut], Mishko Stevanovic [aut], Benjamin Leon Bodrisky [aut], David Klein [aut], Edna Molina Bacca [aut]",
       "Maintainer": "David Chen <david.chen@pik-potsdam.de>"
