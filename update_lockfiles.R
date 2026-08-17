@@ -15,9 +15,9 @@ renv::snapshot(lockfile = "conservative.renv.lock", packages = packages, prompt 
 invisible(callr::r(function(packages) {
   renv::load() # callr overwrites the .libPaths the renv .Rprofile has set, so load again
   renv::install(packages = setdiff(packages, utils::installed.packages()[, 1]))
-  renv::update(exclude = "pdftools")
   renv::snapshot(lockfile = "../eager.renv.lock", packages = packages)
   renv::upgrade()
+  unlink("renv.lock")
 }, list(packages), wd = "eager_renv", spinner = FALSE, show = TRUE))
 
 today <- format(Sys.time(), "%Y-%m-%d")
