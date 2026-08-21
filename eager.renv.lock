@@ -8445,11 +8445,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.38.2",
+      "Version": "3.38.4",
       "Source": "Repository",
       "Type": "Package",
       "Title": "May All Data be Reproducible and Transparent (MADRaT) *",
-      "Date": "2026-08-07",
+      "Date": "2026-08-19",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-6856-8239\")), person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anastasis\", \"Giannousakis\", , \"giannou@pik-potsdam.de\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", , \"Renato.Rodrigues@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Ulrich\", \"Kreidenweis\", , \"kreidenweis@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0001-9454-8381\")) )",
       "Description": "Provides a framework which should improve reproducibility and transparency in data processing. It provides functionality such as automatic meta data creation and management, rudimentary quality management, data caching, work-flow management and data aggregation. * The title is a wish not a promise. By no means we expect this package to deliver everything what is needed to achieve full reproducibility and transparency, but we believe that it supports efforts in this direction.",
       "License": "BSD_2_clause + file LICENSE",
@@ -8491,12 +8491,13 @@
       "Config/Needs/website": "tidyverse/tidytemplate",
       "Config/roxygen2/version": "8.0.0",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/madrat",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "57cef822c50a5d257bf13d0f00afad1d99858177",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre] (affiliation: Potsdam Institute for Climate Impact Research, ORCID: <https://orcid.org/0000-0002-4309-6431>), Pascal Sauer [aut] (affiliation: Potsdam Institute for Climate Impact Research, ORCID: <https://orcid.org/0000-0002-6856-8239>), Lavinia Baumstark [aut] (affiliation: Potsdam Institute for Climate Impact Research), Stephen Wirth [aut] (affiliation: Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Renato Rodrigues [aut] (affiliation: Potsdam Institute for Climate Impact Research), Benjamin Leon Bodirsky [aut] (affiliation: Potsdam Institute for Climate Impact Research), Debbora Leip [aut] (affiliation: Potsdam Institute for Climate Impact Research), Michael Crawford [aut] (affiliation: Potsdam Institute for Climate Impact Research), Ulrich Kreidenweis [aut], David Klein [aut] (affiliation: Potsdam Institute for Climate Impact Research), Patrick Rein [aut] (affiliation: Potsdam Institute for Climate Impact Research, ORCID: <https://orcid.org/0000-0001-9454-8381>)",
-      "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
+      "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>",
+      "RemoteType": "repository",
+      "RemoteUrl": "https://github.com/pik-piam/madrat",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "9785f56d446807c3c0fff38a4e138c094f8a6c9c"
     },
     "magclass": {
       "Package": "magclass",
