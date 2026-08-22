@@ -661,7 +661,7 @@
     },
     "QuickJSR": {
       "Package": "QuickJSR",
-      "Version": "1.10.0",
+      "Version": "1.11.0",
       "Source": "Repository",
       "Title": "Interface for the 'QuickJS-NG' Lightweight 'JavaScript' Engine",
       "Authors@R": "c( person(c(\"Andrew\", \"R.\"), \"Johnson\", , \"andrew.johnson@arjohnsonau.com\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0001-7000-8065\")), person(\"QuickJS\", \"Authors\", role = c(\"cph\"), comment = \"QuickJS sources and headers\"), person(\"QuickJS-NG\", \"Authors\", role = c(\"cph\"), comment = \"QuickJS-NG sources and headers\") )",
@@ -677,10 +677,10 @@
       "Encoding": "UTF-8",
       "Language": "en-AU",
       "NeedsCompilation": "yes",
-      "RoxygenNote": "7.3.3",
       "SystemRequirements": "GNU make",
       "VignetteBuilder": "knitr",
       "Config/build/compilation-database": "true",
+      "Config/roxygen2/version": "8.1.0",
       "Author": "Andrew R. Johnson [aut, cre] (ORCID: <https://orcid.org/0000-0001-7000-8065>), QuickJS Authors [cph] (QuickJS sources and headers), QuickJS-NG Authors [cph] (QuickJS-NG sources and headers)",
       "Maintainer": "Andrew R. Johnson <andrew.johnson@arjohnsonau.com>",
       "Repository": "CRAN"
@@ -843,7 +843,7 @@
     },
     "RCurl": {
       "Package": "RCurl",
-      "Version": "1.98-1.19",
+      "Version": "1.98-1.20",
       "Source": "Repository",
       "Title": "General Network (HTTP/FTP/...) Client Interface for R",
       "Authors@R": "c(person(\"CRAN Team\", role = 'ctb', email = \"CRAN@r-project.org\", comment = \"de facto maintainer in 2013-2026\"), person(\"Duncan\", \"Temple Lang\", role = \"aut\", email = \"duncan@r-project.org\", comment = c(ORCID = \"0000-0003-0159-1546\")), person(\"Ivan\", \"Krylov\", role = \"cre\", email = \"ikrylov@disroot.org\"))",
@@ -1374,7 +1374,7 @@
     },
     "XML": {
       "Package": "XML",
-      "Version": "3.99-0.23",
+      "Version": "3.99-0.24",
       "Source": "Repository",
       "Authors@R": "c(person(\"CRAN Team\", role = \"ctb\", email = \"CRAN@r-project.org\", comment = \"de facto maintainer in 2013-2026\"), person(\"Duncan\", \"Temple Lang\", role = \"aut\", email = \"duncan@r-project.org\", comment = c(ORCID = \"0000-0003-0159-1546\")), person(\"Tomas\", \"Kalibera\", role = \"ctb\"), person(\"Ivan\", \"Krylov\", email = \"ikrylov@disroot.org\", role = \"cre\"))",
       "Title": "Tools for Parsing and Generating XML Within R and S-Plus",
@@ -1388,15 +1388,14 @@
         "RCurl"
       ],
       "SystemRequirements": "libxml2 (>= 2.6.3)",
-      "Description": "Many approaches for both reading and creating XML (and HTML) documents (including DTDs), both local and accessible via HTTP or FTP.  Also offers access to an 'XPath' \"interpreter\".",
+      "Description": "Many approaches for both reading and creating XML (and HTML) documents, both local and accessible via HTTP or FTP.  Also offers access to an 'XPath' \"interpreter\".",
       "BugReports": "https://codeberg.org/aitap/XML/issues",
       "License": "BSD_3_clause + file LICENSE",
-      "Collate": "AAA.R DTD.R DTDClasses.R DTDRef.R SAXMethods.R XMLClasses.R applyDOM.R assignChild.R catalog.R createNode.R dynSupports.R error.R flatTree.R nodeAccessors.R parseDTD.R schema.R summary.R tangle.R toString.R tree.R version.R xmlErrorEnums.R xmlEventHandler.R xmlEventParse.R xmlHandler.R xmlInternalSource.R xmlOutputDOM.R xmlNodes.R xmlOutputBuffer.R xmlTree.R xmlTreeParse.R htmlParse.R hashTree.R zzz.R supports.R parser.R libxmlFeatures.R xmlString.R saveXML.R namespaces.R readHTMLTable.R reflection.R xmlToDataFrame.R bitList.R compare.R encoding.R fixNS.R xmlRoot.R serialize.R xmlMemoryMgmt.R keyValueDB.R solrDocs.R XMLRErrorInfo.R xincludes.R namespaceHandlers.R tangle1.R htmlLinks.R htmlLists.R getDependencies.R getRelativeURL.R xmlIncludes.R simplifyPath.R",
+      "Collate": "AAA.R DTDClasses.R DTDRef.R SAXMethods.R XMLClasses.R applyDOM.R assignChild.R catalog.R createNode.R dynSupports.R error.R flatTree.R nodeAccessors.R schema.R summary.R tangle.R toString.R tree.R version.R xmlErrorEnums.R xmlEventHandler.R xmlEventParse.R xmlHandler.R xmlInternalSource.R xmlOutputDOM.R xmlNodes.R xmlOutputBuffer.R xmlTree.R xmlTreeParse.R htmlParse.R hashTree.R zzz.R supports.R parser.R libxmlFeatures.R xmlString.R saveXML.R namespaces.R readHTMLTable.R reflection.R xmlToDataFrame.R bitList.R compare.R encoding.R fixNS.R xmlRoot.R serialize.R xmlMemoryMgmt.R keyValueDB.R solrDocs.R XMLRErrorInfo.R xincludes.R namespaceHandlers.R tangle1.R htmlLinks.R htmlLists.R getDependencies.R getRelativeURL.R xmlIncludes.R simplifyPath.R defunct.R",
       "NeedsCompilation": "yes",
       "Author": "CRAN Team [ctb] (de facto maintainer in 2013-2026), Duncan Temple Lang [aut] (ORCID: <https://orcid.org/0000-0003-0159-1546>), Tomas Kalibera [ctb], Ivan Krylov [cre]",
       "Maintainer": "Ivan Krylov <ikrylov@disroot.org>",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/resolute/latest",
-      "Encoding": "UTF-8"
+      "Repository": "CRAN"
     },
     "abind": {
       "Package": "abind",
@@ -8219,11 +8218,11 @@
     },
     "lucode2": {
       "Package": "lucode2",
-      "Version": "0.56.1",
+      "Version": "0.56.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Code Manipulation and Analysis Tools",
-      "Date": "2026-06-25",
+      "Date": "2026-08-21",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Pascal\", \"Sauer\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"David\", \"Klein\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Markus\", \"Bonsch\", role = \"aut\"), person(\"Benjamin Leon\", \"Bodirsky\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Lavinia\", \"Baumstark\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Oliver\", \"Richters\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Mika\", \"Pflüger\", role = \"aut\"), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0001-9454-8381\")) )",
       "Description": "A collection of tools which allow to manipulate and analyze code.",
       "License": "BSD_2_clause + file LICENSE",
@@ -8264,11 +8263,15 @@
       "Config/testthat/start-first": "checkRequiredPackages, updateRepo",
       "Encoding": "UTF-8",
       "Config/Needs/website": "tidyverse/tidytemplate",
-      "Config/roxygen2/version": "8.0.0",
+      "Config/roxygen2/version": "8.1.0",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "NeedsCompilation": "no",
-      "Author": "Jan Philipp Dietrich [aut, cre] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0002-4309-6431>), Pascal Sauer [aut] (Potsdam Institute for Climate Impact Research), David Klein [aut] (Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Markus Bonsch [aut], Benjamin Leon Bodirsky [aut] (Potsdam Institute for Climate Impact Research), Lavinia Baumstark [aut] (Potsdam Institute for Climate Impact Research), Oliver Richters [aut] (Potsdam Institute for Climate Impact Research), Mika Pflüger [aut], Patrick Rein [aut] (Potsdam Institute for Climate Impact Research, <https://orcid.org/0000-0001-9454-8381>)",
-      "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
+      "Author": "Jan Philipp Dietrich [aut, cre] (affiliation: Potsdam Institute for Climate Impact Research, ORCID: <https://orcid.org/0000-0002-4309-6431>), Pascal Sauer [aut] (affiliation: Potsdam Institute for Climate Impact Research), David Klein [aut] (affiliation: Potsdam Institute for Climate Impact Research), Anastasis Giannousakis [aut], Markus Bonsch [aut], Benjamin Leon Bodirsky [aut] (affiliation: Potsdam Institute for Climate Impact Research), Lavinia Baumstark [aut] (affiliation: Potsdam Institute for Climate Impact Research), Oliver Richters [aut] (affiliation: Potsdam Institute for Climate Impact Research), Mika Pflüger [aut], Patrick Rein [aut] (affiliation: Potsdam Institute for Climate Impact Research, ORCID: <https://orcid.org/0000-0001-9454-8381>)",
+      "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>",
+      "RemoteType": "repository",
+      "RemoteUrl": "https://github.com/pik-piam/lucode2",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "959d0f60d78f0b2e1f7406d2ed0c52b0565215f6"
     },
     "luplot": {
       "Package": "luplot",
@@ -9707,17 +9710,18 @@
     },
     "mrland": {
       "Package": "mrland",
-      "Version": "0.75.2",
+      "Version": "0.75.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRaT land data package",
-      "Date": "2026-07-13",
+      "Date": "2026-08-21",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Isabelle\", \"Weindl\", role = \"aut\"), person(\"Benjamin Leon\", \"Bodirsky\", role = \"aut\"), person(\"Xiaoxi\", \"Wang\", role = \"aut\"), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Nele\", \"Steinmetz\", role = \"aut\"), person(\"David\", \"Chen\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", role = \"aut\"), person(\"Patrick\", \"von Jeetze\", role = \"aut\"), person(\"Stephen\", \"Wirth\", role = \"aut\"), person(\"Felicitas\", \"Beier\", role = \"aut\"), person(\"David\", \"Hoetten\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\"), person(\"Jake\", \"Tommey\", role = \"aut\") )",
       "Description": "The package provides land related data via the madrat framework.",
       "License": "LGPL-3 | file LICENSE",
       "URL": "https://github.com/pik-piam/mrland, https://doi.org/10.5281/zenodo.3822083",
       "BugReports": "https://github.com/pik-piam/mrland/issues",
       "Depends": [
+        "R (>= 4.1.0)",
         "GDPuc (>= 1.3.0)",
         "madrat (>= 1.30)",
         "magclass (>= 6.13.1)",
@@ -9725,8 +9729,7 @@
         "mrdrivers (>= 6.0.0)",
         "mrfactors (>= 0.4.0)",
         "mrfaocore (>= 1.0.0)",
-        "mrlandcore (>= 1.0.0)",
-        "R (>= 2.10.0)"
+        "mrlandcore (>= 1.0.0)"
       ],
       "Imports": [
         "countrycode",
@@ -9754,23 +9757,23 @@
       ],
       "Encoding": "UTF-8",
       "Config/Needs/website": "tidyverse/tidytemplate",
-      "Config/roxygen2/version": "8.0.0",
-      "RoxygenNote": "7.3.3",
+      "Config/roxygen2/version": "8.1.0",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrland",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "a97d3356f96bcfd305fc366697848ab929320561",
       "NeedsCompilation": "no",
       "Author": "Jan Philipp Dietrich [aut, cre], Abhijeet Mishra [aut], Isabelle Weindl [aut], Benjamin Leon Bodirsky [aut], Xiaoxi Wang [aut], Lavinia Baumstark [aut], Ulrich Kreidenweis [aut], David Klein [aut], Nele Steinmetz [aut], David Chen [aut], Florian Humpenoeder [aut], Patrick von Jeetze [aut], Stephen Wirth [aut], Felicitas Beier [aut], David Hoetten [aut], Pascal Sauer [aut], Jake Tommey [aut]",
-      "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>"
+      "Maintainer": "Jan Philipp Dietrich <dietrich@pik-potsdam.de>",
+      "RemoteType": "repository",
+      "RemoteUrl": "https://github.com/pik-piam/mrland",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "c7a2cb5fe6c437a52d4bd280a76289fd47594129"
     },
     "mrlandcore": {
       "Package": "mrlandcore",
-      "Version": "1.8.1",
+      "Version": "1.8.2",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Fundamental MAgPIE preprocessing functions including calcLanduseInitialisation",
-      "Date": "2026-08-07",
+      "Date": "2026-08-21",
       "Authors@R": "c( person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Kristine\", \"Karstens\", role = \"aut\"), person(\"Marcos\", \"Alves\", role = \"aut\"), person(\"Jan\", \"Philipp Dietrich\", role = \"aut\"), person(\"Benjamin\", \"Leon Bodirsky\", role = \"aut\"), person(\"David\", \"Hoetten\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", role = \"aut\"), person(\"Jens\", \"Heinke\", role = \"aut\"), person(\"Patrick\", \"v. Jeetze\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Felcitas\", \"Beier\", role = \"aut\"), person(\"Stephen\", \"Wirth\", role = \"aut\"), person(\"David\", \"Chen\", role = \"aut\"), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\") )",
       "Description": "Fundamental MAgPIE preprocessing functions including calcLanduseInitialisation.",
       "License": "LGPL-3",
@@ -9805,12 +9808,13 @@
       "Config/Needs/website": "tidyverse/tidytemplate",
       "Config/roxygen2/version": "8.0.0",
       "Repository": "https://rse.pik-potsdam.de/r/packages",
-      "RemoteUrl": "https://github.com/pik-piam/mrlandcore",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "af8fe9a6c9452d29aee13f9d6592f4655625f08d",
       "NeedsCompilation": "no",
       "Author": "Felicitas Beier [aut, cre], Kristine Karstens [aut], Marcos Alves [aut], Jan Philipp Dietrich [aut], Benjamin Leon Bodirsky [aut], David Hoetten [aut], Florian Humpenoeder [aut], Jens Heinke [aut], Patrick v. Jeetze [aut], Abhijeet Mishra [aut], Felcitas Beier [aut], Stephen Wirth [aut], David Chen [aut], Ulrich Kreidenweis [aut], Pascal Sauer [aut]",
-      "Maintainer": "Felicitas Beier <beier@pik-potsdam.de>"
+      "Maintainer": "Felicitas Beier <beier@pik-potsdam.de>",
+      "RemoteType": "repository",
+      "RemoteUrl": "https://github.com/pik-piam/mrlandcore",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "ea33f7698ab9280164bff6626eadcca9a1c8c95d"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
@@ -9911,11 +9915,11 @@
     },
     "mrremind": {
       "Package": "mrremind",
-      "Version": "0.274.2",
+      "Version": "0.274.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "MadRat REMIND Input Data Package",
-      "Date": "2026-08-11",
+      "Date": "2026-08-21",
       "Authors@R": "c( person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Renato\", \"Rodrigues\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Julian\", \"Oeser\", role = \"aut\"), person(\"Christoph\", \"Bertram\", role = \"aut\"), person(\"Ioanna\", \"Mouratiadou\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Bjoern\", \"Soergel\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Lukas\", \"Feldhaus\", role = \"aut\"), person(\"Regina\", \"Brecha\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Stephen\", \"Bi\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Sophie\", \"Fuchs\", role = \"aut\"), person(\"Rahel\", \"Mandaroux\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Gabriel\", \"Abrahao\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\"), person(\"Simon\", \"Krogmann\", role = \"aut\") )",
       "Description": "The mrremind packages contains data preprocessing for the REMIND model.",
       "License": "LGPL-3 | file LICENSE",
@@ -9967,7 +9971,7 @@
       "RemoteType": "repository",
       "RemoteUrl": "https://github.com/pik-piam/mrremind",
       "RemoteRef": "HEAD",
-      "RemoteSha": "66961bb0c5cdde83d4f650ccf0a836f932d7ad10"
+      "RemoteSha": "99728261fab1c5a131f616102a6368c0568b5207"
     },
     "mrsoil": {
       "Package": "mrsoil",
@@ -12989,11 +12993,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "2.5.5",
+      "Version": "2.5.6",
       "Source": "Repository",
       "Type": "Package",
       "Title": "The REMIND R package (2nd generation)",
-      "Date": "2026-08-18",
+      "Date": "2026-08-21",
       "Authors@R": "c( person(\"Renato\", \"Rodrigues\", , \"renato.rodrigues@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"David\", \"Bantje\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\"), person(\"Jakob\", \"Duerrwaechter\", role = \"aut\"), person(\"Pascal\", \"Führlich\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Jérome\", \"Hilaire\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Katarzyna\", \"Kowalczyk\", role = \"aut\"), person(\"Fabrice\", \"Lécuyer\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Anne\", \"Merfort\", role = \"aut\"), person(\"Leon\", \"Merfort\", role = \"aut\"), person(\"Simón\", \"Morena-Leiva\", role = \"aut\"), person(\"Adrian\", \"Odenweller\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Robert\", \"Pietzcker\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\"), person(\"Robert\", \"Salzwedel\", role = \"aut\"), person(\"Christof\", \"Schötz\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Kais\", \"Siala\", role = \"aut\"), person(\"Björn\", \"Sörgel\", role = \"aut\"), person(\"Mike\", \"Spahr\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Philipp\", \"Verpoort\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\") )",
       "Description": "Contains the REMIND-specific routines for data and model output manipulation.",
       "License": "LGPL-3",
@@ -13054,7 +13058,7 @@
       "RemoteType": "repository",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "09504ba66cdb1b5b86da7e7067d9f9cad9df0edf"
+      "RemoteSha": "177a72110821106d99e0f58a90a0c9d2350705ad"
     },
     "remindClimateAssessment": {
       "Package": "remindClimateAssessment",
@@ -15071,11 +15075,11 @@
     },
     "survival": {
       "Package": "survival",
-      "Version": "3.8-9",
+      "Version": "3.8-11",
       "Source": "Repository",
       "Title": "Survival Analysis",
       "Priority": "recommended",
-      "Date": "2026-07-07",
+      "Date": "2026-08-15",
       "Depends": [
         "R (>= 4.1.0)"
       ],
@@ -15097,8 +15101,7 @@
       "NeedsCompilation": "yes",
       "Author": "Terry M Therneau [aut, cre], Thomas Lumley [ctb, trl] (original S->R port and R maintainer until 2009), Atkinson Elizabeth [ctb], Crowson Cynthia [ctb]",
       "Maintainer": "Terry M Therneau <terry.therneau@proton.me>",
-      "Repository": "RSPM",
-      "Encoding": "UTF-8"
+      "Repository": "CRAN"
     },
     "svglite": {
       "Package": "svglite",
@@ -16368,7 +16371,7 @@
     },
     "writexl": {
       "Package": "writexl",
-      "Version": "2.0.0",
+      "Version": "2.0.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Export Data Frames to Excel 'xlsx' Format",
@@ -16395,11 +16398,11 @@
       "Language": "en-US",
       "SystemRequirements": "zlib",
       "Config/testthat/edition": "3",
-      "Config/roxygen2/version": "8.0.0",
+      "Config/roxygen2/version": "8.1.0",
       "NeedsCompilation": "yes",
       "Author": "Jeroen Ooms [aut] (ORCID: <https://orcid.org/0000-0002-4035-0289>), Bill Denney [aut, cre] (ORCID: <https://orcid.org/0000-0002-5759-428X>), John McNamara [cph] (Author of libxlsxwriter (see AUTHORS and COPYRIGHT files for details))",
       "Maintainer": "Bill Denney <wdenney@humanpredictions.com>",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/resolute/latest"
+      "Repository": "CRAN"
     },
     "xfun": {
       "Package": "xfun",
