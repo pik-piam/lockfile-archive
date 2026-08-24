@@ -9748,11 +9748,11 @@
     },
     "mrlandcore": {
       "Package": "mrlandcore",
-      "Version": "1.8.2",
+      "Version": "1.8.3",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Fundamental MAgPIE preprocessing functions including calcLanduseInitialisation",
-      "Date": "2026-08-21",
+      "Date": "2026-08-24",
       "Authors@R": "c( person(\"Felicitas\", \"Beier\", , \"beier@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Kristine\", \"Karstens\", role = \"aut\"), person(\"Marcos\", \"Alves\", role = \"aut\"), person(\"Jan\", \"Philipp Dietrich\", role = \"aut\"), person(\"Benjamin\", \"Leon Bodirsky\", role = \"aut\"), person(\"David\", \"Hoetten\", role = \"aut\"), person(\"Florian\", \"Humpenoeder\", role = \"aut\"), person(\"Jens\", \"Heinke\", role = \"aut\"), person(\"Patrick\", \"v. Jeetze\", role = \"aut\"), person(\"Abhijeet\", \"Mishra\", role = \"aut\"), person(\"Felcitas\", \"Beier\", role = \"aut\"), person(\"Stephen\", \"Wirth\", role = \"aut\"), person(\"David\", \"Chen\", role = \"aut\"), person(\"Ulrich\", \"Kreidenweis\", role = \"aut\"), person(\"Pascal\", \"Sauer\", role = \"aut\") )",
       "Description": "Fundamental MAgPIE preprocessing functions including calcLanduseInitialisation.",
       "License": "LGPL-3",
@@ -9789,7 +9789,7 @@
       "Repository": "https://rse.pik-potsdam.de/r/packages",
       "RemoteUrl": "https://github.com/pik-piam/mrlandcore",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ea33f7698ab9280164bff6626eadcca9a1c8c95d",
+      "RemoteSha": "f799f393999a2d15f2a7176900be92555b3d3aa4",
       "NeedsCompilation": "no",
       "Author": "Felicitas Beier [aut, cre], Kristine Karstens [aut], Marcos Alves [aut], Jan Philipp Dietrich [aut], Benjamin Leon Bodirsky [aut], David Hoetten [aut], Florian Humpenoeder [aut], Jens Heinke [aut], Patrick v. Jeetze [aut], Abhijeet Mishra [aut], Felcitas Beier [aut], Stephen Wirth [aut], David Chen [aut], Ulrich Kreidenweis [aut], Pascal Sauer [aut]",
       "Maintainer": "Felicitas Beier <beier@pik-potsdam.de>"
