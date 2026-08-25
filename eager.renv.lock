@@ -3417,7 +3417,7 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.18.4",
+      "Version": "1.18.6.1",
       "Source": "Repository",
       "Title": "Extension of `data.frame`",
       "Depends": [
@@ -3443,9 +3443,9 @@
       "VignetteBuilder": "knitr",
       "Encoding": "UTF-8",
       "ByteCompile": "TRUE",
-      "Authors@R": "c( person(\"Tyson\",\"Barrett\",        role=c(\"aut\",\"cre\"), email=\"t.barrett88@gmail.com\", comment = c(ORCID=\"0000-0002-2137-1391\")), person(\"Matt\",\"Dowle\",           role=\"aut\",          email=\"mattjdowle@gmail.com\"), person(\"Arun\",\"Srinivasan\",      role=\"aut\",          email=\"asrini@pm.me\"), person(\"Jan\",\"Gorecki\",          role=\"aut\",          email=\"j.gorecki@wit.edu.pl\"), person(\"Michael\",\"Chirico\",      role=\"aut\",          email=\"michaelchirico4@gmail.com\", comment = c(ORCID=\"0000-0003-0787-087X\")), person(\"Toby\",\"Hocking\",         role=\"aut\",          email=\"toby.hocking@r-project.org\", comment = c(ORCID=\"0000-0002-3146-0865\")), person(\"Benjamin\",\"Schwendinger\",role=\"aut\", comment = c(ORCID=\"0000-0003-3315-8114\")), person(\"Ivan\", \"Krylov\",         role=\"aut\",          email=\"ikrylov@disroot.org\",   comment = c(ORCID=\"0000-0002-0172-3812\")), person(\"Pasha\",\"Stetsenko\",      role=\"ctb\"), person(\"Tom\",\"Short\",            role=\"ctb\"), person(\"Steve\",\"Lianoglou\",      role=\"ctb\"), person(\"Eduard\",\"Antonyan\",      role=\"ctb\"), person(\"Markus\",\"Bonsch\",        role=\"ctb\"), person(\"Hugh\",\"Parsonage\",       role=\"ctb\"), person(\"Scott\",\"Ritchie\",        role=\"ctb\"), person(\"Kun\",\"Ren\",              role=\"ctb\"), person(\"Xianying\",\"Tan\",         role=\"ctb\"), person(\"Rick\",\"Saporta\",         role=\"ctb\"), person(\"Otto\",\"Seiskari\",        role=\"ctb\"), person(\"Xianghui\",\"Dong\",        role=\"ctb\"), person(\"Michel\",\"Lang\",          role=\"ctb\"), person(\"Watal\",\"Iwasaki\",        role=\"ctb\"), person(\"Seth\",\"Wenchel\",         role=\"ctb\"), person(\"Karl\",\"Broman\",          role=\"ctb\"), person(\"Tobias\",\"Schmidt\",       role=\"ctb\"), person(\"David\",\"Arenburg\",       role=\"ctb\"), person(\"Ethan\",\"Smith\",          role=\"ctb\"), person(\"Francois\",\"Cocquemas\",   role=\"ctb\"), person(\"Matthieu\",\"Gomez\",       role=\"ctb\"), person(\"Philippe\",\"Chataignon\",  role=\"ctb\"), person(\"Nello\",\"Blaser\",         role=\"ctb\"), person(\"Dmitry\",\"Selivanov\",     role=\"ctb\"), person(\"Andrey\",\"Riabushenko\",   role=\"ctb\"), person(\"Cheng\",\"Lee\",            role=\"ctb\"), person(\"Declan\",\"Groves\",        role=\"ctb\"), person(\"Daniel\",\"Possenriede\",   role=\"ctb\"), person(\"Felipe\",\"Parages\",       role=\"ctb\"), person(\"Denes\",\"Toth\",           role=\"ctb\"), person(\"Mus\",\"Yaramaz-David\",    role=\"ctb\"), person(\"Ayappan\",\"Perumal\",      role=\"ctb\"), person(\"James\",\"Sams\",           role=\"ctb\"), person(\"Martin\",\"Morgan\",        role=\"ctb\"), person(\"Michael\",\"Quinn\",        role=\"ctb\"), person(given=\"@javrucebo\",       role=\"ctb\", comment=\"GitHub user\"), person(\"Marc\",\"Halperin\",        role=\"ctb\"), person(\"Roy\",\"Storey\",           role=\"ctb\"), person(\"Manish\",\"Saraswat\",      role=\"ctb\"), person(\"Morgan\",\"Jacob\",         role=\"ctb\"), person(\"Michael\",\"Schubmehl\",    role=\"ctb\"), person(\"Davis\",\"Vaughan\",        role=\"ctb\"), person(\"Leonardo\",\"Silvestri\",   role=\"ctb\"), person(\"Jim\",\"Hester\",           role=\"ctb\"), person(\"Anthony\",\"Damico\",       role=\"ctb\"), person(\"Sebastian\",\"Freundt\",    role=\"ctb\"), person(\"David\",\"Simons\",         role=\"ctb\"), person(\"Elliott\",\"Sales de Andrade\", role=\"ctb\"), person(\"Cole\",\"Miller\",          role=\"ctb\"), person(\"Jens Peder\",\"Meldgaard\", role=\"ctb\"), person(\"Vaclav\",\"Tlapak\",        role=\"ctb\"), person(\"Kevin\",\"Ushey\",          role=\"ctb\"), person(\"Dirk\",\"Eddelbuettel\",    role=\"ctb\"), person(\"Tony\",\"Fischetti\",       role=\"ctb\"), person(\"Ofek\",\"Shilon\",          role=\"ctb\"), person(\"Vadim\",\"Khotilovich\",    role=\"ctb\"), person(\"Hadley\",\"Wickham\",       role=\"ctb\"), person(\"Bennet\",\"Becker\",        role=\"ctb\"), person(\"Kyle\",\"Haynes\",          role=\"ctb\"), person(\"Boniface Christian\",\"Kamgang\", role=\"ctb\"), person(\"Olivier\",\"Delmarcell\",   role=\"ctb\"), person(\"Josh\",\"O'Brien\",         role=\"ctb\"), person(\"Dereck\",\"de Mezquita\",   role=\"ctb\"), person(\"Michael\",\"Czekanski\",    role=\"ctb\"), person(\"Dmitry\", \"Shemetov\",     role=\"ctb\"), person(\"Nitish\", \"Jha\",          role=\"ctb\"), person(\"Joshua\", \"Wu\",           role=\"ctb\"), person(\"Iago\", \"Giné-Vázquez\",   role=\"ctb\"), person(\"Anirban\", \"Chetia\",      role=\"ctb\"), person(\"Doris\", \"Amoakohene\",    role=\"ctb\"), person(\"Angel\", \"Feliz\",         role=\"ctb\"), person(\"Michael\",\"Young\",        role=\"ctb\"), person(\"Mark\", \"Seeto\",          role=\"ctb\"), person(\"Philippe\", \"Grosjean\",   role=\"ctb\"), person(\"Vincent\", \"Runge\",       role=\"ctb\"), person(\"Christian\", \"Wia\",       role=\"ctb\"), person(\"Elise\", \"Maigné\",        role=\"ctb\"), person(\"Vincent\", \"Rocher\",      role=\"ctb\"), person(\"Vijay\", \"Lulla\",         role=\"ctb\"), person(\"Aljaž\", \"Sluga\",         role=\"ctb\"), person(\"Bill\", \"Evans\",          role=\"ctb\"), person(\"Reino\", \"Bruner\",        role=\"ctb\"), person(given=\"@badasahog\",       role=\"ctb\", comment=\"GitHub user\"), person(\"Vinit\", \"Thakur\",        role=\"ctb\"), person(\"Mukul\", \"Kumar\",         role=\"ctb\"), person(\"Ildikó\", \"Czeller\",      role=\"ctb\"), person(\"Manmita\", \"Das\",         role=\"ctb\"), person(\"Tarun\", \"Thammisetty\",   role=\"ctb\") )",
+      "Authors@R": "c( person(\"Tyson\",\"Barrett\",        role=c(\"aut\",\"cre\"), email=\"t.barrett88@gmail.com\", comment = c(ORCID=\"0000-0002-2137-1391\")), person(\"Matt\",\"Dowle\",           role=\"aut\",          email=\"mattjdowle@gmail.com\"), person(\"Arun\",\"Srinivasan\",      role=\"aut\",          email=\"asrini@pm.me\"), person(\"Jan\",\"Gorecki\",          role=\"aut\",          email=\"j.gorecki@wit.edu.pl\"), person(\"Michael\",\"Chirico\",      role=\"aut\",          email=\"michaelchirico4@gmail.com\", comment = c(ORCID=\"0000-0003-0787-087X\")), person(\"Toby\",\"Hocking\",         role=\"aut\",          email=\"toby.hocking@r-project.org\", comment = c(ORCID=\"0000-0002-3146-0865\")), person(\"Benjamin\",\"Schwendinger\",role=\"aut\", comment = c(ORCID=\"0000-0003-3315-8114\")), person(\"Ivan\", \"Krylov\",         role=\"aut\",          email=\"ikrylov@disroot.org\",   comment = c(ORCID=\"0000-0002-0172-3812\")), person(\"Pasha\",\"Stetsenko\",      role=\"ctb\"), person(\"Tom\",\"Short\",            role=\"ctb\"), person(\"Steve\",\"Lianoglou\",      role=\"ctb\"), person(\"Eduard\",\"Antonyan\",      role=\"ctb\"), person(\"Markus\",\"Bonsch\",        role=\"ctb\"), person(\"Hugh\",\"Parsonage\",       role=\"ctb\"), person(\"Scott\",\"Ritchie\",        role=\"ctb\"), person(\"Kun\",\"Ren\",              role=\"ctb\"), person(\"Xianying\",\"Tan\",         role=\"ctb\"), person(\"Rick\",\"Saporta\",         role=\"ctb\"), person(\"Otto\",\"Seiskari\",        role=\"ctb\"), person(\"Xianghui\",\"Dong\",        role=\"ctb\"), person(\"Michel\",\"Lang\",          role=\"ctb\"), person(\"Watal\",\"Iwasaki\",        role=\"ctb\"), person(\"Seth\",\"Wenchel\",         role=\"ctb\"), person(\"Karl\",\"Broman\",          role=\"ctb\"), person(\"Tobias\",\"Schmidt\",       role=\"ctb\"), person(\"David\",\"Arenburg\",       role=\"ctb\"), person(\"Ethan\",\"Smith\",          role=\"ctb\"), person(\"Francois\",\"Cocquemas\",   role=\"ctb\"), person(\"Matthieu\",\"Gomez\",       role=\"ctb\"), person(\"Philippe\",\"Chataignon\",  role=\"ctb\"), person(\"Nello\",\"Blaser\",         role=\"ctb\"), person(\"Dmitry\",\"Selivanov\",     role=\"ctb\"), person(\"Andrey\",\"Riabushenko\",   role=\"ctb\"), person(\"Cheng\",\"Lee\",            role=\"ctb\"), person(\"Declan\",\"Groves\",        role=\"ctb\"), person(\"Daniel\",\"Possenriede\",   role=\"ctb\"), person(\"Felipe\",\"Parages\",       role=\"ctb\"), person(\"Denes\",\"Toth\",           role=\"ctb\"), person(\"Mus\",\"Yaramaz-David\",    role=\"ctb\"), person(\"Ayappan\",\"Perumal\",      role=\"ctb\"), person(\"James\",\"Sams\",           role=\"ctb\"), person(\"Martin\",\"Morgan\",        role=\"ctb\"), person(\"Michael\",\"Quinn\",        role=\"ctb\"), person(given=\"@javrucebo\",       role=\"ctb\", comment=\"GitHub user\"), person(\"Marc\",\"Halperin\",        role=\"ctb\"), person(\"Roy\",\"Storey\",           role=\"ctb\"), person(\"Manish\",\"Saraswat\",      role=\"ctb\"), person(\"Morgan\",\"Jacob\",         role=\"ctb\"), person(\"Michael\",\"Schubmehl\",    role=\"ctb\"), person(\"Davis\",\"Vaughan\",        role=\"ctb\"), person(\"Leonardo\",\"Silvestri\",   role=\"ctb\"), person(\"Jim\",\"Hester\",           role=\"ctb\"), person(\"Anthony\",\"Damico\",       role=\"ctb\"), person(\"Sebastian\",\"Freundt\",    role=\"ctb\"), person(\"David\",\"Simons\",         role=\"ctb\"), person(\"Elliott\",\"Sales de Andrade\", role=\"ctb\"), person(\"Cole\",\"Miller\",          role=\"ctb\"), person(\"Jens Peder\",\"Meldgaard\", role=\"ctb\"), person(\"Vaclav\",\"Tlapak\",        role=\"ctb\"), person(\"Kevin\",\"Ushey\",          role=\"ctb\"), person(\"Dirk\",\"Eddelbuettel\",    role=\"ctb\"), person(\"Tony\",\"Fischetti\",       role=\"ctb\"), person(\"Ofek\",\"Shilon\",          role=\"ctb\"), person(\"Vadim\",\"Khotilovich\",    role=\"ctb\"), person(\"Hadley\",\"Wickham\",       role=\"ctb\"), person(\"Bennet\",\"Becker\",        role=\"ctb\"), person(\"Kyle\",\"Haynes\",          role=\"ctb\"), person(\"Boniface Christian\",\"Kamgang\", role=\"ctb\"), person(\"Olivier\",\"Delmarcell\",   role=\"ctb\"), person(\"Josh\",\"O'Brien\",         role=\"ctb\"), person(\"Dereck\",\"Mezquita\",      role=\"ctb\", comment = c(ORCID=\"0000-0002-9307-6762\")), person(\"Michael\",\"Czekanski\",    role=\"ctb\"), person(\"Dmitry\", \"Shemetov\",     role=\"ctb\"), person(\"Nitish\", \"Jha\",          role=\"ctb\"), person(\"Joshua\", \"Wu\",           role=\"ctb\"), person(\"Iago\", \"Giné-Vázquez\",   role=\"ctb\"), person(\"Anirban\", \"Chetia\",      role=\"ctb\"), person(\"Doris\", \"Amoakohene\",    role=\"ctb\"), person(\"Angel\", \"Feliz\",         role=\"ctb\"), person(\"Michael\",\"Young\",        role=\"ctb\"), person(\"Mark\", \"Seeto\",          role=\"ctb\"), person(\"Philippe\", \"Grosjean\",   role=\"ctb\"), person(\"Vincent\", \"Runge\",       role=\"ctb\"), person(\"Christian\", \"Wia\",       role=\"ctb\"), person(\"Elise\", \"Maigné\",        role=\"ctb\"), person(\"Vincent\", \"Rocher\",      role=\"ctb\"), person(\"Vijay\", \"Lulla\",         role=\"ctb\"), person(\"Aljaž\", \"Sluga\",         role=\"ctb\"), person(\"Bill\", \"Evans\",          role=\"ctb\"), person(\"Reino\", \"Bruner\",        role=\"ctb\"), person(given=\"@badasahog\",       role=\"ctb\", comment=\"GitHub user\"), person(\"Vinit\", \"Thakur\",        role=\"ctb\"), person(\"Mukul\", \"Kumar\",         role=\"ctb\"), person(\"Ildikó\", \"Czeller\",      role=\"ctb\"), person(\"Manmita\", \"Das\",         role=\"ctb\"), person(\"Tarun\", \"Thammisetty\",   role=\"ctb\"), person(\"Marco\", \"Colombo\",       role=\"ctb\", comment = c(ORCID = \"0000-0001-6672-0623\")), person(\"Tim\", \"Taylor\",          role=\"ctb\", comment = c(ORCID = \"0000-0002-8587-7113\")) )",
       "NeedsCompilation": "yes",
-      "Author": "Tyson Barrett [aut, cre] (ORCID: <https://orcid.org/0000-0002-2137-1391>), Matt Dowle [aut], Arun Srinivasan [aut], Jan Gorecki [aut], Michael Chirico [aut] (ORCID: <https://orcid.org/0000-0003-0787-087X>), Toby Hocking [aut] (ORCID: <https://orcid.org/0000-0002-3146-0865>), Benjamin Schwendinger [aut] (ORCID: <https://orcid.org/0000-0003-3315-8114>), Ivan Krylov [aut] (ORCID: <https://orcid.org/0000-0002-0172-3812>), Pasha Stetsenko [ctb], Tom Short [ctb], Steve Lianoglou [ctb], Eduard Antonyan [ctb], Markus Bonsch [ctb], Hugh Parsonage [ctb], Scott Ritchie [ctb], Kun Ren [ctb], Xianying Tan [ctb], Rick Saporta [ctb], Otto Seiskari [ctb], Xianghui Dong [ctb], Michel Lang [ctb], Watal Iwasaki [ctb], Seth Wenchel [ctb], Karl Broman [ctb], Tobias Schmidt [ctb], David Arenburg [ctb], Ethan Smith [ctb], Francois Cocquemas [ctb], Matthieu Gomez [ctb], Philippe Chataignon [ctb], Nello Blaser [ctb], Dmitry Selivanov [ctb], Andrey Riabushenko [ctb], Cheng Lee [ctb], Declan Groves [ctb], Daniel Possenriede [ctb], Felipe Parages [ctb], Denes Toth [ctb], Mus Yaramaz-David [ctb], Ayappan Perumal [ctb], James Sams [ctb], Martin Morgan [ctb], Michael Quinn [ctb], @javrucebo [ctb] (GitHub user), Marc Halperin [ctb], Roy Storey [ctb], Manish Saraswat [ctb], Morgan Jacob [ctb], Michael Schubmehl [ctb], Davis Vaughan [ctb], Leonardo Silvestri [ctb], Jim Hester [ctb], Anthony Damico [ctb], Sebastian Freundt [ctb], David Simons [ctb], Elliott Sales de Andrade [ctb], Cole Miller [ctb], Jens Peder Meldgaard [ctb], Vaclav Tlapak [ctb], Kevin Ushey [ctb], Dirk Eddelbuettel [ctb], Tony Fischetti [ctb], Ofek Shilon [ctb], Vadim Khotilovich [ctb], Hadley Wickham [ctb], Bennet Becker [ctb], Kyle Haynes [ctb], Boniface Christian Kamgang [ctb], Olivier Delmarcell [ctb], Josh O'Brien [ctb], Dereck de Mezquita [ctb], Michael Czekanski [ctb], Dmitry Shemetov [ctb], Nitish Jha [ctb], Joshua Wu [ctb], Iago Giné-Vázquez [ctb], Anirban Chetia [ctb], Doris Amoakohene [ctb], Angel Feliz [ctb], Michael Young [ctb], Mark Seeto [ctb], Philippe Grosjean [ctb], Vincent Runge [ctb], Christian Wia [ctb], Elise Maigné [ctb], Vincent Rocher [ctb], Vijay Lulla [ctb], Aljaž Sluga [ctb], Bill Evans [ctb], Reino Bruner [ctb], @badasahog [ctb] (GitHub user), Vinit Thakur [ctb], Mukul Kumar [ctb], Ildikó Czeller [ctb], Manmita Das [ctb], Tarun Thammisetty [ctb]",
+      "Author": "Tyson Barrett [aut, cre] (ORCID: <https://orcid.org/0000-0002-2137-1391>), Matt Dowle [aut], Arun Srinivasan [aut], Jan Gorecki [aut], Michael Chirico [aut] (ORCID: <https://orcid.org/0000-0003-0787-087X>), Toby Hocking [aut] (ORCID: <https://orcid.org/0000-0002-3146-0865>), Benjamin Schwendinger [aut] (ORCID: <https://orcid.org/0000-0003-3315-8114>), Ivan Krylov [aut] (ORCID: <https://orcid.org/0000-0002-0172-3812>), Pasha Stetsenko [ctb], Tom Short [ctb], Steve Lianoglou [ctb], Eduard Antonyan [ctb], Markus Bonsch [ctb], Hugh Parsonage [ctb], Scott Ritchie [ctb], Kun Ren [ctb], Xianying Tan [ctb], Rick Saporta [ctb], Otto Seiskari [ctb], Xianghui Dong [ctb], Michel Lang [ctb], Watal Iwasaki [ctb], Seth Wenchel [ctb], Karl Broman [ctb], Tobias Schmidt [ctb], David Arenburg [ctb], Ethan Smith [ctb], Francois Cocquemas [ctb], Matthieu Gomez [ctb], Philippe Chataignon [ctb], Nello Blaser [ctb], Dmitry Selivanov [ctb], Andrey Riabushenko [ctb], Cheng Lee [ctb], Declan Groves [ctb], Daniel Possenriede [ctb], Felipe Parages [ctb], Denes Toth [ctb], Mus Yaramaz-David [ctb], Ayappan Perumal [ctb], James Sams [ctb], Martin Morgan [ctb], Michael Quinn [ctb], @javrucebo [ctb] (GitHub user), Marc Halperin [ctb], Roy Storey [ctb], Manish Saraswat [ctb], Morgan Jacob [ctb], Michael Schubmehl [ctb], Davis Vaughan [ctb], Leonardo Silvestri [ctb], Jim Hester [ctb], Anthony Damico [ctb], Sebastian Freundt [ctb], David Simons [ctb], Elliott Sales de Andrade [ctb], Cole Miller [ctb], Jens Peder Meldgaard [ctb], Vaclav Tlapak [ctb], Kevin Ushey [ctb], Dirk Eddelbuettel [ctb], Tony Fischetti [ctb], Ofek Shilon [ctb], Vadim Khotilovich [ctb], Hadley Wickham [ctb], Bennet Becker [ctb], Kyle Haynes [ctb], Boniface Christian Kamgang [ctb], Olivier Delmarcell [ctb], Josh O'Brien [ctb], Dereck Mezquita [ctb] (ORCID: <https://orcid.org/0000-0002-9307-6762>), Michael Czekanski [ctb], Dmitry Shemetov [ctb], Nitish Jha [ctb], Joshua Wu [ctb], Iago Giné-Vázquez [ctb], Anirban Chetia [ctb], Doris Amoakohene [ctb], Angel Feliz [ctb], Michael Young [ctb], Mark Seeto [ctb], Philippe Grosjean [ctb], Vincent Runge [ctb], Christian Wia [ctb], Elise Maigné [ctb], Vincent Rocher [ctb], Vijay Lulla [ctb], Aljaž Sluga [ctb], Bill Evans [ctb], Reino Bruner [ctb], @badasahog [ctb] (GitHub user), Vinit Thakur [ctb], Mukul Kumar [ctb], Ildikó Czeller [ctb], Manmita Das [ctb], Tarun Thammisetty [ctb], Marco Colombo [ctb] (ORCID: <https://orcid.org/0000-0001-6672-0623>), Tim Taylor [ctb] (ORCID: <https://orcid.org/0000-0002-8587-7113>)",
       "Maintainer": "Tyson Barrett <t.barrett88@gmail.com>",
       "Repository": "CRAN"
     },
@@ -8448,11 +8448,11 @@
     },
     "madrat": {
       "Package": "madrat",
-      "Version": "3.38.4",
+      "Version": "3.39.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "May All Data be Reproducible and Transparent (MADRaT) *",
-      "Date": "2026-08-19",
+      "Date": "2026-08-24",
       "Authors@R": "c( person(\"Jan Philipp\", \"Dietrich\", , \"dietrich@pik-potsdam.de\", role = c(\"aut\", \"cre\"), comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-4309-6431\")), person(\"Pascal\", \"Sauer\", , \"pascal.sauer@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0002-6856-8239\")), person(\"Lavinia\", \"Baumstark\", , \"lavinia@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Stephen\", \"Wirth\", , \"wirth@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Anastasis\", \"Giannousakis\", , \"giannou@pik-potsdam.de\", role = \"aut\"), person(\"Renato\", \"Rodrigues\", , \"Renato.Rodrigues@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Benjamin Leon\", \"Bodirsky\", , \"bodirsky@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Debbora\", \"Leip\", , \"leip@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Michael\", \"Crawford\", , \"crawford@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Ulrich\", \"Kreidenweis\", , \"kreidenweis@pik-potsdam.de\", role = \"aut\"), person(\"David\", \"Klein\", , \"dklein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\")), person(\"Patrick\", \"Rein\", , \"patrick.rein@pik-potsdam.de\", role = \"aut\", comment = c(affiliation = \"Potsdam Institute for Climate Impact Research\", ORCID = \"0000-0001-9454-8381\")) )",
       "Description": "Provides a framework which should improve reproducibility and transparency in data processing. It provides functionality such as automatic meta data creation and management, rudimentary quality management, data caching, work-flow management and data aggregation. * The title is a wish not a promise. By no means we expect this package to deliver everything what is needed to achieve full reproducibility and transparency, but we believe that it supports efforts in this direction.",
       "License": "BSD_2_clause + file LICENSE",
@@ -8483,6 +8483,7 @@
         "graphics",
         "grDevices",
         "knitr",
+        "qs2",
         "rmarkdown",
         "terra",
         "testthat",
@@ -8500,7 +8501,7 @@
       "RemoteType": "repository",
       "RemoteUrl": "https://github.com/pik-piam/madrat",
       "RemoteRef": "HEAD",
-      "RemoteSha": "9785f56d446807c3c0fff38a4e138c094f8a6c9c"
+      "RemoteSha": "a6aa3d5f7be1271a0e8fb3ec2b496e602938203f"
     },
     "magclass": {
       "Package": "magclass",
@@ -12296,6 +12297,49 @@
       "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
       "Repository": "CRAN"
     },
+    "qs2": {
+      "Package": "qs2",
+      "Version": "0.3.1",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Efficient Serialization of R Objects",
+      "Date": "2026-08-19",
+      "Authors@R": "c( person(\"Travers\", \"Ching\", email = \"traversc@gmail.com\", role = c(\"aut\", \"cre\", \"cph\")), person(\"Yann\", \"Collet\", role = c(\"ctb\", \"cph\"), comment = \"Yann Collet is the author of the bundled zstd\"), person(\"Facebook, Inc.\", role = \"cph\", comment = \"Facebook is the copyright holder of the bundled zstd code\"), person(\"Reichardt\", \"Tino\", role = c(\"ctb\", \"cph\"), comment = \"Contributor/copyright holder of zstd bundled code\"), person(\"Skibinski\", \"Przemyslaw\", role = c(\"ctb\", \"cph\"), comment = \"Contributor/copyright holder of zstd bundled code\"), person(\"Mori\", \"Yuta\", role = c(\"ctb\", \"cph\"), comment = \"Contributor/copyright holder of zstd bundled code\"), person(\"Francesc\", \"Alted\", role = c(\"ctb\", \"cph\"), comment = \"Shuffling routines derived from Blosc library\"))",
+      "Maintainer": "Travers Ching <traversc@gmail.com>",
+      "Description": "Streamlines and accelerates the process of saving and loading R objects, improving speed and compression compared to other methods. The package provides two compression formats: the 'qs2' format, which uses R serialization via the C API while optimizing compression and disk I/O, and the 'qdata' format, featuring custom serialization for slightly faster performance and better compression. Additionally, the 'qs2' format can be directly converted to the standard 'RDS' format, ensuring long-term compatibility with future versions of R.",
+      "License": "GPL-3",
+      "LazyData": "true",
+      "Biarch": "true",
+      "Depends": [
+        "R (>= 3.6.0)"
+      ],
+      "Imports": [
+        "Rcpp",
+        "RcppParallel (>= 6.1.1)",
+        "stringfish (>= 0.18.0)"
+      ],
+      "LinkingTo": [
+        "Rcpp",
+        "RcppParallel (>= 6.1.1)"
+      ],
+      "Suggests": [
+        "knitr",
+        "rmarkdown",
+        "dplyr",
+        "data.table",
+        "stringi"
+      ],
+      "SystemRequirements": "GNU make, C++17",
+      "Encoding": "UTF-8",
+      "VignetteBuilder": "knitr",
+      "Copyright": "This package includes code from the 'zstd' library owned by Facebook, Inc. and created by Yann Collet; and code derived from the 'Blosc' library created and owned by Francesc Alted.",
+      "URL": "https://github.com/qsbase/qs2",
+      "BugReports": "https://github.com/qsbase/qs2/issues",
+      "Config/roxygen2/version": "8.0.0",
+      "NeedsCompilation": "yes",
+      "Author": "Travers Ching [aut, cre, cph], Yann Collet [ctb, cph] (Yann Collet is the author of the bundled zstd), Facebook, Inc. [cph] (Facebook is the copyright holder of the bundled zstd code), Reichardt Tino [ctb, cph] (Contributor/copyright holder of zstd bundled code), Skibinski Przemyslaw [ctb, cph] (Contributor/copyright holder of zstd bundled code), Mori Yuta [ctb, cph] (Contributor/copyright holder of zstd bundled code), Francesc Alted [ctb, cph] (Shuffling routines derived from Blosc library)",
+      "Repository": "CRAN"
+    },
     "quadprog": {
       "Package": "quadprog",
       "Version": "1.5-8",
@@ -14722,7 +14766,7 @@
     },
     "spacetime": {
       "Package": "spacetime",
-      "Version": "1.3-3",
+      "Version": "1.3-4",
       "Source": "Repository",
       "Title": "Classes and Methods for Spatio-Temporal Data",
       "Authors@R": "c(person(\"Edzer\",  \"Pebesma\", role = c(\"aut\", \"cre\"), email = \"edzer.pebesma@uni-muenster.de\", comment = c(ORCID = \"0000-0001-8049-7069\")), person(\"Benedikt\", \"Graeler\", role = \"ctb\"), person(\"Tom\", \"Gottfried\", role = \"ctb\"), person(\"Robert J.\", \"Hijmans\", role = \"ctb\"))",
@@ -14767,11 +14811,11 @@
       "BugReports": "https://github.com/edzer/spacetime/issues",
       "Encoding": "UTF-8",
       "VignetteBuilder": "knitr",
-      "Collate": "Class-xts.R Class-ST.R Class-STFDF.R Class-STSDF.R Class-STIDF.R Class-STTDF.R interval.R endtime.R ST-methods.R STFDF-methods.R STSDF-methods.R STIDF-methods.R STTDF-methods.R apply.R coerce.R stconstruct.R plot.R stplot.R timematch.R over.R aggregate.R eof.R mnf.R bind.R na.R raster.R tgrass.R stinteraction.R",
+      "Collate": "Class-xts.R Class-ST.R Class-STFDF.R Class-STSDF.R Class-STIDF.R Class-STTDF.R interval.R endtime.R ST-methods.R STFDF-methods.R STSDF-methods.R STIDF-methods.R STTDF-methods.R apply.R coerce.R stconstruct.R plot.R stplot.R timematch.R over.R aggregate.R eof.R mnf.R bind.R na.R tgrass.R stinteraction.R",
       "NeedsCompilation": "no",
-      "Author": "Edzer Pebesma [aut, cre] (<https://orcid.org/0000-0001-8049-7069>), Benedikt Graeler [ctb], Tom Gottfried [ctb], Robert J. Hijmans [ctb]",
+      "Author": "Edzer Pebesma [aut, cre] (ORCID: <https://orcid.org/0000-0001-8049-7069>), Benedikt Graeler [ctb], Tom Gottfried [ctb], Robert J. Hijmans [ctb]",
       "Maintainer": "Edzer Pebesma <edzer.pebesma@uni-muenster.de>",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/resolute/latest"
+      "Repository": "CRAN"
     },
     "spam": {
       "Package": "spam",
@@ -14948,6 +14992,43 @@
       "Author": "Edzer Pebesma [aut, cre] (ORCID: <https://orcid.org/0000-0001-8049-7069>), Michael Sumner [ctb] (ORCID: <https://orcid.org/0000-0002-2471-7511>), Etienne Racine [ctb], Adriano Fantini [ctb], David Blodgett [ctb], Krzysztof Dyba [ctb] (ORCID: <https://orcid.org/0000-0002-8614-3816>)",
       "Maintainer": "Edzer Pebesma <edzer.pebesma@uni-muenster.de>",
       "Repository": "CRAN"
+    },
+    "stringfish": {
+      "Package": "stringfish",
+      "Version": "0.19.2",
+      "Source": "Repository",
+      "Title": "Alt String Implementation",
+      "Date": "2026-08-04",
+      "Authors@R": "c( person(\"Travers\", \"Ching\", email = \"traversc@gmail.com\", role = c(\"aut\", \"cre\", \"cph\")), person(\"Phillip\", \"Hazel\", role = c(\"ctb\"), comment = \"Bundled PCRE2 code\"), person(\"Zoltan\", \"Herczeg\", role = c(\"ctb\", \"cph\"), comment = \"Bundled PCRE2 code\"), person(\"University of Cambridge\", role = c(\"cph\"), comment = \"Bundled PCRE2 code\"), person(\"Tilera Corporation\", role = c(\"cph\"), comment = \"Stack-less Just-In-Time compiler bundled with PCRE2\"), person(\"Yann\", \"Collet\", role = c(\"ctb\", \"cph\"), comment = \"Yann Collet is the author of the bundled xxHash code\"), person(\"Martin\", \"Leitner-Ankerl\", role = c(\"ctb\", \"cph\"), comment = \"Bundled ankerl::unordered_dense code\"))",
+      "Maintainer": "Travers Ching <traversc@gmail.com>",
+      "Description": "Provides an extendable, performant and multithreaded 'alt-string' implementation backed by 'C++' vectors and strings.",
+      "License": "GPL-3",
+      "Biarch": "true",
+      "Encoding": "UTF-8",
+      "Depends": [
+        "R (>= 3.6.0)"
+      ],
+      "SystemRequirements": "GNU make, C++17",
+      "LinkingTo": [
+        "Rcpp (>= 0.12.18.3)",
+        "RcppParallel (>= 6.1.1)"
+      ],
+      "Imports": [
+        "Rcpp",
+        "RcppParallel"
+      ],
+      "Suggests": [
+        "knitr",
+        "rmarkdown"
+      ],
+      "VignetteBuilder": "knitr",
+      "Copyright": "Copyright for the bundled 'PCRE2' library is held by University of Cambridge, Zoltan Herczeg and Tilera Corporation (Stack-less Just-In-Time compiler); Copyright for the bundled 'xxHash' code is held by Yann Collet; Copyright for the bundled 'ankerl::unordered_dense' code is held by Martin Leitner-Ankerl.",
+      "URL": "https://github.com/traversc/stringfish",
+      "BugReports": "https://github.com/traversc/stringfish/issues",
+      "Config/roxygen2/version": "8.0.0",
+      "NeedsCompilation": "yes",
+      "Author": "Travers Ching [aut, cre, cph], Phillip Hazel [ctb] (Bundled PCRE2 code), Zoltan Herczeg [ctb, cph] (Bundled PCRE2 code), University of Cambridge [cph] (Bundled PCRE2 code), Tilera Corporation [cph] (Stack-less Just-In-Time compiler bundled with PCRE2), Yann Collet [ctb, cph] (Yann Collet is the author of the bundled xxHash code), Martin Leitner-Ankerl [ctb, cph] (Bundled ankerl::unordered_dense code)",
+      "Repository": "https://packagemanager.posit.co/cran/__linux__/resolute/latest"
     },
     "stringi": {
       "Package": "stringi",
@@ -15552,11 +15633,11 @@
     },
     "tidyterra": {
       "Package": "tidyterra",
-      "Version": "1.2.0",
+      "Version": "1.3.0",
       "Source": "Repository",
       "Title": "'tidyverse' Methods and 'ggplot2' Helpers for 'terra' Objects",
       "Authors@R": "c( person(\"Diego\", \"Hernangómez\", , \"diego.hernangomezherrero@gmail.com\", role = c(\"aut\", \"cre\", \"cph\"), comment = c(ORCID = \"0000-0001-8457-4658\")), person(\"Dewey\", \"Dunnington\", role = \"ctb\", comment = c(ORCID = \"0000-0002-9415-4582\", \"for ggspatial code\")), person(\"ggplot2 authors\", role = \"cph\", comment = \"for contour code\"), person(\"Andrea\", \"Manica\", role = \"ctb\", comment = c(ORCID = \"0000-0003-1895-450X\")) )",
-      "Description": "Provides methods from 'tidyverse' packages for 'SpatRaster' and 'SpatVector' objects created with 'terra', plus 'ggplot2' 'geoms' and scales for plotting those objects.",
+      "Description": "Provides methods from 'tidyverse' packages for 'SpatRaster' and 'SpatVector' objects created with 'terra', plus 'ggplot2' 'geoms' and scales for plotting those objects. It is designed to let users manipulate spatial data with familiar 'dplyr' and 'tidyr' verbs before visualizing results with 'ggplot2'.",
       "License": "MIT + file LICENSE",
       "URL": "https://dieghernan.github.io/tidyterra/, https://github.com/dieghernan/tidyterra",
       "BugReports": "https://github.com/dieghernan/tidyterra/issues",
@@ -15573,7 +15654,7 @@
         "isoband",
         "lifecycle",
         "magrittr",
-        "rlang",
+        "rlang (>= 1.1.0)",
         "scales",
         "sf (>= 1.0.0)",
         "terra (>= 1.8-10)",
@@ -15584,20 +15665,21 @@
         "vctrs"
       ],
       "Suggests": [
+        "dtplyr",
         "hexbin",
         "knitr",
         "maptiles",
         "quarto",
-        "rmarkdown",
         "s2",
         "stringi",
-        "testthat (>= 3.0.0)"
+        "testthat (>= 3.0.0)",
+        "withr"
       ],
       "VignetteBuilder": "quarto",
       "Config/Needs/coverage": "covr",
       "Config/Needs/website": "geodata, dieghernan/gitdevr, ragg, styler, metR, ggspatial, cpp11, remotes, gganimate, gifski, tidyverse, bibtex",
       "Config/roxygen2/markdown": "TRUE",
-      "Config/roxygen2/version": "8.0.0",
+      "Config/roxygen2/version": "8.1.0",
       "Config/testthat/edition": "3",
       "Config/testthat/parallel": "true",
       "Encoding": "UTF-8",
