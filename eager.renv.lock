@@ -979,7 +979,7 @@
     },
     "RcppParallel": {
       "Package": "RcppParallel",
-      "Version": "6.2.0",
+      "Version": "6.2.1",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Parallel Programming Tools for 'Rcpp'",
@@ -1003,7 +1003,7 @@
       "NeedsCompilation": "yes",
       "Author": "Kevin Ushey [aut, cre] (ORCID: <https://orcid.org/0000-0003-2880-7407>), JJ Allaire [aut], Romain Francois [aut, cph], Gregory Vandenbrouck [aut], Marcus Geelnard [aut, cph] (TinyThread library, https://tinythreadpp.bitsnbites.eu/), Hamada S. Badr [ctb] (ORCID: <https://orcid.org/0000-0002-9808-2344>), Dirk Eddelbuettel [aut] (ORCID: <https://orcid.org/0000-0001-6419-907X>), Intel [aut, cph] (oneTBB library), UXL Foundation [aut, cph] (oneTBB library), Microsoft [cph], Posit, PBC [cph]",
       "Maintainer": "Kevin Ushey <kevin@rstudio.com>",
-      "Repository": "https://packagemanager.posit.co/cran/__linux__/resolute/latest"
+      "Repository": "CRAN"
     },
     "RcppProgress": {
       "Package": "RcppProgress",
@@ -13112,11 +13112,11 @@
     },
     "remind2": {
       "Package": "remind2",
-      "Version": "2.5.6",
+      "Version": "2.5.7",
       "Source": "Repository",
       "Type": "Package",
       "Title": "The REMIND R package (2nd generation)",
-      "Date": "2026-08-21",
+      "Date": "2026-08-27",
       "Authors@R": "c( person(\"Renato\", \"Rodrigues\", , \"renato.rodrigues@pik-potsdam.de\", role = c(\"aut\", \"cre\")), person(\"Lavinia\", \"Baumstark\", role = \"aut\"), person(\"Falk\", \"Benke\", role = \"aut\"), person(\"David\", \"Bantje\", role = \"aut\"), person(\"Jan Philipp\", \"Dietrich\", role = \"aut\"), person(\"Alois\", \"Dirnaichner\", role = \"aut\"), person(\"Tabea\", \"Dorndorf\", role = \"aut\"), person(\"Jakob\", \"Duerrwaechter\", role = \"aut\"), person(\"Pascal\", \"Führlich\", role = \"aut\"), person(\"Anastasis\", \"Giannousakis\", role = \"aut\"), person(\"Robin\", \"Hasse\", role = \"aut\"), person(\"Jérome\", \"Hilaire\", role = \"aut\"), person(\"David\", \"Klein\", role = \"aut\"), person(\"Johannes\", \"Koch\", role = \"aut\"), person(\"Katarzyna\", \"Kowalczyk\", role = \"aut\"), person(\"Fabrice\", \"Lécuyer\", role = \"aut\"), person(\"Antoine\", \"Levesque\", role = \"aut\"), person(\"Aman\", \"Malik\", role = \"aut\"), person(\"Anne\", \"Merfort\", role = \"aut\"), person(\"Leon\", \"Merfort\", role = \"aut\"), person(\"Simón\", \"Morena-Leiva\", role = \"aut\"), person(\"Adrian\", \"Odenweller\", role = \"aut\"), person(\"Michaja\", \"Pehl\", role = \"aut\"), person(\"Robert\", \"Pietzcker\", role = \"aut\"), person(\"Sebastian\", \"Rauner\", role = \"aut\"), person(\"Oliver\", \"Richters\", role = \"aut\"), person(\"Marianna\", \"Rottoli\", role = \"aut\"), person(\"Tonn\", \"Rüter\", , \"tonn.rueter@pik-potsdam.de\", role = \"aut\"), person(\"Robert\", \"Salzwedel\", role = \"aut\"), person(\"Christof\", \"Schötz\", role = \"aut\"), person(\"Felix\", \"Schreyer\", role = \"aut\"), person(\"Kais\", \"Siala\", role = \"aut\"), person(\"Björn\", \"Sörgel\", role = \"aut\"), person(\"Mike\", \"Spahr\", role = \"aut\"), person(\"Jessica\", \"Strefler\", role = \"aut\"), person(\"Philipp\", \"Verpoort\", role = \"aut\"), person(\"Pascal\", \"Weigmann\", role = \"aut\") )",
       "Description": "Contains the REMIND-specific routines for data and model output manipulation.",
       "License": "LGPL-3",
@@ -13177,7 +13177,7 @@
       "RemoteType": "repository",
       "RemoteUrl": "https://github.com/pik-piam/remind2.git",
       "RemoteRef": "HEAD",
-      "RemoteSha": "177a72110821106d99e0f58a90a0c9d2350705ad"
+      "RemoteSha": "3b4849ca0a51b49326a2c726a99a05a6d02d398c"
     },
     "remindClimateAssessment": {
       "Package": "remindClimateAssessment",
