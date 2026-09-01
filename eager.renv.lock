@@ -9847,7 +9847,7 @@
     },
     "mrlandcore": {
       "Package": "mrlandcore",
-      "Version": "1.8.3",
+      "Version": "1.8.4",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Fundamental MAgPIE preprocessing functions including calcLanduseInitialisation",
@@ -9892,7 +9892,7 @@
       "RemoteType": "repository",
       "RemoteUrl": "https://github.com/pik-piam/mrlandcore",
       "RemoteRef": "HEAD",
-      "RemoteSha": "f799f393999a2d15f2a7176900be92555b3d3aa4"
+      "RemoteSha": "813219f378057e44afef41b15dd3ddeee73f07a4"
     },
     "mrmagpie": {
       "Package": "mrmagpie",
